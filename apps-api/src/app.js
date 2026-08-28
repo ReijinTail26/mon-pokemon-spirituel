@@ -76,6 +76,7 @@ app.use(session({
   saveUninitialized: false,
   cookie: {
     httpOnly: true,
+    // Via le proxy Netlify, ce cookie est first-party sur iOS même avec SameSite=None.
     sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
     secure: process.env.NODE_ENV === 'production',
     maxAge: 1000 * 60 * 60 * 24 * 30,

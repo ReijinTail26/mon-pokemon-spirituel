@@ -8,6 +8,12 @@ La variable suivante doit rester exactement configurée avec l’origine publiqu
 WEB_ORIGIN=https://mon-pokemon-spirituel.netlify.app
 ```
 
+Pour Safari/iOS, le callback OAuth doit également passer par Netlify :
+
+```text
+GOOGLE_CALLBACK_URL=https://mon-pokemon-spirituel.netlify.app/api/v1/auth/google/callback
+```
+
 Aucune nouvelle variable secrète ni migration Neon n’est requise.
 
 ## Protections conservées

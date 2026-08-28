@@ -1,1 +1,3 @@
-/*    /index.html   200
+/api/*                    https://mon-pokemon-spirituel.onrender.com/api/:splat                    200
+/generated-dossiers/*     https://mon-pokemon-spirituel.onrender.com/generated-dossiers/:splat     200
+/*                        /index.html                                                               200
