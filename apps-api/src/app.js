@@ -15,12 +15,6 @@ const accountRouter = require('./routes/account')
 const publicRouter = require('./routes/public')
 const deliverablesRouter = require('./routes/deliverables')
 const { passport, configurePassport } = require('./auth/passport')
-const {
-  apiLimiter,
-  authLimiter,
-  downloadLimiter,
-  healthLimiter,
-} = require('./middleware/rateLimits')
 const { requireTrustedOrigin } = require('./middleware/requireTrustedOrigin')
 
 const app = express()
@@ -43,19 +37,15 @@ app.use(
   })
 )
 
-// Ces limites s’appliquent avant la session afin de protéger également PostgreSQL.
-app.use('/api/v1', apiLimiter)
-app.use('/api/v1/auth', authLimiter)
-app.use('/generated-dossiers', downloadLimiter)
 app.use('/api/v1', requireTrustedOrigin)
 
-app.get('/health', healthLimiter, (req, res) => {
+app.get('/health', (req, res) => {
   res.json({
     status: 'ok',
   })
 })
 
-app.get('/db-health', healthLimiter, async (req, res) => {
+app.get('/db-health', async (req, res) => {
   try {
     const result =
       await db.query(

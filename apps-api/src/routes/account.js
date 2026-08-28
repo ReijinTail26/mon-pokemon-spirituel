@@ -4,7 +4,6 @@ const path = require('path')
 const multer = require('multer')
 const db = require('../../db')
 const { requireAuth } = require('../middleware/requireAuth')
-const { uploadLimiter } = require('../middleware/rateLimits')
 const {
   deleteObject,
   generatedObjectKey,
@@ -177,7 +176,7 @@ router.get('/assessments', async (req, res) => {
   }
 })
 
-router.post('/assessments/:assessmentId/final-sheet', uploadLimiter, upload.single('final_sheet'), async (req, res) => {
+router.post('/assessments/:assessmentId/final-sheet', upload.single('final_sheet'), async (req, res) => {
   try {
     const assessment = await getOwnedAssessment(req.params.assessmentId, req.user.id)
     if (!assessment) {
@@ -262,7 +261,7 @@ router.get('/assessments/:assessmentId/final-sheet', async (req, res) => {
   if (!sent) return res.sendStatus(404)
 })
 
-router.post('/assessments/:assessmentId/evolution-sheet', uploadLimiter, upload.single('evolution_sheet'), async (req, res) => {
+router.post('/assessments/:assessmentId/evolution-sheet', upload.single('evolution_sheet'), async (req, res) => {
   try {
     const assessment = await getOwnedAssessment(req.params.assessmentId, req.user.id)
     if (!assessment) {

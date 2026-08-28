@@ -10,21 +10,14 @@ WEB_ORIGIN=https://mon-pokemon-spirituel.netlify.app
 
 Aucune nouvelle variable secrète ni migration Neon n’est requise.
 
-## Protections ajoutées
+## Protections conservées
 
 - en-têtes HTTP de sécurité avec Helmet ;
-- limitation générale à 300 requêtes par tranche de 5 minutes et par adresse IP ;
-- limitation OAuth à 20 tentatives par tranche de 15 minutes ;
-- limitation à 20 nouveaux questionnaires par heure et par utilisateur ;
-- limitation à 8 lancements de génération par heure et par utilisateur ;
-- limitation à 20 imports de fiches par heure et par utilisateur ;
-- limitation à 60 actions de like par minute et par utilisateur ;
-- limitation des téléchargements et des contrôles de santé ;
 - corps JSON limité à 64 Ko et images limitées à 15 Mo ;
 - contrôle de l’origine des opérations qui modifient les données ;
 - délais serveur contre les connexions volontairement incomplètes.
 
-Les compteurs sont conservés en mémoire par l’instance Render. Ils conviennent à l’instance unique actuelle. Un DDoS massif doit être filtré par l’hébergeur ou par un proxy Cloudflare placé devant l’API ; les limites Express protègent principalement les ressources applicatives et la base de données.
+Il n’y a volontairement aucun rate limiting applicatif. Un trafic automatisé important ou un DDoS doit donc être filtré par l’hébergeur ou par un proxy Cloudflare placé devant l’API.
 
 ## Mise en ligne
 
