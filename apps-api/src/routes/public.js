@@ -2,6 +2,7 @@ const express = require('express')
 const path = require('path')
 const db = require('../../db')
 const { requireAuth } = require('../middleware/requireAuth')
+const { likeLimiter } = require('../middleware/rateLimits')
 const { sendObject, sheetObjectKey } = require('../services/objectStorage')
 
 const router = express.Router()
@@ -200,7 +201,7 @@ async function readLikeState(assessmentId, userId) {
   }
 }
 
-router.post('/community/:assessmentId/like', requireAuth, async (req, res) => {
+router.post('/community/:assessmentId/like', requireAuth, likeLimiter, async (req, res) => {
   try {
     if (!await communityItemExists(req.params.assessmentId)) {
       return res.status(404).json({ error: { code: 'COMMUNITY_ITEM_NOT_FOUND', message: 'Création publique introuvable.' } })
@@ -217,7 +218,7 @@ router.post('/community/:assessmentId/like', requireAuth, async (req, res) => {
   }
 })
 
-router.delete('/community/:assessmentId/like', requireAuth, async (req, res) => {
+router.delete('/community/:assessmentId/like', requireAuth, likeLimiter, async (req, res) => {
   try {
     if (!await communityItemExists(req.params.assessmentId)) {
       return res.status(404).json({ error: { code: 'COMMUNITY_ITEM_NOT_FOUND', message: 'Création publique introuvable.' } })

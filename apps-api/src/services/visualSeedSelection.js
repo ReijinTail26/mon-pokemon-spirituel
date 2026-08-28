@@ -1,6 +1,8 @@
 const crypto = require('crypto')
-const library = require('../data/visualSeedLibrary.json')
+const { getVisualSeedLibrary } = require('./visualSeedLibraryLoader')
 const { reserveSelection, SELECTION_KINDS } = require('./selectionHistory')
+
+const library = getVisualSeedLibrary()
 
 function stableIndex(seed, length) {
   if (!length) return -1

@@ -18,6 +18,7 @@ const {
 } = require('../services/generationOrchestrator')
 
 const { requireAuth } = require('../middleware/requireAuth')
+const { assessmentCreationLimiter, generationLimiter } = require('../middleware/rateLimits')
 const { claimEvolutionReveal, decideEvolutionReward } = require('../services/evolutionReward')
 
 const router = express.Router()
@@ -37,7 +38,7 @@ router.param('assessmentId', async (req, res, next, assessmentId) => {
   }
 })
 
-router.post('/', async (req, res) => {
+router.post('/', assessmentCreationLimiter, async (req, res) => {
   try {
     const assessmentId = crypto.randomUUID()
 
@@ -778,6 +779,7 @@ router.get(
 
 router.post(
   '/:assessmentId/generation/start',
+  generationLimiter,
   async (req, res) => {
     const {
       assessmentId,

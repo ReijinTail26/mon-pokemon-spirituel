@@ -13,10 +13,14 @@ const PORT =
   Number(process.env.PORT) ||
   3001
 
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
   console.log(
     `API démarrée sur http://localhost:${PORT}`
   )
 
   startGenerationWorkerLoop()
 })
+
+server.headersTimeout = 15 * 1000
+server.requestTimeout = 120 * 1000
+server.keepAliveTimeout = 5 * 1000

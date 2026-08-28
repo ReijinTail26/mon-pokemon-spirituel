@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node tests/questionnaire.test.js && node tests/scoring.test.js && node tests/animalClassifier.test.js && node tests/typeClassifier.test.js && node tests/typeVisualRules.test.js && node tests/combatDesign.test.js && node tests/backgroundSelection.test.js && node tests/visualSeedSelection.test.js && node tests/objectStorage.test.js",
+    "test": "node tests/questionnaire.test.js && node tests/scoring.test.js && node tests/animalClassifier.test.js && node tests/typeClassifier.test.js && node tests/typeVisualRules.test.js && node tests/combatDesign.test.js && node tests/backgroundSelection.test.js && node tests/visualSeedSelection.test.js && node tests/objectStorage.test.js && node tests/securityMiddleware.test.js",
     "catalog:sync": "node scripts/syncOfficialCatalog.js",
     "cloud:check": "node scripts/checkCloudConnections.js",
     "storage:migrate": "node scripts/migrateLocalFilesToR2.js"
@@ -15,15 +15,17 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "connect-pg-simple": "^10.0.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "pg": "^8.23.0",
-    "playwright": "^1.62.1",
+    "express-rate-limit": "^8.6.2",
     "express-session": "^1.18.2",
-    "connect-pg-simple": "^10.0.0",
+    "helmet": "^8.3.0",
+    "multer": "^2.0.2",
     "passport": "^0.7.0",
     "passport-google-oauth20": "^2.0.0",
-    "multer": "^2.0.2"
+    "pg": "^8.23.0",
+    "playwright": "^1.62.1"
   }
 }
