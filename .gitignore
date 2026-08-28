@@ -1,0 +1,9 @@
+**/node_modules/
+**/dist/
+**/.env
+**/.env.local
+apps-api/generated-dossiers/
+apps-api/uploads/
+*.log
+.DS_Store
+

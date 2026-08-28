@@ -1,0 +1,434 @@
+[
+  {
+    "name": "Normal",
+    "version": "type-visual-v1",
+    "identity": "équilibre / polyvalence",
+    "palette": {
+      "primary": "#8A8F98",
+      "secondary": "#D7D9DC",
+      "accent": "#B8A98A",
+      "energy": "#F2F0E8"
+    },
+    "visual_markers": [
+      "liserés géométriques sobres suivant les volumes naturels",
+      "zones de contraste net mais peu saturé",
+      "halo énergétique blanc cassé très discret"
+    ],
+    "surface_influence": "conserver la matière animale dominante avec une finition propre et équilibrée",
+    "pattern_rule": "motifs simples, réguliers et peu chargés",
+    "energy_effect": "onde claire neutre, compacte et stable",
+    "signature_effect_shape": "anneau ou impulsion lumineuse contrôlée",
+    "forbidden": [
+      "métamorphose anatomique permanente",
+      "ajout d’appendices sans origine animale"
+    ]
+  },
+  {
+    "name": "Feu",
+    "version": "type-visual-v1",
+    "identity": "passion / affirmation",
+    "palette": {
+      "primary": "#C94432",
+      "secondary": "#F28A3A",
+      "accent": "#FFD166",
+      "energy": "#FFEEA8"
+    },
+    "visual_markers": [
+      "dégradé chaud concentré sur des zones anatomiques existantes",
+      "lueurs internes comme des braises dans les motifs",
+      "extrémités légèrement incandescentes sans devenir de nouveaux organes"
+    ],
+    "surface_influence": "accentuer les surfaces par chaleur, irisation ou traces de braise sans remplacer la matière animale",
+    "pattern_rule": "motifs en langues de chaleur, stries ou fissures lumineuses localisées",
+    "energy_effect": "flamme dense, braises et distorsion thermique temporaire",
+    "signature_effect_shape": "arc de flamme, jet ou poussée thermique",
+    "forbidden": [
+      "membres faits de feu permanents",
+      "incendie couvrant tout le corps en permanence"
+    ]
+  },
+  {
+    "name": "Eau",
+    "version": "type-visual-v1",
+    "identity": "adaptation / intuition",
+    "palette": {
+      "primary": "#2F6FA8",
+      "secondary": "#65B7D5",
+      "accent": "#9BE7F5",
+      "energy": "#D8F7FF"
+    },
+    "visual_markers": [
+      "reflets humides ou nacrés sur les surfaces existantes",
+      "motifs fluides suivant la musculature ou le plumage",
+      "gouttelettes ou rubans d’eau uniquement comme effets temporaires"
+    ],
+    "surface_influence": "rendre les matières légèrement lustrées, translucides ou hydrodynamiques selon l’animal",
+    "pattern_rule": "courbes souples, vagues, ondulations ou taches aqueuses",
+    "energy_effect": "flux d’eau clair, bulles et éclaboussures contrôlées",
+    "signature_effect_shape": "vague, spirale ou jet comprimé",
+    "forbidden": [
+      "nageoires permanentes si l’animal n’en possède pas",
+      "corps entièrement liquide"
+    ]
+  },
+  {
+    "name": "Plante",
+    "version": "type-visual-v1",
+    "identity": "patience / protection",
+    "palette": {
+      "primary": "#4E7F4C",
+      "secondary": "#8DBD63",
+      "accent": "#D0D879",
+      "energy": "#EAF5B8"
+    },
+    "visual_markers": [
+      "pigmentation végétale organique sur les surfaces naturelles",
+      "petites nervures ou motifs foliaires intégrés aux marques existantes",
+      "poussière de pollen ou spores uniquement en effet temporaire"
+    ],
+    "surface_influence": "introduire des textures végétales légères sans transformer l’animal en plante",
+    "pattern_rule": "nervures, rameaux, pétales stylisés ou motifs de croissance localisés",
+    "energy_effect": "lueur chlorophyllienne, pollen et filaments végétaux temporaires",
+    "signature_effect_shape": "liane énergétique, gerbe de feuilles ou onde de croissance",
+    "forbidden": [
+      "racines remplaçant les membres",
+      "arbres ou fleurs massives permanentes sans justification anatomique"
+    ]
+  },
+  {
+    "name": "Électrik",
+    "version": "type-visual-v1",
+    "identity": "réaction / excitation",
+    "palette": {
+      "primary": "#D9B51F",
+      "secondary": "#F7DC4A",
+      "accent": "#2F343B",
+      "energy": "#FFF49A"
+    },
+    "visual_markers": [
+      "motifs anguleux rappelant des trajectoires électriques",
+      "points de lumière concentrés aux extrémités anatomiques",
+      "micro-arcs temporaires entre zones proches du corps"
+    ],
+    "surface_influence": "accentuer la netteté des contours et les contrastes sans rigidifier l’anatomie",
+    "pattern_rule": "zigzags, chevrons ou ramifications fines",
+    "energy_effect": "arcs électriques brefs, étincelles et halo ionisé",
+    "signature_effect_shape": "éclair ramifié, impulsion ou arc directionnel",
+    "forbidden": [
+      "câbles ou antennes artificielles ajoutés",
+      "membres constitués d’électricité permanente"
+    ]
+  },
+  {
+    "name": "Glace",
+    "version": "type-visual-v1",
+    "identity": "contrôle / détachement",
+    "palette": {
+      "primary": "#7FB7C9",
+      "secondary": "#C5E7EE",
+      "accent": "#E8FBFF",
+      "energy": "#F7FEFF"
+    },
+    "visual_markers": [
+      "reflets froids cristallins sur les surfaces existantes",
+      "bordures pâles comme couvertes de givre",
+      "cristaux uniquement petits et subordonnés à l’anatomie"
+    ],
+    "surface_influence": "donner une finition froide, vitreuse ou givrée à certaines zones sans les minéraliser entièrement",
+    "pattern_rule": "facettes, flocons abstraits ou stries de gel",
+    "energy_effect": "brume froide, givre progressif et éclats de glace temporaires",
+    "signature_effect_shape": "pointe, cône de froid ou éclat cristallin",
+    "forbidden": [
+      "armure intégrale de glace permanente",
+      "cristaux remplaçant des organes"
+    ]
+  },
+  {
+    "name": "Combat",
+    "version": "type-visual-v1",
+    "identity": "défi / dépassement",
+    "palette": {
+      "primary": "#8E3E35",
+      "secondary": "#C7654E",
+      "accent": "#E8B06A",
+      "energy": "#FFD2A3"
+    },
+    "visual_markers": [
+      "contrastes mettant en valeur les groupes musculaires ou appuis naturels",
+      "marques courtes évoquant effort, discipline ou impact",
+      "halo d’énergie concentré autour des zones d’attaque"
+    ],
+    "surface_influence": "souligner robustesse et mobilité sans exagérer artificiellement la musculature",
+    "pattern_rule": "bandes, marques d’impact ou lignes de tension anatomiques",
+    "energy_effect": "onde de choc, souffle cinétique et énergie compacte",
+    "signature_effect_shape": "impact, cône de pression ou trajectoire de frappe",
+    "forbidden": [
+      "armes artificielles permanentes",
+      "morphologie humanoïde imposée à un animal non humanoïde"
+    ]
+  },
+  {
+    "name": "Poison",
+    "version": "type-visual-v1",
+    "identity": "transgression / stratégie indirecte",
+    "palette": {
+      "primary": "#7A3E91",
+      "secondary": "#A65FC1",
+      "accent": "#9ACD62",
+      "energy": "#D1F07A"
+    },
+    "visual_markers": [
+      "accents violets ou verdâtres limités aux zones de signal visuel",
+      "motifs rappelant glandes, avertissement ou diffusion chimique sans nouvel organe",
+      "brume ou gouttelettes toxiques uniquement temporaires"
+    ],
+    "surface_influence": "ajouter un aspect satiné, irisé ou légèrement huileux à certaines surfaces",
+    "pattern_rule": "taches, anneaux d’avertissement ou marbrures asymétriques contrôlées",
+    "energy_effect": "fumée colorée, gouttes ou nuage toxique directionnel",
+    "signature_effect_shape": "nuage, jet, filament ou éclaboussure",
+    "forbidden": [
+      "dégoulinement permanent sur tout le corps",
+      "glandes ou aiguillons ajoutés sans cohérence animale"
+    ]
+  },
+  {
+    "name": "Sol",
+    "version": "type-visual-v1",
+    "identity": "pragmatisme / ancrage",
+    "palette": {
+      "primary": "#9A6B43",
+      "secondary": "#C79A64",
+      "accent": "#6C5A45",
+      "energy": "#E2C391"
+    },
+    "visual_markers": [
+      "teintes terreuses renforçant les zones porteuses",
+      "motifs de sédiments ou poussière sur les surfaces naturelles",
+      "petites projections minérales uniquement lors de l’action"
+    ],
+    "surface_influence": "matifier certaines zones et renforcer l’impression de masse ou d’ancrage",
+    "pattern_rule": "bandes stratifiées, craquelures superficielles ou taches de terre",
+    "energy_effect": "poussière dense, fragments de sol et vibration locale",
+    "signature_effect_shape": "onde terrestre, soulèvement ou projectile compact",
+    "forbidden": [
+      "membres transformés en rochers permanents",
+      "augmentation arbitraire du nombre de pattes"
+    ]
+  },
+  {
+    "name": "Vol",
+    "version": "type-visual-v1",
+    "identity": "liberté / exploration",
+    "palette": {
+      "primary": "#6FA9C8",
+      "secondary": "#C4E1EF",
+      "accent": "#F4F7FA",
+      "energy": "#E8FAFF"
+    },
+    "visual_markers": [
+      "lignes de couleur orientées dans le sens aérodynamique",
+      "extrémités plus claires donnant une sensation de légèreté",
+      "rubans d’air ou plumes d’énergie uniquement temporaires"
+    ],
+    "surface_influence": "alléger visuellement les transitions et accentuer les surfaces déjà adaptées au mouvement",
+    "pattern_rule": "courbes ascendantes, chevrons fins ou gradients aériens",
+    "energy_effect": "courants d’air visibles, spirales et condensation légère",
+    "signature_effect_shape": "rafale, vortex ou lame d’air",
+    "forbidden": [
+      "ailes permanentes ajoutées à un animal qui n’en possède pas",
+      "plumes artificielles couvrant une surface non plumeuse"
+    ]
+  },
+  {
+    "name": "Psy",
+    "version": "type-visual-v1",
+    "identity": "compréhension / abstraction",
+    "palette": {
+      "primary": "#A84F86",
+      "secondary": "#D58DB7",
+      "accent": "#7B6BD6",
+      "energy": "#E5D7FF"
+    },
+    "visual_markers": [
+      "motifs symétriques ou concentriques évoquant la concentration",
+      "accent lumineux autour des yeux ou d’un marqueur anatomique existant",
+      "formes géométriques flottantes uniquement comme énergie temporaire"
+    ],
+    "surface_influence": "rendre les accents plus lisses, précis et légèrement irisés",
+    "pattern_rule": "cercles, ondes, glyphes abstraits non textuels ou symétries radiales",
+    "energy_effect": "halo mental, anneaux, distorsion subtile ou particules en suspension",
+    "signature_effect_shape": "onde concentrique, faisceau ou champ focalisé",
+    "forbidden": [
+      "troisième œil anatomique ajouté automatiquement",
+      "symboles écrits ou runes lisibles imposés"
+    ]
+  },
+  {
+    "name": "Insecte",
+    "version": "type-visual-v1",
+    "identity": "transformation / adaptation",
+    "palette": {
+      "primary": "#6F8A3A",
+      "secondary": "#9EBE54",
+      "accent": "#5D4E3F",
+      "energy": "#D7EE8A"
+    },
+    "visual_markers": [
+      "segmentation graphique inspirée d’exosquelettes sans changer le body plan",
+      "petits motifs cellulaires ou nervurés sur les surfaces existantes",
+      "reflets chitineux localisés"
+    ],
+    "surface_influence": "accentuer segmentation, nervures ou brillance organique quand compatibles avec l’animal",
+    "pattern_rule": "cellules, nervures, ponctuations ou bandes segmentées",
+    "energy_effect": "traînée de particules, essaim abstrait ou vibration rapide",
+    "signature_effect_shape": "salve, essaim énergétique ou filament rapide",
+    "forbidden": [
+      "pattes supplémentaires ajoutées automatiquement",
+      "antennes ajoutées à tous les animaux"
+    ]
+  },
+  {
+    "name": "Roche",
+    "version": "type-visual-v1",
+    "identity": "permanence / résistance",
+    "palette": {
+      "primary": "#6E6257",
+      "secondary": "#A69682",
+      "accent": "#C9B89A",
+      "energy": "#E7D8BE"
+    },
+    "visual_markers": [
+      "plaques minérales limitées aux zones déjà structurelles",
+      "motifs de strates ou facettes suivant les volumes naturels",
+      "poussière minérale temporaire lors des mouvements"
+    ],
+    "surface_influence": "durcir visuellement certaines zones par texture pierreuse sans pétrifier toute l’anatomie",
+    "pattern_rule": "strates, facettes, veinures ou craquelures superficielles",
+    "energy_effect": "éclats minéraux, poussière et onde de choc lourde",
+    "signature_effect_shape": "fragment, pointe ou masse rocheuse projetée",
+    "forbidden": [
+      "corps entièrement rocheux par défaut",
+      "rochers ajoutés comme appendices permanents"
+    ]
+  },
+  {
+    "name": "Spectre",
+    "version": "type-visual-v1",
+    "identity": "étrangeté / détachement",
+    "palette": {
+      "primary": "#514B6E",
+      "secondary": "#8176A6",
+      "accent": "#83B7A1",
+      "energy": "#C9F1DF"
+    },
+    "visual_markers": [
+      "zones de contraste légèrement désaturées ou translucides sans supprimer l’anatomie",
+      "ombres internes ou lueurs froides suivant des motifs existants",
+      "brume spectrale uniquement comme effet temporaire"
+    ],
+    "surface_influence": "adoucir certains contours et créer une profondeur inhabituelle tout en gardant les volumes physiques lisibles",
+    "pattern_rule": "voiles, taches diffuses, contours interrompus ou motifs en écho",
+    "energy_effect": "brume, traînée translucide et distorsion froide",
+    "signature_effect_shape": "voile, onde fantomatique ou projection semi-transparente",
+    "forbidden": [
+      "parties du corps définitivement absentes",
+      "anatomie impossible rendue illisible par transparence totale"
+    ]
+  },
+  {
+    "name": "Dragon",
+    "version": "type-visual-v1",
+    "identity": "ambition / puissance",
+    "palette": {
+      "primary": "#554B8E",
+      "secondary": "#7D6BC0",
+      "accent": "#C85D62",
+      "energy": "#E0C8FF"
+    },
+    "visual_markers": [
+      "motifs nobles ou écailleux appliqués aux surfaces déjà présentes",
+      "accent coloré fort sur une structure signature existante",
+      "halo énergétique dense et majestueux temporaire"
+    ],
+    "surface_influence": "renforcer la perception de puissance, de densité et de finition sans imposer une anatomie reptilienne",
+    "pattern_rule": "écailles stylisées, chevrons nobles ou lignes ascendantes quand compatibles",
+    "energy_effect": "souffle dense, aura concentrée et particules énergétiques lourdes",
+    "signature_effect_shape": "souffle, rayon ou vague d’énergie compacte",
+    "forbidden": [
+      "ailes ou cornes ajoutées automatiquement",
+      "transformation de tout animal en reptile"
+    ]
+  },
+  {
+    "name": "Ténèbres",
+    "version": "type-visual-v1",
+    "identity": "indépendance / ruse",
+    "palette": {
+      "primary": "#2E3038",
+      "secondary": "#52515F",
+      "accent": "#9B5367",
+      "energy": "#B889B8"
+    },
+    "visual_markers": [
+      "contrastes sombres renforçant les yeux ou la silhouette",
+      "motifs asymétriques contrôlés suggérant ruse ou furtivité",
+      "ombres énergétiques temporaires qui ne modifient pas les volumes"
+    ],
+    "surface_influence": "assombrir et matifier certaines zones sans perdre les détails anatomiques",
+    "pattern_rule": "croissants, pointes graphiques, bandes brisées ou gradients sombres",
+    "energy_effect": "ombre condensée, fumée sombre et traînée violette",
+    "signature_effect_shape": "croissant, onde sombre ou projectile comprimé",
+    "forbidden": [
+      "visage masqué artificiellement",
+      "disparition permanente de parties anatomiques"
+    ]
+  },
+  {
+    "name": "Acier",
+    "version": "type-visual-v1",
+    "identity": "structure / discipline",
+    "palette": {
+      "primary": "#6E7B85",
+      "secondary": "#AEB8BF",
+      "accent": "#D7DEE2",
+      "energy": "#ECF6FA"
+    },
+    "visual_markers": [
+      "reflets métalliques localisés sur les surfaces structurelles",
+      "lignes nettes soulignant articulations ou plaques naturelles",
+      "étincelles métalliques uniquement lors des impacts"
+    ],
+    "surface_influence": "donner une finition métallique partielle sans convertir tout le corps en machine",
+    "pattern_rule": "plaques, lignes d’assemblage organiques ou facettes contrôlées",
+    "energy_effect": "étincelles, éclat métallique et vibration compacte",
+    "signature_effect_shape": "lame d’énergie, impact ou onde métallique",
+    "forbidden": [
+      "pièces mécaniques ajoutées",
+      "robotisation complète de l’animal"
+    ]
+  },
+  {
+    "name": "Fée",
+    "version": "type-visual-v1",
+    "identity": "harmonie / imagination",
+    "palette": {
+      "primary": "#C77FA7",
+      "secondary": "#E7B5D0",
+      "accent": "#A9D8C8",
+      "energy": "#FFF0FA"
+    },
+    "visual_markers": [
+      "accent pastel ou nacré sur des zones anatomiques existantes",
+      "motifs délicats mais reproductibles évoquant harmonie ou merveilleux",
+      "particules lumineuses temporaires très fines"
+    ],
+    "surface_influence": "adoucir les transitions et introduire irisation ou nacre sans rendre l’animal décoratif à l’excès",
+    "pattern_rule": "petites étoiles abstraites, pétales, courbes ou points lumineux non textuels",
+    "energy_effect": "poussière lumineuse, halo doux et particules scintillantes",
+    "signature_effect_shape": "ruban, étoile abstraite ou onde scintillante",
+    "forbidden": [
+      "ailes féeriques ajoutées automatiquement",
+      "ornements gratuits sans lien avec l’animal"
+    ]
+  }
+]

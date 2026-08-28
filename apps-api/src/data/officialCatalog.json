@@ -1,0 +1,8057 @@
+{
+  "catalog_version": "official-catalog-v1-x8",
+  "temporal_policy": "CURRENT_REFERENCE_STATE_TREATED_AS_TIMELESS",
+  "source_policy": {
+    "primary_reference": {
+      "name": "Poképédia — Liste des talents",
+      "url": "https://www.pokepedia.fr/Liste_des_talents"
+    },
+    "move_reference": {
+      "name": "Poképédia — Liste des capacités / données actuelles",
+      "url": "https://www.pokepedia.fr/Liste_des_capacités"
+    },
+    "official_crosscheck": {
+      "name": "Pokémon Pokédex officiel français",
+      "url": "https://www.pokemon.com/fr/pokedex"
+    },
+    "rule": "Les données de référence sont conservées séparément des métadonnées internes. Le moteur considère leur état de référence courant comme intemporel.",
+    "structured_reference": {
+      "name": "PokéAPI v2",
+      "url": "https://pokeapi.co/docs/v2",
+      "usage": "Contrôle complémentaire des champs structurés et des noms localisés."
+    }
+  },
+  "data_policy": {
+    "official_fields": [
+      "name",
+      "type",
+      "category",
+      "power",
+      "accuracy",
+      "effect"
+    ],
+    "internal_fields": [
+      "eligible_v1",
+      "tags",
+      "types"
+    ],
+    "historical_fields_stored": false
+  },
+  "abilities": [
+    {
+      "name": "Intimidation",
+      "official": true,
+      "effect": "À l’entrée en combat, baisse l’Attaque des adversaires d’un cran.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "threat",
+        "physical",
+        "control"
+      ]
+    },
+    {
+      "name": "Brasier",
+      "official": true,
+      "effect": "À 1/3 des PV max ou moins, augmente la puissance des capacités de type Feu.",
+      "types": [
+        "Feu"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "offense"
+      ]
+    },
+    {
+      "name": "Torrent",
+      "official": true,
+      "effect": "À 1/3 des PV max ou moins, augmente la puissance des capacités de type Eau.",
+      "types": [
+        "Eau"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "offense"
+      ]
+    },
+    {
+      "name": "Engrais",
+      "official": true,
+      "effect": "À 1/3 des PV max ou moins, augmente la puissance des capacités de type Plante.",
+      "types": [
+        "Plante"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "offense"
+      ]
+    },
+    {
+      "name": "Essaim",
+      "official": true,
+      "effect": "À 1/3 des PV max ou moins, augmente la puissance des capacités de type Insecte.",
+      "types": [
+        "Insecte"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "offense"
+      ]
+    },
+    {
+      "name": "Lévitation",
+      "official": true,
+      "effect": "Immunise aux capacités de type Sol et à plusieurs effets posés au sol.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "mobility",
+        "utility"
+      ]
+    },
+    {
+      "name": "Fermeté",
+      "official": true,
+      "effect": "À PV maximum, permet de résister à une attaque qui mettrait K.O. en un coup, avec 1 PV restant.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense"
+      ]
+    },
+    {
+      "name": "Armurbaston",
+      "official": true,
+      "effect": "Immunise contre les coups critiques.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "physical"
+      ]
+    },
+    {
+      "name": "Régé-Force",
+      "official": true,
+      "effect": "Restaure une partie des PV lorsque le Pokémon quitte le combat.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "heal",
+        "support"
+      ]
+    },
+    {
+      "name": "Cœur Soin",
+      "official": true,
+      "effect": "Peut soigner l’altération de statut d’un allié.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "heal",
+        "support"
+      ]
+    },
+    {
+      "name": "Garde Magik",
+      "official": true,
+      "effect": "Seuls les dégâts directs des capacités peuvent blesser le Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "special"
+      ]
+    },
+    {
+      "name": "Synchro",
+      "official": true,
+      "effect": "Transmet certaines altérations de statut à l’adversaire qui les a provoquées.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "status",
+        "control"
+      ]
+    },
+    {
+      "name": "Farceur",
+      "official": true,
+      "effect": "Donne une priorité accrue aux capacités de statut.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control",
+        "support"
+      ]
+    },
+    {
+      "name": "Acharné",
+      "official": true,
+      "effect": "Augmente fortement l’Attaque lorsque les statistiques sont baissées par un adversaire.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ]
+    },
+    {
+      "name": "Battant",
+      "official": true,
+      "effect": "Augmente fortement l’Attaque Spéciale lorsque les statistiques sont baissées par un adversaire.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ]
+    },
+    {
+      "name": "Technicien",
+      "official": true,
+      "effect": "Renforce les capacités de faible puissance de base.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "technique",
+        "offense"
+      ]
+    },
+    {
+      "name": "Adaptabilité",
+      "official": true,
+      "effect": "Renforce le bonus de puissance des capacités du même type que le Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "hybrid"
+      ]
+    },
+    {
+      "name": "Infiltration",
+      "official": true,
+      "effect": "Ignore certaines protections, clones et barrières adverses lors de l’utilisation des capacités.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "technique",
+        "control"
+      ]
+    },
+    {
+      "name": "Multiécaille",
+      "official": true,
+      "effect": "À PV maximum, réduit les dégâts subis.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense"
+      ]
+    },
+    {
+      "name": "Peau Dure",
+      "official": true,
+      "effect": "Inflige des dégâts à l’adversaire lorsqu’il utilise une capacité de contact.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "physical"
+      ]
+    },
+    {
+      "name": "Absorbe-Eau",
+      "official": true,
+      "effect": "Immunise aux capacités de type Eau et restaure des PV lorsqu’elles touchent le Pokémon.",
+      "types": [
+        "Eau"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "heal"
+      ]
+    },
+    {
+      "name": "Absorbe-Volt",
+      "official": true,
+      "effect": "Immunise aux capacités de type Électrik et restaure 1/4 des PV max lorsqu’elles touchent la créature.",
+      "types": [
+        "Électrik"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "heal"
+      ]
+    },
+    {
+      "name": "Torche",
+      "official": true,
+      "effect": "Immunise aux capacités de type Feu et renforce ensuite les capacités de type Feu.",
+      "types": [
+        "Feu"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "offense"
+      ]
+    },
+    {
+      "name": "Herbivore",
+      "official": true,
+      "effect": "Immunise aux capacités de type Plante et augmente l’Attaque lorsqu’elles touchent le Pokémon.",
+      "types": [
+        "Plante"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "boost"
+      ]
+    },
+    {
+      "name": "Absentéisme",
+      "official": true,
+      "effect": "Le Pokémon ne peut agir qu’un tour sur deux.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "risk",
+        "offense"
+      ]
+    },
+    {
+      "name": "Agitation",
+      "official": true,
+      "effect": "Augmente l’Attaque des capacités physiques, mais réduit leur précision.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "risk"
+      ]
+    },
+    {
+      "name": "Air Lock",
+      "official": true,
+      "effect": "Annule les effets de la météo tant que le Pokémon est sur le terrain.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "weather",
+        "control"
+      ]
+    },
+    {
+      "name": "Anti-Bruit",
+      "official": true,
+      "effect": "Immunise le Pokémon contre les capacités basées sur le son.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "utility"
+      ]
+    },
+    {
+      "name": "Armumagma",
+      "official": true,
+      "effect": "Immunise le Pokémon contre le gel.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "status"
+      ]
+    },
+    {
+      "name": "Attention",
+      "official": true,
+      "effect": "Empêche le Pokémon d’être apeuré et le protège de certains effets d’Intimidation.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "utility"
+      ]
+    },
+    {
+      "name": "Benêt",
+      "official": true,
+      "effect": "Protège notamment de l’Attraction, de Provoc et de certains effets d’Intimidation.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "utility"
+      ]
+    },
+    {
+      "name": "Calque",
+      "official": true,
+      "effect": "À l’entrée en combat, copie le talent d’un adversaire.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "technique"
+      ]
+    },
+    {
+      "name": "Chlorophylle",
+      "official": true,
+      "effect": "Sous le soleil, double la Vitesse du Pokémon.",
+      "types": [
+        "Plante"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "weather",
+        "mobility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Ciel Gris",
+      "official": true,
+      "effect": "Annule les effets liés à la météo.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "weather",
+        "control"
+      ]
+    },
+    {
+      "name": "Coloforce",
+      "official": true,
+      "effect": "Double l’Attaque du Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "boost"
+      ]
+    },
+    {
+      "name": "Coque Armure",
+      "official": true,
+      "effect": "Immunise contre les coups critiques.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "physical"
+      ]
+    },
+    {
+      "name": "Corps Ardent",
+      "official": true,
+      "effect": "Un adversaire utilisant une capacité de contact peut être brûlé.",
+      "types": [
+        "Feu"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "status"
+      ]
+    },
+    {
+      "name": "Corps Sain",
+      "official": true,
+      "effect": "Empêche les adversaires de réduire les statistiques du Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "boost"
+      ]
+    },
+    {
+      "name": "Crachin",
+      "official": true,
+      "effect": "À l’entrée en combat, déclenche la pluie pendant plusieurs tours.",
+      "types": [
+        "Eau"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "weather",
+        "support"
+      ]
+    },
+    {
+      "name": "Cran",
+      "official": true,
+      "effect": "Augmente l’Attaque lorsque le Pokémon souffre d’une altération de statut.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "status"
+      ]
+    },
+    {
+      "name": "Cuvette",
+      "official": true,
+      "effect": "Sous la pluie, restaure des PV à la fin de chaque tour.",
+      "types": [
+        "Eau"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "weather",
+        "heal"
+      ]
+    },
+    {
+      "name": "Homochromie",
+      "official": true,
+      "effect": "Après avoir été touché, le Pokémon prend le type de la capacité reçue.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "technique"
+      ]
+    },
+    {
+      "name": "Écaille Spéciale",
+      "official": true,
+      "effect": "Augmente la Défense lorsque le Pokémon subit une altération de statut.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "status"
+      ]
+    },
+    {
+      "name": "Échauffement",
+      "official": true,
+      "effect": "Immunise contre la paralysie.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "status"
+      ]
+    },
+    {
+      "name": "Écran Poudre",
+      "official": true,
+      "effect": "Protège des effets additionnels des capacités adverses.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "utility"
+      ]
+    },
+    {
+      "name": "Esprit Vital",
+      "official": true,
+      "effect": "Empêche le Pokémon de s’endormir.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "status"
+      ]
+    },
+    {
+      "name": "Force Pure",
+      "official": true,
+      "effect": "Double l’Attaque du Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "boost"
+      ]
+    },
+    {
+      "name": "Garde Mystik",
+      "official": true,
+      "effect": "Seules les capacités super efficaces peuvent infliger des dégâts directs au Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "utility"
+      ]
+    },
+    {
+      "name": "Glissade",
+      "official": true,
+      "effect": "Sous la pluie, double la Vitesse du Pokémon.",
+      "types": [
+        "Eau"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "weather",
+        "mobility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Glu",
+      "official": true,
+      "effect": "Empêche le Pokémon de perdre ou de se faire voler l’objet qu’il tient.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "utility"
+      ]
+    },
+    {
+      "name": "Hyper Cutter",
+      "official": true,
+      "effect": "Empêche les adversaires de réduire l’Attaque du Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "physical"
+      ]
+    },
+    {
+      "name": "Ignifu-Voile",
+      "official": true,
+      "effect": "Immunise le Pokémon contre la brûlure.",
+      "types": [
+        "Feu"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "status"
+      ]
+    },
+    {
+      "name": "Insomnia",
+      "official": true,
+      "effect": "Empêche le Pokémon de s’endormir.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "status"
+      ]
+    },
+    {
+      "name": "Isograisse",
+      "official": true,
+      "effect": "Réduit de moitié les dégâts reçus des capacités de type Feu et Glace.",
+      "types": [
+        "Feu",
+        "Glace"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "defense"
+      ]
+    },
+    {
+      "name": "Joli Sourire",
+      "official": true,
+      "effect": "Un adversaire du sexe opposé utilisant une capacité de contact peut tomber amoureux.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "status",
+        "control"
+      ]
+    },
+    {
+      "name": "Luminescence",
+      "official": true,
+      "effect": "Ignore les changements d’Esquive adverses et empêche la baisse de Précision.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control"
+      ]
+    },
+    {
+      "name": "Magnépiège",
+      "official": true,
+      "effect": "Empêche les Pokémon de type Acier adverses de quitter normalement le combat.",
+      "types": [
+        "Acier"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "control"
+      ]
+    },
+    {
+      "name": "Marque Ombre",
+      "official": true,
+      "effect": "Empêche généralement l’adversaire de fuir ou d’être remplacé.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "control"
+      ]
+    },
+    {
+      "name": "Matinal",
+      "official": true,
+      "effect": "Réduit la durée du sommeil.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "status",
+        "utility"
+      ]
+    },
+    {
+      "name": "Médic Nature",
+      "official": true,
+      "effect": "Soigne les altérations de statut lorsque le Pokémon quitte le combat.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "heal",
+        "status",
+        "support"
+      ]
+    },
+    {
+      "name": "Météo",
+      "official": true,
+      "effect": "Change le type du Pokémon selon la météo active.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "weather",
+        "utility"
+      ]
+    },
+    {
+      "name": "Moiteur",
+      "official": true,
+      "effect": "Empêche l’utilisation d’effets provoquant une explosion.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "control",
+        "defense"
+      ]
+    },
+    {
+      "name": "Mue",
+      "official": true,
+      "effect": "Peut soigner une altération de statut à la fin de chaque tour.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "heal",
+        "status"
+      ]
+    },
+    {
+      "name": "Œil Composé",
+      "official": true,
+      "effect": "Augmente la Précision des capacités du Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "technique"
+      ]
+    },
+    {
+      "name": "Paratonnerre",
+      "official": true,
+      "effect": "Attire les capacités Électrik, y est immunisé et augmente l’Attaque Spéciale lorsqu’il est touché.",
+      "types": [
+        "Électrik"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "special",
+        "boost"
+      ]
+    },
+    {
+      "name": "Peau Sèche",
+      "official": true,
+      "effect": "Restaure des PV sous la pluie ou lorsqu’une capacité Eau touche le Pokémon, mais augmente sa vulnérabilité au Feu.",
+      "types": [
+        "Eau",
+        "Feu"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "heal",
+        "weather",
+        "risk"
+      ]
+    },
+    {
+      "name": "Point Poison",
+      "official": true,
+      "effect": "Une capacité de contact peut empoisonner l’adversaire.",
+      "types": [
+        "Poison"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "status"
+      ]
+    },
+    {
+      "name": "Pose Spore",
+      "official": true,
+      "effect": "Une capacité de contact peut infliger sommeil, paralysie ou poison à l’adversaire.",
+      "types": [
+        "Plante"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "status",
+        "control"
+      ]
+    },
+    {
+      "name": "Pression",
+      "official": true,
+      "effect": "Augmente la consommation de PP des capacités utilisées contre le Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "control",
+        "defense"
+      ]
+    },
+    {
+      "name": "Puanteur",
+      "official": true,
+      "effect": "Les capacités infligeant des dégâts peuvent parfois apeurer la cible.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "control"
+      ]
+    },
+    {
+      "name": "Sable Volant",
+      "official": true,
+      "effect": "À l’entrée en combat, déclenche une tempête de sable pendant plusieurs tours.",
+      "types": [
+        "Roche",
+        "Sol",
+        "Acier"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "weather",
+        "support"
+      ]
+    },
+    {
+      "name": "Sécheresse",
+      "official": true,
+      "effect": "À l’entrée en combat, déclenche le soleil pendant plusieurs tours.",
+      "types": [
+        "Feu"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "weather",
+        "support"
+      ]
+    },
+    {
+      "name": "Sérénité",
+      "official": true,
+      "effect": "Augmente la probabilité des effets additionnels des capacités.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "technique",
+        "control"
+      ]
+    },
+    {
+      "name": "Statik",
+      "official": true,
+      "effect": "Une capacité de contact peut paralyser l’adversaire.",
+      "types": [
+        "Électrik"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "status"
+      ]
+    },
+    {
+      "name": "Succion",
+      "official": true,
+      "effect": "Empêche le Pokémon d’être forcé à quitter le combat.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "control"
+      ]
+    },
+    {
+      "name": "Tempo Perso",
+      "official": true,
+      "effect": "Empêche la confusion.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "status"
+      ]
+    },
+    {
+      "name": "Tête de Roc",
+      "official": true,
+      "effect": "Empêche les dégâts de recul causés par les capacités du Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "defense"
+      ]
+    },
+    {
+      "name": "Turbo",
+      "official": true,
+      "effect": "Augmente la Vitesse à la fin de chaque tour.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "mobility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Voile Sable",
+      "official": true,
+      "effect": "Sous une tempête de sable, augmente l’Esquive.",
+      "types": [
+        "Sol",
+        "Roche"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "weather",
+        "defense"
+      ]
+    },
+    {
+      "name": "Alerte Neige",
+      "official": true,
+      "effect": "À l’entrée en combat, déclenche la neige pendant plusieurs tours.",
+      "types": [
+        "Glace"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "weather",
+        "support"
+      ]
+    },
+    {
+      "name": "Anticipation",
+      "official": true,
+      "effect": "Avertit de la présence de certaines capacités adverses particulièrement dangereuses.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "defense"
+      ]
+    },
+    {
+      "name": "Brise Moule",
+      "official": true,
+      "effect": "Les capacités du Pokémon ignorent certains talents adverses.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "technique"
+      ]
+    },
+    {
+      "name": "Chanceux",
+      "official": true,
+      "effect": "Augmente le taux de coups critiques.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "technique"
+      ]
+    },
+    {
+      "name": "Corps Gel",
+      "official": true,
+      "effect": "Sous la neige, restaure progressivement des PV.",
+      "types": [
+        "Glace"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "weather",
+        "heal"
+      ]
+    },
+    {
+      "name": "Début Calme",
+      "official": true,
+      "effect": "Réduit fortement l’Attaque et la Vitesse pendant les premiers tours après l’entrée en combat.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "risk",
+        "physical"
+      ]
+    },
+    {
+      "name": "Délestage",
+      "official": true,
+      "effect": "Double la Vitesse après la perte de l’objet tenu.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "mobility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Feuille Garde",
+      "official": true,
+      "effect": "Sous le soleil, protège contre les altérations de statut.",
+      "types": [
+        "Plante"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "weather",
+        "defense",
+        "status"
+      ]
+    },
+    {
+      "name": "Filtre",
+      "official": true,
+      "effect": "Réduit les dégâts reçus des capacités super efficaces.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense"
+      ]
+    },
+    {
+      "name": "Force Soleil",
+      "official": true,
+      "effect": "Sous le soleil, augmente l’Attaque Spéciale mais fait perdre des PV à chaque tour.",
+      "types": [
+        "Feu"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "weather",
+        "special",
+        "risk"
+      ]
+    },
+    {
+      "name": "Frein",
+      "official": true,
+      "effect": "Le Pokémon agit généralement après les autres lorsqu’il utilise des capacités de même priorité.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "risk",
+        "control"
+      ]
+    },
+    {
+      "name": "Hydratation",
+      "official": true,
+      "effect": "Sous la pluie, soigne les altérations de statut à la fin du tour.",
+      "types": [
+        "Eau"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "weather",
+        "heal",
+        "status"
+      ]
+    },
+    {
+      "name": "Ignifugé",
+      "official": true,
+      "effect": "Réduit les dégâts reçus des capacités de type Feu et certains dégâts liés à la brûlure.",
+      "types": [
+        "Feu"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "defense"
+      ]
+    },
+    {
+      "name": "Impassible",
+      "official": true,
+      "effect": "Augmente la Vitesse lorsque le Pokémon est apeuré.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "mobility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Lentiteintée",
+      "official": true,
+      "effect": "Renforce les capacités qui ne sont pas très efficaces sur la cible.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "technique"
+      ]
+    },
+    {
+      "name": "Motorisé",
+      "official": true,
+      "effect": "Immunise aux capacités Électrik et augmente la Vitesse lorsqu’elles touchent le Pokémon.",
+      "types": [
+        "Électrik"
+      ],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "mobility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Peau Miracle",
+      "official": true,
+      "effect": "Réduit la précision de nombreuses capacités de statut utilisées contre le Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "defense",
+        "status"
+      ]
+    },
+    {
+      "name": "Annule Garde",
+      "official": true,
+      "effect": "Les capacités du Pokémon et de son adversaire ne peuvent normalement pas échouer.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Boom Final",
+      "official": true,
+      "effect": "Si le Pokémon est mis K.O. par une attaque directe, l’attaquant perd une partie de ses PV.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "heal"
+      ]
+    },
+    {
+      "name": "Colérique",
+      "official": true,
+      "effect": "Augmente fortement l’Attaque après avoir subi un coup critique.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Don Floral",
+      "official": true,
+      "effect": "Sous le soleil, renforce l’Attaque et la Défense Spéciale du Pokémon et de ses alliés.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Fouille",
+      "official": true,
+      "effect": "Révèle l’objet tenu par un adversaire.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Gloutonnerie",
+      "official": true,
+      "effect": "Permet de consommer certaines Baies plus tôt que normalement.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Inconscient",
+      "official": true,
+      "effect": "Ignore plusieurs changements de statistiques de l’adversaire lors des calculs.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Lavabo",
+      "official": true,
+      "effect": "Attire et immunise aux capacités Eau, puis augmente l’Attaque Spéciale.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost",
+        "defense"
+      ]
+    },
+    {
+      "name": "Maladresse",
+      "official": true,
+      "effect": "Empêche l’effet de l’objet tenu par le Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control"
+      ]
+    },
+    {
+      "name": "Mauvais Rêve",
+      "official": true,
+      "effect": "Fait perdre des PV aux adversaires endormis à chaque tour.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "heal"
+      ]
+    },
+    {
+      "name": "Multi-Coups",
+      "official": true,
+      "effect": "Les capacités à coups multiples frappent toujours le nombre maximal de fois.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Multi-Type",
+      "official": true,
+      "effect": "Le type du Pokémon varie selon l’objet spécial qu’il tient.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Normalise",
+      "official": true,
+      "effect": "Transforme les capacités du Pokémon en type Normal et les renforce.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Pied Confus",
+      "official": true,
+      "effect": "Augmente l’Esquive lorsque le Pokémon est confus.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Pied Véloce",
+      "official": true,
+      "effect": "Augmente la Vitesse lorsque le Pokémon subit une altération de statut.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Poing de Fer",
+      "official": true,
+      "effect": "Renforce les capacités utilisant les poings.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Prédiction",
+      "official": true,
+      "effect": "Révèle une capacité particulièrement puissante de l’adversaire.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Querelleur",
+      "official": true,
+      "effect": "Permet aux capacités Normal et Combat de toucher les Pokémon Spectre.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Rideau Neige",
+      "official": true,
+      "effect": "Sous la neige, augmente l’Esquive du Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Rivalité",
+      "official": true,
+      "effect": "Modifie la puissance des attaques selon le sexe de l’adversaire.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Simple",
+      "official": true,
+      "effect": "Double l’effet des variations de statistiques du Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Sniper",
+      "official": true,
+      "effect": "Renforce les dégâts infligés par les coups critiques.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Soin Poison",
+      "official": true,
+      "effect": "Le poison soigne le Pokémon au lieu de lui infliger des dégâts.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "heal"
+      ]
+    },
+    {
+      "name": "Solide Roc",
+      "official": true,
+      "effect": "Réduit les dégâts des capacités super efficaces.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "defense"
+      ]
+    },
+    {
+      "name": "Télécharge",
+      "official": true,
+      "effect": "Augmente l’Attaque ou l’Attaque Spéciale selon les défenses adverses.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Téméraire",
+      "official": true,
+      "effect": "Renforce les capacités provoquant normalement des dégâts de recul.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Analyste",
+      "official": true,
+      "effect": "Renforce les capacités lorsque le Pokémon agit après sa cible.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Armurouillée",
+      "official": true,
+      "effect": "Une attaque physique baisse la Défense mais augmente fortement la Vitesse.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost",
+        "control"
+      ]
+    },
+    {
+      "name": "Baigne Sable",
+      "official": true,
+      "effect": "Sous une tempête de sable, double la Vitesse.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Cœur de Coq",
+      "official": true,
+      "effect": "Empêche la baisse de Défense.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control"
+      ]
+    },
+    {
+      "name": "Cœur Noble",
+      "official": true,
+      "effect": "Augmente l’Attaque après avoir été touché par une capacité Ténèbres.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Contestation",
+      "official": true,
+      "effect": "Inverse les variations de statistiques subies.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Corps Maudit",
+      "official": true,
+      "effect": "Peut entraver la capacité ayant touché le Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Défaitiste",
+      "official": true,
+      "effect": "Réduit fortement les statistiques offensives quand les PV passent sous la moitié.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "heal",
+        "defense"
+      ]
+    },
+    {
+      "name": "Envelocape",
+      "official": true,
+      "effect": "Protège notamment des poudres et de plusieurs dégâts météorologiques.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "defense"
+      ]
+    },
+    {
+      "name": "Épine de Fer",
+      "official": true,
+      "effect": "Inflige des dégâts aux adversaires utilisant une capacité de contact.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Imposteur",
+      "official": true,
+      "effect": "Copie automatiquement l’adversaire à l’entrée en combat.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Impudence",
+      "official": true,
+      "effect": "Augmente l’Attaque après avoir mis un adversaire K.O.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Light Metal",
+      "official": true,
+      "effect": "Réduit le poids du Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "defense"
+      ]
+    },
+    {
+      "name": "Lunatique",
+      "official": true,
+      "effect": "Modifie aléatoirement des statistiques à chaque tour.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Miroir Magik",
+      "official": true,
+      "effect": "Renvoie de nombreuses capacités de statut vers leur utilisateur.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Mode Transe",
+      "official": true,
+      "effect": "Change la forme du Pokémon lorsque ses PV deviennent faibles.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "heal"
+      ]
+    },
+    {
+      "name": "Momie",
+      "official": true,
+      "effect": "Peut remplacer le talent de l’adversaire ayant utilisé une capacité de contact.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Phobique",
+      "official": true,
+      "effect": "Augmente la Vitesse après certaines attaques Insecte, Spectre ou Ténèbres.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Pickpocket",
+      "official": true,
+      "effect": "Peut voler l’objet de l’adversaire après avoir subi une attaque de contact.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Rage Brûlure",
+      "official": true,
+      "effect": "Augmente l’Attaque Spéciale lorsque le Pokémon est brûlé.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Rage Poison",
+      "official": true,
+      "effect": "Augmente l’Attaque lorsque le Pokémon est empoisonné.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Récolte",
+      "official": true,
+      "effect": "Peut restaurer une Baie déjà consommée.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Sans Limite",
+      "official": true,
+      "effect": "Renforce les capacités à effet secondaire mais supprime cet effet secondaire.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Télépathe",
+      "official": true,
+      "effect": "Protège des capacités offensives utilisées par les alliés.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "defense"
+      ]
+    },
+    {
+      "name": "Tension",
+      "official": true,
+      "effect": "Empêche les adversaires de consommer leurs Baies.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control"
+      ]
+    },
+    {
+      "name": "Téra-Voltage",
+      "official": true,
+      "effect": "Ignore certains talents adverses lors de l’utilisation des capacités.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Toxitouche",
+      "official": true,
+      "effect": "Les capacités de contact peuvent empoisonner la cible.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Turbo Brasier",
+      "official": true,
+      "effect": "Ignore certains talents adverses lors de l’utilisation des capacités.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Victorieux",
+      "official": true,
+      "effect": "Augmente légèrement la Précision du Pokémon et de ses alliés.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Ailes Bourrasque",
+      "official": true,
+      "effect": "Donne une priorité accrue à certaines capacités Vol lorsque les conditions sont remplies.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Amour Filial",
+      "official": true,
+      "effect": "Permet à certaines attaques de frapper une seconde fois avec puissance réduite.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "defense"
+      ]
+    },
+    {
+      "name": "Aroma-Voile",
+      "official": true,
+      "effect": "Protège le Pokémon et ses alliés de plusieurs effets limitant les capacités.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "defense"
+      ]
+    },
+    {
+      "name": "Aura Féérique",
+      "official": true,
+      "effect": "Renforce les capacités de type Fée sur le terrain.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Aura Inversée",
+      "official": true,
+      "effect": "Inverse les effets de certaines auras.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Aura Ténébreuse",
+      "official": true,
+      "effect": "Renforce les capacités de type Ténèbres sur le terrain.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Bajoues",
+      "official": true,
+      "effect": "Restaure des PV supplémentaires lorsqu’une Baie est consommée.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "heal"
+      ]
+    },
+    {
+      "name": "Déclic Tactique",
+      "official": true,
+      "effect": "Change la forme du Pokémon selon les capacités utilisées.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Flora-Voile",
+      "official": true,
+      "effect": "Protège les Pokémon Plante alliés de certaines baisses de statistiques et statuts.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control",
+        "defense"
+      ]
+    },
+    {
+      "name": "Peau Gelée",
+      "official": true,
+      "effect": "Transforme les capacités Normal en capacités Glace et les renforce.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Poisseux",
+      "official": true,
+      "effect": "Baisse la Vitesse de l’attaquant après une attaque de contact.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control"
+      ]
+    },
+    {
+      "name": "Prognathe",
+      "official": true,
+      "effect": "Renforce les capacités utilisant les crocs ou les morsures.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Protéen",
+      "official": true,
+      "effect": "Change le type du Pokémon pour correspondre à la capacité utilisée.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Symbiose",
+      "official": true,
+      "effect": "Peut transmettre son objet à un allié qui vient de consommer le sien.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Toison Épaisse",
+      "official": true,
+      "effect": "Double la Défense du Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Toison Herbue",
+      "official": true,
+      "effect": "Augmente la Défense lorsque le Champ Herbu est actif.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Aquabulle",
+      "official": true,
+      "effect": "Renforce les attaques Eau, réduit les dégâts Feu et protège de la brûlure.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost",
+        "defense"
+      ]
+    },
+    {
+      "name": "Batterie",
+      "official": true,
+      "effect": "Renforce les capacités spéciales des alliés.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Boost Chimère",
+      "official": true,
+      "effect": "Augmente la meilleure statistique après avoir mis un adversaire K.O.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Boule de Poils",
+      "official": true,
+      "effect": "Réduit certains dégâts directs mais augmente la vulnérabilité au Feu.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost",
+        "defense"
+      ]
+    },
+    {
+      "name": "Chasse-Neige",
+      "official": true,
+      "effect": "Sous la neige, double la Vitesse.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Corps Coloré",
+      "official": true,
+      "effect": "Empêche les adversaires d’utiliser des capacités prioritaires contre le Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control"
+      ]
+    },
+    {
+      "name": "Corrosion",
+      "official": true,
+      "effect": "Permet d’empoisonner même certains Pokémon normalement immunisés.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "defense"
+      ]
+    },
+    {
+      "name": "Créa-Brume",
+      "official": true,
+      "effect": "Déclenche le Champ Brumeux à l’entrée en combat.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Créa-Élec",
+      "official": true,
+      "effect": "Déclenche le Champ Électrifié à l’entrée en combat.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Créa-Herbe",
+      "official": true,
+      "effect": "Déclenche le Champ Herbu à l’entrée en combat.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Créa-Psy",
+      "official": true,
+      "effect": "Déclenche le Champ Psychique à l’entrée en combat.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Cruauté",
+      "official": true,
+      "effect": "Les attaques contre une cible empoisonnée deviennent plus facilement critiques.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Danseuse",
+      "official": true,
+      "effect": "Reproduit certaines capacités de danse utilisées par d’autres Pokémon.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Endurance",
+      "official": true,
+      "effect": "Augmente la Défense après avoir subi une capacité offensive.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Escampette",
+      "official": true,
+      "effect": "Force le Pokémon à quitter le combat lorsque ses PV deviennent faibles.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "heal"
+      ]
+    },
+    {
+      "name": "Expert Acier",
+      "official": true,
+      "effect": "Renforce les capacités de type Acier.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Fantômasque",
+      "official": true,
+      "effect": "Absorbe une première attaque avant de changer de forme.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Longue Portée",
+      "official": true,
+      "effect": "Les capacités du Pokémon sont considérées comme ne faisant pas contact.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Mèche Rebelle",
+      "official": true,
+      "effect": "Baisse la Vitesse de l’attaquant après une capacité de contact.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control"
+      ]
+    },
+    {
+      "name": "Peau Électrique",
+      "official": true,
+      "effect": "Transforme les capacités Normal en capacités Électrik et les renforce.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Prestance Royale",
+      "official": true,
+      "effect": "Empêche les capacités prioritaires adverses.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control"
+      ]
+    },
+    {
+      "name": "Prioguérison",
+      "official": true,
+      "effect": "Donne une priorité accrue aux capacités de soin.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Prisme-Armure",
+      "official": true,
+      "effect": "Réduit les dégâts des capacités super efficaces.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "defense"
+      ]
+    },
+    {
+      "name": "Cérébro-Force",
+      "official": true,
+      "effect": "Renforce les capacités super efficaces.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ]
+    },
+    {
+      "name": "Gaz Inhibiteur",
+      "official": true,
+      "effect": "Annule les effets de nombreux talents des autres Pokémon tant que le détenteur est sur le terrain.",
+      "types": [],
+      "eligible_v1": true,
+      "tags": [
+        "control",
+        "utility"
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Abri",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "protect",
+        "utility"
+      ],
+      "effect": "Protège le lanceur de la plupart des capacités pendant le tour en cours."
+    },
+    {
+      "name": "Repos",
+      "official": true,
+      "type": "Psy",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "heal"
+      ],
+      "effect": "Restaure tous les PV et soigne les altérations de statut, puis endort le lanceur."
+    },
+    {
+      "name": "Plénitude",
+      "official": true,
+      "type": "Psy",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "boost",
+        "special"
+      ],
+      "effect": "Augmente l’Attaque Spéciale et la Défense Spéciale d’un niveau."
+    },
+    {
+      "name": "Danse-Lames",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "boost",
+        "physical"
+      ],
+      "effect": "Augmente fortement l’Attaque du lanceur."
+    },
+    {
+      "name": "Hâte",
+      "official": true,
+      "type": "Psy",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "boost",
+        "mobility"
+      ],
+      "effect": "Augmente fortement la Vitesse du lanceur."
+    },
+    {
+      "name": "Mur Lumière",
+      "official": true,
+      "type": "Psy",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "protect",
+        "support"
+      ],
+      "effect": "Réduit pendant plusieurs tours les dégâts des capacités spéciales subis par le camp du lanceur."
+    },
+    {
+      "name": "Protection",
+      "official": true,
+      "type": "Psy",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "protect",
+        "support"
+      ],
+      "effect": "Réduit pendant plusieurs tours les dégâts des capacités physiques subis par le camp du lanceur."
+    },
+    {
+      "name": "Toxik",
+      "official": true,
+      "type": "Poison",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "status",
+        "control"
+      ],
+      "effect": "Empoisonne gravement la cible ; les dégâts augmentent au fil des tours."
+    },
+    {
+      "name": "Feu Follet",
+      "official": true,
+      "type": "Feu",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 85,
+      "eligible_v1": true,
+      "tags": [
+        "status",
+        "control"
+      ],
+      "effect": "Brûle la cible."
+    },
+    {
+      "name": "Cage-Éclair",
+      "official": true,
+      "type": "Électrik",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "status",
+        "control"
+      ],
+      "effect": "Paralyse la cible."
+    },
+    {
+      "name": "Vampigraine",
+      "official": true,
+      "type": "Plante",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "heal",
+        "control"
+      ],
+      "effect": "Plante une graine qui draine des PV à la cible à chaque tour au profit du camp du lanceur."
+    },
+    {
+      "name": "Provoc",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "control"
+      ],
+      "effect": "Empêche temporairement la cible d’utiliser des capacités de statut."
+    },
+    {
+      "name": "Encore",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "control"
+      ],
+      "effect": "Force temporairement la cible à répéter sa dernière capacité."
+    },
+    {
+      "name": "Demi-Tour",
+      "official": true,
+      "type": "Insecte",
+      "category": "Physique",
+      "power": 70,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "mobility",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts puis permet au lanceur de quitter le combat au profit d’un allié."
+    },
+    {
+      "name": "Change Éclair",
+      "official": true,
+      "type": "Électrik",
+      "category": "Spéciale",
+      "power": 70,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "mobility",
+        "special"
+      ],
+      "effect": "Inflige des dégâts puis permet au lanceur de quitter le combat au profit d’un allié."
+    },
+    {
+      "name": "Close Combat",
+      "official": true,
+      "type": "Combat",
+      "category": "Physique",
+      "power": 120,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige de lourds dégâts puis baisse la Défense et la Défense Spéciale du lanceur."
+    },
+    {
+      "name": "Séisme",
+      "official": true,
+      "type": "Sol",
+      "category": "Physique",
+      "power": 100,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts de zone avec une forte puissance de base."
+    },
+    {
+      "name": "Lame de Roc",
+      "official": true,
+      "type": "Roche",
+      "category": "Physique",
+      "power": 100,
+      "accuracy": 80,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Possède un taux de coup critique accru."
+    },
+    {
+      "name": "Tête de Fer",
+      "official": true,
+      "type": "Acier",
+      "category": "Physique",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Peut apeurer la cible."
+    },
+    {
+      "name": "Mâchouille",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Physique",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Peut baisser la Défense de la cible."
+    },
+    {
+      "name": "Dracogriffe",
+      "official": true,
+      "type": "Dragon",
+      "category": "Physique",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts sans effet secondaire particulier."
+    },
+    {
+      "name": "Poison-Croix",
+      "official": true,
+      "type": "Poison",
+      "category": "Physique",
+      "power": 70,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Possède un taux de coup critique accru et peut empoisonner la cible."
+    },
+    {
+      "name": "Cascade",
+      "official": true,
+      "type": "Eau",
+      "category": "Physique",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Peut apeurer la cible."
+    },
+    {
+      "name": "Boutefeu",
+      "official": true,
+      "type": "Feu",
+      "category": "Physique",
+      "power": 120,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Peut brûler la cible et inflige des dégâts de recul au lanceur."
+    },
+    {
+      "name": "Lame-Feuille",
+      "official": true,
+      "type": "Plante",
+      "category": "Physique",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Possède un taux de coup critique accru."
+    },
+    {
+      "name": "Éclair Fou",
+      "official": true,
+      "type": "Électrik",
+      "category": "Physique",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts de recul au lanceur."
+    },
+    {
+      "name": "Psykoud'Boul",
+      "official": true,
+      "type": "Psy",
+      "category": "Physique",
+      "power": 80,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Peut apeurer la cible."
+    },
+    {
+      "name": "Plaie-Croix",
+      "official": true,
+      "type": "Insecte",
+      "category": "Physique",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts sans effet secondaire particulier."
+    },
+    {
+      "name": "Griffe Ombre",
+      "official": true,
+      "type": "Spectre",
+      "category": "Physique",
+      "power": 70,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Possède un taux de coup critique accru."
+    },
+    {
+      "name": "Câlinerie",
+      "official": true,
+      "type": "Fée",
+      "category": "Physique",
+      "power": 90,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Peut baisser l’Attaque de la cible."
+    },
+    {
+      "name": "Lame d'Air",
+      "official": true,
+      "type": "Vol",
+      "category": "Spéciale",
+      "power": 75,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Peut apeurer la cible."
+    },
+    {
+      "name": "Lance-Flammes",
+      "official": true,
+      "type": "Feu",
+      "category": "Spéciale",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Peut brûler la cible."
+    },
+    {
+      "name": "Surf",
+      "official": true,
+      "type": "Eau",
+      "category": "Spéciale",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts sans effet secondaire particulier."
+    },
+    {
+      "name": "Éco-Sphère",
+      "official": true,
+      "type": "Plante",
+      "category": "Spéciale",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Peut baisser la Défense Spéciale de la cible."
+    },
+    {
+      "name": "Tonnerre",
+      "official": true,
+      "type": "Électrik",
+      "category": "Spéciale",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Peut paralyser la cible."
+    },
+    {
+      "name": "Laser Glace",
+      "official": true,
+      "type": "Glace",
+      "category": "Spéciale",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Peut geler la cible."
+    },
+    {
+      "name": "Exploforce",
+      "official": true,
+      "type": "Combat",
+      "category": "Spéciale",
+      "power": 120,
+      "accuracy": 70,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Peut baisser la Défense Spéciale de la cible."
+    },
+    {
+      "name": "Cradovague",
+      "official": true,
+      "type": "Poison",
+      "category": "Spéciale",
+      "power": 95,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Peut empoisonner la cible."
+    },
+    {
+      "name": "Telluriforce",
+      "official": true,
+      "type": "Sol",
+      "category": "Spéciale",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Peut baisser la Défense Spéciale de la cible."
+    },
+    {
+      "name": "Vent Violent",
+      "official": true,
+      "type": "Vol",
+      "category": "Spéciale",
+      "power": 110,
+      "accuracy": 70,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Peut rendre la cible confuse."
+    },
+    {
+      "name": "Psyko",
+      "official": true,
+      "type": "Psy",
+      "category": "Spéciale",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Peut baisser la Défense Spéciale de la cible."
+    },
+    {
+      "name": "Bourdon",
+      "official": true,
+      "type": "Insecte",
+      "category": "Spéciale",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Peut baisser la Défense Spéciale de la cible."
+    },
+    {
+      "name": "Rayon Gemme",
+      "official": true,
+      "type": "Roche",
+      "category": "Spéciale",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts sans effet secondaire particulier."
+    },
+    {
+      "name": "Ball'Ombre",
+      "official": true,
+      "type": "Spectre",
+      "category": "Spéciale",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Peut baisser la Défense Spéciale de la cible."
+    },
+    {
+      "name": "Draco-Choc",
+      "official": true,
+      "type": "Dragon",
+      "category": "Spéciale",
+      "power": 85,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts sans effet secondaire particulier."
+    },
+    {
+      "name": "Vibrobscur",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Spéciale",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Peut apeurer la cible."
+    },
+    {
+      "name": "Luminocanon",
+      "official": true,
+      "type": "Acier",
+      "category": "Spéciale",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Peut baisser la Défense Spéciale de la cible."
+    },
+    {
+      "name": "Pouvoir Lunaire",
+      "official": true,
+      "type": "Fée",
+      "category": "Spéciale",
+      "power": 95,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Peut baisser l’Attaque Spéciale de la cible."
+    },
+    {
+      "name": "Plaquage",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": 85,
+      "accuracy": 100,
+      "effect": "Peut paralyser la cible.",
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ]
+    },
+    {
+      "name": "Mégaphone",
+      "official": true,
+      "type": "Normal",
+      "category": "Spéciale",
+      "power": 90,
+      "accuracy": 100,
+      "effect": "Capacité sonore qui inflige des dégâts sans effet secondaire particulier.",
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ]
+    },
+    {
+      "name": "Poing Glace",
+      "official": true,
+      "type": "Glace",
+      "category": "Physique",
+      "power": 75,
+      "accuracy": 100,
+      "effect": "Peut geler la cible.",
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ]
+    },
+    {
+      "name": "Rapace",
+      "official": true,
+      "type": "Vol",
+      "category": "Physique",
+      "power": 120,
+      "accuracy": 100,
+      "effect": "Inflige de lourds dégâts et des dégâts de recul au lanceur.",
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "risk"
+      ]
+    },
+    {
+      "name": "Vive-Attaque",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Frappe avec une priorité accrue."
+    },
+    {
+      "name": "Damoclès",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": 120,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "risk"
+      ],
+      "effect": "Inflige de lourds dégâts et du recul au lanceur."
+    },
+    {
+      "name": "Croc Fatal",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": null,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "heal",
+        "control"
+      ],
+      "effect": "Retire environ la moitié des PV actuels de la cible."
+    },
+    {
+      "name": "Ultralaser",
+      "official": true,
+      "type": "Normal",
+      "category": "Spéciale",
+      "power": 150,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Attaque très puissante qui impose généralement un tour de recharge."
+    },
+    {
+      "name": "Météores",
+      "official": true,
+      "type": "Normal",
+      "category": "Spéciale",
+      "power": 60,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "risk"
+      ],
+      "effect": "Attaque qui ne rate normalement pas."
+    },
+    {
+      "name": "Triplattaque",
+      "official": true,
+      "type": "Normal",
+      "category": "Spéciale",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "status"
+      ],
+      "effect": "Peut brûler, geler ou paralyser la cible."
+    },
+    {
+      "name": "Clonage",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "heal"
+      ],
+      "effect": "Sacrifie des PV pour créer un clone qui absorbe des attaques."
+    },
+    {
+      "name": "Bâillement",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "status"
+      ],
+      "effect": "Rend la cible somnolente ; elle s’endort au tour suivant si elle reste en jeu."
+    },
+    {
+      "name": "Relais",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Permet de changer de Pokémon en transmettant certains effets au remplaçant."
+    },
+    {
+      "name": "Bluff",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "control"
+      ],
+      "effect": "Prioritaire au premier tour en jeu et fait apeurer la cible."
+    },
+    {
+      "name": "Façade",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": 70,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "boost",
+        "status"
+      ],
+      "effect": "Double sa puissance si le lanceur est brûlé, paralysé ou empoisonné."
+    },
+    {
+      "name": "Tour Rapide",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": 50,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "mobility",
+        "boost",
+        "control"
+      ],
+      "effect": "Inflige des dégâts, retire plusieurs pièges du terrain et augmente la Vitesse."
+    },
+    {
+      "name": "Déflagration",
+      "official": true,
+      "type": "Feu",
+      "category": "Spéciale",
+      "power": 110,
+      "accuracy": 85,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "status"
+      ],
+      "effect": "Peut brûler la cible."
+    },
+    {
+      "name": "Surchauffe",
+      "official": true,
+      "type": "Feu",
+      "category": "Spéciale",
+      "power": 130,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "control"
+      ],
+      "effect": "Baisse fortement l’Attaque Spéciale du lanceur après utilisation."
+    },
+    {
+      "name": "Canicule",
+      "official": true,
+      "type": "Feu",
+      "category": "Spéciale",
+      "power": 95,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "status"
+      ],
+      "effect": "Peut brûler les cibles."
+    },
+    {
+      "name": "Nitrocharge",
+      "official": true,
+      "type": "Feu",
+      "category": "Physique",
+      "power": 50,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "mobility",
+        "boost"
+      ],
+      "effect": "Augmente la Vitesse du lanceur."
+    },
+    {
+      "name": "Poing Feu",
+      "official": true,
+      "type": "Feu",
+      "category": "Physique",
+      "power": 75,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "status"
+      ],
+      "effect": "Peut brûler la cible."
+    },
+    {
+      "name": "Crocs Feu",
+      "official": true,
+      "type": "Feu",
+      "category": "Physique",
+      "power": 65,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "status",
+        "control"
+      ],
+      "effect": "Peut brûler ou apeurer la cible."
+    },
+    {
+      "name": "Roue de Feu",
+      "official": true,
+      "type": "Feu",
+      "category": "Physique",
+      "power": 60,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "status"
+      ],
+      "effect": "Peut brûler la cible."
+    },
+    {
+      "name": "Danse du Feu",
+      "official": true,
+      "type": "Feu",
+      "category": "Spéciale",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "boost"
+      ],
+      "effect": "Peut augmenter l’Attaque Spéciale du lanceur."
+    },
+    {
+      "name": "Hydrocanon",
+      "official": true,
+      "type": "Eau",
+      "category": "Spéciale",
+      "power": 110,
+      "accuracy": 80,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige de lourds dégâts."
+    },
+    {
+      "name": "Ébullition",
+      "official": true,
+      "type": "Eau",
+      "category": "Spéciale",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "status"
+      ],
+      "effect": "Peut brûler la cible."
+    },
+    {
+      "name": "Aqua-Jet",
+      "official": true,
+      "type": "Eau",
+      "category": "Physique",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Frappe avec une priorité accrue."
+    },
+    {
+      "name": "Aqua-Brèche",
+      "official": true,
+      "type": "Eau",
+      "category": "Physique",
+      "power": 85,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "control"
+      ],
+      "effect": "Peut baisser la Défense de la cible."
+    },
+    {
+      "name": "Hydroqueue",
+      "official": true,
+      "type": "Eau",
+      "category": "Physique",
+      "power": 90,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts."
+    },
+    {
+      "name": "Anneau Hydro",
+      "official": true,
+      "type": "Eau",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "heal"
+      ],
+      "effect": "Restaure une petite quantité de PV à chaque tour."
+    },
+    {
+      "name": "Danse Pluie",
+      "official": true,
+      "type": "Eau",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Déclenche la pluie pendant plusieurs tours."
+    },
+    {
+      "name": "Tempête Verte",
+      "official": true,
+      "type": "Plante",
+      "category": "Spéciale",
+      "power": 130,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "control"
+      ],
+      "effect": "Baisse fortement l’Attaque Spéciale du lanceur."
+    },
+    {
+      "name": "Giga-Sangsue",
+      "official": true,
+      "type": "Plante",
+      "category": "Spéciale",
+      "power": 75,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "heal"
+      ],
+      "effect": "Restaure une partie des PV selon les dégâts infligés."
+    },
+    {
+      "name": "Mégafouet",
+      "official": true,
+      "type": "Plante",
+      "category": "Physique",
+      "power": 120,
+      "accuracy": 85,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige de lourds dégâts."
+    },
+    {
+      "name": "Canon Graine",
+      "official": true,
+      "type": "Plante",
+      "category": "Physique",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts."
+    },
+    {
+      "name": "Martobois",
+      "official": true,
+      "type": "Plante",
+      "category": "Physique",
+      "power": 120,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "risk"
+      ],
+      "effect": "Inflige de lourds dégâts et du recul."
+    },
+    {
+      "name": "Synthèse",
+      "official": true,
+      "type": "Plante",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "heal"
+      ],
+      "effect": "Restaure des PV ; l’efficacité dépend de la météo."
+    },
+    {
+      "name": "Spore",
+      "official": true,
+      "type": "Plante",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "status"
+      ],
+      "effect": "Endort la cible."
+    },
+    {
+      "name": "Fatal-Foudre",
+      "official": true,
+      "type": "Électrik",
+      "category": "Spéciale",
+      "power": 110,
+      "accuracy": 70,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "status"
+      ],
+      "effect": "Peut paralyser ; sa précision varie avec certaines météos."
+    },
+    {
+      "name": "Éclair",
+      "official": true,
+      "type": "Électrik",
+      "category": "Spéciale",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "status"
+      ],
+      "effect": "Peut paralyser la cible."
+    },
+    {
+      "name": "Coup d'Jus",
+      "official": true,
+      "type": "Électrik",
+      "category": "Spéciale",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "status"
+      ],
+      "effect": "Peut paralyser les cibles."
+    },
+    {
+      "name": "Électacle",
+      "official": true,
+      "type": "Électrik",
+      "category": "Physique",
+      "power": 120,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "status",
+        "risk"
+      ],
+      "effect": "Peut paralyser et inflige du recul."
+    },
+    {
+      "name": "Poing Éclair",
+      "official": true,
+      "type": "Électrik",
+      "category": "Physique",
+      "power": 75,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "status"
+      ],
+      "effect": "Peut paralyser la cible."
+    },
+    {
+      "name": "Crocs Éclair",
+      "official": true,
+      "type": "Électrik",
+      "category": "Physique",
+      "power": 65,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "status",
+        "control"
+      ],
+      "effect": "Peut paralyser ou apeurer la cible."
+    },
+    {
+      "name": "Toile Élek",
+      "official": true,
+      "type": "Électrik",
+      "category": "Spéciale",
+      "power": 55,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "mobility",
+        "control"
+      ],
+      "effect": "Baisse la Vitesse de la cible."
+    },
+    {
+      "name": "Champ Électrifié",
+      "official": true,
+      "type": "Électrik",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control"
+      ],
+      "effect": "Crée un champ qui renforce notamment les capacités Électrik."
+    },
+    {
+      "name": "Blizzard",
+      "official": true,
+      "type": "Glace",
+      "category": "Spéciale",
+      "power": 110,
+      "accuracy": 70,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "status"
+      ],
+      "effect": "Peut geler la cible."
+    },
+    {
+      "name": "Lyophilisation",
+      "official": true,
+      "type": "Glace",
+      "category": "Spéciale",
+      "power": 70,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "status"
+      ],
+      "effect": "Peut geler et est super efficace sur le type Eau."
+    },
+    {
+      "name": "Vent Glace",
+      "official": true,
+      "type": "Glace",
+      "category": "Spéciale",
+      "power": 55,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "mobility",
+        "control"
+      ],
+      "effect": "Baisse la Vitesse de la cible."
+    },
+    {
+      "name": "Éclats Glace",
+      "official": true,
+      "type": "Glace",
+      "category": "Physique",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Frappe avec une priorité accrue."
+    },
+    {
+      "name": "Stalactite",
+      "official": true,
+      "type": "Glace",
+      "category": "Physique",
+      "power": 25,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Frappe de deux à cinq fois."
+    },
+    {
+      "name": "Avalanche",
+      "official": true,
+      "type": "Glace",
+      "category": "Physique",
+      "power": 60,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "boost"
+      ],
+      "effect": "Sa puissance augmente si le lanceur a déjà subi des dégâts ce tour."
+    },
+    {
+      "name": "Crocs Givre",
+      "official": true,
+      "type": "Glace",
+      "category": "Physique",
+      "power": 65,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "status",
+        "control"
+      ],
+      "effect": "Peut geler ou apeurer la cible."
+    },
+    {
+      "name": "Grêle",
+      "official": true,
+      "type": "Glace",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Déclenche une météo glaciale dans les jeux où cette capacité est disponible."
+    },
+    {
+      "name": "Mach Punch",
+      "official": true,
+      "type": "Combat",
+      "category": "Physique",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Frappe avec une priorité accrue."
+    },
+    {
+      "name": "Vampi-Poing",
+      "official": true,
+      "type": "Combat",
+      "category": "Physique",
+      "power": 75,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "heal"
+      ],
+      "effect": "Restaure une partie des PV selon les dégâts infligés."
+    },
+    {
+      "name": "Pied Voltige",
+      "official": true,
+      "type": "Combat",
+      "category": "Physique",
+      "power": 130,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "risk"
+      ],
+      "effect": "Le lanceur subit de lourds dégâts s’il rate."
+    },
+    {
+      "name": "Surpuissance",
+      "official": true,
+      "type": "Combat",
+      "category": "Physique",
+      "power": 120,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "control"
+      ],
+      "effect": "Baisse l’Attaque et la Défense du lanceur."
+    },
+    {
+      "name": "Aurasphère",
+      "official": true,
+      "type": "Combat",
+      "category": "Spéciale",
+      "power": 80,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "risk"
+      ],
+      "effect": "Attaque spéciale qui ne rate normalement pas."
+    },
+    {
+      "name": "Gonflette",
+      "official": true,
+      "type": "Combat",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ],
+      "effect": "Augmente l’Attaque et la Défense du lanceur."
+    },
+    {
+      "name": "Détection",
+      "official": true,
+      "type": "Combat",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Protège le lanceur de la plupart des capacités pendant le tour."
+    },
+    {
+      "name": "Bomb-Beurk",
+      "official": true,
+      "type": "Poison",
+      "category": "Spéciale",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "status"
+      ],
+      "effect": "Peut empoisonner la cible."
+    },
+    {
+      "name": "Détricanon",
+      "official": true,
+      "type": "Poison",
+      "category": "Physique",
+      "power": 120,
+      "accuracy": 80,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "status"
+      ],
+      "effect": "Peut empoisonner la cible."
+    },
+    {
+      "name": "Direct Toxik",
+      "official": true,
+      "type": "Poison",
+      "category": "Physique",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "status"
+      ],
+      "effect": "Peut empoisonner la cible."
+    },
+    {
+      "name": "Pics Toxik",
+      "official": true,
+      "type": "Poison",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "status",
+        "control"
+      ],
+      "effect": "Pose un piège qui peut empoisonner les adversaires entrant sur le terrain."
+    },
+    {
+      "name": "Acidarmure",
+      "official": true,
+      "type": "Poison",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ],
+      "effect": "Augmente fortement la Défense du lanceur."
+    },
+    {
+      "name": "Bombe Acide",
+      "official": true,
+      "type": "Poison",
+      "category": "Spéciale",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "control"
+      ],
+      "effect": "Baisse fortement la Défense Spéciale de la cible."
+    },
+    {
+      "name": "Choc Venin",
+      "official": true,
+      "type": "Poison",
+      "category": "Spéciale",
+      "power": 65,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "boost",
+        "status"
+      ],
+      "effect": "Double sa puissance contre une cible empoisonnée."
+    },
+    {
+      "name": "Purédpois",
+      "official": true,
+      "type": "Poison",
+      "category": "Spéciale",
+      "power": 30,
+      "accuracy": 70,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "status"
+      ],
+      "effect": "Peut empoisonner la cible."
+    },
+    {
+      "name": "Piétisol",
+      "official": true,
+      "type": "Sol",
+      "category": "Physique",
+      "power": 60,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "mobility",
+        "control"
+      ],
+      "effect": "Baisse la Vitesse des cibles touchées."
+    },
+    {
+      "name": "Tunnel",
+      "official": true,
+      "type": "Sol",
+      "category": "Physique",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Le lanceur se cache un tour puis attaque."
+    },
+    {
+      "name": "Trépignement",
+      "official": true,
+      "type": "Sol",
+      "category": "Physique",
+      "power": 75,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "boost"
+      ],
+      "effect": "Sa puissance augmente si la capacité précédente du lanceur a échoué."
+    },
+    {
+      "name": "Tourbi-Sable",
+      "official": true,
+      "type": "Sol",
+      "category": "Spéciale",
+      "power": 35,
+      "accuracy": 85,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "control"
+      ],
+      "effect": "Piège la cible pendant plusieurs tours."
+    },
+    {
+      "name": "Picots",
+      "official": true,
+      "type": "Sol",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control"
+      ],
+      "effect": "Pose des pièges qui blessent les adversaires entrant sur le terrain."
+    },
+    {
+      "name": "Ampleur",
+      "official": true,
+      "type": "Sol",
+      "category": "Physique",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "La puissance varie aléatoirement."
+    },
+    {
+      "name": "Abîme",
+      "official": true,
+      "type": "Sol",
+      "category": "Physique",
+      "power": null,
+      "accuracy": 30,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Peut mettre K.O. en un coup selon les règles applicables."
+    },
+    {
+      "name": "Aéropique",
+      "official": true,
+      "type": "Vol",
+      "category": "Physique",
+      "power": 60,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "risk"
+      ],
+      "effect": "Attaque qui ne rate normalement pas."
+    },
+    {
+      "name": "Acrobatie",
+      "official": true,
+      "type": "Vol",
+      "category": "Physique",
+      "power": 55,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "boost"
+      ],
+      "effect": "Double sa puissance si le lanceur ne tient pas d’objet."
+    },
+    {
+      "name": "Bec Vrille",
+      "official": true,
+      "type": "Vol",
+      "category": "Physique",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts."
+    },
+    {
+      "name": "Cru-Ailes",
+      "official": true,
+      "type": "Vol",
+      "category": "Physique",
+      "power": 60,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts."
+    },
+    {
+      "name": "Vent Arrière",
+      "official": true,
+      "type": "Vol",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "mobility",
+        "boost"
+      ],
+      "effect": "Double temporairement la Vitesse du camp du lanceur."
+    },
+    {
+      "name": "Atterrissage",
+      "official": true,
+      "type": "Vol",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "heal"
+      ],
+      "effect": "Restaure la moitié des PV max du lanceur."
+    },
+    {
+      "name": "Anti-Brume",
+      "official": true,
+      "type": "Vol",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control"
+      ],
+      "effect": "Retire notamment plusieurs pièges et écrans du terrain."
+    },
+    {
+      "name": "Piqué",
+      "official": true,
+      "type": "Vol",
+      "category": "Physique",
+      "power": 140,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Se charge un tour puis frappe avec un taux critique accru."
+    },
+    {
+      "name": "Choc Psy",
+      "official": true,
+      "type": "Psy",
+      "category": "Spéciale",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Utilise l’Attaque Spéciale du lanceur mais frappe la Défense de la cible."
+    },
+    {
+      "name": "Force Ajoutée",
+      "official": true,
+      "type": "Psy",
+      "category": "Spéciale",
+      "power": 20,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "boost"
+      ],
+      "effect": "Sa puissance augmente avec les hausses de statistiques du lanceur."
+    },
+    {
+      "name": "Tourmagik",
+      "official": true,
+      "type": "Psy",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Échange les objets tenus du lanceur et de la cible."
+    },
+    {
+      "name": "Distorsion",
+      "official": true,
+      "type": "Psy",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "mobility"
+      ],
+      "effect": "Inverse temporairement l’ordre de Vitesse habituel."
+    },
+    {
+      "name": "Prescience",
+      "official": true,
+      "type": "Psy",
+      "category": "Spéciale",
+      "power": 120,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige les dégâts plusieurs tours après son utilisation."
+    },
+    {
+      "name": "Mégacorne",
+      "official": true,
+      "type": "Insecte",
+      "category": "Physique",
+      "power": 120,
+      "accuracy": 85,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige de lourds dégâts."
+    },
+    {
+      "name": "Dard-Nuée",
+      "official": true,
+      "type": "Insecte",
+      "category": "Physique",
+      "power": 25,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Frappe de deux à cinq fois."
+    },
+    {
+      "name": "Piqûre",
+      "official": true,
+      "type": "Insecte",
+      "category": "Physique",
+      "power": 60,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Peut consommer la Baie tenue par la cible et appliquer son effet."
+    },
+    {
+      "name": "Survinsecte",
+      "official": true,
+      "type": "Insecte",
+      "category": "Spéciale",
+      "power": 50,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "control"
+      ],
+      "effect": "Baisse l’Attaque Spéciale de la cible."
+    },
+    {
+      "name": "Toile Gluante",
+      "official": true,
+      "type": "Insecte",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "mobility",
+        "control"
+      ],
+      "effect": "Pose un piège qui baisse la Vitesse des adversaires entrant au sol."
+    },
+    {
+      "name": "Papillodanse",
+      "official": true,
+      "type": "Insecte",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "mobility",
+        "boost"
+      ],
+      "effect": "Augmente l’Attaque Spéciale, la Défense Spéciale et la Vitesse."
+    },
+    {
+      "name": "Poudre Dodo",
+      "official": true,
+      "type": "Plante",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 75,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "status"
+      ],
+      "effect": "Endort la cible."
+    },
+    {
+      "name": "Éboulement",
+      "official": true,
+      "type": "Roche",
+      "category": "Physique",
+      "power": 75,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "control"
+      ],
+      "effect": "Peut apeurer la cible."
+    },
+    {
+      "name": "Tomberoche",
+      "official": true,
+      "type": "Roche",
+      "category": "Physique",
+      "power": 60,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "mobility",
+        "control"
+      ],
+      "effect": "Baisse la Vitesse de la cible."
+    },
+    {
+      "name": "Boule Roc",
+      "official": true,
+      "type": "Roche",
+      "category": "Physique",
+      "power": 25,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Frappe de deux à cinq fois."
+    },
+    {
+      "name": "Pouvoir Antique",
+      "official": true,
+      "type": "Roche",
+      "category": "Spéciale",
+      "power": 60,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "boost"
+      ],
+      "effect": "Peut augmenter toutes les statistiques principales du lanceur."
+    },
+    {
+      "name": "Piège de Roc",
+      "official": true,
+      "type": "Roche",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Pose des rochers qui blessent les adversaires à leur entrée."
+    },
+    {
+      "name": "Poliroche",
+      "official": true,
+      "type": "Roche",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "mobility",
+        "boost"
+      ],
+      "effect": "Augmente fortement la Vitesse du lanceur."
+    },
+    {
+      "name": "Fracass'Tête",
+      "official": true,
+      "type": "Roche",
+      "category": "Physique",
+      "power": 150,
+      "accuracy": 80,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "risk"
+      ],
+      "effect": "Inflige d’énormes dégâts et un important recul."
+    },
+    {
+      "name": "Ombre Portée",
+      "official": true,
+      "type": "Spectre",
+      "category": "Physique",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Frappe avec une priorité accrue."
+    },
+    {
+      "name": "Poing Ombre",
+      "official": true,
+      "type": "Spectre",
+      "category": "Physique",
+      "power": 60,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "risk"
+      ],
+      "effect": "Attaque qui ne rate normalement pas."
+    },
+    {
+      "name": "Hantise",
+      "official": true,
+      "type": "Spectre",
+      "category": "Physique",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Le lanceur disparaît un tour puis frappe en traversant certaines protections."
+    },
+    {
+      "name": "Châtiment",
+      "official": true,
+      "type": "Spectre",
+      "category": "Spéciale",
+      "power": 65,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "boost",
+        "status"
+      ],
+      "effect": "Double sa puissance si la cible souffre d’une altération de statut."
+    },
+    {
+      "name": "Onde Folie",
+      "official": true,
+      "type": "Spectre",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "status"
+      ],
+      "effect": "Rend la cible confuse."
+    },
+    {
+      "name": "Malédiction",
+      "official": true,
+      "type": "Spectre",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Produit un effet différent selon que le lanceur est de type Spectre ou non."
+    },
+    {
+      "name": "Dépit",
+      "official": true,
+      "type": "Spectre",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Réduit les PP de la dernière capacité utilisée par la cible."
+    },
+    {
+      "name": "Feu d'Enfer",
+      "official": true,
+      "type": "Feu",
+      "category": "Spéciale",
+      "power": 100,
+      "accuracy": 50,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "status"
+      ],
+      "effect": "Peut brûler la cible."
+    },
+    {
+      "name": "Colère",
+      "official": true,
+      "type": "Dragon",
+      "category": "Physique",
+      "power": 120,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "status",
+        "control"
+      ],
+      "effect": "Force le lanceur à attaquer plusieurs tours puis le rend confus."
+    },
+    {
+      "name": "Draco-Météore",
+      "official": true,
+      "type": "Dragon",
+      "category": "Spéciale",
+      "power": 130,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "control"
+      ],
+      "effect": "Baisse fortement l’Attaque Spéciale du lanceur."
+    },
+    {
+      "name": "Dracochoc",
+      "official": true,
+      "type": "Dragon",
+      "category": "Spéciale",
+      "power": 85,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts."
+    },
+    {
+      "name": "Draco-Queue",
+      "official": true,
+      "type": "Dragon",
+      "category": "Physique",
+      "power": 60,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "control"
+      ],
+      "effect": "Force généralement la cible à être remplacée."
+    },
+    {
+      "name": "Danse Draco",
+      "official": true,
+      "type": "Dragon",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "mobility",
+        "boost"
+      ],
+      "effect": "Augmente l’Attaque et la Vitesse du lanceur."
+    },
+    {
+      "name": "Double Baffe",
+      "official": true,
+      "type": "Dragon",
+      "category": "Physique",
+      "power": 40,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Frappe deux fois."
+    },
+    {
+      "name": "Draco-Souffle",
+      "official": true,
+      "type": "Dragon",
+      "category": "Spéciale",
+      "power": 60,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "status"
+      ],
+      "effect": "Peut paralyser la cible."
+    },
+    {
+      "name": "Dracocharge",
+      "official": true,
+      "type": "Dragon",
+      "category": "Physique",
+      "power": 100,
+      "accuracy": 75,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "control"
+      ],
+      "effect": "Peut apeurer la cible."
+    },
+    {
+      "name": "Sabotage",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Physique",
+      "power": 65,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "control"
+      ],
+      "effect": "Retire généralement l’objet tenu par la cible et peut gagner en puissance."
+    },
+    {
+      "name": "Coup Bas",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Physique",
+      "power": 70,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Prioritaire si la cible prépare une capacité offensive."
+    },
+    {
+      "name": "Tricherie",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Physique",
+      "power": 95,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Utilise la statistique d’Attaque de la cible pour calculer les dégâts."
+    },
+    {
+      "name": "Aboiement",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Spéciale",
+      "power": 55,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "control"
+      ],
+      "effect": "Baisse l’Attaque Spéciale de la cible."
+    },
+    {
+      "name": "Machination",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ],
+      "effect": "Augmente fortement l’Attaque Spéciale du lanceur."
+    },
+    {
+      "name": "Tourmente",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control"
+      ],
+      "effect": "Empêche la cible d’utiliser deux fois de suite la même capacité."
+    },
+    {
+      "name": "À la Queue",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control"
+      ],
+      "effect": "Force la cible à agir en dernier pendant le tour."
+    },
+    {
+      "name": "Pisto-Poing",
+      "official": true,
+      "type": "Acier",
+      "category": "Physique",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Frappe avec une priorité accrue."
+    },
+    {
+      "name": "Gyroballe",
+      "official": true,
+      "type": "Acier",
+      "category": "Physique",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Plus le lanceur est lent que la cible, plus la capacité est puissante."
+    },
+    {
+      "name": "Tacle Lourd",
+      "official": true,
+      "type": "Acier",
+      "category": "Physique",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Sa puissance dépend du rapport de poids entre lanceur et cible."
+    },
+    {
+      "name": "Aile d'Acier",
+      "official": true,
+      "type": "Acier",
+      "category": "Physique",
+      "power": 70,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "boost"
+      ],
+      "effect": "Peut augmenter la Défense du lanceur."
+    },
+    {
+      "name": "Fulmifer",
+      "official": true,
+      "type": "Acier",
+      "category": "Physique",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "control"
+      ],
+      "effect": "Renvoie avec force les dégâts physiques récemment subis selon ses règles."
+    },
+    {
+      "name": "Mur de Fer",
+      "official": true,
+      "type": "Acier",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost"
+      ],
+      "effect": "Augmente fortement la Défense du lanceur."
+    },
+    {
+      "name": "Allègement",
+      "official": true,
+      "type": "Acier",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "mobility",
+        "boost"
+      ],
+      "effect": "Réduit le poids du lanceur et augmente fortement sa Vitesse."
+    },
+    {
+      "name": "Métalaser",
+      "official": true,
+      "type": "Acier",
+      "category": "Spéciale",
+      "power": 140,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "heal",
+        "risk"
+      ],
+      "effect": "Inflige de lourds dégâts mais coûte une grande quantité de PV au lanceur."
+    },
+    {
+      "name": "Éclat Magique",
+      "official": true,
+      "type": "Fée",
+      "category": "Spéciale",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts aux adversaires à proximité."
+    },
+    {
+      "name": "Vent Féérique",
+      "official": true,
+      "type": "Fée",
+      "category": "Spéciale",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts."
+    },
+    {
+      "name": "Vampibaiser",
+      "official": true,
+      "type": "Fée",
+      "category": "Spéciale",
+      "power": 50,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "heal"
+      ],
+      "effect": "Restaure une grande partie des PV selon les dégâts infligés."
+    },
+    {
+      "name": "Charme",
+      "official": true,
+      "type": "Fée",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control"
+      ],
+      "effect": "Baisse fortement l’Attaque de la cible."
+    },
+    {
+      "name": "Champ Brumeux",
+      "official": true,
+      "type": "Fée",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "status"
+      ],
+      "effect": "Crée un champ qui protège notamment les Pokémon au sol de plusieurs statuts."
+    },
+    {
+      "name": "Vœu",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "heal"
+      ],
+      "effect": "Restaure des PV au tour suivant au Pokémon occupant la position du lanceur."
+    },
+    {
+      "name": "Aromathérapie",
+      "official": true,
+      "type": "Plante",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "status"
+      ],
+      "effect": "Soigne les altérations de statut du camp dans les jeux où elle est disponible."
+    },
+    {
+      "name": "Lance-Soleil",
+      "official": true,
+      "type": "Plante",
+      "category": "Spéciale",
+      "power": 120,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Se charge normalement un tour avant de frapper ; le soleil peut supprimer la charge."
+    },
+    {
+      "name": "Nœud Herbe",
+      "official": true,
+      "type": "Plante",
+      "category": "Spéciale",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "boost"
+      ],
+      "effect": "Sa puissance augmente avec le poids de la cible."
+    },
+    {
+      "name": "Fouet Lianes",
+      "official": true,
+      "type": "Plante",
+      "category": "Physique",
+      "power": 45,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts."
+    },
+    {
+      "name": "Tranch'Herbe",
+      "official": true,
+      "type": "Plante",
+      "category": "Physique",
+      "power": 55,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Possède un taux de coup critique accru."
+    },
+    {
+      "name": "Chargeur",
+      "official": true,
+      "type": "Électrik",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "boost",
+        "control"
+      ],
+      "effect": "Augmente la Défense Spéciale et renforce la prochaine capacité Électrik du lanceur."
+    },
+    {
+      "name": "Rayon Chargé",
+      "official": true,
+      "type": "Électrik",
+      "category": "Spéciale",
+      "power": 50,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "boost"
+      ],
+      "effect": "Peut augmenter l’Attaque Spéciale du lanceur."
+    },
+    {
+      "name": "Poing Karaté",
+      "official": true,
+      "type": "Combat",
+      "category": "Physique",
+      "power": 50,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Possède un taux de coup critique accru."
+    },
+    {
+      "name": "Balayette",
+      "official": true,
+      "type": "Combat",
+      "category": "Physique",
+      "power": 65,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "mobility",
+        "control"
+      ],
+      "effect": "Baisse la Vitesse de la cible."
+    },
+    {
+      "name": "Casse-Brique",
+      "official": true,
+      "type": "Combat",
+      "category": "Physique",
+      "power": 75,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Détruit certains écrans protecteurs avant d’infliger les dégâts."
+    },
+    {
+      "name": "Onde Vide",
+      "official": true,
+      "type": "Combat",
+      "category": "Spéciale",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Frappe avec une priorité accrue."
+    },
+    {
+      "name": "Psycho-Croc",
+      "official": true,
+      "type": "Psy",
+      "category": "Physique",
+      "power": 85,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Détruit certains écrans protecteurs avant d’infliger les dégâts."
+    },
+    {
+      "name": "Rafale Psy",
+      "official": true,
+      "type": "Psy",
+      "category": "Spéciale",
+      "power": 65,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "status"
+      ],
+      "effect": "Peut rendre la cible confuse."
+    },
+    {
+      "name": "Extrasenseur",
+      "official": true,
+      "type": "Psy",
+      "category": "Spéciale",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "control"
+      ],
+      "effect": "Peut apeurer la cible."
+    },
+    {
+      "name": "Aile d'Air",
+      "official": true,
+      "type": "Vol",
+      "category": "Spéciale",
+      "power": 60,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "status"
+      ],
+      "effect": "Peut rendre la cible confuse."
+    },
+    {
+      "name": "Cyclone",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control"
+      ],
+      "effect": "Force généralement la cible à être remplacée."
+    },
+    {
+      "name": "Hurlement",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility",
+        "control"
+      ],
+      "effect": "Force généralement la cible à être remplacée."
+    },
+    {
+      "name": "Miroi-Tir",
+      "official": true,
+      "type": "Acier",
+      "category": "Spéciale",
+      "power": 65,
+      "accuracy": 85,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special",
+        "control"
+      ],
+      "effect": "Peut baisser la Précision de la cible."
+    },
+    {
+      "name": "Griffe Acier",
+      "official": true,
+      "type": "Acier",
+      "category": "Physique",
+      "power": 50,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "boost"
+      ],
+      "effect": "Peut augmenter l’Attaque du lanceur."
+    },
+    {
+      "name": "Étonnement",
+      "official": true,
+      "type": "Spectre",
+      "category": "Physique",
+      "power": 30,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical",
+        "control"
+      ],
+      "effect": "Peut apeurer la cible."
+    },
+    {
+      "name": "Charge",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Écrasement",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": 65,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Coup d'Boule",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": 70,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Mimi-Queue",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Rugissement",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Groz'Yeux",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Puissance",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Amnésie",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Brouhaha",
+      "official": true,
+      "type": "Normal",
+      "category": "Spéciale",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Bélier",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": 90,
+      "accuracy": 85,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Vitesse Extrême",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Retour",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Frustration",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Copie",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Métronome",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Rune Protect",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Vantardise",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 85,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Ténacité",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Gribouille",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Lilliput",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Entrave",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Flammèche",
+      "official": true,
+      "type": "Feu",
+      "category": "Spéciale",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Danse Flammes",
+      "official": true,
+      "type": "Feu",
+      "category": "Spéciale",
+      "power": 35,
+      "accuracy": 85,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Feu Sacré",
+      "official": true,
+      "type": "Feu",
+      "category": "Physique",
+      "power": 100,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Éruption",
+      "official": true,
+      "type": "Feu",
+      "category": "Spéciale",
+      "power": 150,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Flamme Bleue",
+      "official": true,
+      "type": "Feu",
+      "category": "Spéciale",
+      "power": 130,
+      "accuracy": 85,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Flamme Croix",
+      "official": true,
+      "type": "Feu",
+      "category": "Spéciale",
+      "power": 100,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Incendie",
+      "official": true,
+      "type": "Feu",
+      "category": "Spéciale",
+      "power": 100,
+      "accuracy": 50,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Tacle Feu",
+      "official": true,
+      "type": "Feu",
+      "category": "Physique",
+      "power": 120,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Pistolet à O",
+      "official": true,
+      "type": "Eau",
+      "category": "Spéciale",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Bulles d'O",
+      "official": true,
+      "type": "Eau",
+      "category": "Spéciale",
+      "power": 65,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Siphon",
+      "official": true,
+      "type": "Eau",
+      "category": "Spéciale",
+      "power": 35,
+      "accuracy": 85,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Plongée",
+      "official": true,
+      "type": "Eau",
+      "category": "Physique",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Ocroupi",
+      "official": true,
+      "type": "Eau",
+      "category": "Spéciale",
+      "power": 65,
+      "accuracy": 85,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Octazooka",
+      "official": true,
+      "type": "Eau",
+      "category": "Spéciale",
+      "power": 65,
+      "accuracy": 85,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Saumure",
+      "official": true,
+      "type": "Eau",
+      "category": "Spéciale",
+      "power": 65,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Vibraqua",
+      "official": true,
+      "type": "Eau",
+      "category": "Spéciale",
+      "power": 60,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Détrempage",
+      "official": true,
+      "type": "Eau",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Aqua-Anneau",
+      "official": true,
+      "type": "Eau",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Eau Revoir",
+      "official": true,
+      "type": "Eau",
+      "category": "Physique",
+      "power": 60,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Méga-Sangsue",
+      "official": true,
+      "type": "Plante",
+      "category": "Spéciale",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Para-Spore",
+      "official": true,
+      "type": "Plante",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 75,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Poudre Toxik",
+      "official": true,
+      "type": "Plante",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 75,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Cotogarde",
+      "official": true,
+      "type": "Plante",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Encornebois",
+      "official": true,
+      "type": "Plante",
+      "category": "Physique",
+      "power": 75,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Phytomixeur",
+      "official": true,
+      "type": "Plante",
+      "category": "Spéciale",
+      "power": 65,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Champ Herbu",
+      "official": true,
+      "type": "Plante",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Étincelle",
+      "official": true,
+      "type": "Électrik",
+      "category": "Physique",
+      "power": 65,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Éclair Croix",
+      "official": true,
+      "type": "Électrik",
+      "category": "Physique",
+      "power": 100,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Parabocharge",
+      "official": true,
+      "type": "Électrik",
+      "category": "Spéciale",
+      "power": 65,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Monte-Tension",
+      "official": true,
+      "type": "Électrik",
+      "category": "Spéciale",
+      "power": 70,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Électrikipik",
+      "official": true,
+      "type": "Électrik",
+      "category": "Physique",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Prise de Bec",
+      "official": true,
+      "type": "Électrik",
+      "category": "Physique",
+      "power": 85,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Frotte-Frimousse",
+      "official": true,
+      "type": "Électrik",
+      "category": "Physique",
+      "power": 20,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Poudreuse",
+      "official": true,
+      "type": "Glace",
+      "category": "Spéciale",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Souffle Glacé",
+      "official": true,
+      "type": "Glace",
+      "category": "Spéciale",
+      "power": 60,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Ball'Glace",
+      "official": true,
+      "type": "Glace",
+      "category": "Physique",
+      "power": 30,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Ère Glaciaire",
+      "official": true,
+      "type": "Glace",
+      "category": "Spéciale",
+      "power": 65,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Chute de Glace",
+      "official": true,
+      "type": "Glace",
+      "category": "Physique",
+      "power": 85,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Triple Axel",
+      "official": true,
+      "type": "Glace",
+      "category": "Physique",
+      "power": 20,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Laser Météore",
+      "official": true,
+      "type": "Glace",
+      "category": "Spéciale",
+      "power": 120,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Voile Aurore",
+      "official": true,
+      "type": "Glace",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Buée Noire",
+      "official": true,
+      "type": "Glace",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Brume",
+      "official": true,
+      "type": "Glace",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Neigeux de Mots",
+      "official": true,
+      "type": "Glace",
+      "category": "Spéciale",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Balayage",
+      "official": true,
+      "type": "Combat",
+      "category": "Physique",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Lame Sainte",
+      "official": true,
+      "type": "Combat",
+      "category": "Physique",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Projection",
+      "official": true,
+      "type": "Combat",
+      "category": "Physique",
+      "power": 60,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Forte-Paume",
+      "official": true,
+      "type": "Combat",
+      "category": "Physique",
+      "power": 60,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Poing Boost",
+      "official": true,
+      "type": "Combat",
+      "category": "Physique",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Acide",
+      "official": true,
+      "type": "Poison",
+      "category": "Spéciale",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Dard-Venin",
+      "official": true,
+      "type": "Poison",
+      "category": "Physique",
+      "power": 15,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Détritus",
+      "official": true,
+      "type": "Poison",
+      "category": "Physique",
+      "power": 65,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Acide Malique",
+      "official": true,
+      "type": "Poison",
+      "category": "Spéciale",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Bombe Beurk",
+      "official": true,
+      "type": "Poison",
+      "category": "Spéciale",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Gaz Toxik",
+      "official": true,
+      "type": "Poison",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Éructation",
+      "official": true,
+      "type": "Poison",
+      "category": "Spéciale",
+      "power": 120,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Coud'Boue",
+      "official": true,
+      "type": "Sol",
+      "category": "Spéciale",
+      "power": 20,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Osmerang",
+      "official": true,
+      "type": "Sol",
+      "category": "Physique",
+      "power": 50,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Massd'Os",
+      "official": true,
+      "type": "Sol",
+      "category": "Physique",
+      "power": 65,
+      "accuracy": 85,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Tunnelier",
+      "official": true,
+      "type": "Sol",
+      "category": "Physique",
+      "power": 80,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Cavalerie Lourde",
+      "official": true,
+      "type": "Sol",
+      "category": "Physique",
+      "power": 95,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Sable Ardent",
+      "official": true,
+      "type": "Sol",
+      "category": "Spéciale",
+      "power": 70,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Champlification",
+      "official": true,
+      "type": "Sol",
+      "category": "Spéciale",
+      "power": 50,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Force Tellurique",
+      "official": true,
+      "type": "Sol",
+      "category": "Physique",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Lame Pangéenne",
+      "official": true,
+      "type": "Sol",
+      "category": "Physique",
+      "power": 120,
+      "accuracy": 85,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Tornade",
+      "official": true,
+      "type": "Vol",
+      "category": "Spéciale",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Tranch'Air",
+      "official": true,
+      "type": "Vol",
+      "category": "Spéciale",
+      "power": 75,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Ouragan",
+      "official": true,
+      "type": "Vol",
+      "category": "Spéciale",
+      "power": 110,
+      "accuracy": 70,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Rebond",
+      "official": true,
+      "type": "Vol",
+      "category": "Physique",
+      "power": 85,
+      "accuracy": 85,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Vol",
+      "official": true,
+      "type": "Vol",
+      "category": "Physique",
+      "power": 90,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Pico-Défense",
+      "official": true,
+      "type": "Vol",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Double Volée",
+      "official": true,
+      "type": "Vol",
+      "category": "Physique",
+      "power": 40,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Mort'Ailes",
+      "official": true,
+      "type": "Vol",
+      "category": "Spéciale",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Choc Mental",
+      "official": true,
+      "type": "Psy",
+      "category": "Spéciale",
+      "power": 50,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Frappe Psy",
+      "official": true,
+      "type": "Psy",
+      "category": "Spéciale",
+      "power": 100,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Lévikinésie",
+      "official": true,
+      "type": "Psy",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Partage Force",
+      "official": true,
+      "type": "Psy",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Partage Garde",
+      "official": true,
+      "type": "Psy",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Rayon Simple",
+      "official": true,
+      "type": "Psy",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Synchropeine",
+      "official": true,
+      "type": "Psy",
+      "category": "Spéciale",
+      "power": 120,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Champ Psychique",
+      "official": true,
+      "type": "Psy",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Taillade",
+      "official": true,
+      "type": "Insecte",
+      "category": "Physique",
+      "power": 40,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Double-Dard",
+      "official": true,
+      "type": "Insecte",
+      "category": "Physique",
+      "power": 25,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Vent Argenté",
+      "official": true,
+      "type": "Insecte",
+      "category": "Spéciale",
+      "power": 60,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Poudre Fureur",
+      "official": true,
+      "type": "Insecte",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Aire d'Insecte",
+      "official": true,
+      "type": "Insecte",
+      "category": "Spéciale",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Escarmouche",
+      "official": true,
+      "type": "Insecte",
+      "category": "Physique",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Furie-Bond",
+      "official": true,
+      "type": "Insecte",
+      "category": "Physique",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Jet-Pierres",
+      "official": true,
+      "type": "Roche",
+      "category": "Physique",
+      "power": 50,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Tempête de Sable",
+      "official": true,
+      "type": "Roche",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Roulade",
+      "official": true,
+      "type": "Roche",
+      "category": "Physique",
+      "power": 30,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Éclate-Roc",
+      "official": true,
+      "type": "Roche",
+      "category": "Physique",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Orage Adamantin",
+      "official": true,
+      "type": "Roche",
+      "category": "Physique",
+      "power": 100,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Goudronnage",
+      "official": true,
+      "type": "Roche",
+      "category": "Statut",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Sel Gemme",
+      "official": true,
+      "type": "Roche",
+      "category": "Physique",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Léchouille",
+      "official": true,
+      "type": "Spectre",
+      "category": "Physique",
+      "power": 30,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Lien du Destin",
+      "official": true,
+      "type": "Spectre",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Regard Noir",
+      "official": true,
+      "type": "Spectre",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Requiem",
+      "official": true,
+      "type": "Spectre",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Ombre Nocturne",
+      "official": true,
+      "type": "Spectre",
+      "category": "Spéciale",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Esprit Frappeur",
+      "official": true,
+      "type": "Spectre",
+      "category": "Physique",
+      "power": 110,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Poltergeist",
+      "official": true,
+      "type": "Spectre",
+      "category": "Physique",
+      "power": 110,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Poing de Colère",
+      "official": true,
+      "type": "Spectre",
+      "category": "Physique",
+      "power": 50,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Draco-Rage",
+      "official": true,
+      "type": "Dragon",
+      "category": "Spéciale",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Spatio-Rift",
+      "official": true,
+      "type": "Dragon",
+      "category": "Spéciale",
+      "power": 100,
+      "accuracy": 95,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Hurle-Temps",
+      "official": true,
+      "type": "Dragon",
+      "category": "Spéciale",
+      "power": 150,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Draco-Flèches",
+      "official": true,
+      "type": "Dragon",
+      "category": "Physique",
+      "power": 50,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Draco-Énergie",
+      "official": true,
+      "type": "Dragon",
+      "category": "Spéciale",
+      "power": 150,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Charge Draconique",
+      "official": true,
+      "type": "Dragon",
+      "category": "Physique",
+      "power": 100,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Vaste Pouvoir",
+      "official": true,
+      "type": "Dragon",
+      "category": "Spéciale",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Laser Infinimax",
+      "official": true,
+      "type": "Dragon",
+      "category": "Spéciale",
+      "power": 160,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Draco-Marteau",
+      "official": true,
+      "type": "Dragon",
+      "category": "Physique",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Morsure",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Physique",
+      "power": 60,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Poursuite",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Physique",
+      "power": 40,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Larcin",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Physique",
+      "power": 60,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Tranche-Nuit",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Physique",
+      "power": 70,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Vendetta",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Physique",
+      "power": 50,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Assurance",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Physique",
+      "power": 60,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Punition",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Physique",
+      "power": null,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Centrifugifle",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Physique",
+      "power": 60,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Exécu-Son",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Spéciale",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Roulette Sombre",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Physique",
+      "power": 85,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Éclat Spectral",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Physique",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Queue de Fer",
+      "official": true,
+      "type": "Acier",
+      "category": "Physique",
+      "power": 100,
+      "accuracy": 75,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Poing Météore",
+      "official": true,
+      "type": "Acier",
+      "category": "Physique",
+      "power": 90,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Lancécrou",
+      "official": true,
+      "type": "Acier",
+      "category": "Physique",
+      "power": 130,
+      "accuracy": 85,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Lame Ointe",
+      "official": true,
+      "type": "Acier",
+      "category": "Physique",
+      "power": 85,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Big Splash",
+      "official": true,
+      "type": "Acier",
+      "category": "Physique",
+      "power": 80,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Double Fer",
+      "official": true,
+      "type": "Acier",
+      "category": "Physique",
+      "power": 60,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Ruée d'Or",
+      "official": true,
+      "type": "Acier",
+      "category": "Spéciale",
+      "power": 120,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Voix Enjôleuse",
+      "official": true,
+      "type": "Fée",
+      "category": "Spéciale",
+      "power": 40,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Canon Floral",
+      "official": true,
+      "type": "Fée",
+      "category": "Spéciale",
+      "power": 130,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Fleur Canon",
+      "official": true,
+      "type": "Fée",
+      "category": "Spéciale",
+      "power": 130,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Lumière du Néant",
+      "official": true,
+      "type": "Fée",
+      "category": "Spéciale",
+      "power": 140,
+      "accuracy": 90,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Choc Émotionnel",
+      "official": true,
+      "type": "Fée",
+      "category": "Spéciale",
+      "power": 75,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Brume Capiteuse",
+      "official": true,
+      "type": "Fée",
+      "category": "Spéciale",
+      "power": 90,
+      "accuracy": 100,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Inflige des dégâts ; les effets secondaires particuliers restent ceux du référentiel officiel."
+    },
+    {
+      "name": "Soin Floral",
+      "official": true,
+      "type": "Fée",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité de statut officielle ajoutée au pool étendu."
+    },
+    {
+      "name": "Affûtage",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Armure",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Bombe Œuf",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Boul'Armure",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Constriction",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Conversion",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Coud'Krâne",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Coupe",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Combo-Griffe",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Grimace",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Lait à Boire",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Lire-Esprit",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Ronflement",
+      "official": true,
+      "type": "Normal",
+      "category": "Spéciale",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Verrouillage",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Assistance",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Avale",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Ball'Météo",
+      "official": true,
+      "type": "Normal",
+      "category": "Spéciale",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Stockage",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Relâche",
+      "official": true,
+      "type": "Normal",
+      "category": "Spéciale",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Passe-Cadeau",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Ten-Danse",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Rengorgement",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Interversion",
+      "official": true,
+      "type": "Psy",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Prévention",
+      "official": true,
+      "type": "Combat",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Tout ou Rien",
+      "official": true,
+      "type": "Combat",
+      "category": "Spéciale",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Vengeance",
+      "official": true,
+      "type": "Combat",
+      "category": "Physique",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Peignée",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Plumo-Queue",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Rebondifeu",
+      "official": true,
+      "type": "Feu",
+      "category": "Spéciale",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Techno Buster",
+      "official": true,
+      "type": "Normal",
+      "category": "Spéciale",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Crève-Cœur",
+      "official": true,
+      "type": "Psy",
+      "category": "Physique",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Explonuit",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Spéciale",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Exuviation",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Garde Large",
+      "official": true,
+      "type": "Roche",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Passe-Passe",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Souvenir",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Embargo",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Dégommage",
+      "official": true,
+      "type": "Ténèbres",
+      "category": "Physique",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Riposte",
+      "official": true,
+      "type": "Combat",
+      "category": "Physique",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Voile Miroir",
+      "official": true,
+      "type": "Psy",
+      "category": "Spéciale",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "special"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Patience",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Sacrifice",
+      "official": true,
+      "type": "Combat",
+      "category": "Physique",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Ultrason",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Grincement",
+      "official": true,
+      "type": "Normal",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Ligotage",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Étreinte",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Furie",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Pilonnage",
+      "official": true,
+      "type": "Normal",
+      "category": "Physique",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "offense",
+        "physical"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Yoga",
+      "official": true,
+      "type": "Psy",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    },
+    {
+      "name": "Téléport",
+      "official": true,
+      "type": "Psy",
+      "category": "Statut",
+      "power": null,
+      "accuracy": null,
+      "eligible_v1": true,
+      "tags": [
+        "utility"
+      ],
+      "effect": "Capacité officielle ajoutée au pool étendu ; paramètres spécifiques à vérifier dans le référentiel au besoin."
+    }
+  ],
+  "catalog_scope": "V1_ELIGIBLE_REFERENCE_POOL",
+  "scope_policy": {
+    "purpose": "Pool local étendu de talents et capacités officiels éligibles au moteur V1 (x8 par rapport au catalogue initial).",
+    "exhaustive_external_universe": false,
+    "runtime_requirement": "Le cœur V1 dépend uniquement de ce pool local validé ; l’extension vers l’intégralité du référentiel officiel est non bloquante.",
+    "coverage_requirement": "Les 18 types doivent disposer d’au moins une capacité officielle compatible, avec couverture Physique/Spéciale lorsqu’elle est pertinente ; les rôles de statut peuvent utiliser des capacités Normal de statut."
+  }
+}

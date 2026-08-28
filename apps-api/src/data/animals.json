@@ -1,0 +1,1052 @@
+[
+  {
+    "name": "Dragon",
+    "bucket": "mythical",
+    "big5": {
+      "O": 86,
+      "C": 85,
+      "E": 85,
+      "A": 72,
+      "N": 43
+    },
+    "personality_interpretation": {
+      "profil": [
+        "très ouvert / imaginatif",
+        "très consciencieux / méthodique",
+        "très extraverti / sociable",
+        "bienveillant",
+        "sensibilité modérée"
+      ],
+      "synthese": "O86/C85/E85/A72/N43: très ouvert / imaginatif, très consciencieux / méthodique, très extraverti / sociable, bienveillant, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Phénix",
+    "bucket": "mythical",
+    "big5": {
+      "O": 85,
+      "C": 58,
+      "E": 74,
+      "A": 70,
+      "N": 82
+    },
+    "personality_interpretation": {
+      "profil": [
+        "très ouvert / imaginatif",
+        "assez équilibré",
+        "sociable",
+        "bienveillant",
+        "sensible / vigilant"
+      ],
+      "synthese": "O85/C58/E74/A70/N82: très ouvert / imaginatif, assez équilibré, sociable, bienveillant, sensible / vigilant"
+    }
+  },
+  {
+    "name": "Griffon",
+    "bucket": "mythical",
+    "big5": {
+      "O": 79,
+      "C": 87,
+      "E": 67,
+      "A": 88,
+      "N": 28
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "très consciencieux / méthodique",
+        "sociable",
+        "très coopératif / protecteur",
+        "émotionnellement stable"
+      ],
+      "synthese": "O79/C87/E67/A88/N28: ouvert / curieux, très consciencieux / méthodique, sociable, très coopératif / protecteur, émotionnellement stable"
+    }
+  },
+  {
+    "name": "Kitsune",
+    "bucket": "mythical",
+    "big5": {
+      "O": 92,
+      "C": 58,
+      "E": 65,
+      "A": 70,
+      "N": 42
+    },
+    "personality_interpretation": {
+      "profil": [
+        "très ouvert / imaginatif",
+        "assez équilibré",
+        "sociable",
+        "bienveillant",
+        "sensibilité modérée"
+      ],
+      "synthese": "O92/C58/E65/A70/N42: très ouvert / imaginatif, assez équilibré, sociable, bienveillant, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Licorne",
+    "bucket": "mythical",
+    "big5": {
+      "O": 72,
+      "C": 55,
+      "E": 50,
+      "A": 88,
+      "N": 44
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "assez équilibré",
+        "équilibré socialement",
+        "très coopératif / protecteur",
+        "sensibilité modérée"
+      ],
+      "synthese": "O72/C55/E50/A88/N44: ouvert / curieux, assez équilibré, équilibré socialement, très coopératif / protecteur, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Basilic",
+    "bucket": "mythical",
+    "big5": {
+      "O": 55,
+      "C": 52,
+      "E": 48,
+      "A": 42,
+      "N": 72
+    },
+    "personality_interpretation": {
+      "profil": [
+        "équilibré",
+        "assez équilibré",
+        "équilibré socialement",
+        "équilibré relationnellement",
+        "sensible / vigilant"
+      ],
+      "synthese": "O55/C52/E48/A42/N72: équilibré, assez équilibré, équilibré socialement, équilibré relationnellement, sensible / vigilant"
+    }
+  },
+  {
+    "name": "Sphinx",
+    "bucket": "mythical",
+    "big5": {
+      "O": 88,
+      "C": 87,
+      "E": 44,
+      "A": 75,
+      "N": 46
+    },
+    "personality_interpretation": {
+      "profil": [
+        "très ouvert / imaginatif",
+        "très consciencieux / méthodique",
+        "équilibré socialement",
+        "bienveillant",
+        "sensibilité modérée"
+      ],
+      "synthese": "O88/C87/E44/A75/N46: très ouvert / imaginatif, très consciencieux / méthodique, équilibré socialement, bienveillant, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Kraken",
+    "bucket": "mythical",
+    "big5": {
+      "O": 86,
+      "C": 64,
+      "E": 28,
+      "A": 34,
+      "N": 42
+    },
+    "personality_interpretation": {
+      "profil": [
+        "très ouvert / imaginatif",
+        "assez équilibré",
+        "réservé / introverti",
+        "indépendant / peu conciliant",
+        "sensibilité modérée"
+      ],
+      "synthese": "O86/C64/E28/A34/N42: très ouvert / imaginatif, assez équilibré, réservé / introverti, indépendant / peu conciliant, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Minotaure",
+    "bucket": "mythical",
+    "big5": {
+      "O": 42,
+      "C": 78,
+      "E": 62,
+      "A": 38,
+      "N": 28
+    },
+    "personality_interpretation": {
+      "profil": [
+        "plutôt concret / pragmatique",
+        "organisé",
+        "équilibré socialement",
+        "équilibré relationnellement",
+        "émotionnellement stable"
+      ],
+      "synthese": "O42/C78/E62/A38/N28: plutôt concret / pragmatique, organisé, équilibré socialement, équilibré relationnellement, émotionnellement stable"
+    }
+  },
+  {
+    "name": "Cerbère",
+    "bucket": "mythical",
+    "big5": {
+      "O": 66,
+      "C": 84,
+      "E": 58,
+      "A": 79,
+      "N": 67
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "très consciencieux / méthodique",
+        "équilibré socialement",
+        "bienveillant",
+        "sensible / vigilant"
+      ],
+      "synthese": "O66/C84/E58/A79/N67: ouvert / curieux, très consciencieux / méthodique, équilibré socialement, bienveillant, sensible / vigilant"
+    }
+  },
+  {
+    "name": "Fourmi",
+    "bucket": "insect",
+    "big5": {
+      "O": 48,
+      "C": 94,
+      "E": 40,
+      "A": 84,
+      "N": 42
+    },
+    "personality_interpretation": {
+      "profil": [
+        "équilibré",
+        "très consciencieux / méthodique",
+        "équilibré socialement",
+        "bienveillant",
+        "sensibilité modérée"
+      ],
+      "synthese": "O48/C94/E40/A84/N42: équilibré, très consciencieux / méthodique, équilibré socialement, bienveillant, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Abeille",
+    "bucket": "insect",
+    "big5": {
+      "O": 62,
+      "C": 90,
+      "E": 84,
+      "A": 89,
+      "N": 38
+    },
+    "personality_interpretation": {
+      "profil": [
+        "équilibré",
+        "très consciencieux / méthodique",
+        "très extraverti / sociable",
+        "très coopératif / protecteur",
+        "sensibilité modérée"
+      ],
+      "synthese": "O62/C90/E84/A89/N38: équilibré, très consciencieux / méthodique, très extraverti / sociable, très coopératif / protecteur, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Papillon",
+    "bucket": "insect",
+    "big5": {
+      "O": 88,
+      "C": 42,
+      "E": 58,
+      "A": 70,
+      "N": 46
+    },
+    "personality_interpretation": {
+      "profil": [
+        "très ouvert / imaginatif",
+        "assez équilibré",
+        "équilibré socialement",
+        "bienveillant",
+        "sensibilité modérée"
+      ],
+      "synthese": "O88/C42/E58/A70/N46: très ouvert / imaginatif, assez équilibré, équilibré socialement, bienveillant, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Mante religieuse",
+    "bucket": "insect",
+    "big5": {
+      "O": 66,
+      "C": 85,
+      "E": 31,
+      "A": 63,
+      "N": 57
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "très consciencieux / méthodique",
+        "réservé / introverti",
+        "équilibré relationnellement",
+        "sensibilité modérée"
+      ],
+      "synthese": "O66/C85/E31/A63/N57: ouvert / curieux, très consciencieux / méthodique, réservé / introverti, équilibré relationnellement, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Scarabée",
+    "bucket": "insect",
+    "big5": {
+      "O": 61,
+      "C": 72,
+      "E": 49,
+      "A": 71,
+      "N": 46
+    },
+    "personality_interpretation": {
+      "profil": [
+        "équilibré",
+        "organisé",
+        "équilibré socialement",
+        "bienveillant",
+        "sensibilité modérée"
+      ],
+      "synthese": "O61/C72/E49/A71/N46: équilibré, organisé, équilibré socialement, bienveillant, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Coccinelle",
+    "bucket": "insect",
+    "big5": {
+      "O": 51,
+      "C": 66,
+      "E": 73,
+      "A": 84,
+      "N": 48
+    },
+    "personality_interpretation": {
+      "profil": [
+        "équilibré",
+        "organisé",
+        "sociable",
+        "bienveillant",
+        "sensibilité modérée"
+      ],
+      "synthese": "O51/C66/E73/A84/N48: équilibré, organisé, sociable, bienveillant, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Criquet",
+    "bucket": "insect",
+    "big5": {
+      "O": 61,
+      "C": 39,
+      "E": 78,
+      "A": 70,
+      "N": 66
+    },
+    "personality_interpretation": {
+      "profil": [
+        "équilibré",
+        "spontané / flexible",
+        "sociable",
+        "bienveillant",
+        "sensible / vigilant"
+      ],
+      "synthese": "O61/C39/E78/A70/N66: équilibré, spontané / flexible, sociable, bienveillant, sensible / vigilant"
+    }
+  },
+  {
+    "name": "Libellule",
+    "bucket": "insect",
+    "big5": {
+      "O": 78,
+      "C": 63,
+      "E": 84,
+      "A": 52,
+      "N": 30
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "assez équilibré",
+        "très extraverti / sociable",
+        "équilibré relationnellement",
+        "émotionnellement stable"
+      ],
+      "synthese": "O78/C63/E84/A52/N30: ouvert / curieux, assez équilibré, très extraverti / sociable, équilibré relationnellement, émotionnellement stable"
+    }
+  },
+  {
+    "name": "Phasme",
+    "bucket": "insect",
+    "big5": {
+      "O": 64,
+      "C": 61,
+      "E": 15,
+      "A": 69,
+      "N": 64
+    },
+    "personality_interpretation": {
+      "profil": [
+        "équilibré",
+        "assez équilibré",
+        "réservé / introverti",
+        "équilibré relationnellement",
+        "sensibilité modérée"
+      ],
+      "synthese": "O64/C61/E15/A69/N64: équilibré, assez équilibré, réservé / introverti, équilibré relationnellement, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Yéti",
+    "bucket": "mythical",
+    "big5": {
+      "O": 38,
+      "C": 76,
+      "E": 18,
+      "A": 58,
+      "N": 52
+    },
+    "personality_interpretation": {
+      "profil": [
+        "plutôt concret / pragmatique",
+        "organisé",
+        "réservé / introverti",
+        "équilibré relationnellement",
+        "sensibilité modérée"
+      ],
+      "synthese": "O38/C76/E18/A58/N52: plutôt concret / pragmatique, organisé, réservé / introverti, équilibré relationnellement, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Lion",
+    "bucket": "terrestrial",
+    "big5": {
+      "O": 69,
+      "C": 70,
+      "E": 90,
+      "A": 65,
+      "N": 36
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "organisé",
+        "très extraverti / sociable",
+        "équilibré relationnellement",
+        "sensibilité modérée"
+      ],
+      "synthese": "O69/C70/E90/A65/N36: ouvert / curieux, organisé, très extraverti / sociable, équilibré relationnellement, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Loup",
+    "bucket": "terrestrial",
+    "big5": {
+      "O": 77,
+      "C": 72,
+      "E": 65,
+      "A": 89,
+      "N": 46
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "organisé",
+        "sociable",
+        "très coopératif / protecteur",
+        "sensibilité modérée"
+      ],
+      "synthese": "O77/C72/E65/A89/N46: ouvert / curieux, organisé, sociable, très coopératif / protecteur, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Renard",
+    "bucket": "terrestrial",
+    "big5": {
+      "O": 77,
+      "C": 51,
+      "E": 52,
+      "A": 63,
+      "N": 33
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "assez équilibré",
+        "équilibré socialement",
+        "équilibré relationnellement",
+        "émotionnellement stable"
+      ],
+      "synthese": "O77/C51/E52/A63/N33: ouvert / curieux, assez équilibré, équilibré socialement, équilibré relationnellement, émotionnellement stable"
+    }
+  },
+  {
+    "name": "Éléphant",
+    "bucket": "terrestrial",
+    "big5": {
+      "O": 62,
+      "C": 72,
+      "E": 55,
+      "A": 93,
+      "N": 31
+    },
+    "personality_interpretation": {
+      "profil": [
+        "équilibré",
+        "organisé",
+        "équilibré socialement",
+        "très coopératif / protecteur",
+        "émotionnellement stable"
+      ],
+      "synthese": "O62/C72/E55/A93/N31: équilibré, organisé, équilibré socialement, très coopératif / protecteur, émotionnellement stable"
+    }
+  },
+  {
+    "name": "Ours",
+    "bucket": "terrestrial",
+    "big5": {
+      "O": 48,
+      "C": 70,
+      "E": 31,
+      "A": 80,
+      "N": 40
+    },
+    "personality_interpretation": {
+      "profil": [
+        "équilibré",
+        "organisé",
+        "réservé / introverti",
+        "bienveillant",
+        "sensibilité modérée"
+      ],
+      "synthese": "O48/C70/E31/A80/N40: équilibré, organisé, réservé / introverti, bienveillant, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Cerf",
+    "bucket": "terrestrial",
+    "big5": {
+      "O": 57,
+      "C": 48,
+      "E": 45,
+      "A": 86,
+      "N": 53
+    },
+    "personality_interpretation": {
+      "profil": [
+        "équilibré",
+        "assez équilibré",
+        "équilibré socialement",
+        "très coopératif / protecteur",
+        "sensibilité modérée"
+      ],
+      "synthese": "O57/C48/E45/A86/N53: équilibré, assez équilibré, équilibré socialement, très coopératif / protecteur, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Panthère",
+    "bucket": "terrestrial",
+    "big5": {
+      "O": 78,
+      "C": 74,
+      "E": 42,
+      "A": 24,
+      "N": 38
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "organisé",
+        "équilibré socialement",
+        "indépendant / peu conciliant",
+        "sensibilité modérée"
+      ],
+      "synthese": "O78/C74/E42/A24/N38: ouvert / curieux, organisé, équilibré socialement, indépendant / peu conciliant, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Rhinocéros",
+    "bucket": "terrestrial",
+    "big5": {
+      "O": 25,
+      "C": 72,
+      "E": 58,
+      "A": 60,
+      "N": 25
+    },
+    "personality_interpretation": {
+      "profil": [
+        "équilibré",
+        "organisé",
+        "équilibré socialement",
+        "équilibré relationnellement",
+        "émotionnellement stable"
+      ],
+      "synthese": "O46/C70/E59/A68/N28: équilibré, organisé, équilibré socialement, équilibré relationnellement, émotionnellement stable"
+    }
+  },
+  {
+    "name": "Singe",
+    "bucket": "terrestrial",
+    "big5": {
+      "O": 88,
+      "C": 50,
+      "E": 92,
+      "A": 62,
+      "N": 52
+    },
+    "personality_interpretation": {
+      "profil": [
+        "très ouvert / imaginatif",
+        "assez équilibré",
+        "très extraverti / sociable",
+        "équilibré relationnellement",
+        "sensibilité modérée"
+      ],
+      "synthese": "O88/C50/E92/A62/N52: très ouvert / imaginatif, assez équilibré, très extraverti / sociable, équilibré relationnellement, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Tortue",
+    "bucket": "terrestrial",
+    "big5": {
+      "O": 66,
+      "C": 87,
+      "E": 35,
+      "A": 84,
+      "N": 22
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "très consciencieux / méthodique",
+        "réservé / introverti",
+        "bienveillant",
+        "émotionnellement stable"
+      ],
+      "synthese": "O66/C87/E35/A84/N22: ouvert / curieux, très consciencieux / méthodique, réservé / introverti, bienveillant, émotionnellement stable"
+    }
+  },
+  {
+    "name": "Baleine",
+    "bucket": "marine",
+    "big5": {
+      "O": 63,
+      "C": 59,
+      "E": 37,
+      "A": 85,
+      "N": 18
+    },
+    "personality_interpretation": {
+      "profil": [
+        "équilibré",
+        "assez équilibré",
+        "équilibré socialement",
+        "très coopératif / protecteur",
+        "émotionnellement stable"
+      ],
+      "synthese": "O63/C59/E37/A85/N18: équilibré, assez équilibré, équilibré socialement, très coopératif / protecteur, émotionnellement stable"
+    }
+  },
+  {
+    "name": "Dauphin",
+    "bucket": "marine",
+    "big5": {
+      "O": 82,
+      "C": 58,
+      "E": 95,
+      "A": 92,
+      "N": 18
+    },
+    "personality_interpretation": {
+      "profil": [
+        "très ouvert / imaginatif",
+        "assez équilibré",
+        "très extraverti / sociable",
+        "très coopératif / protecteur",
+        "émotionnellement stable"
+      ],
+      "synthese": "O82/C58/E95/A92/N18: très ouvert / imaginatif, assez équilibré, très extraverti / sociable, très coopératif / protecteur, émotionnellement stable"
+    }
+  },
+  {
+    "name": "Orque",
+    "bucket": "marine",
+    "big5": {
+      "O": 75,
+      "C": 82,
+      "E": 82,
+      "A": 90,
+      "N": 20
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "très consciencieux / méthodique",
+        "très extraverti / sociable",
+        "très coopératif / protecteur",
+        "émotionnellement stable"
+      ],
+      "synthese": "O75/C82/E82/A90/N20: ouvert / curieux, très consciencieux / méthodique, très extraverti / sociable, très coopératif / protecteur, émotionnellement stable"
+    }
+  },
+  {
+    "name": "Requin",
+    "bucket": "marine",
+    "big5": {
+      "O": 60,
+      "C": 86,
+      "E": 66,
+      "A": 59,
+      "N": 45
+    },
+    "personality_interpretation": {
+      "profil": [
+        "équilibré",
+        "très consciencieux / méthodique",
+        "sociable",
+        "équilibré relationnellement",
+        "sensibilité modérée"
+      ],
+      "synthese": "O60/C86/E66/A59/N45: équilibré, très consciencieux / méthodique, sociable, équilibré relationnellement, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Raie manta",
+    "bucket": "marine",
+    "big5": {
+      "O": 80,
+      "C": 66,
+      "E": 40,
+      "A": 74,
+      "N": 20
+    },
+    "personality_interpretation": {
+      "profil": [
+        "très ouvert / imaginatif",
+        "organisé",
+        "équilibré socialement",
+        "bienveillant",
+        "émotionnellement stable"
+      ],
+      "synthese": "O80/C66/E40/A74/N20: très ouvert / imaginatif, organisé, équilibré socialement, bienveillant, émotionnellement stable"
+    }
+  },
+  {
+    "name": "Hippocampe",
+    "bucket": "marine",
+    "big5": {
+      "O": 82,
+      "C": 62,
+      "E": 36,
+      "A": 92,
+      "N": 40
+    },
+    "personality_interpretation": {
+      "profil": [
+        "très ouvert / imaginatif",
+        "assez équilibré",
+        "équilibré socialement",
+        "très coopératif / protecteur",
+        "sensibilité modérée"
+      ],
+      "synthese": "O82/C62/E36/A92/N40: très ouvert / imaginatif, assez équilibré, équilibré socialement, très coopératif / protecteur, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Crabe",
+    "bucket": "marine",
+    "big5": {
+      "O": 48,
+      "C": 66,
+      "E": 42,
+      "A": 77,
+      "N": 76
+    },
+    "personality_interpretation": {
+      "profil": [
+        "équilibré",
+        "organisé",
+        "équilibré socialement",
+        "bienveillant",
+        "sensible / vigilant"
+      ],
+      "synthese": "O48/C66/E42/A77/N76: équilibré, organisé, équilibré socialement, bienveillant, sensible / vigilant"
+    }
+  },
+  {
+    "name": "Sirène",
+    "bucket": "marine",
+    "big5": {
+      "O": 94,
+      "C": 42,
+      "E": 70,
+      "A": 54,
+      "N": 72
+    },
+    "personality_interpretation": {
+      "profil": [
+        "très ouvert / imaginatif",
+        "assez équilibré",
+        "sociable",
+        "équilibré relationnellement",
+        "sensible / vigilant"
+      ],
+      "synthese": "O94/C42/E70/A54/N72: très ouvert / imaginatif, assez équilibré, sociable, équilibré relationnellement, sensible / vigilant"
+    }
+  },
+  {
+    "name": "Méduse",
+    "bucket": "marine",
+    "big5": {
+      "O": 72,
+      "C": 38,
+      "E": 28,
+      "A": 55,
+      "N": 91
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "spontané / flexible",
+        "réservé / introverti",
+        "équilibré relationnellement",
+        "très sensible / vigilant"
+      ],
+      "synthese": "O72/C38/E28/A55/N91: ouvert / curieux, spontané / flexible, réservé / introverti, équilibré relationnellement, très sensible / vigilant"
+    }
+  },
+  {
+    "name": "Étoile de mer",
+    "bucket": "marine",
+    "big5": {
+      "O": 54,
+      "C": 52,
+      "E": 20,
+      "A": 78,
+      "N": 58
+    },
+    "personality_interpretation": {
+      "profil": [
+        "équilibré",
+        "assez équilibré",
+        "réservé / introverti",
+        "bienveillant",
+        "sensibilité modérée"
+      ],
+      "synthese": "O54/C52/E20/A78/N58: équilibré, assez équilibré, réservé / introverti, bienveillant, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Aigle",
+    "bucket": "aerial",
+    "big5": {
+      "O": 76,
+      "C": 77,
+      "E": 66,
+      "A": 64,
+      "N": 27
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "organisé",
+        "sociable",
+        "équilibré relationnellement",
+        "émotionnellement stable"
+      ],
+      "synthese": "O76/C77/E66/A64/N27: ouvert / curieux, organisé, sociable, équilibré relationnellement, émotionnellement stable"
+    }
+  },
+  {
+    "name": "Hibou",
+    "bucket": "aerial",
+    "big5": {
+      "O": 76,
+      "C": 75,
+      "E": 18,
+      "A": 79,
+      "N": 37
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "organisé",
+        "réservé / introverti",
+        "bienveillant",
+        "sensibilité modérée"
+      ],
+      "synthese": "O76/C75/E18/A79/N37: ouvert / curieux, organisé, réservé / introverti, bienveillant, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Faucon",
+    "bucket": "aerial",
+    "big5": {
+      "O": 59,
+      "C": 88,
+      "E": 69,
+      "A": 76,
+      "N": 13
+    },
+    "personality_interpretation": {
+      "profil": [
+        "équilibré",
+        "très consciencieux / méthodique",
+        "sociable",
+        "bienveillant",
+        "émotionnellement stable"
+      ],
+      "synthese": "O59/C88/E69/A76/N13: équilibré, très consciencieux / méthodique, sociable, bienveillant, émotionnellement stable"
+    }
+  },
+  {
+    "name": "Corbeau",
+    "bucket": "aerial",
+    "big5": {
+      "O": 89,
+      "C": 67,
+      "E": 56,
+      "A": 61,
+      "N": 56
+    },
+    "personality_interpretation": {
+      "profil": [
+        "très ouvert / imaginatif",
+        "organisé",
+        "équilibré socialement",
+        "équilibré relationnellement",
+        "sensibilité modérée"
+      ],
+      "synthese": "O89/C67/E56/A61/N56: très ouvert / imaginatif, organisé, équilibré socialement, équilibré relationnellement, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Perroquet",
+    "bucket": "aerial",
+    "big5": {
+      "O": 82,
+      "C": 58,
+      "E": 91,
+      "A": 86,
+      "N": 42
+    },
+    "personality_interpretation": {
+      "profil": [
+        "très ouvert / imaginatif",
+        "assez équilibré",
+        "très extraverti / sociable",
+        "très coopératif / protecteur",
+        "sensibilité modérée"
+      ],
+      "synthese": "O82/C58/E91/A86/N42: très ouvert / imaginatif, assez équilibré, très extraverti / sociable, très coopératif / protecteur, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Hirondelle",
+    "bucket": "aerial",
+    "big5": {
+      "O": 69,
+      "C": 55,
+      "E": 79,
+      "A": 76,
+      "N": 16
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "assez équilibré",
+        "sociable",
+        "bienveillant",
+        "émotionnellement stable"
+      ],
+      "synthese": "O69/C55/E79/A76/N16: ouvert / curieux, assez équilibré, sociable, bienveillant, émotionnellement stable"
+    }
+  },
+  {
+    "name": "Flamant rose",
+    "bucket": "aerial",
+    "big5": {
+      "O": 72,
+      "C": 48,
+      "E": 88,
+      "A": 80,
+      "N": 44
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "assez équilibré",
+        "très extraverti / sociable",
+        "bienveillant",
+        "sensibilité modérée"
+      ],
+      "synthese": "O72/C48/E88/A80/N44: ouvert / curieux, assez équilibré, très extraverti / sociable, bienveillant, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Colibri",
+    "bucket": "aerial",
+    "big5": {
+      "O": 79,
+      "C": 48,
+      "E": 70,
+      "A": 66,
+      "N": 78
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "assez équilibré",
+        "sociable",
+        "équilibré relationnellement",
+        "sensible / vigilant"
+      ],
+      "synthese": "O79/C48/E70/A66/N78: ouvert / curieux, assez équilibré, sociable, équilibré relationnellement, sensible / vigilant"
+    }
+  },
+  {
+    "name": "Cygne",
+    "bucket": "aerial",
+    "big5": {
+      "O": 73,
+      "C": 65,
+      "E": 39,
+      "A": 90,
+      "N": 58
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "organisé",
+        "équilibré socialement",
+        "très coopératif / protecteur",
+        "sensibilité modérée"
+      ],
+      "synthese": "O73/C65/E39/A90/N58: ouvert / curieux, organisé, équilibré socialement, très coopératif / protecteur, sensibilité modérée"
+    }
+  },
+  {
+    "name": "Paon",
+    "bucket": "aerial",
+    "big5": {
+      "O": 70,
+      "C": 52,
+      "E": 80,
+      "A": 58,
+      "N": 48
+    },
+    "personality_interpretation": {
+      "profil": [
+        "ouvert / curieux",
+        "assez équilibré",
+        "très extraverti / sociable",
+        "équilibré relationnellement",
+        "sensibilité modérée"
+      ],
+      "synthese": "O70/C52/E80/A58/N48: ouvert / curieux, assez équilibré, très extraverti / sociable, équilibré relationnellement, sensibilité modérée"
+    }
+  }
+]

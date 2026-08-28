@@ -1,0 +1,1609 @@
+[
+  {
+    "source_term": "Diplocaulus",
+    "title": "Diplocaulus",
+    "animals": [
+      "Basilic",
+      "Dragon"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Amphibiens",
+    "title": "Amphibiens",
+    "animals": [
+      "Basilic",
+      "Dragon"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Salamandres",
+    "title": "Salamandres",
+    "animals": [
+      "Basilic",
+      "Dragon"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Arthropodegénériques",
+    "title": "Arthropodes génériques",
+    "animals": [
+      "Fourmi",
+      "Abeille",
+      "Papillon",
+      "Mante religieuse",
+      "Scarabée",
+      "Coccinelle",
+      "Criquet",
+      "Libellule",
+      "Phasme",
+      "Crabe"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Formicidés",
+    "title": "Formicidés",
+    "animals": [
+      "Fourmi"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Antlions",
+    "title": "Antlions",
+    "animals": [
+      "Libellule",
+      "Fourmi"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Apoïdes",
+    "title": "Apoïdes",
+    "animals": [
+      "Abeille"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Coléoptères",
+    "title": "Coléoptères",
+    "animals": [
+      "Scarabée",
+      "Coccinelle"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Mille-pattes",
+    "title": "Mille-pattes",
+    "animals": [
+      "Phasme",
+      "Criquet"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Cigales",
+    "title": "Cigales",
+    "animals": [
+      "Criquet"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Cafards",
+    "title": "Cafards",
+    "animals": [
+      "Scarabée",
+      "Criquet"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Cocons",
+    "title": "Cocons",
+    "animals": [
+      "Papillon"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Crustacés",
+    "title": "Crustacés",
+    "animals": [
+      "Crabe"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Crickets",
+    "title": "Crickets",
+    "animals": [
+      "Criquet"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Dinocarididés",
+    "title": "Dinocarididés",
+    "animals": [
+      "Crabe"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Libellules",
+    "title": "Libellules",
+    "animals": [
+      "Libellule"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Lampyridaes",
+    "title": "Lampyridaes",
+    "animals": [
+      "Coccinelle",
+      "Scarabée"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Diptères",
+    "title": "Diptères",
+    "animals": [
+      "Abeille",
+      "Libellule"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Fulgoridaes",
+    "title": "Fulgoridaes",
+    "animals": [
+      "Criquet",
+      "Phasme"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Gerridés",
+    "title": "Gerridés",
+    "animals": [
+      "Libellule",
+      "Criquet"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Sauterelles",
+    "title": "Sauterelles",
+    "animals": [
+      "Criquet"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Limules",
+    "title": "Limules",
+    "animals": [
+      "Crabe"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Larves",
+    "title": "Larves",
+    "animals": [
+      "Papillon",
+      "Scarabée",
+      "Coccinelle"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Papillons",
+    "title": "Papillons",
+    "animals": [
+      "Papillon"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Mantoptères",
+    "title": "Mantoptères",
+    "animals": [
+      "Mante religieuse"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Acariens",
+    "title": "Acariens",
+    "animals": [
+      "Scarabée",
+      "Phasme"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Moustiques",
+    "title": "Moustiques",
+    "animals": [
+      "Libellule",
+      "Abeille"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Phylliidaes",
+    "title": "Phylliidaes",
+    "animals": [
+      "Phasme"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Scorpions",
+    "title": "Scorpions",
+    "animals": [
+      "Crabe",
+      "Scarabée"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Araignées",
+    "title": "Araignées",
+    "animals": [
+      "Mante religieuse",
+      "Phasme"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Trilobites",
+    "title": "Trilobites",
+    "animals": [
+      "Crabe",
+      "Scarabée"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Oiseaux",
+    "title": "Oiseaux",
+    "animals": [
+      "Aigle",
+      "Hibou",
+      "Faucon",
+      "Corbeau",
+      "Perroquet",
+      "Hirondelle",
+      "Flamant rose",
+      "Colibri",
+      "Cygne",
+      "Paon",
+      "Phénix",
+      "Griffon"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Merlebleux",
+    "title": "Merlebleux",
+    "animals": [
+      "Corbeau",
+      "Hirondelle"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Cormorans",
+    "title": "Cormorans",
+    "animals": [
+      "Cygne",
+      "Corbeau"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Corbeaux",
+    "title": "Corbeaux",
+    "animals": [
+      "Corbeau"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Colombes",
+    "title": "Colombes",
+    "animals": [
+      "Cygne",
+      "Hirondelle"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Canards",
+    "title": "Canards",
+    "animals": [
+      "Cygne"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Aigles",
+    "title": "Aigles",
+    "animals": [
+      "Aigle"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Faucons",
+    "title": "Faucons",
+    "animals": [
+      "Faucon"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Flamantroses",
+    "title": "Flamants roses",
+    "animals": [
+      "Flamant rose"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Fregatidaes",
+    "title": "Fregatidaes",
+    "animals": [
+      "Aigle",
+      "Corbeau"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Gallinacés",
+    "title": "Gallinacés",
+    "animals": [
+      "Paon"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Cyanerpes",
+    "title": "Cyanerpes",
+    "animals": [
+      "Colibri"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Hiboux",
+    "title": "Hiboux",
+    "animals": [
+      "Hibou"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Perroquets",
+    "title": "Perroquets",
+    "animals": [
+      "Perroquet"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Pelicans",
+    "title": "Pélicans",
+    "animals": [
+      "Cygne"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Penguins",
+    "title": "Pingouins",
+    "animals": [
+      "Cygne"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Pétrels",
+    "title": "Pétrels",
+    "animals": [
+      "Hirondelle",
+      "Aigle"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Quetzals",
+    "title": "Quetzals",
+    "animals": [
+      "Perroquet",
+      "Paon"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Ratites",
+    "title": "Ratites",
+    "animals": [
+      "Paon"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Rouge-gorges",
+    "title": "Rouge-gorges",
+    "animals": [
+      "Hirondelle"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Mouette",
+    "title": "Mouettes",
+    "animals": [
+      "Hirondelle",
+      "Cygne"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Étourneaux",
+    "title": "Étourneaux",
+    "animals": [
+      "Corbeau",
+      "Hirondelle"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Cigognes",
+    "title": "Cigognes",
+    "animals": [
+      "Cygne",
+      "Flamant rose"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Hirondelle",
+    "title": "Hirondelles",
+    "animals": [
+      "Hirondelle"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Cygnes",
+    "title": "Cygnes",
+    "animals": [
+      "Cygne"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Mésanges",
+    "title": "Mésanges",
+    "animals": [
+      "Hirondelle",
+      "Colibri"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Toucans",
+    "title": "Toucans",
+    "animals": [
+      "Perroquet"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Vautours",
+    "title": "Vautours",
+    "animals": [
+      "Aigle",
+      "Corbeau"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Picidés",
+    "title": "Picidés",
+    "animals": [
+      "Perroquet",
+      "Corbeau"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Corails",
+    "title": "Corails",
+    "animals": [
+      "Étoile de mer",
+      "Méduse"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Méduses",
+    "title": "Méduses",
+    "animals": [
+      "Méduse"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Versdeterre",
+    "title": "Vers de terre",
+    "animals": [
+      "Phasme",
+      "Fourmi"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Crinoïdes",
+    "title": "Crinoïdes",
+    "animals": [
+      "Étoile de mer"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Concombredemer",
+    "title": "Concombres de mer",
+    "animals": [
+      "Étoile de mer"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Oursins",
+    "title": "Oursins",
+    "animals": [
+      "Étoile de mer"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Étoilesdemer",
+    "title": "Étoiles de mer",
+    "animals": [
+      "Étoile de mer"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Baudroies",
+    "title": "Baudroies",
+    "animals": [
+      "Requin"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Barracudas",
+    "title": "Barracudas",
+    "animals": [
+      "Requin"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Poisson-papillons",
+    "title": "Poissons-papillons",
+    "animals": [
+      "Hippocampe",
+      "Raie manta"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Carpes",
+    "title": "Carpes",
+    "animals": [
+      "Hippocampe"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Poisson-chat",
+    "title": "Poissons-chats",
+    "animals": [
+      "Hippocampe",
+      "Requin"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Cœlacanthes",
+    "title": "Cœlacanthes",
+    "animals": [
+      "Requin"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Discus",
+    "title": "Discus",
+    "animals": [
+      "Raie manta"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Dunkleosteus",
+    "title": "Dunkleosteus",
+    "animals": [
+      "Requin"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Anguilles",
+    "title": "Anguilles",
+    "animals": [
+      "Basilic",
+      "Hippocampe"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Poissonsplats",
+    "title": "Poissons plats",
+    "animals": [
+      "Raie manta"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Merlus",
+    "title": "Merlus",
+    "animals": [
+      "Requin"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Lamproies",
+    "title": "Lamproies",
+    "animals": [
+      "Basilic",
+      "Requin"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Loches",
+    "title": "Loches",
+    "animals": [
+      "Hippocampe"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "RaiesManta",
+    "title": "Raies Manta",
+    "animals": [
+      "Raie manta"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Marlins",
+    "title": "Marlins",
+    "animals": [
+      "Requin",
+      "Dauphin"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Percoideis",
+    "title": "Percoideis",
+    "animals": [
+      "Requin",
+      "Hippocampe"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Piranhas",
+    "title": "Piranhas",
+    "animals": [
+      "Requin"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Tetraodontiformes",
+    "title": "Tetraodontiformes",
+    "animals": [
+      "Hippocampe",
+      "Raie manta"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Sardines",
+    "title": "Sardines",
+    "animals": [
+      "Dauphin",
+      "Baleine"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Requins",
+    "title": "Requins",
+    "animals": [
+      "Requin"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Hippocampes",
+    "title": "Hippocampes",
+    "animals": [
+      "Hippocampe"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Panda",
+    "title": "Pandas",
+    "animals": [
+      "Ours"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Fourmilier",
+    "title": "Fourmiliers",
+    "animals": [
+      "Ours",
+      "Singe"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Chauve-souris",
+    "title": "Chauves-souris",
+    "animals": [
+      "Renard",
+      "Griffon"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Ours",
+    "title": "Ours",
+    "animals": [
+      "Ours"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Bovins",
+    "title": "Bovins",
+    "animals": [
+      "Minotaure"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Chameaux",
+    "title": "Chameaux",
+    "animals": [
+      "Cerf"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Chiens",
+    "title": "Chiens",
+    "animals": [
+      "Cerbère",
+      "Loup"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Renards",
+    "title": "Renards",
+    "animals": [
+      "Renard",
+      "Kitsune"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Chacals",
+    "title": "Chacals",
+    "animals": [
+      "Loup",
+      "Renard"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Tanuki",
+    "title": "Tanuki",
+    "animals": [
+      "Kitsune",
+      "Renard"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Loups",
+    "title": "Loups",
+    "animals": [
+      "Loup",
+      "Cerbère"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Caprinaes",
+    "title": "Caprinaes",
+    "animals": [
+      "Cerf",
+      "Minotaure"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Cerfs",
+    "title": "Cerfs",
+    "animals": [
+      "Cerf"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Dauphins",
+    "title": "Dauphins",
+    "animals": [
+      "Dauphin"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Éléphants",
+    "title": "Éléphants",
+    "animals": [
+      "Éléphant"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Équidés",
+    "title": "Équidés",
+    "animals": [
+      "Licorne"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Félins",
+    "title": "Félins",
+    "animals": [
+      "Lion",
+      "Panthère",
+      "Sphinx"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Girafes",
+    "title": "Girafes",
+    "animals": [
+      "Cerf"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Glyptodontinaes",
+    "title": "Glyptodontinaes",
+    "animals": [
+      "Tortue",
+      "Rhinocéros"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Hérissons",
+    "title": "Hérissons",
+    "animals": [
+      "Rhinocéros",
+      "Ours"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Hippopotames",
+    "title": "Hippopotames",
+    "animals": [
+      "Rhinocéros"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Hyènes",
+    "title": "Hyènes",
+    "animals": [
+      "Loup",
+      "Lion"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Kangouroux",
+    "title": "Kangouroux",
+    "animals": [
+      "Singe"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Koalas",
+    "title": "Koalas",
+    "animals": [
+      "Ours"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Taupes",
+    "title": "Taupes",
+    "animals": [
+      "Yéti",
+      "Ours"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Mangoustes",
+    "title": "Mangoustes",
+    "animals": [
+      "Renard",
+      "Kitsune"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Orques",
+    "title": "Orques",
+    "animals": [
+      "Orque"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Pangolins",
+    "title": "Pangolins",
+    "animals": [
+      "Tortue",
+      "Rhinocéros"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Porcs",
+    "title": "Porcs",
+    "animals": [
+      "Minotaure",
+      "Ours"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Pinnipèdes",
+    "title": "Pinnipèdes",
+    "animals": [
+      "Baleine",
+      "Dauphin"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Platypus",
+    "title": "Platypus",
+    "animals": [
+      "Dauphin",
+      "Ours"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Primates",
+    "title": "Primates",
+    "animals": [
+      "Singe"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Humanoïdes",
+    "title": "Humanoïdes",
+    "animals": [
+      "Yéti",
+      "Minotaure",
+      "Sphinx",
+      "Sirène"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Lapins",
+    "title": "Lapins",
+    "animals": [
+      "Cerf",
+      "Renard"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Rhinocéros",
+    "title": "Rhinocéros",
+    "animals": [
+      "Rhinocéros"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Rongeurs",
+    "title": "Rongeurs",
+    "animals": [
+      "Singe",
+      "Renard"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "Mouffettes",
+    "title": "Mouffettes",
+    "animals": [
+      "Renard"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Paresseux",
+    "title": "Paresseux",
+    "animals": [
+      "Ours",
+      "Singe"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Tapirs",
+    "title": "Tapirs",
+    "animals": [
+      "Rhinocéros"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Belettes",
+    "title": "Belettes",
+    "animals": [
+      "Renard",
+      "Kitsune"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Baleines",
+    "title": "Baleines",
+    "animals": [
+      "Baleine"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Bivalves",
+    "title": "Bivalves",
+    "animals": [
+      "Crabe",
+      "Étoile de mer"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Céphalopodes",
+    "title": "Céphalopodes",
+    "animals": [
+      "Kraken",
+      "Méduse"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Gastéropodes",
+    "title": "Gastéropodes",
+    "animals": [
+      "Étoile de mer",
+      "Tortue"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Sphénodons",
+    "title": "Sphénodons",
+    "animals": [
+      "Basilic"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Crocodiles",
+    "title": "Crocodiles",
+    "animals": [
+      "Basilic",
+      "Dragon"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "DiversDinosaures",
+    "title": "Divers Dinosaures",
+    "animals": [
+      "Dragon",
+      "Basilic"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Sauropodes",
+    "title": "Sauropodes",
+    "animals": [
+      "Dragon"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Théropodes",
+    "title": "Théropodes",
+    "animals": [
+      "Dragon",
+      "Basilic"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Ceratopsia",
+    "title": "Ceratopsia",
+    "animals": [
+      "Rhinocéros",
+      "Dragon"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Ankylosaure",
+    "title": "Ankylosaures",
+    "animals": [
+      "Tortue",
+      "Rhinocéros"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Pachycéphalosaure",
+    "title": "Pachycéphalosaures",
+    "animals": [
+      "Rhinocéros"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Lézards",
+    "title": "Lézards",
+    "animals": [
+      "Basilic",
+      "Dragon"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Plésiosauriens",
+    "title": "Plésiosauriens",
+    "animals": [
+      "Kraken",
+      "Dragon",
+      "Sirène"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "Ptérosaures",
+    "title": "Ptérosaures",
+    "animals": [
+      "Dragon",
+      "Griffon"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Serpents",
+    "title": "Serpents",
+    "animals": [
+      "Basilic"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "Tortues",
+    "title": "Tortues",
+    "animals": [
+      "Tortue"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "hybrides avec les Pommes",
+    "title": "hybride Pomme",
+    "animals": [
+      "Renard",
+      "Cerf"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "hybrides avec les Bourgeons",
+    "title": "hybride Bourgeon",
+    "animals": [
+      "Cerf",
+      "Cygne"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "hybrides avec les Bamboux",
+    "title": "hybride Bambou",
+    "animals": [
+      "Ours",
+      "Singe"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "hybrides avec les Bananier",
+    "title": "hybride Bananier",
+    "animals": [
+      "Singe"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "hybrides avec les Cactus",
+    "title": "hybride Cactus",
+    "animals": [
+      "Rhinocéros",
+      "Scarabée"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "hybrides avec les Cerise",
+    "title": "hybride Cerise",
+    "animals": [
+      "Coccinelle",
+      "Flamant rose"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "hybrides avec les Châtaignes",
+    "title": "hybride Châtaigne",
+    "animals": [
+      "Ours",
+      "Rhinocéros"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "hybrides avec les Conifères",
+    "title": "hybride Conifère",
+    "animals": [
+      "Cerf",
+      "Ours"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "hybrides avec le Coton",
+    "title": "hybride Coton",
+    "animals": [
+      "Cygne",
+      "Ours"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "hybrides avec les Pissenlit",
+    "title": "hybride Pissenlit",
+    "animals": [
+      "Lion",
+      "Papillon"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "hybrides avec les Durian",
+    "title": "hybride Durian",
+    "animals": [
+      "Rhinocéros",
+      "Scarabée"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "hybrides avec les Fleurs",
+    "title": "hybride Fleur",
+    "animals": [
+      "Papillon",
+      "Abeille",
+      "Colibri"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "hybrides avec les Géranium",
+    "title": "hybride Géranium",
+    "animals": [
+      "Coccinelle",
+      "Papillon"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "hybrides avec les feuilles",
+    "title": "hybride Feuille",
+    "animals": [
+      "Phasme",
+      "Mante religieuse"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "hybrides avec les Lys",
+    "title": "hybride Lys",
+    "animals": [
+      "Cygne",
+      "Colibri"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "hybrides avec les Mangoustan",
+    "title": "hybride Mangoustan",
+    "animals": [
+      "Scarabée",
+      "Ours"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "hybrides avec le Chêne",
+    "title": "hybride Chêne",
+    "animals": [
+      "Cerf",
+      "Ours"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "hybrides avec les Olives",
+    "title": "hybride Olive",
+    "animals": [
+      "Perroquet",
+      "Hirondelle"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "hybrides avec les Oranges",
+    "title": "hybride Orange",
+    "animals": [
+      "Renard",
+      "Flamant rose"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "hybrides avec les Orchidées",
+    "title": "hybride Orchidée",
+    "animals": [
+      "Mante religieuse",
+      "Papillon"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "hybrides avec les Palmier",
+    "title": "hybride Palmier",
+    "animals": [
+      "Perroquet",
+      "Flamant rose"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "hybrides avec le Poivre",
+    "title": "hybride Poivre",
+    "animals": [
+      "Corbeau",
+      "Perroquet"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "hybrides avec les Plantes Carnivores",
+    "title": "hybride Plante Carnivore",
+    "animals": [
+      "Mante religieuse",
+      "Basilic"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "hybrides avec la Citrouille",
+    "title": "hybride Citrouille",
+    "animals": [
+      "Renard",
+      "Phénix"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "hybrides avec les  Rafflésies",
+    "title": "hybride Rafflésie",
+    "animals": [
+      "Mante religieuse",
+      "Papillon"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "hybrides avec le Riz",
+    "title": "hybride Riz",
+    "animals": [
+      "Cygne",
+      "Fourmi"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "hybrides avec les Roses",
+    "title": "hybride Rose",
+    "animals": [
+      "Licorne",
+      "Papillon"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "hybrides avec les Algues",
+    "title": "hybride Algue",
+    "animals": [
+      "Hippocampe",
+      "Méduse",
+      "Étoile de mer"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "hybrides avec les Strelitzia",
+    "title": "hybride Strelitzia",
+    "animals": [
+      "Paon",
+      "Colibri"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "hybrides avec les Tournesol",
+    "title": "hybride Tournesol",
+    "animals": [
+      "Lion",
+      "Abeille"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "hybrides avec les Arbres",
+    "title": "hybride Arbre",
+    "animals": [
+      "Cerf",
+      "Ours",
+      "Hibou"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "hybrides avec les Virevoltants",
+    "title": "hybride Virevoltant",
+    "animals": [
+      "Renard",
+      "Criquet"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "hybrides avec les Trilles",
+    "title": "hybride Trille",
+    "animals": [
+      "Papillon",
+      "Colibri"
+    ],
+    "priority": 1
+  },
+  {
+    "source_term": "hybrides avec les Vignes",
+    "title": "hybride Vigne",
+    "animals": [
+      "Cerf",
+      "Singe"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "hybrides avec les Nénuphars",
+    "title": "hybride Nénuphar",
+    "animals": [
+      "Cygne",
+      "Méduse"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "hybrides avec les Champignon",
+    "title": "hybride Champignon",
+    "animals": [
+      "Yéti",
+      "Phasme",
+      "Ours"
+    ],
+    "priority": 2
+  },
+  {
+    "source_term": "hybrides avec l'activité humaine (Abomination)",
+    "title": "hybride Abomination",
+    "animals": [
+      "Minotaure",
+      "Yéti",
+      "Sphinx",
+      "Cerbère"
+    ],
+    "priority": 3
+  },
+  {
+    "source_term": "hybrides avec des objets inanimé",
+    "title": "hybride Objet inanimé",
+    "animals": [
+      "Sphinx",
+      "Minotaure",
+      "Yéti",
+      "Dragon"
+    ],
+    "priority": 1
+  }
+]

@@ -1,0 +1,19 @@
+:root {
+  --bg-deep: #050814;
+  --bg-main: #0b1020;
+
+  --text-primary: #f7f8fb;
+  --text-secondary: #bec6d6;
+  --text-muted: #8993a8;
+
+  --accent: #7995ff;
+  --accent-strong: #b8c6ff;
+  --accent-soft:
+    rgba(121, 149, 255, 0.2);
+
+  --overlay-top:
+    rgba(3, 8, 20, 0.18);
+
+  --overlay-bottom:
+    rgba(3, 8, 20, 0.68);
+}

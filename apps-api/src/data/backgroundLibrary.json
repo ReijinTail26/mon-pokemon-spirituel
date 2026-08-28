@@ -1,0 +1,2597 @@
+{
+  "version": "background-library-v1",
+  "count": 61,
+  "backgrounds": [
+    {
+      "id": "bg-01",
+      "name_fr": "Reflets du couchant",
+      "name_en": "Sunset Reflection",
+      "file": "bg-01-sunset-reflection.png",
+      "families": [
+        "fantasy_environment"
+      ],
+      "tags": [
+        "reflection",
+        "sunset"
+      ],
+      "type_affinities": [
+        "Normal"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-02",
+      "name_fr": "Lagon tropical",
+      "name_en": "Tropical Lagoon",
+      "file": "bg-02-tropical-lagoon.png",
+      "families": [
+        "aquatic"
+      ],
+      "tags": [
+        "lagoon",
+        "tropical"
+      ],
+      "type_affinities": [
+        "Eau",
+        "Fée"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-03",
+      "name_fr": "Forêt enchantée",
+      "name_en": "Enchanted Forest",
+      "file": "bg-03-enchanted-forest.png",
+      "families": [
+        "forest"
+      ],
+      "tags": [
+        "enchanted",
+        "forest",
+        "mystical"
+      ],
+      "type_affinities": [
+        "Plante",
+        "Insecte"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-04",
+      "name_fr": "Aurores célestes",
+      "name_en": "Aurora",
+      "file": "bg-04-aurora.png",
+      "families": [
+        "fantasy_environment"
+      ],
+      "tags": [
+        "aurora",
+        "weather"
+      ],
+      "type_affinities": [
+        "Glace",
+        "Fée",
+        "Psy"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-05",
+      "name_fr": "Montagne enneigée à l’aube",
+      "name_en": "Snow Mountain Dawn",
+      "file": "bg-05-snow-mountain-dawn.png",
+      "families": [
+        "glacial",
+        "mountain"
+      ],
+      "tags": [
+        "dawn",
+        "mountain",
+        "snow"
+      ],
+      "type_affinities": [
+        "Glace",
+        "Roche"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-06",
+      "name_fr": "Ville nocturne",
+      "name_en": "Night City",
+      "file": "bg-06-night-city.png",
+      "families": [
+        "urban"
+      ],
+      "tags": [
+        "city",
+        "night"
+      ],
+      "type_affinities": [
+        "Acier",
+        "Électrik",
+        "Ténèbres"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-07",
+      "name_fr": "Désert doré",
+      "name_en": "Golden Desert",
+      "file": "bg-07-golden-desert.png",
+      "families": [
+        "arid"
+      ],
+      "tags": [
+        "desert",
+        "golden"
+      ],
+      "type_affinities": [
+        "Sol",
+        "Roche"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-08",
+      "name_fr": "Rivière cristalline",
+      "name_en": "Crystal River",
+      "file": "bg-08-crystal-river.png",
+      "families": [
+        "aquatic",
+        "crystalline"
+      ],
+      "tags": [
+        "crystal",
+        "river"
+      ],
+      "type_affinities": [
+        "Eau",
+        "Roche",
+        "Glace",
+        "Fée",
+        "Psy"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-09",
+      "name_fr": "Grottes lumineuses",
+      "name_en": "Luminous Caves",
+      "file": "bg-09-luminous-caves.png",
+      "families": [
+        "fantasy_environment"
+      ],
+      "tags": [
+        "caves",
+        "luminous",
+        "mystical"
+      ],
+      "type_affinities": [
+        "Normal"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-10",
+      "name_fr": "Volcan et lave",
+      "name_en": "Volcano Lava",
+      "file": "bg-10-volcano-lava.png",
+      "families": [
+        "volcanic"
+      ],
+      "tags": [
+        "lava",
+        "volcano"
+      ],
+      "type_affinities": [
+        "Feu",
+        "Roche"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-11",
+      "name_fr": "Plage tropicale au crépuscule",
+      "name_en": "Tropical Beach Twilight",
+      "file": "bg-11-tropical-beach-twilight.png",
+      "families": [
+        "fantasy_environment"
+      ],
+      "tags": [
+        "beach",
+        "tropical",
+        "twilight"
+      ],
+      "type_affinities": [
+        "Normal"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-12",
+      "name_fr": "Champ de fleurs",
+      "name_en": "Flower Field",
+      "file": "bg-12-flower-field.png",
+      "families": [
+        "floral"
+      ],
+      "tags": [
+        "field",
+        "flower"
+      ],
+      "type_affinities": [
+        "Plante",
+        "Fée"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-13",
+      "name_fr": "Temple ancestral",
+      "name_en": "Ancestral Temple",
+      "file": "bg-13-ancestral-temple.png",
+      "families": [
+        "ancient"
+      ],
+      "tags": [
+        "ancestral",
+        "temple"
+      ],
+      "type_affinities": [
+        "Psy",
+        "Spectre",
+        "Fée"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-14",
+      "name_fr": "Falaises mystiques",
+      "name_en": "Mystical Cliffs",
+      "file": "bg-14-mystical-cliffs.png",
+      "families": [
+        "cliffs"
+      ],
+      "tags": [
+        "cliffs",
+        "mystical"
+      ],
+      "type_affinities": [
+        "Roche",
+        "Vol"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-15",
+      "name_fr": "Espace cosmique",
+      "name_en": "Cosmic Space",
+      "file": "bg-15-cosmic-space.png",
+      "families": [
+        "cosmic"
+      ],
+      "tags": [
+        "cosmic",
+        "space"
+      ],
+      "type_affinities": [
+        "Psy",
+        "Dragon",
+        "Fée"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-16",
+      "name_fr": "Côte sous la tempête",
+      "name_en": "Storm Coast",
+      "file": "bg-16-storm-coast.png",
+      "families": [
+        "fantasy_environment"
+      ],
+      "tags": [
+        "coast",
+        "storm",
+        "weather"
+      ],
+      "type_affinities": [
+        "Électrik",
+        "Vol",
+        "Eau"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-17",
+      "name_fr": "Marais au clair de lune",
+      "name_en": "Moonlit Marsh",
+      "file": "bg-17-moonlit-marsh.png",
+      "families": [
+        "extraterrestrial",
+        "wetland"
+      ],
+      "tags": [
+        "marsh",
+        "moonlit",
+        "night"
+      ],
+      "type_affinities": [
+        "Eau",
+        "Poison",
+        "Spectre",
+        "Psy"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-18",
+      "name_fr": "Lac gelé",
+      "name_en": "Frozen Lake",
+      "file": "bg-18-frozen-lake.png",
+      "families": [
+        "glacial"
+      ],
+      "tags": [
+        "frozen",
+        "lake"
+      ],
+      "type_affinities": [
+        "Glace"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-19",
+      "name_fr": "Vallée aux érables rouges",
+      "name_en": "Red Maple Valley",
+      "file": "bg-19-red-maple-valley.png",
+      "families": [
+        "fantasy_environment"
+      ],
+      "tags": [
+        "maple",
+        "red",
+        "valley"
+      ],
+      "type_affinities": [
+        "Normal"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-20",
+      "name_fr": "Forêt de bambous",
+      "name_en": "Bamboo Rainforest",
+      "file": "bg-20-bamboo-rainforest.png",
+      "families": [
+        "forest"
+      ],
+      "tags": [
+        "bamboo",
+        "rainforest"
+      ],
+      "type_affinities": [
+        "Plante",
+        "Insecte"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-21",
+      "name_fr": "Plateau foudroyé",
+      "name_en": "Thunder Plateau",
+      "file": "bg-21-thunder-plateau.png",
+      "families": [
+        "fantasy_environment"
+      ],
+      "tags": [
+        "plateau",
+        "thunder",
+        "weather"
+      ],
+      "type_affinities": [
+        "Électrik",
+        "Vol"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-22",
+      "name_fr": "Terres d’obsidienne",
+      "name_en": "Obsidian Wasteland",
+      "file": "bg-22-obsidian-wasteland.png",
+      "families": [
+        "arid"
+      ],
+      "tags": [
+        "obsidian",
+        "wasteland"
+      ],
+      "type_affinities": [
+        "Roche",
+        "Feu",
+        "Ténèbres"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-23",
+      "name_fr": "Sanctuaire corallien",
+      "name_en": "Coral Sanctuary",
+      "file": "bg-23-coral-sanctuary.png",
+      "families": [
+        "aquatic"
+      ],
+      "tags": [
+        "coral",
+        "sanctuary"
+      ],
+      "type_affinities": [
+        "Eau",
+        "Fée"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-24",
+      "name_fr": "Fosse abyssale",
+      "name_en": "Deep Ocean Trench",
+      "file": "bg-24-deep-ocean-trench.png",
+      "families": [
+        "aquatic"
+      ],
+      "tags": [
+        "deep",
+        "ocean",
+        "trench"
+      ],
+      "type_affinities": [
+        "Eau"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-25",
+      "name_fr": "Archipel d’îles flottantes",
+      "name_en": "Floating Islands",
+      "file": "bg-25-floating-islands.png",
+      "families": [
+        "floating"
+      ],
+      "tags": [
+        "floating",
+        "islands"
+      ],
+      "type_affinities": [
+        "Vol",
+        "Eau"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-26",
+      "name_fr": "Forêt de champignons géants",
+      "name_en": "Giant Mushroom Forest",
+      "file": "bg-26-giant-mushroom-forest.png",
+      "families": [
+        "fantasy_forest",
+        "forest"
+      ],
+      "tags": [
+        "forest",
+        "giant",
+        "mushroom"
+      ],
+      "type_affinities": [
+        "Plante",
+        "Insecte",
+        "Poison",
+        "Fée"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-27",
+      "name_fr": "Cité antique en ruines",
+      "name_en": "Ancient Ruined City",
+      "file": "bg-27-ancient-ruined-city.png",
+      "families": [
+        "urban"
+      ],
+      "tags": [
+        "ancient",
+        "city",
+        "ruined"
+      ],
+      "type_affinities": [
+        "Acier",
+        "Électrik",
+        "Ténèbres"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-28",
+      "name_fr": "Canyon cristallin",
+      "name_en": "Crystal Canyon",
+      "file": "bg-28-crystal-canyon.png",
+      "families": [
+        "canyon",
+        "crystalline"
+      ],
+      "tags": [
+        "canyon",
+        "crystal"
+      ],
+      "type_affinities": [
+        "Roche",
+        "Sol",
+        "Glace",
+        "Fée",
+        "Psy"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-29",
+      "name_fr": "Steppe infinie",
+      "name_en": "Endless Grassland",
+      "file": "bg-29-endless-grassland.png",
+      "families": [
+        "grassland"
+      ],
+      "tags": [
+        "endless",
+        "grassland"
+      ],
+      "type_affinities": [
+        "Plante",
+        "Sol"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-30",
+      "name_fr": "Forêt de pins brumeuse",
+      "name_en": "Misty Pine Forest",
+      "file": "bg-30-misty-pine-forest.png",
+      "families": [
+        "forest"
+      ],
+      "tags": [
+        "forest",
+        "misty",
+        "pine",
+        "weather"
+      ],
+      "type_affinities": [
+        "Plante",
+        "Insecte"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-31",
+      "name_fr": "Temple englouti",
+      "name_en": "Sunken Temple",
+      "file": "bg-31-sunken-temple.png",
+      "families": [
+        "ancient"
+      ],
+      "tags": [
+        "sunken",
+        "temple"
+      ],
+      "type_affinities": [
+        "Psy",
+        "Spectre",
+        "Fée"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-32",
+      "name_fr": "Oasis nocturne",
+      "name_en": "Desert Oasis Night",
+      "file": "bg-32-desert-oasis-night.png",
+      "families": [
+        "arid"
+      ],
+      "tags": [
+        "desert",
+        "night",
+        "oasis"
+      ],
+      "type_affinities": [
+        "Sol",
+        "Roche"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-33",
+      "name_fr": "Forêt de cendres",
+      "name_en": "Ashen Forest",
+      "file": "bg-33-ashen-forest.png",
+      "families": [
+        "forest"
+      ],
+      "tags": [
+        "ashen",
+        "forest"
+      ],
+      "type_affinities": [
+        "Plante",
+        "Insecte",
+        "Feu",
+        "Spectre"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-34",
+      "name_fr": "Hautes terres aux moulins",
+      "name_en": "Windmill Highlands",
+      "file": "bg-34-windmill-highlands.png",
+      "families": [
+        "highlands"
+      ],
+      "tags": [
+        "highlands",
+        "windmill"
+      ],
+      "type_affinities": [
+        "Vol",
+        "Plante"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-35",
+      "name_fr": "Sanctuaire aux cerisiers",
+      "name_en": "Sakura Shrine",
+      "file": "bg-35-sakura-shrine.png",
+      "families": [
+        "sacred"
+      ],
+      "tags": [
+        "sakura",
+        "shrine"
+      ],
+      "type_affinities": [
+        "Fée",
+        "Spectre",
+        "Psy"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-36",
+      "name_fr": "Toits urbains sous l’orage",
+      "name_en": "Thunderstorm City Rooftops",
+      "file": "bg-36-thunderstorm-city-rooftops.png",
+      "families": [
+        "urban"
+      ],
+      "tags": [
+        "city",
+        "rooftops",
+        "thunderstorm",
+        "weather"
+      ],
+      "type_affinities": [
+        "Électrik",
+        "Vol",
+        "Eau",
+        "Acier",
+        "Ténèbres"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-37",
+      "name_fr": "Grotte de cristal gelée",
+      "name_en": "Frozen Crystal Cave",
+      "file": "bg-37-frozen-crystal-cave.png",
+      "families": [
+        "crystalline",
+        "glacial"
+      ],
+      "tags": [
+        "cave",
+        "crystal",
+        "frozen"
+      ],
+      "type_affinities": [
+        "Roche",
+        "Glace",
+        "Fée",
+        "Psy"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-38",
+      "name_fr": "Île volcanique sous la tempête",
+      "name_en": "Volcanic Island Storm",
+      "file": "bg-38-volcanic-island-storm.png",
+      "families": [
+        "fantasy_environment"
+      ],
+      "tags": [
+        "island",
+        "storm",
+        "volcanic",
+        "weather"
+      ],
+      "type_affinities": [
+        "Électrik",
+        "Vol",
+        "Eau"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-39",
+      "name_fr": "Jardin céleste",
+      "name_en": "Celestial Garden",
+      "file": "bg-39-celestial-garden.png",
+      "families": [
+        "celestial"
+      ],
+      "tags": [
+        "celestial",
+        "garden",
+        "mystical"
+      ],
+      "type_affinities": [
+        "Vol",
+        "Fée",
+        "Psy"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-40",
+      "name_fr": "Vallée lunaire",
+      "name_en": "Moon Crater Valley",
+      "file": "bg-40-moon-crater-valley.png",
+      "families": [
+        "extraterrestrial"
+      ],
+      "tags": [
+        "crater",
+        "moon",
+        "valley"
+      ],
+      "type_affinities": [
+        "Psy",
+        "Spectre"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-41",
+      "name_fr": "Sanctuaire de l’arbre géant",
+      "name_en": "Giant Tree Sanctuary",
+      "file": "bg-41-giant-tree-sanctuary.png",
+      "families": [
+        "forest"
+      ],
+      "tags": [
+        "giant",
+        "sanctuary",
+        "tree"
+      ],
+      "type_affinities": [
+        "Plante"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-42",
+      "name_fr": "Jungle néon",
+      "name_en": "Neon Jungle",
+      "file": "bg-42-neon-jungle.png",
+      "families": [
+        "forest"
+      ],
+      "tags": [
+        "jungle",
+        "neon"
+      ],
+      "type_affinities": [
+        "Plante",
+        "Insecte",
+        "Poison"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-43",
+      "name_fr": "Métropole mécanique",
+      "name_en": "Clockwork Metropolis",
+      "file": "bg-43-clockwork-metropolis.png",
+      "families": [
+        "industrial",
+        "urban"
+      ],
+      "tags": [
+        "clockwork",
+        "metropolis"
+      ],
+      "type_affinities": [
+        "Acier",
+        "Électrik"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-44",
+      "name_fr": "Désert miroir",
+      "name_en": "Mirror Desert",
+      "file": "bg-44-mirror-desert.png",
+      "families": [
+        "arid"
+      ],
+      "tags": [
+        "desert",
+        "mirror"
+      ],
+      "type_affinities": [
+        "Sol",
+        "Roche"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-45",
+      "name_fr": "Mer de cristaux flottants",
+      "name_en": "Floating Crystal Sea",
+      "file": "bg-45-floating-crystal-sea.png",
+      "families": [
+        "crystalline"
+      ],
+      "tags": [
+        "crystal",
+        "floating",
+        "sea"
+      ],
+      "type_affinities": [
+        "Roche",
+        "Glace",
+        "Fée",
+        "Psy"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-46",
+      "name_fr": "Cathédrale des ombres",
+      "name_en": "Shadow Cathedral",
+      "file": "bg-46-shadow-cathedral.png",
+      "families": [
+        "gothic"
+      ],
+      "tags": [
+        "cathedral",
+        "night",
+        "shadow"
+      ],
+      "type_affinities": [
+        "Spectre",
+        "Ténèbres",
+        "Psy"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-47",
+      "name_fr": "Marais bioluminescent",
+      "name_en": "Bioluminescent Swamp",
+      "file": "bg-47-bioluminescent-swamp.png",
+      "families": [
+        "wetland"
+      ],
+      "tags": [
+        "bioluminescent",
+        "mystical",
+        "swamp"
+      ],
+      "type_affinities": [
+        "Eau",
+        "Poison",
+        "Spectre"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-48",
+      "name_fr": "Canyon irisé",
+      "name_en": "Rainbow Canyon",
+      "file": "bg-48-rainbow-canyon.png",
+      "families": [
+        "canyon"
+      ],
+      "tags": [
+        "canyon",
+        "rainbow"
+      ],
+      "type_affinities": [
+        "Roche",
+        "Sol"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-49",
+      "name_fr": "Prairie sous les étoiles filantes",
+      "name_en": "Starfall Meadow",
+      "file": "bg-49-starfall-meadow.png",
+      "families": [
+        "fantasy_environment"
+      ],
+      "tags": [
+        "meadow",
+        "mystical",
+        "night",
+        "starfall"
+      ],
+      "type_affinities": [
+        "Fée",
+        "Psy"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-50",
+      "name_fr": "Réalité fracturée",
+      "name_en": "Fractured Reality",
+      "file": "bg-50-fractured-reality.png",
+      "families": [
+        "fantasy_environment"
+      ],
+      "tags": [
+        "fractured",
+        "mystical",
+        "reality"
+      ],
+      "type_affinities": [
+        "Psy",
+        "Spectre",
+        "Dragon"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-51",
+      "name_fr": "Lagon aux cascades lumineuses",
+      "name_en": "Luminous Waterfall Lagoon",
+      "file": "bg-51-luminous-waterfall-lagoon.png",
+      "families": [
+        "aquatic"
+      ],
+      "tags": [
+        "lagoon",
+        "luminous",
+        "mystical",
+        "waterfall"
+      ],
+      "type_affinities": [
+        "Eau",
+        "Fée"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-52",
+      "name_fr": "Forêt miniature",
+      "name_en": "Tiny Forest",
+      "file": "bg-52-tiny-forest.png",
+      "families": [
+        "forest"
+      ],
+      "tags": [
+        "forest",
+        "tiny"
+      ],
+      "type_affinities": [
+        "Plante",
+        "Insecte"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-53",
+      "name_fr": "Cité du canyon d’émeraude",
+      "name_en": "Emerald Canyon City",
+      "file": "bg-53-emerald-canyon-city.png",
+      "families": [
+        "canyon",
+        "urban"
+      ],
+      "tags": [
+        "canyon",
+        "city",
+        "emerald"
+      ],
+      "type_affinities": [
+        "Roche",
+        "Sol",
+        "Acier",
+        "Électrik",
+        "Ténèbres"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-54",
+      "name_fr": "Vallée de jade dans la brume",
+      "name_en": "Jade Valley Mist",
+      "file": "bg-54-jade-valley-mist.png",
+      "families": [
+        "fantasy_environment"
+      ],
+      "tags": [
+        "jade",
+        "mist",
+        "valley",
+        "weather"
+      ],
+      "type_affinities": [
+        "Normal"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-55",
+      "name_fr": "Océan cristallin",
+      "name_en": "Crystal Clear Ocean",
+      "file": "bg-55-crystal-clear-ocean.png",
+      "families": [
+        "aquatic",
+        "crystalline"
+      ],
+      "tags": [
+        "clear",
+        "crystal",
+        "ocean"
+      ],
+      "type_affinities": [
+        "Eau",
+        "Roche",
+        "Glace",
+        "Fée",
+        "Psy"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-56",
+      "name_fr": "Caverne du lagon de cristal",
+      "name_en": "Crystal Lagoon Cavern",
+      "file": "bg-56-crystal-lagoon-cavern.png",
+      "families": [
+        "aquatic",
+        "crystalline"
+      ],
+      "tags": [
+        "cavern",
+        "crystal",
+        "lagoon"
+      ],
+      "type_affinities": [
+        "Eau",
+        "Fée",
+        "Roche",
+        "Glace",
+        "Psy"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-57",
+      "name_fr": "Au-dessus des nuages",
+      "name_en": "Above The Clouds",
+      "file": "bg-57-above-the-clouds.png",
+      "families": [
+        "celestial"
+      ],
+      "tags": [
+        "above",
+        "clouds",
+        "the"
+      ],
+      "type_affinities": [
+        "Vol",
+        "Fée"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-58",
+      "name_fr": "Terrasse nocturne sur la ville",
+      "name_en": "Nocturnal City Terrace",
+      "file": "bg-58-nocturnal-city-terrace.png",
+      "families": [
+        "urban"
+      ],
+      "tags": [
+        "city",
+        "night",
+        "nocturnal",
+        "terrace"
+      ],
+      "type_affinities": [
+        "Acier",
+        "Électrik",
+        "Ténèbres"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-59",
+      "name_fr": "Lagon du canyon tropical",
+      "name_en": "Tropical Canyon Lagoon",
+      "file": "bg-59-tropical-canyon-lagoon.png",
+      "families": [
+        "aquatic",
+        "canyon"
+      ],
+      "tags": [
+        "canyon",
+        "lagoon",
+        "tropical"
+      ],
+      "type_affinities": [
+        "Eau",
+        "Fée",
+        "Roche",
+        "Sol"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-60",
+      "name_fr": "Ciel d’éclipse solaire",
+      "name_en": "Solar Eclipse Sky",
+      "file": "bg-60-solar-eclipse-sky.png",
+      "families": [
+        "celestial"
+      ],
+      "tags": [
+        "eclipse",
+        "sky",
+        "solar"
+      ],
+      "type_affinities": [
+        "Vol",
+        "Psy"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    },
+    {
+      "id": "bg-61",
+      "name_fr": "Delta fluvial vu du ciel",
+      "name_en": "Aerial River Delta",
+      "file": "bg-61-aerial-river-delta.png",
+      "families": [
+        "aquatic"
+      ],
+      "tags": [
+        "aerial",
+        "delta",
+        "river"
+      ],
+      "type_affinities": [
+        "Eau",
+        "Vol"
+      ],
+      "enabled": true,
+      "usage_policy": {
+        "main_art": true,
+        "signature_move_art": true,
+        "reference_views": false,
+        "visual_priority": "creature_first",
+        "silhouette_readability_required": true,
+        "same_environment_across_related_panels": true,
+        "must_be_contextually_relevant": true,
+        "decorative_only_forbidden": true,
+        "adaptation_allowed": [
+          "crop",
+          "camera_angle",
+          "depth_of_field",
+          "lighting_intensity",
+          "weather_intensity"
+        ],
+        "identity_must_remain": [
+          "biome",
+          "atmosphere",
+          "palette_family",
+          "major_environmental_motifs"
+        ]
+      }
+    }
+  ]
+}

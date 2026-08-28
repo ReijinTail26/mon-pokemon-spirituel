@@ -1,0 +1,2379 @@
+[
+  {
+    "name": "Dragon",
+    "version": "animal-biology-v1",
+    "body_plan": "quadruped",
+    "locomotion": [
+      "walk",
+      "run",
+      "fly"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "quatre membres porteurs avec ailes dorsales distinctes",
+    "extremities": "griffes robustes",
+    "tail": "longue queue puissante et effilée",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête reptilienne avec museau marqué",
+    "ears": "petites ou absentes",
+    "horns": [
+      "cornes crâniennes"
+    ],
+    "crest": "crête osseuse discrète",
+    "appendages": [
+      "paire d’ailes membraneuses"
+    ],
+    "primary_surface": "écailles",
+    "secondary_surface": "membranes alaires",
+    "accent_surface": "plaques ou crêtes",
+    "footprint_type": "griffe",
+    "height_m": 2.2,
+    "weight_kg": 210,
+    "markers": [
+      "museau reptilien",
+      "ailes membraneuses",
+      "queue longue",
+      "écailles"
+    ],
+    "silhouette": "grande silhouette reptilienne ailée, puissante et majestueuse",
+    "proportions": {
+      "head_to_body_ratio": "tête moyenne à forte",
+      "torso": "thorax puissant",
+      "limbs": "robustes",
+      "neck": "moyen à long",
+      "tail": "longue et équilibrante"
+    },
+    "signature_features": [
+      "ailes membraneuses",
+      "cornes crâniennes",
+      "crête dorsale"
+    ]
+  },
+  {
+    "name": "Phénix",
+    "version": "animal-biology-v1",
+    "body_plan": "avian",
+    "locomotion": [
+      "walk",
+      "fly",
+      "glide"
+    ],
+    "limb_count": 2,
+    "limb_configuration": "deux pattes aviennes et deux ailes",
+    "extremities": "serres fines",
+    "tail": "longues plumes caudales en éventail",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête avienne élégante",
+    "ears": "absentes extérieurement",
+    "horns": [],
+    "crest": "huppe de plumes",
+    "appendages": [
+      "paire d’ailes plumeuses"
+    ],
+    "primary_surface": "plumage",
+    "secondary_surface": "rémiges et plumes caudales",
+    "accent_surface": "plumes de huppe",
+    "footprint_type": "griffe",
+    "height_m": 1.5,
+    "weight_kg": 32,
+    "markers": [
+      "bec fin",
+      "ailes plumeuses",
+      "huppe",
+      "longues plumes caudales"
+    ],
+    "silhouette": "grand oiseau élancé aux ailes larges et à la traîne plumeuse spectaculaire",
+    "proportions": {
+      "head_to_body_ratio": "petite tête",
+      "torso": "poitrine avienne",
+      "limbs": "pattes fines",
+      "neck": "moyen",
+      "tail": "très longue traîne plumeuse"
+    },
+    "signature_features": [
+      "huppe flamboyante",
+      "traîne de plumes",
+      "grandes ailes"
+    ]
+  },
+  {
+    "name": "Griffon",
+    "version": "animal-biology-v1",
+    "body_plan": "hybrid",
+    "locomotion": [
+      "walk",
+      "run",
+      "fly",
+      "glide"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "avant avien, arrière félin, ailes dorsales",
+    "extremities": "serres à l’avant, pattes félines à l’arrière",
+    "tail": "queue féline longue",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête d’aigle à bec crochu",
+    "ears": "petites oreilles félines derrière la tête",
+    "horns": [],
+    "crest": "petite crête de plumes",
+    "appendages": [
+      "paire d’ailes plumeuses"
+    ],
+    "primary_surface": "plumage antérieur et pelage postérieur",
+    "secondary_surface": "rémiges",
+    "accent_surface": "plumes de collerette",
+    "footprint_type": "griffe",
+    "height_m": 1.7,
+    "weight_kg": 95,
+    "markers": [
+      "bec crochu",
+      "avant avien",
+      "arrière félin",
+      "ailes plumeuses"
+    ],
+    "silhouette": "hybride puissant à poitrine d’oiseau et arrière-train félin",
+    "proportions": {
+      "head_to_body_ratio": "tête avienne moyenne",
+      "torso": "poitrine large",
+      "limbs": "avant puissants, arrière félins",
+      "neck": "court à moyen",
+      "tail": "longue queue féline"
+    },
+    "signature_features": [
+      "bec crochu",
+      "ailes de rapace",
+      "collerette plumeuse"
+    ]
+  },
+  {
+    "name": "Kitsune",
+    "version": "animal-biology-v1",
+    "body_plan": "quadruped",
+    "locomotion": [
+      "walk",
+      "run",
+      "jump"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "quadrupède canidé léger",
+    "extremities": "pattes fines à coussinets",
+    "tail": "plusieurs longues queues de renard",
+    "tail_present": true,
+    "tail_count": 3,
+    "head": "tête vulpine fine",
+    "ears": "grandes oreilles triangulaires",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [],
+    "primary_surface": "fourrure fine",
+    "secondary_surface": "fourrure plus longue aux queues et au poitrail",
+    "accent_surface": "extrémités des queues et oreilles",
+    "footprint_type": "patte",
+    "height_m": 0.9,
+    "weight_kg": 26,
+    "markers": [
+      "museau de renard",
+      "grandes oreilles",
+      "queues multiples",
+      "fourrure souple"
+    ],
+    "silhouette": "canidé élancé dominé par plusieurs queues en éventail",
+    "proportions": {
+      "head_to_body_ratio": "tête fine",
+      "torso": "léger",
+      "limbs": "longs et agiles",
+      "neck": "moyen",
+      "tail": "très volumineuses queues multiples"
+    },
+    "signature_features": [
+      "queues multiples",
+      "oreilles vulpines",
+      "collerette souple"
+    ]
+  },
+  {
+    "name": "Licorne",
+    "version": "animal-biology-v1",
+    "body_plan": "quadruped",
+    "locomotion": [
+      "walk",
+      "run",
+      "jump"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "quadrupède ongulé",
+    "extremities": "sabots",
+    "tail": "queue longue et soyeuse",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête équine raffinée",
+    "ears": "oreilles équines dressées",
+    "horns": [
+      "corne frontale unique"
+    ],
+    "crest": "crinière",
+    "appendages": [],
+    "primary_surface": "pelage court",
+    "secondary_surface": "crinière et queue longues",
+    "accent_surface": "corne",
+    "footprint_type": "sabot",
+    "height_m": 1.7,
+    "weight_kg": 430,
+    "markers": [
+      "profil équin",
+      "corne frontale",
+      "crinière",
+      "sabots"
+    ],
+    "silhouette": "équidé élancé à longue crinière et corne frontale",
+    "proportions": {
+      "head_to_body_ratio": "tête équine fine",
+      "torso": "élancé",
+      "limbs": "longs",
+      "neck": "long et arqué",
+      "tail": "longue et fluide"
+    },
+    "signature_features": [
+      "corne frontale",
+      "crinière longue",
+      "ligne de cou arquée"
+    ]
+  },
+  {
+    "name": "Basilic",
+    "version": "animal-biology-v1",
+    "body_plan": "serpentine",
+    "locomotion": [
+      "slither",
+      "crawl"
+    ],
+    "limb_count": 0,
+    "limb_configuration": "corps serpentin sans membres porteurs",
+    "extremities": "aucune",
+    "tail": "continuité du corps serpentin",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête reptilienne anguleuse",
+    "ears": "absentes",
+    "horns": [],
+    "crest": "crête ou couronne écailleuse",
+    "appendages": [],
+    "primary_surface": "écailles serrées",
+    "secondary_surface": "plaques ventrales",
+    "accent_surface": "crête céphalique",
+    "footprint_type": "reptation",
+    "height_m": 0.8,
+    "weight_kg": 38,
+    "markers": [
+      "corps serpentin",
+      "regard fixe",
+      "crête céphalique",
+      "écailles ventrales"
+    ],
+    "silhouette": "serpent massif à tête couronnée et cou légèrement relevé",
+    "proportions": {
+      "head_to_body_ratio": "tête marquée",
+      "torso": "corps serpentin continu",
+      "limbs": "absents",
+      "neck": "fondu dans le corps",
+      "tail": "longue terminaison effilée"
+    },
+    "signature_features": [
+      "crête-couronne",
+      "plaques ventrales",
+      "regard dominant"
+    ]
+  },
+  {
+    "name": "Sphinx",
+    "version": "animal-biology-v1",
+    "body_plan": "hybrid",
+    "locomotion": [
+      "walk",
+      "run",
+      "jump"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "quadrupède félin avec tête humanoïde stylisée",
+    "extremities": "pattes félines",
+    "tail": "queue féline",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "visage humanoïde félinisé encadré de traits de lion",
+    "ears": "oreilles félines",
+    "horns": [],
+    "crest": "coiffe ou crinière courte",
+    "appendages": [],
+    "primary_surface": "pelage court",
+    "secondary_surface": "crinière ou coiffe",
+    "accent_surface": "ornements faciaux naturels",
+    "footprint_type": "patte",
+    "height_m": 1.6,
+    "weight_kg": 145,
+    "markers": [
+      "corps de grand félin",
+      "visage énigmatique",
+      "pattes félines",
+      "port monumental"
+    ],
+    "silhouette": "félin massif et posé à tête expressive presque humanoïde",
+    "proportions": {
+      "head_to_body_ratio": "tête expressive",
+      "torso": "massif",
+      "limbs": "puissants",
+      "neck": "court",
+      "tail": "longue et fine"
+    },
+    "signature_features": [
+      "visage énigmatique",
+      "poitrail monumental",
+      "coiffe-crinière"
+    ]
+  },
+  {
+    "name": "Kraken",
+    "version": "animal-biology-v1",
+    "body_plan": "aquatic",
+    "locomotion": [
+      "swim",
+      "crawl"
+    ],
+    "limb_count": 8,
+    "limb_configuration": "huit tentacules rayonnant sous un manteau central",
+    "extremities": "extrémités tentaculaires effilées",
+    "tail": "aucune queue distincte",
+    "tail_present": false,
+    "tail_count": 0,
+    "head": "manteau céphalopode formant la masse principale",
+    "ears": "absentes",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "tentacules supplémentaires courts possibles autour de la bouche"
+    ],
+    "primary_surface": "peau souple de céphalopode",
+    "secondary_surface": "ventouses",
+    "accent_surface": "membranes intertentaculaires",
+    "footprint_type": "trace inhabituelle",
+    "height_m": 3.8,
+    "weight_kg": 420,
+    "markers": [
+      "manteau céphalopode",
+      "huit tentacules",
+      "ventouses",
+      "grands yeux latéraux"
+    ],
+    "silhouette": "masse céphalopode centrale entourée de longs tentacules dynamiques",
+    "proportions": {
+      "head_to_body_ratio": "manteau dominant",
+      "torso": "manteau compact",
+      "limbs": "huit tentacules longs",
+      "neck": "absent",
+      "tail": "absente"
+    },
+    "signature_features": [
+      "couronne de tentacules",
+      "ventouses visibles",
+      "manteau central"
+    ]
+  },
+  {
+    "name": "Minotaure",
+    "version": "animal-biology-v1",
+    "body_plan": "biped",
+    "locomotion": [
+      "walk",
+      "run"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "deux jambes porteuses et deux bras",
+    "extremities": "sabots aux pieds, mains puissantes",
+    "tail": "courte queue bovine",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête bovine massive",
+    "ears": "oreilles bovines latérales",
+    "horns": [
+      "deux cornes bovines"
+    ],
+    "crest": "touffe ou crinière courte",
+    "appendages": [],
+    "primary_surface": "pelage court",
+    "secondary_surface": "peau plus nue sur mains et museau",
+    "accent_surface": "cornes",
+    "footprint_type": "sabot",
+    "height_m": 2.2,
+    "weight_kg": 190,
+    "markers": [
+      "tête bovine",
+      "cornes jumelles",
+      "torse humanoïde",
+      "sabots"
+    ],
+    "silhouette": "bipède massif à épaules larges et tête bovine cornue",
+    "proportions": {
+      "head_to_body_ratio": "tête massive",
+      "torso": "très large",
+      "limbs": "bras puissants et jambes fortes",
+      "neck": "court et épais",
+      "tail": "courte"
+    },
+    "signature_features": [
+      "cornes jumelles",
+      "museau bovin",
+      "épaules massives"
+    ]
+  },
+  {
+    "name": "Cerbère",
+    "version": "animal-biology-v1",
+    "body_plan": "quadruped",
+    "locomotion": [
+      "walk",
+      "run",
+      "jump"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "quadrupède canidé massif",
+    "extremities": "pattes griffues",
+    "tail": "queue canine robuste",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "trois têtes canines partageant un même tronc",
+    "ears": "oreilles canines",
+    "horns": [],
+    "crest": "crinière dorsale courte",
+    "appendages": [
+      "trois cous distincts"
+    ],
+    "primary_surface": "fourrure dense",
+    "secondary_surface": "crinière plus rude",
+    "accent_surface": "griffes et crocs",
+    "footprint_type": "patte",
+    "height_m": 1.8,
+    "weight_kg": 170,
+    "markers": [
+      "trois têtes canines",
+      "crocs",
+      "corps de molosse",
+      "pattes puissantes"
+    ],
+    "silhouette": "molosse quadrupède colossal dominé par trois têtes",
+    "proportions": {
+      "head_to_body_ratio": "ensemble céphalique très large",
+      "torso": "massif",
+      "limbs": "courts à moyens et puissants",
+      "neck": "trois cous courts",
+      "tail": "moyenne et robuste"
+    },
+    "signature_features": [
+      "trois têtes",
+      "triple cou",
+      "crinière dorsale"
+    ]
+  },
+  {
+    "name": "Fourmi",
+    "version": "animal-biology-v1",
+    "body_plan": "insectoid",
+    "locomotion": [
+      "walk",
+      "run",
+      "climb"
+    ],
+    "limb_count": 6,
+    "limb_configuration": "six pattes articulées",
+    "extremities": "tarses crochus",
+    "tail": "gastre formant l’arrière du corps",
+    "tail_present": false,
+    "tail_count": 0,
+    "head": "tête insectoïde avec mandibules",
+    "ears": "absentes",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "deux antennes"
+    ],
+    "primary_surface": "exosquelette mat",
+    "secondary_surface": "articulations souples",
+    "accent_surface": "mandibules",
+    "footprint_type": "trace inhabituelle",
+    "height_m": 0.45,
+    "weight_kg": 8,
+    "markers": [
+      "six pattes",
+      "antennes coudées",
+      "mandibules",
+      "taille étranglée"
+    ],
+    "silhouette": "insecte bas et segmenté à abdomen volumineux",
+    "proportions": {
+      "head_to_body_ratio": "tête moyenne",
+      "torso": "thorax compact",
+      "limbs": "six fines pattes",
+      "neck": "absent",
+      "tail": "gastre arrondi"
+    },
+    "signature_features": [
+      "antennes coudées",
+      "mandibules",
+      "gastre segmenté"
+    ]
+  },
+  {
+    "name": "Abeille",
+    "version": "animal-biology-v1",
+    "body_plan": "insectoid",
+    "locomotion": [
+      "walk",
+      "fly",
+      "hover"
+    ],
+    "limb_count": 6,
+    "limb_configuration": "six pattes sous thorax et deux ailes",
+    "extremities": "petites griffes",
+    "tail": "abdomen terminé par aiguillon",
+    "tail_present": false,
+    "tail_count": 0,
+    "head": "tête arrondie à grands yeux composés",
+    "ears": "absentes",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "deux antennes",
+      "deux paires d’ailes translucides"
+    ],
+    "primary_surface": "exosquelette avec pilosité courte",
+    "secondary_surface": "ailes translucides",
+    "accent_surface": "bandes abdominales",
+    "footprint_type": "trace inhabituelle",
+    "height_m": 0.5,
+    "weight_kg": 7,
+    "markers": [
+      "bandes abdominales",
+      "ailes translucides",
+      "antennes",
+      "abdomen avec aiguillon"
+    ],
+    "silhouette": "insecte compact au thorax duveteux et ailes latérales",
+    "proportions": {
+      "head_to_body_ratio": "tête assez large",
+      "torso": "thorax compact",
+      "limbs": "six pattes fines",
+      "neck": "absent",
+      "tail": "abdomen conique"
+    },
+    "signature_features": [
+      "bandes abdominales",
+      "ailes nervurées",
+      "aiguillon terminal"
+    ]
+  },
+  {
+    "name": "Papillon",
+    "version": "animal-biology-v1",
+    "body_plan": "insectoid",
+    "locomotion": [
+      "walk",
+      "fly",
+      "glide"
+    ],
+    "limb_count": 6,
+    "limb_configuration": "six pattes fines et deux paires d’ailes",
+    "extremities": "tarses fins",
+    "tail": "abdomen fin",
+    "tail_present": false,
+    "tail_count": 0,
+    "head": "petite tête à trompe enroulée",
+    "ears": "absentes",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "deux antennes",
+      "deux grandes paires d’ailes"
+    ],
+    "primary_surface": "exosquelette fin",
+    "secondary_surface": "ailes couvertes d’écailles microscopiques",
+    "accent_surface": "motifs alaires",
+    "footprint_type": "trace inhabituelle",
+    "height_m": 0.6,
+    "weight_kg": 5,
+    "markers": [
+      "grandes ailes symétriques",
+      "antennes",
+      "abdomen fin",
+      "motifs alaires"
+    ],
+    "silhouette": "petit corps central dominé par de très grandes ailes décoratives",
+    "proportions": {
+      "head_to_body_ratio": "petite tête",
+      "torso": "thorax étroit",
+      "limbs": "six pattes très fines",
+      "neck": "absent",
+      "tail": "abdomen allongé"
+    },
+    "signature_features": [
+      "ailes larges",
+      "motifs alaires",
+      "antennes délicates"
+    ]
+  },
+  {
+    "name": "Mante religieuse",
+    "version": "animal-biology-v1",
+    "body_plan": "insectoid",
+    "locomotion": [
+      "walk",
+      "climb",
+      "jump"
+    ],
+    "limb_count": 6,
+    "limb_configuration": "quatre pattes marcheuses et deux pattes ravisseuses",
+    "extremities": "crochets et épines sur les membres antérieurs",
+    "tail": "abdomen long",
+    "tail_present": false,
+    "tail_count": 0,
+    "head": "tête triangulaire mobile",
+    "ears": "absentes",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "deux antennes",
+      "ailes repliées discrètes"
+    ],
+    "primary_surface": "exosquelette lisse",
+    "secondary_surface": "ailes fines",
+    "accent_surface": "épines des pattes ravisseuses",
+    "footprint_type": "trace inhabituelle",
+    "height_m": 0.8,
+    "weight_kg": 11,
+    "markers": [
+      "tête triangulaire",
+      "pattes ravisseuses",
+      "thorax allongé",
+      "grands yeux"
+    ],
+    "silhouette": "insecte vertical et anguleux aux bras repliés en position de garde",
+    "proportions": {
+      "head_to_body_ratio": "tête triangulaire moyenne",
+      "torso": "thorax très allongé",
+      "limbs": "six pattes, avant surdimensionné",
+      "neck": "long prothorax",
+      "tail": "abdomen long"
+    },
+    "signature_features": [
+      "pattes ravisseuses",
+      "tête triangulaire",
+      "prothorax allongé"
+    ]
+  },
+  {
+    "name": "Scarabée",
+    "version": "animal-biology-v1",
+    "body_plan": "insectoid",
+    "locomotion": [
+      "walk",
+      "climb",
+      "fly"
+    ],
+    "limb_count": 6,
+    "limb_configuration": "six pattes robustes",
+    "extremities": "tarses crochus",
+    "tail": "abdomen sous élytres",
+    "tail_present": false,
+    "tail_count": 0,
+    "head": "tête compacte",
+    "ears": "absentes",
+    "horns": [
+      "corne céphalique optionnelle selon design"
+    ],
+    "crest": "aucune",
+    "appendages": [
+      "élytres rigides couvrant des ailes"
+    ],
+    "primary_surface": "carapace dure brillante",
+    "secondary_surface": "ailes membraneuses cachées",
+    "accent_surface": "corne et bord des élytres",
+    "footprint_type": "trace inhabituelle",
+    "height_m": 0.7,
+    "weight_kg": 16,
+    "markers": [
+      "carapace bombée",
+      "élytres",
+      "six pattes robustes",
+      "corne céphalique"
+    ],
+    "silhouette": "insecte court et fortement cuirassé à dos bombé",
+    "proportions": {
+      "head_to_body_ratio": "petite tête",
+      "torso": "très compact et bombé",
+      "limbs": "six pattes courtes",
+      "neck": "absent",
+      "tail": "abdomen caché"
+    },
+    "signature_features": [
+      "élytres bombés",
+      "corne céphalique",
+      "carapace dure"
+    ]
+  },
+  {
+    "name": "Coccinelle",
+    "version": "animal-biology-v1",
+    "body_plan": "insectoid",
+    "locomotion": [
+      "walk",
+      "fly"
+    ],
+    "limb_count": 6,
+    "limb_configuration": "six petites pattes",
+    "extremities": "tarses fins",
+    "tail": "abdomen sous élytres",
+    "tail_present": false,
+    "tail_count": 0,
+    "head": "petite tête noire",
+    "ears": "absentes",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "deux élytres arrondis",
+      "ailes membraneuses"
+    ],
+    "primary_surface": "carapace lisse",
+    "secondary_surface": "ailes membraneuses",
+    "accent_surface": "points contrastés",
+    "footprint_type": "trace inhabituelle",
+    "height_m": 0.45,
+    "weight_kg": 6,
+    "markers": [
+      "dos hémisphérique",
+      "élytres ponctués",
+      "six pattes",
+      "petites antennes"
+    ],
+    "silhouette": "petit dôme ovale porté par six pattes discrètes",
+    "proportions": {
+      "head_to_body_ratio": "petite tête",
+      "torso": "dôme très arrondi",
+      "limbs": "six petites pattes",
+      "neck": "absent",
+      "tail": "aucune distincte"
+    },
+    "signature_features": [
+      "élytres à points",
+      "forme en dôme",
+      "ligne médiane des élytres"
+    ]
+  },
+  {
+    "name": "Criquet",
+    "version": "animal-biology-v1",
+    "body_plan": "insectoid",
+    "locomotion": [
+      "walk",
+      "jump",
+      "fly"
+    ],
+    "limb_count": 6,
+    "limb_configuration": "quatre pattes fines et deux grandes pattes sauteuses",
+    "extremities": "tarses crochus",
+    "tail": "abdomen allongé",
+    "tail_present": false,
+    "tail_count": 0,
+    "head": "tête insectoïde anguleuse",
+    "ears": "absentes extérieurement",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "deux antennes",
+      "ailes repliées"
+    ],
+    "primary_surface": "exosquelette sec",
+    "secondary_surface": "ailes fines",
+    "accent_surface": "segments des pattes postérieures",
+    "footprint_type": "trace inhabituelle",
+    "height_m": 0.7,
+    "weight_kg": 9,
+    "markers": [
+      "grandes pattes sauteuses",
+      "antennes",
+      "abdomen segmenté",
+      "ailes repliées"
+    ],
+    "silhouette": "insecte allongé avec arrière-train élevé par de grandes pattes",
+    "proportions": {
+      "head_to_body_ratio": "tête moyenne",
+      "torso": "thorax compact",
+      "limbs": "pattes arrière surdimensionnées",
+      "neck": "absent",
+      "tail": "abdomen long"
+    },
+    "signature_features": [
+      "fémurs postérieurs massifs",
+      "ailes repliées",
+      "antennes droites"
+    ]
+  },
+  {
+    "name": "Libellule",
+    "version": "animal-biology-v1",
+    "body_plan": "insectoid",
+    "locomotion": [
+      "fly",
+      "hover",
+      "glide"
+    ],
+    "limb_count": 6,
+    "limb_configuration": "six pattes fines sous thorax",
+    "extremities": "tarses fins",
+    "tail": "abdomen très long et segmenté",
+    "tail_present": false,
+    "tail_count": 0,
+    "head": "tête ronde à très grands yeux composés",
+    "ears": "absentes",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "quatre ailes longues et translucides"
+    ],
+    "primary_surface": "exosquelette fin",
+    "secondary_surface": "ailes nervurées",
+    "accent_surface": "abdomen irisé",
+    "footprint_type": "trace inhabituelle",
+    "height_m": 0.65,
+    "weight_kg": 6,
+    "markers": [
+      "quatre ailes étroites",
+      "grands yeux",
+      "abdomen très long",
+      "thorax compact"
+    ],
+    "silhouette": "corps fin horizontal traversé par quatre ailes en croix",
+    "proportions": {
+      "head_to_body_ratio": "tête large",
+      "torso": "thorax compact",
+      "limbs": "six pattes fines",
+      "neck": "absent",
+      "tail": "abdomen très long"
+    },
+    "signature_features": [
+      "quatre ailes indépendantes",
+      "yeux composés immenses",
+      "abdomen segmenté"
+    ]
+  },
+  {
+    "name": "Phasme",
+    "version": "animal-biology-v1",
+    "body_plan": "insectoid",
+    "locomotion": [
+      "walk",
+      "climb"
+    ],
+    "limb_count": 6,
+    "limb_configuration": "six pattes très longues et fines",
+    "extremities": "petits crochets",
+    "tail": "abdomen allongé",
+    "tail_present": false,
+    "tail_count": 0,
+    "head": "petite tête discrète",
+    "ears": "absentes",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "deux longues antennes"
+    ],
+    "primary_surface": "exosquelette mat imitant végétation",
+    "secondary_surface": "articulations fines",
+    "accent_surface": "excroissances foliacées possibles",
+    "footprint_type": "trace inhabituelle",
+    "height_m": 0.9,
+    "weight_kg": 7,
+    "markers": [
+      "corps en brindille",
+      "six longues pattes",
+      "antennes fines",
+      "camouflage végétal"
+    ],
+    "silhouette": "silhouette extrêmement mince et anguleuse ressemblant à une branche",
+    "proportions": {
+      "head_to_body_ratio": "très petite tête",
+      "torso": "thorax et abdomen très fins",
+      "limbs": "très longs et minces",
+      "neck": "absent",
+      "tail": "abdomen rectiligne"
+    },
+    "signature_features": [
+      "forme de brindille",
+      "excroissances foliacées",
+      "pattes filiformes"
+    ]
+  },
+  {
+    "name": "Yéti",
+    "version": "animal-biology-v1",
+    "body_plan": "biped",
+    "locomotion": [
+      "walk",
+      "run",
+      "climb"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "deux jambes porteuses et deux longs bras",
+    "extremities": "larges pieds et mains griffues",
+    "tail": "aucune queue visible",
+    "tail_present": false,
+    "tail_count": 0,
+    "head": "tête simiesque massive",
+    "ears": "petites et enfouies dans la fourrure",
+    "horns": [],
+    "crest": "fourrure cranienne épaisse",
+    "appendages": [],
+    "primary_surface": "fourrure longue et dense",
+    "secondary_surface": "peau épaisse aux mains et au visage",
+    "accent_surface": "griffes",
+    "footprint_type": "patte",
+    "height_m": 2.3,
+    "weight_kg": 180,
+    "markers": [
+      "grande fourrure",
+      "bras longs",
+      "larges pieds",
+      "silhouette humanoïde simiesque"
+    ],
+    "silhouette": "grand bipède trapu couvert de fourrure avec longs bras",
+    "proportions": {
+      "head_to_body_ratio": "tête moyenne",
+      "torso": "large et épais",
+      "limbs": "bras longs, jambes robustes",
+      "neck": "court",
+      "tail": "absente"
+    },
+    "signature_features": [
+      "fourrure épaisse",
+      "larges pieds",
+      "épaules massives"
+    ]
+  },
+  {
+    "name": "Lion",
+    "version": "animal-biology-v1",
+    "body_plan": "quadruped",
+    "locomotion": [
+      "walk",
+      "run",
+      "jump"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "quadrupède félin",
+    "extremities": "pattes griffues",
+    "tail": "longue queue à touffe terminale",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête féline large",
+    "ears": "oreilles rondes",
+    "horns": [],
+    "crest": "crinière développée",
+    "appendages": [],
+    "primary_surface": "pelage court",
+    "secondary_surface": "crinière longue",
+    "accent_surface": "touffe caudale",
+    "footprint_type": "patte",
+    "height_m": 1.25,
+    "weight_kg": 190,
+    "markers": [
+      "crinière",
+      "museau félin",
+      "queue à touffe",
+      "pattes puissantes"
+    ],
+    "silhouette": "grand félin puissant au poitrail encadré de crinière",
+    "proportions": {
+      "head_to_body_ratio": "tête large",
+      "torso": "thorax profond",
+      "limbs": "musclés",
+      "neck": "court sous crinière",
+      "tail": "longue et fine"
+    },
+    "signature_features": [
+      "crinière",
+      "touffe caudale",
+      "poitrail puissant"
+    ]
+  },
+  {
+    "name": "Loup",
+    "version": "animal-biology-v1",
+    "body_plan": "quadruped",
+    "locomotion": [
+      "walk",
+      "run",
+      "jump"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "quadrupède canidé",
+    "extremities": "pattes à coussinets et griffes courtes",
+    "tail": "queue touffue",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête canine au museau allongé",
+    "ears": "oreilles triangulaires dressées",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [],
+    "primary_surface": "fourrure dense",
+    "secondary_surface": "fourrure plus longue au cou et à la queue",
+    "accent_surface": "museau et oreilles",
+    "footprint_type": "patte",
+    "height_m": 0.85,
+    "weight_kg": 48,
+    "markers": [
+      "museau canidé",
+      "oreilles dressées",
+      "queue touffue",
+      "pattes longues"
+    ],
+    "silhouette": "canidé athlétique à dos presque horizontal et queue fournie",
+    "proportions": {
+      "head_to_body_ratio": "tête moyenne",
+      "torso": "athlétique",
+      "limbs": "longs",
+      "neck": "moyen",
+      "tail": "touffue et moyenne"
+    },
+    "signature_features": [
+      "oreilles triangulaires",
+      "queue touffue",
+      "museau allongé"
+    ]
+  },
+  {
+    "name": "Renard",
+    "version": "animal-biology-v1",
+    "body_plan": "quadruped",
+    "locomotion": [
+      "walk",
+      "run",
+      "jump"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "quadrupède canidé léger",
+    "extremities": "petites pattes fines",
+    "tail": "très longue queue touffue",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête vulpine fine",
+    "ears": "grandes oreilles triangulaires",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [],
+    "primary_surface": "fourrure fine",
+    "secondary_surface": "fourrure dense de la queue",
+    "accent_surface": "extrémités contrastées",
+    "footprint_type": "patte",
+    "height_m": 0.55,
+    "weight_kg": 12,
+    "markers": [
+      "grandes oreilles",
+      "museau fin",
+      "queue très touffue",
+      "corps léger"
+    ],
+    "silhouette": "petit canidé élancé dominé par une grande queue",
+    "proportions": {
+      "head_to_body_ratio": "tête fine",
+      "torso": "léger",
+      "limbs": "fins",
+      "neck": "moyen",
+      "tail": "très volumineuse"
+    },
+    "signature_features": [
+      "queue touffue",
+      "oreilles hautes",
+      "museau étroit"
+    ]
+  },
+  {
+    "name": "Éléphant",
+    "version": "animal-biology-v1",
+    "body_plan": "quadruped",
+    "locomotion": [
+      "walk",
+      "run"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "quadrupède très massif",
+    "extremities": "pieds larges et ronds",
+    "tail": "queue fine à touffe",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête massive avec trompe",
+    "ears": "très grandes oreilles latérales",
+    "horns": [
+      "deux défenses"
+    ],
+    "crest": "aucune",
+    "appendages": [
+      "trompe préhensile"
+    ],
+    "primary_surface": "peau épaisse plissée",
+    "secondary_surface": "peau plus fine des oreilles",
+    "accent_surface": "défenses ivoirines",
+    "footprint_type": "patte",
+    "height_m": 3.2,
+    "weight_kg": 5200,
+    "markers": [
+      "trompe",
+      "grandes oreilles",
+      "défenses",
+      "corps massif"
+    ],
+    "silhouette": "très grand quadrupède massif, jambes colonnes et tête à trompe",
+    "proportions": {
+      "head_to_body_ratio": "grande tête",
+      "torso": "très volumineux",
+      "limbs": "épais comme des colonnes",
+      "neck": "très court",
+      "tail": "fine et courte"
+    },
+    "signature_features": [
+      "trompe",
+      "défenses",
+      "oreilles larges"
+    ]
+  },
+  {
+    "name": "Ours",
+    "version": "animal-biology-v1",
+    "body_plan": "quadruped",
+    "locomotion": [
+      "walk",
+      "run",
+      "climb"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "quadrupède plantigrade massif pouvant se redresser",
+    "extremities": "larges pattes griffues",
+    "tail": "très courte",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête large au museau court",
+    "ears": "petites oreilles rondes",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [],
+    "primary_surface": "fourrure dense",
+    "secondary_surface": "pelage plus épais au cou",
+    "accent_surface": "griffes",
+    "footprint_type": "patte",
+    "height_m": 1.4,
+    "weight_kg": 280,
+    "markers": [
+      "corps massif",
+      "petites oreilles rondes",
+      "larges pattes",
+      "griffes"
+    ],
+    "silhouette": "mammifère trapu à épaules hautes et pattes épaisses",
+    "proportions": {
+      "head_to_body_ratio": "tête large",
+      "torso": "trapu",
+      "limbs": "épais",
+      "neck": "court",
+      "tail": "très courte"
+    },
+    "signature_features": [
+      "épaules massives",
+      "larges pattes",
+      "museau arrondi"
+    ]
+  },
+  {
+    "name": "Cerf",
+    "version": "animal-biology-v1",
+    "body_plan": "quadruped",
+    "locomotion": [
+      "walk",
+      "run",
+      "jump"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "quadrupède ongulé élancé",
+    "extremities": "sabots fendus",
+    "tail": "courte queue",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête cervine fine",
+    "ears": "grandes oreilles mobiles",
+    "horns": [
+      "grands bois ramifiés"
+    ],
+    "crest": "aucune",
+    "appendages": [],
+    "primary_surface": "pelage court",
+    "secondary_surface": "pelage plus clair ventral",
+    "accent_surface": "bois",
+    "footprint_type": "sabot",
+    "height_m": 1.5,
+    "weight_kg": 160,
+    "markers": [
+      "bois ramifiés",
+      "pattes fines",
+      "museau cervin",
+      "sabots"
+    ],
+    "silhouette": "ongulé haut sur pattes avec imposante ramure",
+    "proportions": {
+      "head_to_body_ratio": "tête fine",
+      "torso": "élancé",
+      "limbs": "très longs et fins",
+      "neck": "long",
+      "tail": "courte"
+    },
+    "signature_features": [
+      "ramure",
+      "long cou",
+      "pattes élancées"
+    ]
+  },
+  {
+    "name": "Panthère",
+    "version": "animal-biology-v1",
+    "body_plan": "quadruped",
+    "locomotion": [
+      "walk",
+      "run",
+      "jump",
+      "climb"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "quadrupède félin souple",
+    "extremities": "pattes griffues",
+    "tail": "longue queue flexible",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête féline ronde",
+    "ears": "petites oreilles rondes",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [],
+    "primary_surface": "pelage court lustré",
+    "secondary_surface": "zones plus mates",
+    "accent_surface": "motifs fantômes discrets",
+    "footprint_type": "patte",
+    "height_m": 0.8,
+    "weight_kg": 70,
+    "markers": [
+      "silhouette féline basse",
+      "queue longue",
+      "épaules souples",
+      "museau court"
+    ],
+    "silhouette": "grand félin bas, fluide et allongé à longue queue",
+    "proportions": {
+      "head_to_body_ratio": "tête compacte",
+      "torso": "long et souple",
+      "limbs": "musclés mais fins",
+      "neck": "court",
+      "tail": "très longue"
+    },
+    "signature_features": [
+      "queue longue",
+      "ligne dorsale fluide",
+      "épaules souples"
+    ]
+  },
+  {
+    "name": "Rhinocéros",
+    "version": "animal-biology-v1",
+    "body_plan": "quadruped",
+    "locomotion": [
+      "walk",
+      "run"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "quadrupède massif",
+    "extremities": "pieds larges à doigts courts",
+    "tail": "courte queue",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête massive basse",
+    "ears": "petites oreilles mobiles",
+    "horns": [
+      "grande corne nasale",
+      "seconde corne plus petite"
+    ],
+    "crest": "aucune",
+    "appendages": [],
+    "primary_surface": "peau très épaisse",
+    "secondary_surface": "plis cutanés",
+    "accent_surface": "cornes",
+    "footprint_type": "patte",
+    "height_m": 1.8,
+    "weight_kg": 2300,
+    "markers": [
+      "corne nasale",
+      "corps blindé",
+      "tête basse",
+      "pattes courtes massives"
+    ],
+    "silhouette": "très grand quadrupède cuirassé, bas à l’avant et extrêmement dense",
+    "proportions": {
+      "head_to_body_ratio": "grande tête basse",
+      "torso": "massif",
+      "limbs": "courts et très robustes",
+      "neck": "épais",
+      "tail": "courte"
+    },
+    "signature_features": [
+      "corne nasale",
+      "peau plissée",
+      "épaules blindées"
+    ]
+  },
+  {
+    "name": "Singe",
+    "version": "animal-biology-v1",
+    "body_plan": "biped",
+    "locomotion": [
+      "walk",
+      "run",
+      "climb",
+      "jump"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "deux jambes et deux longs bras préhensiles",
+    "extremities": "mains et pieds préhensiles",
+    "tail": "longue queue préhensile",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête primate expressive",
+    "ears": "oreilles latérales visibles",
+    "horns": [],
+    "crest": "touffe de poils cranienne possible",
+    "appendages": [],
+    "primary_surface": "fourrure courte",
+    "secondary_surface": "peau nue sur visage, mains et pieds",
+    "accent_surface": "queue et touffe cranienne",
+    "footprint_type": "patte",
+    "height_m": 1.1,
+    "weight_kg": 35,
+    "markers": [
+      "mains préhensiles",
+      "visage primate",
+      "longs bras",
+      "queue flexible"
+    ],
+    "silhouette": "primate agile à bras longs et centre de gravité mobile",
+    "proportions": {
+      "head_to_body_ratio": "tête moyenne",
+      "torso": "compact",
+      "limbs": "bras plus longs que jambes",
+      "neck": "court",
+      "tail": "longue et préhensile"
+    },
+    "signature_features": [
+      "mains préhensiles",
+      "queue flexible",
+      "visage expressif"
+    ]
+  },
+  {
+    "name": "Tortue",
+    "version": "animal-biology-v1",
+    "body_plan": "quadruped",
+    "locomotion": [
+      "walk",
+      "crawl",
+      "swim"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "quatre membres courts autour d’une carapace",
+    "extremities": "pattes courtes griffues ou palmées",
+    "tail": "petite queue",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "petite tête reptilienne",
+    "ears": "absentes extérieurement",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "carapace dorsale et plastron"
+    ],
+    "primary_surface": "écailles et peau reptilienne",
+    "secondary_surface": "carapace dure",
+    "accent_surface": "plaques de carapace",
+    "footprint_type": "patte",
+    "height_m": 0.7,
+    "weight_kg": 75,
+    "markers": [
+      "carapace",
+      "quatre pattes courtes",
+      "tête rétractile",
+      "plastron"
+    ],
+    "silhouette": "forme basse et ovale dominée par une carapace bombée",
+    "proportions": {
+      "head_to_body_ratio": "petite tête",
+      "torso": "carapace très dominante",
+      "limbs": "courts",
+      "neck": "rétractile moyen",
+      "tail": "courte"
+    },
+    "signature_features": [
+      "carapace bombée",
+      "plastron",
+      "cou rétractile"
+    ]
+  },
+  {
+    "name": "Baleine",
+    "version": "animal-biology-v1",
+    "body_plan": "aquatic",
+    "locomotion": [
+      "swim"
+    ],
+    "limb_count": 2,
+    "limb_configuration": "deux nageoires pectorales, pas de membres postérieurs",
+    "extremities": "nageoires larges",
+    "tail": "puissante nageoire caudale horizontale",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "très grande tête arrondie",
+    "ears": "absentes extérieurement",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "nageoire dorsale discrète"
+    ],
+    "primary_surface": "peau lisse épaisse",
+    "secondary_surface": "zones ventrales souples",
+    "accent_surface": "fanons ou sillons selon design",
+    "footprint_type": "nageoire",
+    "height_m": 5.5,
+    "weight_kg": 3500,
+    "markers": [
+      "corps fuselé",
+      "nageoires pectorales",
+      "queue horizontale",
+      "grande tête"
+    ],
+    "silhouette": "très grand corps fuselé avec petite nageoire dorsale et large caudale",
+    "proportions": {
+      "head_to_body_ratio": "très grande tête",
+      "torso": "fusiforme massif",
+      "limbs": "deux nageoires pectorales",
+      "neck": "indistinct",
+      "tail": "large caudale horizontale"
+    },
+    "signature_features": [
+      "caudale horizontale",
+      "nageoires pectorales",
+      "évent dorsal"
+    ]
+  },
+  {
+    "name": "Dauphin",
+    "version": "animal-biology-v1",
+    "body_plan": "aquatic",
+    "locomotion": [
+      "swim",
+      "jump"
+    ],
+    "limb_count": 2,
+    "limb_configuration": "deux nageoires pectorales",
+    "extremities": "nageoires fines",
+    "tail": "nageoire caudale horizontale",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête hydrodynamique avec rostre",
+    "ears": "absentes extérieurement",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "nageoire dorsale"
+    ],
+    "primary_surface": "peau lisse",
+    "secondary_surface": "ventre plus clair",
+    "accent_surface": "ligne dorsale",
+    "footprint_type": "nageoire",
+    "height_m": 2.2,
+    "weight_kg": 160,
+    "markers": [
+      "rostre",
+      "nageoire dorsale",
+      "caudale horizontale",
+      "corps fuselé"
+    ],
+    "silhouette": "cétacé fuselé à rostre fin et nageoire dorsale arquée",
+    "proportions": {
+      "head_to_body_ratio": "tête petite à moyenne",
+      "torso": "très fuselé",
+      "limbs": "nageoires pectorales courtes",
+      "neck": "indistinct",
+      "tail": "caudale horizontale moyenne"
+    },
+    "signature_features": [
+      "rostre",
+      "dorsale arquée",
+      "caudale horizontale"
+    ]
+  },
+  {
+    "name": "Orque",
+    "version": "animal-biology-v1",
+    "body_plan": "aquatic",
+    "locomotion": [
+      "swim",
+      "jump"
+    ],
+    "limb_count": 2,
+    "limb_configuration": "deux nageoires pectorales",
+    "extremities": "nageoires larges",
+    "tail": "grande caudale horizontale",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête arrondie sans rostre marqué",
+    "ears": "absentes extérieurement",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "grande nageoire dorsale"
+    ],
+    "primary_surface": "peau lisse",
+    "secondary_surface": "zones blanches contrastées",
+    "accent_surface": "tache oculaire blanche",
+    "footprint_type": "nageoire",
+    "height_m": 4.5,
+    "weight_kg": 2700,
+    "markers": [
+      "dorsale haute",
+      "motif noir-blanc",
+      "caudale horizontale",
+      "pectorales larges"
+    ],
+    "silhouette": "cétacé puissant noir et blanc dominé par une haute nageoire dorsale",
+    "proportions": {
+      "head_to_body_ratio": "tête moyenne arrondie",
+      "torso": "fusiforme massif",
+      "limbs": "nageoires pectorales larges",
+      "neck": "indistinct",
+      "tail": "grande caudale"
+    },
+    "signature_features": [
+      "dorsale haute",
+      "taches blanches",
+      "pectorales ovales"
+    ]
+  },
+  {
+    "name": "Requin",
+    "version": "animal-biology-v1",
+    "body_plan": "aquatic",
+    "locomotion": [
+      "swim"
+    ],
+    "limb_count": 4,
+    "limb_configuration": "deux nageoires pectorales et deux pelviennes",
+    "extremities": "nageoires triangulaires",
+    "tail": "nageoire caudale verticale",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête conique ou aplatie à mâchoire ventrale",
+    "ears": "absentes",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "nageoire dorsale",
+      "fentes branchiales"
+    ],
+    "primary_surface": "peau rugueuse à denticules",
+    "secondary_surface": "ventre plus clair",
+    "accent_surface": "dents et fentes branchiales",
+    "footprint_type": "nageoire",
+    "height_m": 2.8,
+    "weight_kg": 320,
+    "markers": [
+      "dorsale triangulaire",
+      "fentes branchiales",
+      "mâchoire dentée",
+      "caudale verticale"
+    ],
+    "silhouette": "poisson prédateur fuselé à nageoire dorsale triangulaire",
+    "proportions": {
+      "head_to_body_ratio": "tête forte",
+      "torso": "fusiforme",
+      "limbs": "nageoires latérales",
+      "neck": "absent",
+      "tail": "caudale verticale puissante"
+    },
+    "signature_features": [
+      "dorsale triangulaire",
+      "fentes branchiales",
+      "mâchoire dentée"
+    ]
+  },
+  {
+    "name": "Raie manta",
+    "version": "animal-biology-v1",
+    "body_plan": "aquatic",
+    "locomotion": [
+      "swim",
+      "glide"
+    ],
+    "limb_count": 2,
+    "limb_configuration": "deux immenses nageoires pectorales formant un disque",
+    "extremities": "extrémités alaires pointues",
+    "tail": "longue queue fine",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête large avec lobes céphaliques",
+    "ears": "absentes",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "deux lobes céphaliques"
+    ],
+    "primary_surface": "peau lisse",
+    "secondary_surface": "ventre clair",
+    "accent_surface": "motifs dorsaux",
+    "footprint_type": "nageoire",
+    "height_m": 1.3,
+    "weight_kg": 650,
+    "markers": [
+      "disque en losange",
+      "larges ailes pectorales",
+      "lobes céphaliques",
+      "queue fine"
+    ],
+    "silhouette": "grande forme en losange très plate évoquant des ailes sous-marines",
+    "proportions": {
+      "head_to_body_ratio": "tête intégrée au disque",
+      "torso": "très aplati",
+      "limbs": "nageoires pectorales immenses",
+      "neck": "absent",
+      "tail": "très longue et fine"
+    },
+    "signature_features": [
+      "ailes pectorales",
+      "lobes céphaliques",
+      "silhouette en losange"
+    ]
+  },
+  {
+    "name": "Hippocampe",
+    "version": "animal-biology-v1",
+    "body_plan": "aquatic",
+    "locomotion": [
+      "swim",
+      "hover"
+    ],
+    "limb_count": 2,
+    "limb_configuration": "petites nageoires pectorales latérales",
+    "extremities": "nageoires très petites",
+    "tail": "longue queue préhensile enroulée",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête chevaline allongée",
+    "ears": "absentes",
+    "horns": [],
+    "crest": "couronne osseuse",
+    "appendages": [
+      "nageoire dorsale fine"
+    ],
+    "primary_surface": "plaques osseuses annelées",
+    "secondary_surface": "nageoires translucides",
+    "accent_surface": "couronne céphalique",
+    "footprint_type": "aucune empreinte classique",
+    "height_m": 0.55,
+    "weight_kg": 8,
+    "markers": [
+      "tête chevaline",
+      "queue enroulée",
+      "corps annelé",
+      "couronne céphalique"
+    ],
+    "silhouette": "petit corps vertical en S avec queue spiralée",
+    "proportions": {
+      "head_to_body_ratio": "tête relativement grande",
+      "torso": "étroit et vertical",
+      "limbs": "nageoires minuscules",
+      "neck": "courbe",
+      "tail": "longue et enroulée"
+    },
+    "signature_features": [
+      "queue spiralée",
+      "couronne osseuse",
+      "museau tubulaire"
+    ]
+  },
+  {
+    "name": "Crabe",
+    "version": "animal-biology-v1",
+    "body_plan": "aquatic",
+    "locomotion": [
+      "walk",
+      "crawl",
+      "swim"
+    ],
+    "limb_count": 10,
+    "limb_configuration": "huit pattes marcheuses et deux pinces antérieures",
+    "extremities": "pinces et pointes articulées",
+    "tail": "abdomen replié sous la carapace",
+    "tail_present": false,
+    "tail_count": 0,
+    "head": "tête fusionnée au thorax",
+    "ears": "absentes",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "deux yeux pédonculés"
+    ],
+    "primary_surface": "carapace dure",
+    "secondary_surface": "membranes articulaires",
+    "accent_surface": "pinces",
+    "footprint_type": "trace inhabituelle",
+    "height_m": 0.7,
+    "weight_kg": 35,
+    "markers": [
+      "deux grosses pinces",
+      "carapace large",
+      "dix membres",
+      "yeux pédonculés"
+    ],
+    "silhouette": "corps très large et bas avec pinces dominantes",
+    "proportions": {
+      "head_to_body_ratio": "tête intégrée au céphalothorax",
+      "torso": "carapace large",
+      "limbs": "multiples pattes latérales",
+      "neck": "absent",
+      "tail": "abdomen replié"
+    },
+    "signature_features": [
+      "pinces",
+      "carapace transversale",
+      "yeux pédonculés"
+    ]
+  },
+  {
+    "name": "Sirène",
+    "version": "animal-biology-v1",
+    "body_plan": "hybrid",
+    "locomotion": [
+      "swim",
+      "hover"
+    ],
+    "limb_count": 2,
+    "limb_configuration": "deux bras humanoïdes, bas du corps transformé en queue de poisson",
+    "extremities": "mains",
+    "tail": "longue queue pisciforme avec nageoire caudale",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête humanoïde expressive",
+    "ears": "oreilles humaines ou nageoires auriculaires",
+    "horns": [],
+    "crest": "chevelure ou crête fluide",
+    "appendages": [
+      "nageoires latérales possibles à la taille"
+    ],
+    "primary_surface": "peau lisse sur le haut du corps",
+    "secondary_surface": "écailles sur la queue",
+    "accent_surface": "nageoires translucides",
+    "footprint_type": "aucune empreinte classique",
+    "height_m": 1.8,
+    "weight_kg": 68,
+    "markers": [
+      "torse humanoïde",
+      "queue de poisson",
+      "nageoire caudale",
+      "bras préhensiles"
+    ],
+    "silhouette": "haut du corps humanoïde se prolongeant sans jambes en grande queue de poisson",
+    "proportions": {
+      "head_to_body_ratio": "tête humaine moyenne",
+      "torso": "humanoïde élancé",
+      "limbs": "deux bras",
+      "neck": "humanoïde",
+      "tail": "longue queue pisciforme"
+    },
+    "signature_features": [
+      "queue écailleuse",
+      "nageoire caudale",
+      "silhouette humano-aquatique"
+    ]
+  },
+  {
+    "name": "Méduse",
+    "version": "animal-biology-v1",
+    "body_plan": "floating",
+    "locomotion": [
+      "swim",
+      "hover"
+    ],
+    "limb_count": 0,
+    "limb_configuration": "aucun membre articulé; tentacules souples sous l’ombrelle",
+    "extremities": "tentacules filiformes",
+    "tail": "aucune queue distincte",
+    "tail_present": false,
+    "tail_count": 0,
+    "head": "ombrelle gélatineuse faisant office de corps principal",
+    "ears": "absentes",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "tentacules multiples",
+      "bras oraux"
+    ],
+    "primary_surface": "tissu gélatineux translucide",
+    "secondary_surface": "tentacules fins",
+    "accent_surface": "motifs internes lumineux possibles",
+    "footprint_type": "aucune empreinte classique",
+    "height_m": 1.1,
+    "weight_kg": 22,
+    "markers": [
+      "ombrelle translucide",
+      "tentacules",
+      "symétrie radiale",
+      "corps gélatineux"
+    ],
+    "silhouette": "dôme flottant translucide prolongé de longs filaments",
+    "proportions": {
+      "head_to_body_ratio": "ombrelle dominante",
+      "torso": "dôme gélatineux",
+      "limbs": "aucun membre articulé",
+      "neck": "absent",
+      "tail": "absente"
+    },
+    "signature_features": [
+      "ombrelle",
+      "tentacules filiformes",
+      "transparence"
+    ]
+  },
+  {
+    "name": "Étoile de mer",
+    "version": "animal-biology-v1",
+    "body_plan": "aquatic",
+    "locomotion": [
+      "crawl"
+    ],
+    "limb_count": 5,
+    "limb_configuration": "cinq bras radiaux autour d’un disque central",
+    "extremities": "pointes de bras arrondies",
+    "tail": "aucune",
+    "tail_present": false,
+    "tail_count": 0,
+    "head": "aucune tête distincte; disque central",
+    "ears": "absentes",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [],
+    "primary_surface": "peau rugueuse calcifiée",
+    "secondary_surface": "face ventrale à pieds ambulacraires",
+    "accent_surface": "épines ou nodules",
+    "footprint_type": "trace corporelle",
+    "height_m": 0.35,
+    "weight_kg": 5,
+    "markers": [
+      "cinq bras radiaux",
+      "disque central",
+      "texture granuleuse",
+      "symétrie pentaradiée"
+    ],
+    "silhouette": "étoile radiale plate à cinq bras épais",
+    "proportions": {
+      "head_to_body_ratio": "pas de tête distincte",
+      "torso": "disque central",
+      "limbs": "cinq bras égaux",
+      "neck": "absent",
+      "tail": "absente"
+    },
+    "signature_features": [
+      "symétrie à cinq bras",
+      "texture granuleuse",
+      "disque central"
+    ]
+  },
+  {
+    "name": "Aigle",
+    "version": "animal-biology-v1",
+    "body_plan": "avian",
+    "locomotion": [
+      "walk",
+      "fly",
+      "glide"
+    ],
+    "limb_count": 2,
+    "limb_configuration": "deux pattes et deux ailes",
+    "extremities": "serres puissantes",
+    "tail": "queue de plumes en éventail",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête de rapace à bec crochu",
+    "ears": "absentes extérieurement",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "paire d’ailes plumeuses"
+    ],
+    "primary_surface": "plumage dense",
+    "secondary_surface": "rémiges longues",
+    "accent_surface": "bec et serres",
+    "footprint_type": "griffe",
+    "height_m": 1.0,
+    "weight_kg": 12,
+    "markers": [
+      "bec crochu",
+      "serres",
+      "ailes larges",
+      "regard de rapace"
+    ],
+    "silhouette": "grand rapace robuste aux ailes longues et larges",
+    "proportions": {
+      "head_to_body_ratio": "tête moyenne",
+      "torso": "poitrine puissante",
+      "limbs": "pattes courtes et fortes",
+      "neck": "court",
+      "tail": "plumes moyennes en éventail"
+    },
+    "signature_features": [
+      "bec crochu",
+      "serres",
+      "grandes ailes"
+    ]
+  },
+  {
+    "name": "Hibou",
+    "version": "animal-biology-v1",
+    "body_plan": "avian",
+    "locomotion": [
+      "walk",
+      "fly",
+      "glide"
+    ],
+    "limb_count": 2,
+    "limb_configuration": "deux pattes et deux ailes",
+    "extremities": "serres",
+    "tail": "courte queue de plumes",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "grande tête ronde à disque facial",
+    "ears": "aigrettes possibles selon design",
+    "horns": [],
+    "crest": "aigrettes plumeuses",
+    "appendages": [
+      "paire d’ailes larges"
+    ],
+    "primary_surface": "plumage doux",
+    "secondary_surface": "rémiges silencieuses",
+    "accent_surface": "disque facial",
+    "footprint_type": "griffe",
+    "height_m": 0.75,
+    "weight_kg": 6,
+    "markers": [
+      "grands yeux frontaux",
+      "disque facial",
+      "ailes larges",
+      "serres"
+    ],
+    "silhouette": "oiseau compact à très grande tête ronde et ailes amples",
+    "proportions": {
+      "head_to_body_ratio": "très grande tête",
+      "torso": "compact",
+      "limbs": "pattes courtes",
+      "neck": "presque invisible",
+      "tail": "courte"
+    },
+    "signature_features": [
+      "disque facial",
+      "grands yeux",
+      "aigrettes"
+    ]
+  },
+  {
+    "name": "Faucon",
+    "version": "animal-biology-v1",
+    "body_plan": "avian",
+    "locomotion": [
+      "walk",
+      "fly",
+      "glide"
+    ],
+    "limb_count": 2,
+    "limb_configuration": "deux pattes et deux ailes effilées",
+    "extremities": "serres fines",
+    "tail": "queue plumeuse moyenne",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête de rapace compacte à bec crochu",
+    "ears": "absentes extérieurement",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "ailes longues et pointues"
+    ],
+    "primary_surface": "plumage serré",
+    "secondary_surface": "rémiges rigides",
+    "accent_surface": "masque facial naturel",
+    "footprint_type": "griffe",
+    "height_m": 0.65,
+    "weight_kg": 4.5,
+    "markers": [
+      "ailes pointues",
+      "bec crochu",
+      "silhouette aérodynamique",
+      "serres"
+    ],
+    "silhouette": "rapace fin et aérodynamique aux ailes en pointe",
+    "proportions": {
+      "head_to_body_ratio": "petite tête",
+      "torso": "étroit",
+      "limbs": "pattes fines",
+      "neck": "court",
+      "tail": "moyenne et étroite"
+    },
+    "signature_features": [
+      "ailes pointues",
+      "masque facial",
+      "serres fines"
+    ]
+  },
+  {
+    "name": "Corbeau",
+    "version": "animal-biology-v1",
+    "body_plan": "avian",
+    "locomotion": [
+      "walk",
+      "jump",
+      "fly",
+      "glide"
+    ],
+    "limb_count": 2,
+    "limb_configuration": "deux pattes et deux ailes",
+    "extremities": "pattes griffues fines",
+    "tail": "queue de plumes en coin",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête avienne à bec fort",
+    "ears": "absentes extérieurement",
+    "horns": [],
+    "crest": "plumes cervicales légèrement hérissables",
+    "appendages": [
+      "paire d’ailes"
+    ],
+    "primary_surface": "plumage lustré",
+    "secondary_surface": "rémiges noires",
+    "accent_surface": "reflets irisés",
+    "footprint_type": "griffe",
+    "height_m": 0.7,
+    "weight_kg": 3.5,
+    "markers": [
+      "bec robuste",
+      "plumage sombre",
+      "queue en coin",
+      "plumes cervicales"
+    ],
+    "silhouette": "oiseau robuste à bec épais, ailes larges et queue en coin",
+    "proportions": {
+      "head_to_body_ratio": "tête assez grande",
+      "torso": "robuste",
+      "limbs": "pattes moyennes",
+      "neck": "moyen",
+      "tail": "en coin"
+    },
+    "signature_features": [
+      "bec épais",
+      "queue en coin",
+      "plumage irisé"
+    ]
+  },
+  {
+    "name": "Perroquet",
+    "version": "animal-biology-v1",
+    "body_plan": "avian",
+    "locomotion": [
+      "walk",
+      "climb",
+      "fly"
+    ],
+    "limb_count": 2,
+    "limb_configuration": "deux pattes zygodactyles et deux ailes",
+    "extremities": "pieds préhensiles",
+    "tail": "longue queue de plumes",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "tête arrondie à grand bec courbe",
+    "ears": "absentes extérieurement",
+    "horns": [],
+    "crest": "huppe optionnelle",
+    "appendages": [
+      "paire d’ailes"
+    ],
+    "primary_surface": "plumage dense",
+    "secondary_surface": "rémiges et queue longues",
+    "accent_surface": "plumes faciales colorées",
+    "footprint_type": "griffe",
+    "height_m": 0.65,
+    "weight_kg": 4,
+    "markers": [
+      "bec courbe",
+      "pieds préhensiles",
+      "plumage coloré",
+      "queue longue"
+    ],
+    "silhouette": "oiseau compact à grand bec et longue queue",
+    "proportions": {
+      "head_to_body_ratio": "grande tête",
+      "torso": "compact",
+      "limbs": "pattes courtes préhensiles",
+      "neck": "court",
+      "tail": "longue"
+    },
+    "signature_features": [
+      "bec courbe",
+      "pieds zygodactyles",
+      "plumage coloré"
+    ]
+  },
+  {
+    "name": "Hirondelle",
+    "version": "animal-biology-v1",
+    "body_plan": "avian",
+    "locomotion": [
+      "walk",
+      "fly",
+      "glide"
+    ],
+    "limb_count": 2,
+    "limb_configuration": "deux petites pattes et deux longues ailes",
+    "extremities": "petits doigts griffus",
+    "tail": "queue profondément fourchue",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "petite tête arrondie",
+    "ears": "absentes extérieurement",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "ailes longues et effilées"
+    ],
+    "primary_surface": "plumage lisse",
+    "secondary_surface": "rémiges étroites",
+    "accent_surface": "gorge ou poitrine contrastée",
+    "footprint_type": "griffe",
+    "height_m": 0.35,
+    "weight_kg": 1.2,
+    "markers": [
+      "queue fourchue",
+      "ailes fines",
+      "petit bec",
+      "corps fuselé"
+    ],
+    "silhouette": "petit oiseau extrêmement profilé à longue queue fourchue",
+    "proportions": {
+      "head_to_body_ratio": "petite tête",
+      "torso": "très fuselé",
+      "limbs": "pattes très courtes",
+      "neck": "court",
+      "tail": "longue et fourchue"
+    },
+    "signature_features": [
+      "queue fourchue",
+      "ailes faucillées",
+      "corps fuselé"
+    ]
+  },
+  {
+    "name": "Flamant rose",
+    "version": "animal-biology-v1",
+    "body_plan": "avian",
+    "locomotion": [
+      "walk",
+      "fly"
+    ],
+    "limb_count": 2,
+    "limb_configuration": "deux très longues pattes et deux ailes",
+    "extremities": "pieds palmés",
+    "tail": "courte queue plumeuse",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "petite tête à bec coudé",
+    "ears": "absentes extérieurement",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "paire d’ailes"
+    ],
+    "primary_surface": "plumage fin",
+    "secondary_surface": "rémiges plus sombres",
+    "accent_surface": "bec et longues pattes",
+    "footprint_type": "palmure",
+    "height_m": 1.5,
+    "weight_kg": 8,
+    "markers": [
+      "très longues pattes",
+      "long cou en S",
+      "bec coudé",
+      "plumage rose"
+    ],
+    "silhouette": "oiseau très haut sur pattes avec long cou en S",
+    "proportions": {
+      "head_to_body_ratio": "petite tête",
+      "torso": "ovale compact",
+      "limbs": "extrêmement longs et fins",
+      "neck": "très long",
+      "tail": "courte"
+    },
+    "signature_features": [
+      "long cou en S",
+      "pattes échasses",
+      "bec coudé"
+    ]
+  },
+  {
+    "name": "Colibri",
+    "version": "animal-biology-v1",
+    "body_plan": "avian",
+    "locomotion": [
+      "fly",
+      "hover"
+    ],
+    "limb_count": 2,
+    "limb_configuration": "deux très petites pattes et deux ailes rapides",
+    "extremities": "petits doigts fins",
+    "tail": "petite queue de plumes",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "petite tête à long bec fin",
+    "ears": "absentes extérieurement",
+    "horns": [],
+    "crest": "plumes irisées possibles",
+    "appendages": [
+      "ailes étroites"
+    ],
+    "primary_surface": "plumage fin",
+    "secondary_surface": "plumes irisées",
+    "accent_surface": "gorge brillante",
+    "footprint_type": "griffe",
+    "height_m": 0.25,
+    "weight_kg": 0.8,
+    "markers": [
+      "long bec fin",
+      "petit corps",
+      "ailes étroites",
+      "gorge irisée"
+    ],
+    "silhouette": "minuscule oiseau compact au long bec et ailes en battement",
+    "proportions": {
+      "head_to_body_ratio": "tête moyenne",
+      "torso": "très petit",
+      "limbs": "pattes minuscules",
+      "neck": "court",
+      "tail": "courte"
+    },
+    "signature_features": [
+      "long bec",
+      "gorge irisée",
+      "ailes de vol stationnaire"
+    ]
+  },
+  {
+    "name": "Cygne",
+    "version": "animal-biology-v1",
+    "body_plan": "avian",
+    "locomotion": [
+      "walk",
+      "swim",
+      "fly",
+      "glide"
+    ],
+    "limb_count": 2,
+    "limb_configuration": "deux pattes palmées et deux grandes ailes",
+    "extremities": "pieds palmés",
+    "tail": "courte queue de plumes",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "petite tête à bec large",
+    "ears": "absentes extérieurement",
+    "horns": [],
+    "crest": "aucune",
+    "appendages": [
+      "grandes ailes plumeuses"
+    ],
+    "primary_surface": "plumage dense",
+    "secondary_surface": "rémiges longues",
+    "accent_surface": "bec et masque facial",
+    "footprint_type": "palmure",
+    "height_m": 1.4,
+    "weight_kg": 14,
+    "markers": [
+      "long cou courbé",
+      "grandes ailes",
+      "pieds palmés",
+      "corps flottant"
+    ],
+    "silhouette": "grand oiseau aquatique au cou très long et courbé",
+    "proportions": {
+      "head_to_body_ratio": "petite tête",
+      "torso": "large et flottant",
+      "limbs": "pattes courtes",
+      "neck": "très long et flexible",
+      "tail": "courte"
+    },
+    "signature_features": [
+      "cou en S",
+      "grandes ailes",
+      "silhouette flottante"
+    ]
+  },
+  {
+    "name": "Paon",
+    "version": "animal-biology-v1",
+    "body_plan": "avian",
+    "locomotion": [
+      "walk",
+      "run",
+      "fly"
+    ],
+    "limb_count": 2,
+    "limb_configuration": "deux pattes aviennes et deux ailes",
+    "extremities": "pattes griffues fines",
+    "tail": "très longue traîne de plumes ocellées",
+    "tail_present": true,
+    "tail_count": 1,
+    "head": "petite tête avienne à bec court",
+    "ears": "absentes extérieurement",
+    "horns": [],
+    "crest": "huppe en éventail",
+    "appendages": [
+      "paire d’ailes",
+      "traîne de plumes pouvant se déployer en roue"
+    ],
+    "primary_surface": "plumage irisé",
+    "secondary_surface": "plumes de traîne ocellées",
+    "accent_surface": "huppe et ocelles",
+    "footprint_type": "griffe",
+    "height_m": 1.1,
+    "weight_kg": 9,
+    "markers": [
+      "huppe céphalique",
+      "traîne ocellée",
+      "cou irisé",
+      "pattes fines"
+    ],
+    "silhouette": "oiseau élancé dont la longue traîne peut former un immense éventail",
+    "proportions": {
+      "head_to_body_ratio": "petite tête",
+      "torso": "corps avien moyen",
+      "limbs": "deux pattes longues et fines",
+      "neck": "long et élancé",
+      "tail": "très longue traîne décorative"
+    },
+    "signature_features": [
+      "traîne ocellée",
+      "huppe en éventail",
+      "cou irisé"
+    ]
+  }
+]

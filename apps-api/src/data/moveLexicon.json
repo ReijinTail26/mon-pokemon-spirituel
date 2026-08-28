@@ -1,0 +1,3417 @@
+{
+  "version": "move-lexicon-v2",
+  "animals": {
+    "Dragon": {
+      "nouns": [
+        "souffle",
+        "écaille",
+        "aile",
+        "corne",
+        "crête",
+        "serre"
+      ],
+      "verbs": [
+        "embraser",
+        "fondre",
+        "déferler",
+        "griffer",
+        "fendre",
+        "charger"
+      ],
+      "adjectives": [
+        "draconique",
+        "ardent",
+        "ancestral",
+        "écailleux",
+        "majestueux"
+      ],
+      "concepts": [
+        "souffle",
+        "ascension",
+        "domination",
+        "fracas",
+        "envol",
+        "puissance"
+      ],
+      "move_names": {
+        "Physique": [
+          "Percée Draconique",
+          "Serres du Wyrm",
+          "Charge d’Écailles"
+        ],
+        "Spéciale": [
+          "Souffle Ancestral",
+          "Ascension Pourpre"
+        ],
+        "Statut": [
+          "Majesté Draconique",
+          "Veille des Écailles",
+          "Présence du Dragon"
+        ]
+      }
+    },
+    "Phénix": {
+      "nouns": [
+        "plume",
+        "huppe",
+        "aile",
+        "braise",
+        "cendre",
+        "traîne"
+      ],
+      "verbs": [
+        "renaître",
+        "embraser",
+        "jaillir",
+        "s’élever",
+        "rayonner",
+        "consumer"
+      ],
+      "adjectives": [
+        "incandescent",
+        "solaire",
+        "cendré",
+        "flamboyant",
+        "radieux"
+      ],
+      "concepts": [
+        "renaissance",
+        "envol",
+        "brasier",
+        "aurore",
+        "retour",
+        "éclat"
+      ],
+      "move_names": {
+        "Physique": [
+          "Plume Incandescente",
+          "Piqué des Cendres",
+          "Aile du Renouveau"
+        ],
+        "Spéciale": [
+          "Aurore Ardente",
+          "Éclat de Renaissance"
+        ],
+        "Statut": [
+          "Cycle des Cendres",
+          "Grâce du Phénix",
+          "Veille Solaire"
+        ]
+      }
+    },
+    "Griffon": {
+      "nouns": [
+        "serre",
+        "bec",
+        "aile",
+        "crinière",
+        "plume",
+        "griffe"
+      ],
+      "verbs": [
+        "fondre",
+        "agripper",
+        "lacérer",
+        "survoler",
+        "percuter",
+        "traquer"
+      ],
+      "adjectives": [
+        "royal",
+        "aérien",
+        "rapace",
+        "altier",
+        "griffonné"
+      ],
+      "concepts": [
+        "piqué",
+        "traque",
+        "emprise",
+        "envol",
+        "assaut",
+        "vigilance"
+      ],
+      "move_names": {
+        "Physique": [
+          "Serres Royales",
+          "Piqué du Griffon",
+          "Assaut Altier"
+        ],
+        "Spéciale": [
+          "Rafale Souveraine",
+          "Éclat du Zénith"
+        ],
+        "Statut": [
+          "Vigilance Royale",
+          "Emprise du Griffon",
+          "Garde Altier"
+        ]
+      }
+    },
+    "Kitsune": {
+      "nouns": [
+        "queue",
+        "panache",
+        "fourrure",
+        "oreille",
+        "flamme",
+        "masque"
+      ],
+      "verbs": [
+        "feinter",
+        "tromper",
+        "esquiver",
+        "bondir",
+        "jaillir",
+        "ensorceler"
+      ],
+      "adjectives": [
+        "vulpin",
+        "mystique",
+        "rusé",
+        "furtif",
+        "spectral"
+      ],
+      "concepts": [
+        "ruse",
+        "feinte",
+        "mirage",
+        "embuscade",
+        "danse",
+        "illusion"
+      ],
+      "move_names": {
+        "Physique": [
+          "Bond Vulpin",
+          "Panache Trompeur",
+          "Griffes du Mirage"
+        ],
+        "Spéciale": [
+          "Feu Follet Vulpin",
+          "Mirage des Neuf Queues"
+        ],
+        "Statut": [
+          "Ruse du Kitsune",
+          "Danse des Queues",
+          "Feinte Spectrale"
+        ]
+      }
+    },
+    "Licorne": {
+      "nouns": [
+        "corne",
+        "crinière",
+        "sabot",
+        "encolure",
+        "lueur",
+        "galop"
+      ],
+      "verbs": [
+        "charger",
+        "transpercer",
+        "galoper",
+        "rayonner",
+        "purifier",
+        "bondir"
+      ],
+      "adjectives": [
+        "nacré",
+        "pur",
+        "céleste",
+        "élancé",
+        "lumineux"
+      ],
+      "concepts": [
+        "charge",
+        "percée",
+        "galop",
+        "pureté",
+        "éclat",
+        "grâce"
+      ],
+      "move_names": {
+        "Physique": [
+          "Percée Nacrée",
+          "Charge de la Licorne",
+          "Sabot Céleste"
+        ],
+        "Spéciale": [
+          "Éclat de Corne",
+          "Rayon Nacré"
+        ],
+        "Statut": [
+          "Grâce de la Licorne",
+          "Pureté Rayonnante",
+          "Galop Serein"
+        ]
+      }
+    },
+    "Basilic": {
+      "nouns": [
+        "regard",
+        "crête",
+        "écaille",
+        "crochet",
+        "queue",
+        "couronne"
+      ],
+      "verbs": [
+        "figer",
+        "siffler",
+        "mordre",
+        "ramper",
+        "foudroyer",
+        "encercler"
+      ],
+      "adjectives": [
+        "pétrifiant",
+        "serpentin",
+        "royal",
+        "venimeux",
+        "sinueux"
+      ],
+      "concepts": [
+        "regard",
+        "pétrification",
+        "sifflement",
+        "étreinte",
+        "venin",
+        "terreur"
+      ],
+      "move_names": {
+        "Physique": [
+          "Morsure du Basilic",
+          "Fouet Serpentin",
+          "Charge Couronnée"
+        ],
+        "Spéciale": [
+          "Regard Pétrifiant",
+          "Souffle Venimeux"
+        ],
+        "Statut": [
+          "Fixation Royale",
+          "Sifflement du Basilic",
+          "Étreinte Sinueuse"
+        ]
+      }
+    },
+    "Sphinx": {
+      "nouns": [
+        "regard",
+        "griffe",
+        "aile",
+        "crinière",
+        "énigme",
+        "masque"
+      ],
+      "verbs": [
+        "observer",
+        "juger",
+        "bloquer",
+        "fondre",
+        "griffer",
+        "dérouter"
+      ],
+      "adjectives": [
+        "énigmatique",
+        "souverain",
+        "monumental",
+        "impassible",
+        "ancien"
+      ],
+      "concepts": [
+        "énigme",
+        "jugement",
+        "vigilance",
+        "verrou",
+        "majesté",
+        "silence"
+      ],
+      "move_names": {
+        "Physique": [
+          "Griffes du Sphinx",
+          "Assaut Monumental",
+          "Charge Souveraine"
+        ],
+        "Spéciale": [
+          "Énigme Astrale",
+          "Regard du Sphinx"
+        ],
+        "Statut": [
+          "Jugement Silencieux",
+          "Veille Énigmatique",
+          "Verrou du Sphinx"
+        ]
+      }
+    },
+    "Kraken": {
+      "nouns": [
+        "tentacule",
+        "ventouse",
+        "manteau",
+        "bras",
+        "encre",
+        "étreinte"
+      ],
+      "verbs": [
+        "enserrer",
+        "fouetter",
+        "engloutir",
+        "agripper",
+        "jaillir",
+        "aspirer"
+      ],
+      "adjectives": [
+        "abyssal",
+        "tentaculaire",
+        "océanique",
+        "sombre",
+        "massif"
+      ],
+      "concepts": [
+        "étreinte",
+        "maelström",
+        "saisie",
+        "pression",
+        "abysses",
+        "engloutissement"
+      ],
+      "move_names": {
+        "Physique": [
+          "Étreinte Abyssale",
+          "Fouet Tentaculaire",
+          "Prise du Kraken"
+        ],
+        "Spéciale": [
+          "Déferlante Abyssale",
+          "Encre des Profondeurs"
+        ],
+        "Statut": [
+          "Emprise Tentaculaire",
+          "Nœud des Abysses",
+          "Voile du Kraken"
+        ]
+      }
+    },
+    "Minotaure": {
+      "nouns": [
+        "corne",
+        "sabot",
+        "épaule",
+        "museau",
+        "charge",
+        "poitrail"
+      ],
+      "verbs": [
+        "charger",
+        "percuter",
+        "piétiner",
+        "encaisser",
+        "renverser",
+        "marteler"
+      ],
+      "adjectives": [
+        "taurin",
+        "brutal",
+        "massif",
+        "cornu",
+        "implacable"
+      ],
+      "concepts": [
+        "charge",
+        "impact",
+        "fracas",
+        "ruée",
+        "force",
+        "labyrinthe"
+      ],
+      "move_names": {
+        "Physique": [
+          "Charge du Minotaure",
+          "Cornes du Labyrinthe",
+          "Fracas Taurin"
+        ],
+        "Spéciale": [
+          "Onde du Labyrinthe",
+          "Rugissement Taurin"
+        ],
+        "Statut": [
+          "Défi du Minotaure",
+          "Garde du Labyrinthe",
+          "Ancrage Taurin"
+        ]
+      }
+    },
+    "Cerbère": {
+      "nouns": [
+        "crocs",
+        "gueule",
+        "crinière",
+        "patte",
+        "chaîne",
+        "triple-tête"
+      ],
+      "verbs": [
+        "mordre",
+        "encercler",
+        "gronder",
+        "bondir",
+        "traquer",
+        "lacérer"
+      ],
+      "adjectives": [
+        "triple",
+        "infernal",
+        "féroce",
+        "gardien",
+        "implacable"
+      ],
+      "concepts": [
+        "triple-assaut",
+        "garde",
+        "traque",
+        "morsure",
+        "rugissement",
+        "encerclement"
+      ],
+      "move_names": {
+        "Physique": [
+          "Triple Morsure",
+          "Assaut des Trois Gueules",
+          "Crocs du Cerbère"
+        ],
+        "Spéciale": [
+          "Hurlement des Enfers",
+          "Onde Tricéphale"
+        ],
+        "Statut": [
+          "Veille Tricéphale",
+          "Garde du Cerbère",
+          "Cercles de Menace"
+        ]
+      }
+    },
+    "Fourmi": {
+      "nouns": [
+        "mandibule",
+        "antenne",
+        "gastre",
+        "colonie",
+        "carapace",
+        "patte"
+      ],
+      "verbs": [
+        "pincer",
+        "porter",
+        "encercler",
+        "creuser",
+        "assaillir",
+        "coordonner"
+      ],
+      "adjectives": [
+        "myrmécien",
+        "collectif",
+        "tenace",
+        "segmenté",
+        "industrieux"
+      ],
+      "concepts": [
+        "colonie",
+        "encerclement",
+        "tenacité",
+        "charge",
+        "travail",
+        "pression"
+      ],
+      "move_names": {
+        "Physique": [
+          "Pince Ouvrière",
+          "Charge de la Colonie",
+          "Mandibules Solidaires"
+        ],
+        "Spéciale": [
+          "Signal de Colonie",
+          "Vibration Formique"
+        ],
+        "Statut": [
+          "Ordre de la Fourmilière",
+          "Discipline Ouvrière",
+          "Chaîne de Colonie"
+        ]
+      }
+    },
+    "Abeille": {
+      "nouns": [
+        "aiguillon",
+        "aile",
+        "miel",
+        "pollen",
+        "essaim",
+        "antenne"
+      ],
+      "verbs": [
+        "piquer",
+        "bourdonner",
+        "essaimer",
+        "butiner",
+        "fondre",
+        "vibrer"
+      ],
+      "adjectives": [
+        "apicole",
+        "doré",
+        "vibrant",
+        "mellifère",
+        "piquant"
+      ],
+      "concepts": [
+        "essaim",
+        "bourdonnement",
+        "pollen",
+        "piqûre",
+        "nectar",
+        "danse"
+      ],
+      "move_names": {
+        "Physique": [
+          "Dard Vibrant",
+          "Piqué de l’Abeille",
+          "Percée Mellifère"
+        ],
+        "Spéciale": [
+          "Bourdonnement Doré",
+          "Onde Mellifère"
+        ],
+        "Statut": [
+          "Danse de la Ruche",
+          "Signal des Ouvrières",
+          "Essaim Coordonné"
+        ]
+      }
+    },
+    "Papillon": {
+      "nouns": [
+        "aile",
+        "écaille",
+        "antenne",
+        "poudre",
+        "motif",
+        "cocon"
+      ],
+      "verbs": [
+        "voleter",
+        "poudrer",
+        "onduler",
+        "éblouir",
+        "muer",
+        "tourbillonner"
+      ],
+      "adjectives": [
+        "lépidoptère",
+        "irisé",
+        "léger",
+        "chatoyant",
+        "poudré"
+      ],
+      "concepts": [
+        "métamorphose",
+        "poudre",
+        "envol",
+        "miroitement",
+        "danse",
+        "cocon"
+      ],
+      "move_names": {
+        "Physique": [
+          "Battement Poudré",
+          "Aile de Velours",
+          "Piqué Chromatique"
+        ],
+        "Spéciale": [
+          "Poudre Prismatique",
+          "Éclat d’Aile"
+        ],
+        "Statut": [
+          "Danse du Papillon",
+          "Voile de Pollen",
+          "Mue Gracieuse"
+        ]
+      }
+    },
+    "Mante religieuse": {
+      "nouns": [
+        "lame",
+        "patte-ravisseuse",
+        "griffe",
+        "prothorax",
+        "masque",
+        "crochet"
+      ],
+      "verbs": [
+        "faucher",
+        "saisir",
+        "trancher",
+        "guetter",
+        "bondir",
+        "verrouiller"
+      ],
+      "adjectives": [
+        "mantidé",
+        "tranchant",
+        "patient",
+        "prédateur",
+        "anguleux"
+      ],
+      "concepts": [
+        "fauche",
+        "embuscade",
+        "prise",
+        "guet",
+        "crochet",
+        "précision"
+      ],
+      "move_names": {
+        "Physique": [
+          "Faux Ravisseuse",
+          "Entaille Mantique",
+          "Frappe de Prédatrice"
+        ],
+        "Spéciale": [
+          "Reflet Tranchant",
+          "Onde Mantique"
+        ],
+        "Statut": [
+          "Posture de la Mante",
+          "Guet Immobile",
+          "Prière du Prédateur"
+        ]
+      }
+    },
+    "Scarabée": {
+      "nouns": [
+        "carapace",
+        "élytre",
+        "corne",
+        "chitine",
+        "armure",
+        "mandibule"
+      ],
+      "verbs": [
+        "charger",
+        "percuter",
+        "encaisser",
+        "verrouiller",
+        "repousser",
+        "écraser"
+      ],
+      "adjectives": [
+        "chitineux",
+        "cuirassé",
+        "cornu",
+        "blindé",
+        "robuste"
+      ],
+      "concepts": [
+        "blindage",
+        "impact",
+        "fortification",
+        "résistance",
+        "charge",
+        "rempart"
+      ],
+      "move_names": {
+        "Physique": [
+          "Charge Chitineuse",
+          "Impact Cuirassé",
+          "Corne du Scarabée"
+        ],
+        "Spéciale": [
+          "Onde d’Élytre",
+          "Résonance Chitineuse"
+        ],
+        "Statut": [
+          "Rempart d’Élytre",
+          "Égide Scarabéenne",
+          "Verrou Cuirassé"
+        ]
+      }
+    },
+    "Coccinelle": {
+      "nouns": [
+        "élytre",
+        "point",
+        "carapace",
+        "dôme",
+        "aile",
+        "coque"
+      ],
+      "verbs": [
+        "rouler",
+        "bondir",
+        "protéger",
+        "miroiter",
+        "dévier",
+        "tourner"
+      ],
+      "adjectives": [
+        "ponctué",
+        "verni",
+        "compact",
+        "bombé",
+        "écarlate"
+      ],
+      "concepts": [
+        "dôme",
+        "chance",
+        "rebond",
+        "protection",
+        "rotation",
+        "éclat"
+      ],
+      "move_names": {
+        "Physique": [
+          "Élan Coccinelle",
+          "Carapace Ponctuée",
+          "Piqué Vermillon"
+        ],
+        "Spéciale": [
+          "Éclat des Élytres",
+          "Halo Vermillon"
+        ],
+        "Statut": [
+          "Chance Ponctuée",
+          "Dôme Protecteur",
+          "Ronde des Élytres"
+        ]
+      }
+    },
+    "Criquet": {
+      "nouns": [
+        "fémur",
+        "patte",
+        "aile",
+        "antenne",
+        "bond",
+        "carapace"
+      ],
+      "verbs": [
+        "bondir",
+        "frapper",
+        "vibrer",
+        "jaillir",
+        "rebondir",
+        "faucher"
+      ],
+      "adjectives": [
+        "saltatoire",
+        "vif",
+        "nerveux",
+        "élastique",
+        "stridulant"
+      ],
+      "concepts": [
+        "bond",
+        "détente",
+        "saut",
+        "stridulation",
+        "élan",
+        "rebond"
+      ],
+      "move_names": {
+        "Physique": [
+          "Détente du Criquet",
+          "Saut Fracassant",
+          "Ruée des Fémurs"
+        ],
+        "Spéciale": [
+          "Stridulation Vive",
+          "Onde Sautillante"
+        ],
+        "Statut": [
+          "Rythme du Criquet",
+          "Veille des Antennes",
+          "Impulsion de Saut"
+        ]
+      }
+    },
+    "Libellule": {
+      "nouns": [
+        "aile",
+        "œil",
+        "abdomen",
+        "nervure",
+        "vol",
+        "reflet"
+      ],
+      "verbs": [
+        "fuser",
+        "virer",
+        "survoler",
+        "vibrer",
+        "piquer",
+        "accélérer"
+      ],
+      "adjectives": [
+        "odonate",
+        "irisé",
+        "fulgurant",
+        "aérien",
+        "précis"
+      ],
+      "concepts": [
+        "vitesse",
+        "vol-stationnaire",
+        "virage",
+        "reflet",
+        "piqué",
+        "accélération"
+      ],
+      "move_names": {
+        "Physique": [
+          "Percée de Libellule",
+          "Ailes Croisées",
+          "Piqué Azuré"
+        ],
+        "Spéciale": [
+          "Vibration d’Azur",
+          "Reflet des Quatre Ailes"
+        ],
+        "Statut": [
+          "Vol Stationnaire",
+          "Veille Oculaire",
+          "Danse des Ailes"
+        ]
+      }
+    },
+    "Phasme": {
+      "nouns": [
+        "brindille",
+        "patte",
+        "feuille",
+        "écorce",
+        "segment",
+        "silhouette"
+      ],
+      "verbs": [
+        "camoufler",
+        "figer",
+        "imiter",
+        "se-fondre",
+        "s’étirer",
+        "esquiver"
+      ],
+      "adjectives": [
+        "mimétique",
+        "filiforme",
+        "végétal",
+        "furtif",
+        "cryptique"
+      ],
+      "concepts": [
+        "camouflage",
+        "mimétisme",
+        "immobilité",
+        "leurre",
+        "discrétion",
+        "branche"
+      ],
+      "move_names": {
+        "Physique": [
+          "Frappe de Brindille",
+          "Crochet du Phasme",
+          "Pointe Foliaire"
+        ],
+        "Spéciale": [
+          "Mirage Foliaire",
+          "Ombre de Brindille"
+        ],
+        "Statut": [
+          "Mimétisme du Phasme",
+          "Immobilité Foliaire",
+          "Camouflage de Branche"
+        ]
+      }
+    },
+    "Yéti": {
+      "nouns": [
+        "poing",
+        "fourrure",
+        "pied",
+        "épaule",
+        "griffe",
+        "souffle"
+      ],
+      "verbs": [
+        "marteler",
+        "piétiner",
+        "agripper",
+        "rugir",
+        "charger",
+        "encaisser"
+      ],
+      "adjectives": [
+        "himalayen",
+        "velu",
+        "massif",
+        "sauvage",
+        "glacial"
+      ],
+      "concepts": [
+        "avalanche",
+        "impact",
+        "rugissement",
+        "piétinement",
+        "force",
+        "survie"
+      ],
+      "move_names": {
+        "Physique": [
+          "Poing du Yéti",
+          "Charge des Neiges",
+          "Frappe des Grands Pieds"
+        ],
+        "Spéciale": [
+          "Souffle des Cimes",
+          "Écho des Neiges"
+        ],
+        "Statut": [
+          "Présence du Yéti",
+          "Garde des Cimes",
+          "Fourrure Isolante"
+        ]
+      }
+    },
+    "Lion": {
+      "nouns": [
+        "crinière",
+        "griffe",
+        "crocs",
+        "patte",
+        "rugissement",
+        "poitrail"
+      ],
+      "verbs": [
+        "rugir",
+        "bondir",
+        "lacérer",
+        "charger",
+        "mordre",
+        "dominer"
+      ],
+      "adjectives": [
+        "léonin",
+        "royal",
+        "féroce",
+        "souverain",
+        "doré"
+      ],
+      "concepts": [
+        "rugissement",
+        "majesté",
+        "prédation",
+        "charge",
+        "domination",
+        "crocs"
+      ],
+      "move_names": {
+        "Physique": [
+          "Griffe Royale",
+          "Charge du Lion",
+          "Crocs Souverains"
+        ],
+        "Spéciale": [
+          "Rugissement Solaire",
+          "Onde de Crinière"
+        ],
+        "Statut": [
+          "Présence Royale",
+          "Crinière Majestueuse",
+          "Défi du Lion"
+        ]
+      }
+    },
+    "Loup": {
+      "nouns": [
+        "crocs",
+        "museau",
+        "patte",
+        "queue",
+        "hurlement",
+        "meute"
+      ],
+      "verbs": [
+        "traquer",
+        "mordre",
+        "bondir",
+        "encercler",
+        "hurler",
+        "poursuivre"
+      ],
+      "adjectives": [
+        "lupin",
+        "sauvage",
+        "nocturne",
+        "furtif",
+        "meutier"
+      ],
+      "concepts": [
+        "traque",
+        "meute",
+        "hurlement",
+        "poursuite",
+        "embuscade",
+        "crocs"
+      ],
+      "move_names": {
+        "Physique": [
+          "Crocs de la Meute",
+          "Ruée Lupine",
+          "Griffe du Loup"
+        ],
+        "Spéciale": [
+          "Hurlement Lunaire",
+          "Écho de la Meute"
+        ],
+        "Statut": [
+          "Appel de la Meute",
+          "Traque Lupine",
+          "Veille du Loup"
+        ]
+      }
+    },
+    "Renard": {
+      "nouns": [
+        "queue",
+        "panache",
+        "crocs",
+        "museau",
+        "griffes",
+        "fourrure"
+      ],
+      "verbs": [
+        "feinter",
+        "bondir",
+        "traquer",
+        "esquiver",
+        "jaillir",
+        "ruser"
+      ],
+      "adjectives": [
+        "vulpin",
+        "furtif",
+        "rusé",
+        "agile",
+        "fauve"
+      ],
+      "concepts": [
+        "ruse",
+        "feinte",
+        "embuscade",
+        "traque",
+        "vivacité",
+        "esquive"
+      ],
+      "move_names": {
+        "Physique": [
+          "Bond Vulpin",
+          "Crocs de Traverse",
+          "Ruée Fauve"
+        ],
+        "Spéciale": [
+          "Éclat Vulpin",
+          "Panache Lumineux"
+        ],
+        "Statut": [
+          "Feinte Vulpine",
+          "Embuscade Fauve",
+          "Traque Rusée"
+        ]
+      }
+    },
+    "Éléphant": {
+      "nouns": [
+        "trompe",
+        "défense",
+        "oreille",
+        "patte",
+        "charge",
+        "ivoire"
+      ],
+      "verbs": [
+        "charger",
+        "balayer",
+        "soulever",
+        "piétiner",
+        "barrer",
+        "projeter"
+      ],
+      "adjectives": [
+        "proboscidien",
+        "massif",
+        "ivoirin",
+        "puissant",
+        "majestueux"
+      ],
+      "concepts": [
+        "charge",
+        "balayage",
+        "trompe",
+        "piétinement",
+        "rempart",
+        "mémoire"
+      ],
+      "move_names": {
+        "Physique": [
+          "Charge d’Ivoire",
+          "Frappe de Trompe",
+          "Marche Colossale"
+        ],
+        "Spéciale": [
+          "Barrissement Profond",
+          "Onde d’Ivoire"
+        ],
+        "Statut": [
+          "Mémoire d’Éléphant",
+          "Rempart d’Ivoire",
+          "Ancrage Colossal"
+        ]
+      }
+    },
+    "Ours": {
+      "nouns": [
+        "patte",
+        "griffe",
+        "épaule",
+        "museau",
+        "fourrure",
+        "masse"
+      ],
+      "verbs": [
+        "frapper",
+        "agripper",
+        "charger",
+        "encaisser",
+        "rugir",
+        "écraser"
+      ],
+      "adjectives": [
+        "ursin",
+        "massif",
+        "rugueux",
+        "sauvage",
+        "robuste"
+      ],
+      "concepts": [
+        "force",
+        "étreinte",
+        "frappe",
+        "charge",
+        "endurance",
+        "rugissement"
+      ],
+      "move_names": {
+        "Physique": [
+          "Patte Pesante",
+          "Charge Ursine",
+          "Griffes de l’Ours"
+        ],
+        "Spéciale": [
+          "Rugissement des Bois",
+          "Onde Ursine"
+        ],
+        "Statut": [
+          "Garde Ursine",
+          "Repos de l’Ours",
+          "Présence Massive"
+        ]
+      }
+    },
+    "Cerf": {
+      "nouns": [
+        "ramure",
+        "sabot",
+        "encolure",
+        "bois",
+        "galop",
+        "front"
+      ],
+      "verbs": [
+        "charger",
+        "galoper",
+        "embrocher",
+        "bondir",
+        "parer",
+        "frapper"
+      ],
+      "adjectives": [
+        "cervidé",
+        "ramifié",
+        "sylvestre",
+        "élancé",
+        "noble"
+      ],
+      "concepts": [
+        "ramure",
+        "charge",
+        "galop",
+        "forêt",
+        "élan",
+        "percée"
+      ],
+      "move_names": {
+        "Physique": [
+          "Charge de Ramure",
+          "Percée Sylvestre",
+          "Sabots du Cerf"
+        ],
+        "Spéciale": [
+          "Éclat de Ramure",
+          "Appel Sylvestre"
+        ],
+        "Statut": [
+          "Port du Cerf",
+          "Veille des Bois",
+          "Ramure Gardienne"
+        ]
+      }
+    },
+    "Panthère": {
+      "nouns": [
+        "griffe",
+        "crocs",
+        "queue",
+        "patte",
+        "ombre",
+        "souplesse"
+      ],
+      "verbs": [
+        "bondir",
+        "traquer",
+        "lacérer",
+        "esquiver",
+        "fondre",
+        "ramper"
+      ],
+      "adjectives": [
+        "félin",
+        "furtif",
+        "sombre",
+        "souple",
+        "silencieux"
+      ],
+      "concepts": [
+        "embuscade",
+        "traque",
+        "bond",
+        "ombre",
+        "furtivité",
+        "griffure"
+      ],
+      "move_names": {
+        "Physique": [
+          "Bond de Panthère",
+          "Griffe Nocturne",
+          "Ruée Féline"
+        ],
+        "Spéciale": [
+          "Ombre Fluide",
+          "Éclat Félin"
+        ],
+        "Statut": [
+          "Traque Silencieuse",
+          "Pas de Velours",
+          "Guet de Panthère"
+        ]
+      }
+    },
+    "Rhinocéros": {
+      "nouns": [
+        "corne",
+        "épaule",
+        "cuir",
+        "patte",
+        "charge",
+        "museau"
+      ],
+      "verbs": [
+        "charger",
+        "percuter",
+        "encaisser",
+        "renverser",
+        "piétiner",
+        "foncer"
+      ],
+      "adjectives": [
+        "rhinocérin",
+        "blindé",
+        "massif",
+        "cornu",
+        "implacable"
+      ],
+      "concepts": [
+        "charge",
+        "impact",
+        "blindage",
+        "percée",
+        "fracas",
+        "résistance"
+      ],
+      "move_names": {
+        "Physique": [
+          "Charge de Corne",
+          "Percée du Rhinocéros",
+          "Impact Cuirassé"
+        ],
+        "Spéciale": [
+          "Onde de Corne",
+          "Fracas Blindé"
+        ],
+        "Statut": [
+          "Ancrage du Rhinocéros",
+          "Peau Forteresse",
+          "Garde Cuirassée"
+        ]
+      }
+    },
+    "Singe": {
+      "nouns": [
+        "main",
+        "queue",
+        "poing",
+        "branche",
+        "prise",
+        "patte"
+      ],
+      "verbs": [
+        "agripper",
+        "bondir",
+        "lancer",
+        "esquiver",
+        "frapper",
+        "grimper"
+      ],
+      "adjectives": [
+        "primate",
+        "agile",
+        "malin",
+        "préhensile",
+        "vif"
+      ],
+      "concepts": [
+        "acrobatie",
+        "prise",
+        "bond",
+        "ruse",
+        "escalade",
+        "lancer"
+      ],
+      "move_names": {
+        "Physique": [
+          "Poing Préhensile",
+          "Bond du Singe",
+          "Frappe Acrobate"
+        ],
+        "Spéciale": [
+          "Cri Simiesque",
+          "Écho de Canopée"
+        ],
+        "Statut": [
+          "Ruse Simiesque",
+          "Main Agile",
+          "Improvisation du Singe"
+        ]
+      }
+    },
+    "Tortue": {
+      "nouns": [
+        "carapace",
+        "plastron",
+        "écaille",
+        "cou",
+        "patte",
+        "dôme"
+      ],
+      "verbs": [
+        "encaisser",
+        "rouler",
+        "se-replier",
+        "bloquer",
+        "percuter",
+        "résister"
+      ],
+      "adjectives": [
+        "cheloniens",
+        "cuirassé",
+        "stable",
+        "bombé",
+        "endurant"
+      ],
+      "concepts": [
+        "rempart",
+        "repli",
+        "blindage",
+        "dôme",
+        "résistance",
+        "rotation"
+      ],
+      "move_names": {
+        "Physique": [
+          "Charge de Carapace",
+          "Impact du Plastron",
+          "Percée de Tortue"
+        ],
+        "Spéciale": [
+          "Onde de Carapace",
+          "Résonance du Plastron"
+        ],
+        "Statut": [
+          "Rempart de Carapace",
+          "Retrait Tactique",
+          "Forteresse de Tortue"
+        ]
+      }
+    },
+    "Baleine": {
+      "nouns": [
+        "caudale",
+        "nageoire",
+        "souffle",
+        "flanc",
+        "onde",
+        "évent"
+      ],
+      "verbs": [
+        "frapper",
+        "plonger",
+        "souffler",
+        "balayer",
+        "émerger",
+        "déferler"
+      ],
+      "adjectives": [
+        "cétacé",
+        "abyssal",
+        "immense",
+        "océanique",
+        "sonore"
+      ],
+      "concepts": [
+        "onde",
+        "souffle",
+        "plongée",
+        "marée",
+        "balayage",
+        "profondeur"
+      ],
+      "move_names": {
+        "Physique": [
+          "Frappe Caudale",
+          "Charge de Baleine",
+          "Percussion Pectorale"
+        ],
+        "Spéciale": [
+          "Chant des Profondeurs",
+          "Onde Cétacée"
+        ],
+        "Statut": [
+          "Souffle de l’Évent",
+          "Calme Abyssal",
+          "Veille Cétacée"
+        ]
+      }
+    },
+    "Dauphin": {
+      "nouns": [
+        "rostre",
+        "caudale",
+        "dorsale",
+        "onde",
+        "saut",
+        "sifflement"
+      ],
+      "verbs": [
+        "fuser",
+        "bondir",
+        "percuter",
+        "sonder",
+        "plonger",
+        "tourner"
+      ],
+      "adjectives": [
+        "delphinidé",
+        "vif",
+        "hydrodynamique",
+        "sonore",
+        "agile"
+      ],
+      "concepts": [
+        "écholocation",
+        "saut",
+        "vitesse",
+        "sonar",
+        "plongée",
+        "virage"
+      ],
+      "move_names": {
+        "Physique": [
+          "Percée du Dauphin",
+          "Frappe Caudale",
+          "Bond Marin"
+        ],
+        "Spéciale": [
+          "Écho Sonar",
+          "Onde du Large"
+        ],
+        "Statut": [
+          "Navigation Sonar",
+          "Jeu du Dauphin",
+          "Veille Marine"
+        ]
+      }
+    },
+    "Orque": {
+      "nouns": [
+        "dorsale",
+        "mâchoire",
+        "caudale",
+        "pectorale",
+        "onde",
+        "flanc"
+      ],
+      "verbs": [
+        "charger",
+        "mordre",
+        "balayer",
+        "encercler",
+        "plonger",
+        "percuter"
+      ],
+      "adjectives": [
+        "orcine",
+        "océanique",
+        "puissant",
+        "noir-blanc",
+        "prédateur"
+      ],
+      "concepts": [
+        "chasse",
+        "encerclement",
+        "charge",
+        "vague",
+        "morsure",
+        "sonar"
+      ],
+      "move_names": {
+        "Physique": [
+          "Charge de l’Orque",
+          "Frappe Caudale",
+          "Percée Noire"
+        ],
+        "Spéciale": [
+          "Chant de l’Orque",
+          "Onde Bicolore"
+        ],
+        "Statut": [
+          "Traque de l’Orque",
+          "Cohésion du Pod",
+          "Veille Océanique"
+        ]
+      }
+    },
+    "Requin": {
+      "nouns": [
+        "mâchoire",
+        "dent",
+        "dorsale",
+        "queue",
+        "branchie",
+        "museau"
+      ],
+      "verbs": [
+        "mordre",
+        "charger",
+        "fendre",
+        "tourner",
+        "poursuivre",
+        "lacérer"
+      ],
+      "adjectives": [
+        "sélacien",
+        "tranchant",
+        "prédateur",
+        "hydrodynamique",
+        "implacable"
+      ],
+      "concepts": [
+        "morsure",
+        "chasse",
+        "sillage",
+        "charge",
+        "frénésie",
+        "traque"
+      ],
+      "move_names": {
+        "Physique": [
+          "Morsure de Requin",
+          "Charge Dorsale",
+          "Percée des Mâchoires"
+        ],
+        "Spéciale": [
+          "Onde Prédatrice",
+          "Écho des Profondeurs"
+        ],
+        "Statut": [
+          "Traque du Requin",
+          "Présence Prédatrice",
+          "Cercle de Chasse"
+        ]
+      }
+    },
+    "Raie manta": {
+      "nouns": [
+        "aile",
+        "lobe",
+        "disque",
+        "queue",
+        "voile",
+        "nageoire"
+      ],
+      "verbs": [
+        "planer",
+        "onduler",
+        "balayer",
+        "plonger",
+        "envelopper",
+        "glisser"
+      ],
+      "adjectives": [
+        "manta",
+        "océanique",
+        "ample",
+        "silencieux",
+        "ondulant"
+      ],
+      "concepts": [
+        "plané",
+        "voile",
+        "onde",
+        "glisse",
+        "balayage",
+        "profondeur"
+      ],
+      "move_names": {
+        "Physique": [
+          "Aile de Manta",
+          "Percée Océanique",
+          "Frappe en Losange"
+        ],
+        "Spéciale": [
+          "Onde de Manta",
+          "Voile Abyssal"
+        ],
+        "Statut": [
+          "Plané de Manta",
+          "Grâce Océanique",
+          "Veille des Profondeurs"
+        ]
+      }
+    },
+    "Hippocampe": {
+      "nouns": [
+        "queue",
+        "couronne",
+        "museau",
+        "plaque",
+        "dorsale",
+        "spirale"
+      ],
+      "verbs": [
+        "s’enrouler",
+        "pivoter",
+        "aspirer",
+        "se-fixer",
+        "onduler",
+        "piquer"
+      ],
+      "adjectives": [
+        "hippocampique",
+        "spiralé",
+        "délicat",
+        "cuirassé",
+        "aquatique"
+      ],
+      "concepts": [
+        "spirale",
+        "ancrage",
+        "aspiration",
+        "couronne",
+        "ondulation",
+        "fixation"
+      ],
+      "move_names": {
+        "Physique": [
+          "Fouet Spiralé",
+          "Pique d’Hippocampe",
+          "Charge Couronnée"
+        ],
+        "Spéciale": [
+          "Souffle Tubulaire",
+          "Spirale Marine"
+        ],
+        "Statut": [
+          "Ancrage Spiralé",
+          "Veille Couronnée",
+          "Danse d’Hippocampe"
+        ]
+      }
+    },
+    "Crabe": {
+      "nouns": [
+        "pince",
+        "carapace",
+        "patte",
+        "œil",
+        "coque",
+        "chélipède"
+      ],
+      "verbs": [
+        "pincer",
+        "bloquer",
+        "cisailler",
+        "saisir",
+        "dévier",
+        "charger"
+      ],
+      "adjectives": [
+        "crustacé",
+        "cuirassé",
+        "latéral",
+        "tenace",
+        "pinçant"
+      ],
+      "concepts": [
+        "pince",
+        "tenaille",
+        "rempart",
+        "prise",
+        "carapace",
+        "étau"
+      ],
+      "move_names": {
+        "Physique": [
+          "Pince de Crabe",
+          "Impact de Carapace",
+          "Charge Latérale"
+        ],
+        "Spéciale": [
+          "Onde de Carapace",
+          "Éclat de Pince"
+        ],
+        "Statut": [
+          "Garde du Crabe",
+          "Étau Latéral",
+          "Rempart de Carapace"
+        ]
+      }
+    },
+    "Sirène": {
+      "nouns": [
+        "caudale",
+        "écaille",
+        "voix",
+        "nageoire",
+        "chant",
+        "chevelure"
+      ],
+      "verbs": [
+        "chanter",
+        "plonger",
+        "envoûter",
+        "fendre",
+        "onduler",
+        "attirer"
+      ],
+      "adjectives": [
+        "syrénien",
+        "mélodique",
+        "aquatique",
+        "envoûtant",
+        "nacré"
+      ],
+      "concepts": [
+        "chant",
+        "charme",
+        "marée",
+        "onde",
+        "appel",
+        "plongée"
+      ],
+      "move_names": {
+        "Physique": [
+          "Frappe Caudale",
+          "Percée de Sirène",
+          "Danse des Nageoires"
+        ],
+        "Spéciale": [
+          "Chant de Sirène",
+          "Écho des Marées"
+        ],
+        "Statut": [
+          "Charme des Flots",
+          "Voile de Sirène",
+          "Danse Marine"
+        ]
+      }
+    },
+    "Méduse": {
+      "nouns": [
+        "ombrelle",
+        "tentacule",
+        "filament",
+        "lueur",
+        "pulsation",
+        "voile"
+      ],
+      "verbs": [
+        "pulser",
+        "enlacer",
+        "flotter",
+        "piquer",
+        "onduler",
+        "envelopper"
+      ],
+      "adjectives": [
+        "gélatineux",
+        "translucide",
+        "pulsatile",
+        "abyssal",
+        "filamenteux"
+      ],
+      "concepts": [
+        "pulsation",
+        "dérive",
+        "voile",
+        "étreinte",
+        "luminescence",
+        "filament"
+      ],
+      "move_names": {
+        "Physique": [
+          "Fouet de Tentacules",
+          "Étreinte Gélatineuse",
+          "Pulsation d’Ombrelle"
+        ],
+        "Spéciale": [
+          "Halo de Méduse",
+          "Éclat Translucide"
+        ],
+        "Statut": [
+          "Dérive de Méduse",
+          "Voile Gélatineux",
+          "Danse des Tentacules"
+        ]
+      }
+    },
+    "Étoile de mer": {
+      "nouns": [
+        "bras",
+        "disque",
+        "épine",
+        "surface",
+        "rayon",
+        "ventouse"
+      ],
+      "verbs": [
+        "agripper",
+        "rayonner",
+        "se-régénérer",
+        "presser",
+        "envelopper",
+        "s’ancrer"
+      ],
+      "adjectives": [
+        "astéridé",
+        "radial",
+        "granuleux",
+        "marin",
+        "régénératif"
+      ],
+      "concepts": [
+        "rayonnement",
+        "ancrage",
+        "régénération",
+        "pression",
+        "étoile",
+        "symétrie"
+      ],
+      "move_names": {
+        "Physique": [
+          "Frappe Radiale",
+          "Impact des Cinq Bras",
+          "Élan Stellaire"
+        ],
+        "Spéciale": [
+          "Onde Stellaire",
+          "Éclat du Disque"
+        ],
+        "Statut": [
+          "Symétrie Stellaire",
+          "Régénération Radiale",
+          "Veille des Cinq Bras"
+        ]
+      }
+    },
+    "Aigle": {
+      "nouns": [
+        "serre",
+        "bec",
+        "aile",
+        "plume",
+        "regard",
+        "piqué"
+      ],
+      "verbs": [
+        "fondre",
+        "agripper",
+        "lacérer",
+        "survoler",
+        "piquer",
+        "emporter"
+      ],
+      "adjectives": [
+        "aquilin",
+        "royal",
+        "aérien",
+        "tranchant",
+        "altier"
+      ],
+      "concepts": [
+        "piqué",
+        "emprise",
+        "envol",
+        "vision",
+        "serre",
+        "hauteur"
+      ],
+      "move_names": {
+        "Physique": [
+          "Serres de l’Aigle",
+          "Piqué Royal",
+          "Percée du Rapace"
+        ],
+        "Spéciale": [
+          "Cri des Hauteurs",
+          "Rafale Souveraine"
+        ],
+        "Statut": [
+          "Œil de l’Aigle",
+          "Veille des Cimes",
+          "Ascendance Royale"
+        ]
+      }
+    },
+    "Hibou": {
+      "nouns": [
+        "serre",
+        "aile",
+        "plume",
+        "disque",
+        "œil",
+        "aigrette"
+      ],
+      "verbs": [
+        "fondre",
+        "observer",
+        "saisir",
+        "planer",
+        "surprendre",
+        "tourner"
+      ],
+      "adjectives": [
+        "strigidé",
+        "nocturne",
+        "silencieux",
+        "vigilant",
+        "luné"
+      ],
+      "concepts": [
+        "silence",
+        "vision",
+        "nuit",
+        "piqué",
+        "vigilance",
+        "surprise"
+      ],
+      "move_names": {
+        "Physique": [
+          "Serres du Hibou",
+          "Piqué Silencieux",
+          "Aile Nocturne"
+        ],
+        "Spéciale": [
+          "Regard Lunaire",
+          "Onde Nocturne"
+        ],
+        "Statut": [
+          "Veille du Hibou",
+          "Silence des Aigrettes",
+          "Guet Nocturne"
+        ]
+      }
+    },
+    "Faucon": {
+      "nouns": [
+        "serre",
+        "bec",
+        "aile",
+        "masque",
+        "piqué",
+        "plume"
+      ],
+      "verbs": [
+        "fondre",
+        "fuser",
+        "piquer",
+        "agripper",
+        "lacérer",
+        "survoler"
+      ],
+      "adjectives": [
+        "falconidé",
+        "fulgurant",
+        "aérien",
+        "précis",
+        "tranchant"
+      ],
+      "concepts": [
+        "piqué",
+        "vitesse",
+        "précision",
+        "traque",
+        "envol",
+        "impact"
+      ],
+      "move_names": {
+        "Physique": [
+          "Piqué du Faucon",
+          "Serres Fulgurantes",
+          "Percée Aérienne"
+        ],
+        "Spéciale": [
+          "Cri du Faucon",
+          "Rafale de Haute-Ciel"
+        ],
+        "Statut": [
+          "Œil du Faucon",
+          "Traque Aérienne",
+          "Veille des Hauteurs"
+        ]
+      }
+    },
+    "Corbeau": {
+      "nouns": [
+        "bec",
+        "plume",
+        "aile",
+        "queue",
+        "croassement",
+        "ombre"
+      ],
+      "verbs": [
+        "croasser",
+        "fondre",
+        "picorer",
+        "dérouter",
+        "survoler",
+        "harceler"
+      ],
+      "adjectives": [
+        "corvidé",
+        "sombre",
+        "irisé",
+        "rusé",
+        "funèbre"
+      ],
+      "concepts": [
+        "croassement",
+        "ruse",
+        "ombre",
+        "vol",
+        "harcèlement",
+        "présage"
+      ],
+      "move_names": {
+        "Physique": [
+          "Bec du Corbeau",
+          "Piqué d’Ébène",
+          "Aile Noire"
+        ],
+        "Spéciale": [
+          "Écho du Corbeau",
+          "Reflet d’Ébène"
+        ],
+        "Statut": [
+          "Augure du Corbeau",
+          "Ruse d’Ébène",
+          "Veille du Corvidé"
+        ]
+      }
+    },
+    "Perroquet": {
+      "nouns": [
+        "bec",
+        "plume",
+        "aile",
+        "cri",
+        "queue",
+        "patte"
+      ],
+      "verbs": [
+        "imiter",
+        "crier",
+        "mordre",
+        "voltiger",
+        "répéter",
+        "saisir"
+      ],
+      "adjectives": [
+        "psittacidé",
+        "coloré",
+        "sonore",
+        "vif",
+        "imitateur"
+      ],
+      "concepts": [
+        "mimétisme",
+        "cri",
+        "éclat",
+        "vol",
+        "répétition",
+        "bec"
+      ],
+      "move_names": {
+        "Physique": [
+          "Bec Courbe",
+          "Piqué Tropical",
+          "Serre Zygodactyle"
+        ],
+        "Spéciale": [
+          "Écho Mimétique",
+          "Cri Chromatique"
+        ],
+        "Statut": [
+          "Mimique du Perroquet",
+          "Bavardage Tactique",
+          "Parade Tropicale"
+        ]
+      }
+    },
+    "Hirondelle": {
+      "nouns": [
+        "aile",
+        "queue",
+        "plume",
+        "piqué",
+        "courbe",
+        "vent"
+      ],
+      "verbs": [
+        "fuser",
+        "virer",
+        "plonger",
+        "raser",
+        "accélérer",
+        "remonter"
+      ],
+      "adjectives": [
+        "hirundinidé",
+        "fulgurant",
+        "aérien",
+        "effilé",
+        "léger"
+      ],
+      "concepts": [
+        "virage",
+        "vitesse",
+        "piqué",
+        "retour",
+        "sillage",
+        "envol"
+      ],
+      "move_names": {
+        "Physique": [
+          "Piqué d’Hirondelle",
+          "Queue Fourchue",
+          "Percée Fuselée"
+        ],
+        "Spéciale": [
+          "Rafale d’Hirondelle",
+          "Écho du Printemps"
+        ],
+        "Statut": [
+          "Vol d’Hirondelle",
+          "Virage Fuselé",
+          "Veille Migratrice"
+        ]
+      }
+    },
+    "Flamant rose": {
+      "nouns": [
+        "bec",
+        "patte",
+        "aile",
+        "cou",
+        "plume",
+        "échasse"
+      ],
+      "verbs": [
+        "balayer",
+        "piquer",
+        "danser",
+        "déployer",
+        "frapper",
+        "filtrer"
+      ],
+      "adjectives": [
+        "flamant",
+        "rose",
+        "élancé",
+        "gracile",
+        "échassier"
+      ],
+      "concepts": [
+        "danse",
+        "équilibre",
+        "filtration",
+        "élan",
+        "grâce",
+        "balayage"
+      ],
+      "move_names": {
+        "Physique": [
+          "Frappe d’Échasse",
+          "Piqué Rose",
+          "Balancier du Flamant"
+        ],
+        "Spéciale": [
+          "Éclat Rosé",
+          "Onde des Lagunes"
+        ],
+        "Statut": [
+          "Danse du Flamant",
+          "Équilibre Rosé",
+          "Grâce des Lagunes"
+        ]
+      }
+    },
+    "Colibri": {
+      "nouns": [
+        "bec",
+        "aile",
+        "gorge",
+        "plume",
+        "vibration",
+        "nectar"
+      ],
+      "verbs": [
+        "vibrer",
+        "fuser",
+        "piquer",
+        "stationner",
+        "butiner",
+        "jaillir"
+      ],
+      "adjectives": [
+        "trochilidé",
+        "irisé",
+        "fulgurant",
+        "léger",
+        "vibrant"
+      ],
+      "concepts": [
+        "vibration",
+        "nectar",
+        "vol-stationnaire",
+        "éclair",
+        "piqué",
+        "miroitement"
+      ],
+      "move_names": {
+        "Physique": [
+          "Piqué du Colibri",
+          "Bec d’Aiguille",
+          "Percée Vibrante"
+        ],
+        "Spéciale": [
+          "Vibration Irisée",
+          "Éclat de Gorge"
+        ],
+        "Statut": [
+          "Vol Stationnaire",
+          "Danse du Colibri",
+          "Veille Vibrante"
+        ]
+      }
+    },
+    "Cygne": {
+      "nouns": [
+        "aile",
+        "cou",
+        "plume",
+        "bec",
+        "sillage",
+        "poitrail"
+      ],
+      "verbs": [
+        "glisser",
+        "déployer",
+        "frapper",
+        "envelopper",
+        "s’élever",
+        "balayer"
+      ],
+      "adjectives": [
+        "cygnin",
+        "gracieux",
+        "nacré",
+        "majestueux",
+        "flottant"
+      ],
+      "concepts": [
+        "grâce",
+        "sillage",
+        "envol",
+        "parade",
+        "balayage",
+        "majesté"
+      ],
+      "move_names": {
+        "Physique": [
+          "Aile du Cygne",
+          "Charge d’Encolure",
+          "Percée Blanche"
+        ],
+        "Spéciale": [
+          "Chant du Cygne",
+          "Onde Nacrée"
+        ],
+        "Statut": [
+          "Grâce du Cygne",
+          "Posture Nacrée",
+          "Veille des Eaux"
+        ]
+      }
+    },
+    "Paon": {
+      "nouns": [
+        "traîne",
+        "ocelle",
+        "huppe",
+        "plume",
+        "aile",
+        "cou"
+      ],
+      "verbs": [
+        "déployer",
+        "éblouir",
+        "vibrer",
+        "parader",
+        "fouetter",
+        "rayonner"
+      ],
+      "adjectives": [
+        "pavonin",
+        "irisé",
+        "ocellé",
+        "majestueux",
+        "chatoyant"
+      ],
+      "concepts": [
+        "parade",
+        "éventail",
+        "éclat",
+        "ocelle",
+        "panache",
+        "rayonnement"
+      ],
+      "move_names": {
+        "Physique": [
+          "Frappe du Panache",
+          "Piqué du Paon",
+          "Élan Ocellé"
+        ],
+        "Spéciale": [
+          "Éclat Ocellé",
+          "Rayon du Panache"
+        ],
+        "Statut": [
+          "Parade du Paon",
+          "Roue Ocellée",
+          "Prestance du Paon"
+        ]
+      }
+    }
+  },
+  "types": {
+    "Normal": {
+      "nouns": [
+        "impulsion",
+        "onde",
+        "élan",
+        "cadence",
+        "accord",
+        "équilibre"
+      ],
+      "adjectives": [
+        "neutre",
+        "stable",
+        "franc",
+        "harmonique",
+        "souple",
+        "pur"
+      ],
+      "actions": [
+        "impulsion",
+        "résonance",
+        "cadence",
+        "élan",
+        "accord",
+        "impact"
+      ],
+      "move_names": [
+        "Impulsion Franche",
+        "Cadence Neutre",
+        "Accord Stable",
+        "Onde Harmonieuse",
+        "Élan Limpide",
+        "Résonance Pure",
+        "Impact Mesuré",
+        "Rythme Souple"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Impact Franc",
+          "Percée Neutre",
+          "Élan Direct"
+        ],
+        "Spéciale": [
+          "Onde Claire",
+          "Impulsion Stable",
+          "Rayon Neutre"
+        ],
+        "Statut": [
+          "Accord Neutre",
+          "Équilibre Instinctif",
+          "Cadence Stable"
+        ]
+      }
+    },
+    "Feu": {
+      "nouns": [
+        "braise",
+        "flamme",
+        "brasier",
+        "fournaise",
+        "étincelle",
+        "cendre"
+      ],
+      "adjectives": [
+        "ardent",
+        "incandescent",
+        "solaire",
+        "brûlant",
+        "pyrique",
+        "embrasé"
+      ],
+      "actions": [
+        "brasier",
+        "embrasement",
+        "déflagration",
+        "flamboiement",
+        "ruée",
+        "éruption"
+      ],
+      "move_names": [
+        "Braise Ardente",
+        "Éclat Solaire",
+        "Brasier Ascendant",
+        "Ruée Incandescente",
+        "Fournaise Vive",
+        "Déflagration Pourpre",
+        "Flamboiement Solaire",
+        "Cendre Ardente"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Ruée Incandescente",
+          "Impact de Braise",
+          "Percée Ardente"
+        ],
+        "Spéciale": [
+          "Fournaise Vive",
+          "Déflagration Pourpre",
+          "Brasier Ascendant"
+        ],
+        "Statut": [
+          "Veille des Braises",
+          "Halo de Fournaise",
+          "Ardeur Solaire"
+        ]
+      }
+    },
+    "Eau": {
+      "nouns": [
+        "vague",
+        "marée",
+        "écume",
+        "torrent",
+        "cascade",
+        "goutte"
+      ],
+      "adjectives": [
+        "abyssal",
+        "torrentiel",
+        "aqueux",
+        "océanique",
+        "fluide",
+        "marin"
+      ],
+      "actions": [
+        "déferlante",
+        "torrent",
+        "vague",
+        "ressac",
+        "jet",
+        "cascade"
+      ],
+      "move_names": [
+        "Vague Azurée",
+        "Ressac Profond",
+        "Torrent Clair",
+        "Marée Vive",
+        "Écume Tranchante",
+        "Cascade Pressurisée",
+        "Jet Abyssal",
+        "Déferlante Marine"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Percée Torrentielle",
+          "Impact de Ressac",
+          "Charge des Marées"
+        ],
+        "Spéciale": [
+          "Jet Abyssal",
+          "Déferlante Marine",
+          "Cascade Pressurisée"
+        ],
+        "Statut": [
+          "Flux Apaisant",
+          "Voile d’Écume",
+          "Cadence des Marées"
+        ]
+      }
+    },
+    "Plante": {
+      "nouns": [
+        "liane",
+        "feuille",
+        "sève",
+        "pollen",
+        "bourgeon",
+        "racine"
+      ],
+      "adjectives": [
+        "chlorophyllien",
+        "floral",
+        "sylvestre",
+        "verdoyant",
+        "botanique",
+        "végétal"
+      ],
+      "actions": [
+        "floraison",
+        "croissance",
+        "frondaison",
+        "poussée",
+        "éclosion",
+        "lianes"
+      ],
+      "move_names": [
+        "Poussée Chlorophyllienne",
+        "Floraison Vive",
+        "Liane Sylvestre",
+        "Éclat de Sève",
+        "Frondaison Dense",
+        "Pollen Lumineux",
+        "Éclosion Verte",
+        "Racine Ascendante"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Fouet Sylvestre",
+          "Percée de Racine",
+          "Impact de Liane"
+        ],
+        "Spéciale": [
+          "Éclat de Sève",
+          "Poussée Chlorophyllienne",
+          "Pollen Lumineux"
+        ],
+        "Statut": [
+          "Floraison Vive",
+          "Frondaison Dense",
+          "Éclosion Verte"
+        ]
+      }
+    },
+    "Électrik": {
+      "nouns": [
+        "éclair",
+        "arc",
+        "étincelle",
+        "foudre",
+        "charge",
+        "volt"
+      ],
+      "adjectives": [
+        "voltaïque",
+        "fulgurant",
+        "ionique",
+        "électrique",
+        "conducteur",
+        "foudroyant"
+      ],
+      "actions": [
+        "décharge",
+        "arc",
+        "impulsion",
+        "foudre",
+        "surtension",
+        "éclair"
+      ],
+      "move_names": [
+        "Arc Voltaïque",
+        "Impulsion Ionique",
+        "Éclair Fulgurant",
+        "Surtension Vive",
+        "Décharge Conductrice",
+        "Étincelle Haute-Tension",
+        "Foudre Ramifiée",
+        "Choc Voltaïque"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Percée Voltaïque",
+          "Impact Fulgurant",
+          "Charge Ionique"
+        ],
+        "Spéciale": [
+          "Arc Fulgurant",
+          "Impulsion Voltaïque",
+          "Décharge Azurée"
+        ],
+        "Statut": [
+          "Champ Ionique",
+          "Tension Croissante",
+          "Veille Statique"
+        ]
+      }
+    },
+    "Glace": {
+      "nouns": [
+        "givre",
+        "cristal",
+        "gel",
+        "flocon",
+        "banquise",
+        "frimas"
+      ],
+      "adjectives": [
+        "cristallin",
+        "glacial",
+        "polaire",
+        "givré",
+        "frigorifique",
+        "gelé"
+      ],
+      "actions": [
+        "gel",
+        "frimas",
+        "éclat",
+        "rafale",
+        "cristallisation",
+        "morsure"
+      ],
+      "move_names": [
+        "Éclat Cristallin",
+        "Frimas Polaire",
+        "Morsure de Givre",
+        "Cristallisation Vive",
+        "Rafale Glaciale",
+        "Pointe de Gel",
+        "Prisme Boréal",
+        "Souffle Frigorifique"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Pointe de Givre",
+          "Impact Glaciaire",
+          "Percée Cryogène"
+        ],
+        "Spéciale": [
+          "Souffle Boréal",
+          "Éclat de Givre",
+          "Prisme Glacial"
+        ],
+        "Statut": [
+          "Brume Cryogène",
+          "Voile de Givre",
+          "Calme Polaire"
+        ]
+      }
+    },
+    "Combat": {
+      "nouns": [
+        "impact",
+        "poing",
+        "frappe",
+        "élan",
+        "pression",
+        "choc"
+      ],
+      "adjectives": [
+        "martial",
+        "cinétique",
+        "percutant",
+        "combatif",
+        "brutal",
+        "direct"
+      ],
+      "actions": [
+        "impact",
+        "percée",
+        "frappe",
+        "assaut",
+        "enchaînement",
+        "projection"
+      ],
+      "move_names": [
+        "Impact Martial",
+        "Percée Cinétique",
+        "Frappe Décisive",
+        "Assaut Direct",
+        "Onde de Choc",
+        "Enchaînement Brut",
+        "Projection Tactique",
+        "Ruée Martiale"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Frappe Décisive",
+          "Percée Martiale",
+          "Impact Cinétique"
+        ],
+        "Spéciale": [
+          "Onde Martiale",
+          "Impulsion du Ki",
+          "Souffle Cinétique"
+        ],
+        "Statut": [
+          "Posture du Défi",
+          "Cadence Martiale",
+          "Concentration du Duel"
+        ]
+      }
+    },
+    "Poison": {
+      "nouns": [
+        "venin",
+        "toxine",
+        "miasme",
+        "brume",
+        "acide",
+        "goutte"
+      ],
+      "adjectives": [
+        "toxique",
+        "vénéneux",
+        "corrosif",
+        "noxieux",
+        "âcre",
+        "empoisonné"
+      ],
+      "actions": [
+        "miasme",
+        "injection",
+        "diffusion",
+        "corrosion",
+        "nuage",
+        "jet"
+      ],
+      "move_names": [
+        "Miasme Toxique",
+        "Injection Vénéneuse",
+        "Brume Corrosive",
+        "Diffusion Nocive",
+        "Jet Caustique",
+        "Nuage Venimeux",
+        "Éclat Acide",
+        "Toxine Rampante"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Pointe Toxique",
+          "Impact Venimeux",
+          "Percée Corrosive"
+        ],
+        "Spéciale": [
+          "Brume Toxique",
+          "Jet Corrosif",
+          "Nuage Vénéneux"
+        ],
+        "Statut": [
+          "Voile Toxique",
+          "Miasme Persistant",
+          "Dose Insidieuse"
+        ]
+      }
+    },
+    "Sol": {
+      "nouns": [
+        "terre",
+        "sable",
+        "faille",
+        "argile",
+        "poussière",
+        "séisme"
+      ],
+      "adjectives": [
+        "tellurique",
+        "sismique",
+        "terreux",
+        "souterrain",
+        "sédimentaire",
+        "aride"
+      ],
+      "actions": [
+        "secousse",
+        "soulèvement",
+        "fracture",
+        "glissement",
+        "onde",
+        "éboulement"
+      ],
+      "move_names": [
+        "Fracas Tellurique",
+        "Onde Sismique",
+        "Soulèvement Minéral",
+        "Faille Rampante",
+        "Percée Souterraine",
+        "Éboulement Aride",
+        "Secousse Profonde",
+        "Marée de Sable"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Percée Tellurique",
+          "Impact Sismique",
+          "Charge de Strate"
+        ],
+        "Spéciale": [
+          "Onde Tellurique",
+          "Soulèvement Minéral",
+          "Vibration Profonde"
+        ],
+        "Statut": [
+          "Ancrage Terrestre",
+          "Voile de Poussière",
+          "Faille Tactique"
+        ]
+      }
+    },
+    "Vol": {
+      "nouns": [
+        "rafale",
+        "zéphyr",
+        "courant",
+        "ciel",
+        "bourrasque",
+        "vortex"
+      ],
+      "adjectives": [
+        "aérien",
+        "zéphyrien",
+        "céleste",
+        "ascendant",
+        "venteux",
+        "ailé"
+      ],
+      "actions": [
+        "rafale",
+        "vortex",
+        "envol",
+        "cisaillement",
+        "bourrasque",
+        "ascension"
+      ],
+      "move_names": [
+        "Rafale Zéphyrienne",
+        "Vortex Ascendant",
+        "Lame Aérienne",
+        "Bourrasque Céleste",
+        "Cisaillement du Vent",
+        "Ascension Vive",
+        "Courant Tranchant",
+        "Spirale des Cieux"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Percée du Zéphyr",
+          "Lame Aérienne",
+          "Charge Ascendante"
+        ],
+        "Spéciale": [
+          "Rafale Cyclonique",
+          "Vortex du Ciel",
+          "Souffle du Zénith"
+        ],
+        "Statut": [
+          "Courant Ascendant",
+          "Voile du Zéphyr",
+          "Danse des Altitudes"
+        ]
+      }
+    },
+    "Psy": {
+      "nouns": [
+        "psyché",
+        "onde",
+        "esprit",
+        "halo",
+        "pensée",
+        "prisme"
+      ],
+      "adjectives": [
+        "psychique",
+        "mental",
+        "onirique",
+        "cognitif",
+        "astral",
+        "télépathique"
+      ],
+      "actions": [
+        "projection",
+        "impulsion",
+        "onde",
+        "focalisation",
+        "distorsion",
+        "prisme"
+      ],
+      "move_names": [
+        "Impulsion Psychique",
+        "Prisme Mental",
+        "Onde Onirique",
+        "Focalisation Astrale",
+        "Distorsion Cognitive",
+        "Halo Télépathique",
+        "Projection Mentale",
+        "Écho de la Psyché"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Percée Mentale",
+          "Impact Psionique",
+          "Frappe de Psyché"
+        ],
+        "Spéciale": [
+          "Impulsion Psychique",
+          "Prisme Mental",
+          "Distorsion Cognitive"
+        ],
+        "Statut": [
+          "Focalisation Astrale",
+          "Voile Onirique",
+          "Accord Télépathique"
+        ]
+      }
+    },
+    "Insecte": {
+      "nouns": [
+        "essaim",
+        "chitine",
+        "mue",
+        "fil",
+        "vibration",
+        "carapace"
+      ],
+      "adjectives": [
+        "chitineux",
+        "entomique",
+        "vibrant",
+        "métamorphique",
+        "segmenté",
+        "larvaire"
+      ],
+      "actions": [
+        "essaim",
+        "mue",
+        "vibration",
+        "salve",
+        "filament",
+        "carapace"
+      ],
+      "move_names": [
+        "Essaim Chitineux",
+        "Vibration Entomique",
+        "Mue Offensive",
+        "Salve Segmentée",
+        "Filament Vibrant",
+        "Carapace Mobile",
+        "Ruée d’Essaim",
+        "Éclat de Chitine"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Percée Chitineuse",
+          "Impact d’Essaim",
+          "Frappe Segmentée"
+        ],
+        "Spéciale": [
+          "Vibration d’Essaim",
+          "Salve de Particules",
+          "Filament Vibratoire"
+        ],
+        "Statut": [
+          "Mue Tactique",
+          "Nuée Coordonnée",
+          "Trame de Filaments"
+        ]
+      }
+    },
+    "Roche": {
+      "nouns": [
+        "cristal",
+        "quartz",
+        "granite",
+        "strate",
+        "minéral",
+        "roc"
+      ],
+      "adjectives": [
+        "cristallin",
+        "minéral",
+        "tellurique",
+        "lithique",
+        "granitique",
+        "rocheux"
+      ],
+      "actions": [
+        "résonance",
+        "éclat",
+        "fracas",
+        "impact",
+        "percée",
+        "onde"
+      ],
+      "move_names": [
+        "Résonance Cristalline",
+        "Fracas Tellurique",
+        "Éclat de Quartz",
+        "Percée Minérale",
+        "Impact Granitique",
+        "Onde Lithique",
+        "Pointe de Cristal",
+        "Masse de Granite"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Impact Granitique",
+          "Percée Minérale",
+          "Masse de Granite"
+        ],
+        "Spéciale": [
+          "Résonance Cristalline",
+          "Éclat de Quartz",
+          "Onde Lithique"
+        ],
+        "Statut": [
+          "Rempart Tellurique",
+          "Strate Protectrice",
+          "Prisme Minéral"
+        ]
+      }
+    },
+    "Spectre": {
+      "nouns": [
+        "ombre",
+        "voile",
+        "spectre",
+        "écho",
+        "brume",
+        "linceul"
+      ],
+      "adjectives": [
+        "spectral",
+        "fantomatique",
+        "éthéré",
+        "funèbre",
+        "voilé",
+        "immatériel"
+      ],
+      "actions": [
+        "apparition",
+        "voile",
+        "hantise",
+        "écho",
+        "traversée",
+        "distorsion"
+      ],
+      "move_names": [
+        "Voile Spectral",
+        "Écho Fantomatique",
+        "Brume Éthérée",
+        "Hantise Voilée",
+        "Traversée Funèbre",
+        "Distorsion Spectrale",
+        "Ombre Errante",
+        "Linceul Nocturne"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Griffe du Voile",
+          "Percée Spectrale",
+          "Impact Fantomatique"
+        ],
+        "Spéciale": [
+          "Onde Fantomatique",
+          "Voile d’Outre-Monde",
+          "Écho Spectral"
+        ],
+        "Statut": [
+          "Brume Évanescente",
+          "Présence du Voile",
+          "Dérive Spectrale"
+        ]
+      }
+    },
+    "Dragon": {
+      "nouns": [
+        "souffle",
+        "écaille",
+        "wyrm",
+        "aura",
+        "drake",
+        "crocs"
+      ],
+      "adjectives": [
+        "draconique",
+        "ancestral",
+        "majestueux",
+        "primordial",
+        "écailleux",
+        "impérial"
+      ],
+      "actions": [
+        "souffle",
+        "apogée",
+        "déferlement",
+        "fracas",
+        "ascension",
+        "rugissement"
+      ],
+      "move_names": [
+        "Souffle Draconique",
+        "Déferlement Ancestral",
+        "Fracas Primordial",
+        "Ascension Impériale",
+        "Aura du Wyrm",
+        "Rugissement Draconique",
+        "Crocs Ancestraux",
+        "Vague Primordiale"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Percée Draconique",
+          "Impact Ancestral",
+          "Griffe du Wyrm"
+        ],
+        "Spéciale": [
+          "Souffle Draconique",
+          "Vague Ancestrale",
+          "Rayon du Wyrm"
+        ],
+        "Statut": [
+          "Aura Draconique",
+          "Majesté Ancestrale",
+          "Veille du Wyrm"
+        ]
+      }
+    },
+    "Ténèbres": {
+      "nouns": [
+        "ombre",
+        "nuit",
+        "ruse",
+        "croissant",
+        "voile",
+        "éclipse"
+      ],
+      "adjectives": [
+        "ténébreux",
+        "nocturne",
+        "obscur",
+        "perfide",
+        "sombre",
+        "furtif"
+      ],
+      "actions": [
+        "éclipse",
+        "embuscade",
+        "croissant",
+        "voile",
+        "rupture",
+        "morsure"
+      ],
+      "move_names": [
+        "Éclipse Ténébreuse",
+        "Embuscade Nocturne",
+        "Croissant Obscur",
+        "Voile Perfide",
+        "Rupture Sombre",
+        "Morsure de l’Ombre",
+        "Feinte Nocturne",
+        "Éclat d’Éclipse"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Percée d’Ombre",
+          "Impact Obscur",
+          "Croissant Sombre"
+        ],
+        "Spéciale": [
+          "Onde Nocturne",
+          "Éclat d’Ombre",
+          "Voile Obscur"
+        ],
+        "Statut": [
+          "Ruse Nocturne",
+          "Silence Obscur",
+          "Emprise des Ombres"
+        ]
+      }
+    },
+    "Acier": {
+      "nouns": [
+        "acier",
+        "lame",
+        "alliage",
+        "métal",
+        "blindage",
+        "forge"
+      ],
+      "adjectives": [
+        "métallique",
+        "ferreux",
+        "chromé",
+        "trempé",
+        "sidérurgique",
+        "acéré"
+      ],
+      "actions": [
+        "impact",
+        "tranchant",
+        "forge",
+        "percée",
+        "résonance",
+        "blindage"
+      ],
+      "move_names": [
+        "Impact Métallique",
+        "Percée d’Alliage",
+        "Tranchant Trempé",
+        "Résonance Chromée",
+        "Forge Acérée",
+        "Blindage Ferreux",
+        "Lame Sidérurgique",
+        "Choc d’Acier"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Lame Métallique",
+          "Impact d’Acier",
+          "Percée Chromée"
+        ],
+        "Spéciale": [
+          "Éclat Métallique",
+          "Onde Chromée",
+          "Vibration d’Acier"
+        ],
+        "Statut": [
+          "Armature Stable",
+          "Verrou Métallique",
+          "Garde Chromée"
+        ]
+      }
+    },
+    "Fée": {
+      "nouns": [
+        "étoile",
+        "poussière",
+        "ruban",
+        "halo",
+        "charme",
+        "lueur"
+      ],
+      "adjectives": [
+        "féérique",
+        "lumineux",
+        "enchanteur",
+        "irisé",
+        "stellaire",
+        "gracieux"
+      ],
+      "actions": [
+        "scintillement",
+        "ruban",
+        "charme",
+        "étoile",
+        "danse",
+        "halo"
+      ],
+      "move_names": [
+        "Scintillement Féérique",
+        "Ruban Stellaire",
+        "Charme Lumineux",
+        "Danse des Étoiles",
+        "Halo Enchanteur",
+        "Éclat Iridescent",
+        "Poussière Féerique",
+        "Onde Gracieuse"
+      ],
+      "move_names_by_category": {
+        "Physique": [
+          "Percée Féérique",
+          "Impact d’Étoile",
+          "Ruban Tranchant"
+        ],
+        "Spéciale": [
+          "Éclat Féérique",
+          "Onde Prismatique",
+          "Ruban Stellaire"
+        ],
+        "Statut": [
+          "Halo Enchanteur",
+          "Poussière d’Étoile",
+          "Accord Féérique"
+        ]
+      }
+    }
+  },
+  "naming_policy": {
+    "animal_branch": "prefer curated full names compatible with move category; raw anatomy remains description-only",
+    "type_branch": "prefer curated full names compatible with move category; never concatenate raw type label",
+    "fallback": "use grammar-safe concept templates only when no curated candidate exists",
+    "phonetic_goal": "short, evocative, pronounceable French names with Pokémon-like cadence"
+  }
+}

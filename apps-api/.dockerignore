@@ -1,0 +1,6 @@
+node_modules
+.env
+generated-dossiers
+uploads
+npm-debug.log
+

@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Normal",
+    "R": 50,
+    "L": 50,
+    "P": 50,
+    "H": 55,
+    "I": 45,
+    "M": 45,
+    "correction_coefficient": 2.25,
+    "identity": "équilibre / polyvalence"
+  },
+  {
+    "name": "Feu",
+    "R": 72,
+    "L": 58,
+    "P": 98,
+    "H": 22,
+    "I": 100,
+    "M": 28,
+    "correction_coefficient": 0.5,
+    "identity": "passion / affirmation"
+  },
+  {
+    "name": "Eau",
+    "R": 88,
+    "L": 62,
+    "P": 35,
+    "H": 80,
+    "I": 48,
+    "M": 74,
+    "correction_coefficient": 1.646,
+    "identity": "adaptation / intuition"
+  },
+  {
+    "name": "Plante",
+    "R": 36,
+    "L": 48,
+    "P": 38,
+    "H": 92,
+    "I": 28,
+    "M": 52,
+    "correction_coefficient": 1.441,
+    "identity": "patience / protection"
+  },
+  {
+    "name": "Électrik",
+    "R": 99,
+    "L": 92,
+    "P": 62,
+    "H": 42,
+    "I": 98,
+    "M": 32,
+    "correction_coefficient": 0.4,
+    "identity": "réaction / excitation"
+  },
+  {
+    "name": "Glace",
+    "R": 18,
+    "L": 62,
+    "P": 52,
+    "H": 60,
+    "I": 22,
+    "M": 88,
+    "correction_coefficient": 1.386,
+    "identity": "contrôle / détachement"
+  },
+  {
+    "name": "Combat",
+    "R": 80,
+    "L": 72,
+    "P": 100,
+    "H": 40,
+    "I": 90,
+    "M": 16,
+    "correction_coefficient": 0.5,
+    "identity": "défi / dépassement"
+  },
+  {
+    "name": "Poison",
+    "R": 86,
+    "L": 88,
+    "P": 58,
+    "H": 12,
+    "I": 84,
+    "M": 78,
+    "correction_coefficient": 0.5,
+    "identity": "transgression / stratégie indirecte"
+  },
+  {
+    "name": "Sol",
+    "R": 34,
+    "L": 76,
+    "P": 68,
+    "H": 54,
+    "I": 48,
+    "M": 12,
+    "correction_coefficient": 1.738,
+    "identity": "pragmatisme / ancrage"
+  },
+  {
+    "name": "Vol",
+    "R": 84,
+    "L": 100,
+    "P": 52,
+    "H": 58,
+    "I": 72,
+    "M": 58,
+    "correction_coefficient": 1.741,
+    "identity": "liberté / exploration"
+  },
+  {
+    "name": "Psy",
+    "R": 50,
+    "L": 68,
+    "P": 30,
+    "H": 64,
+    "I": 46,
+    "M": 100,
+    "correction_coefficient": 1.55,
+    "identity": "compréhension / abstraction"
+  },
+  {
+    "name": "Insecte",
+    "R": 96,
+    "L": 62,
+    "P": 46,
+    "H": 50,
+    "I": 86,
+    "M": 86,
+    "correction_coefficient": 1.475,
+    "identity": "transformation / adaptation"
+  },
+  {
+    "name": "Roche",
+    "R": 18,
+    "L": 44,
+    "P": 90,
+    "H": 66,
+    "I": 18,
+    "M": 18,
+    "correction_coefficient": 0.4,
+    "identity": "permanence / résistance"
+  },
+  {
+    "name": "Spectre",
+    "R": 60,
+    "L": 86,
+    "P": 24,
+    "H": 22,
+    "I": 68,
+    "M": 100,
+    "correction_coefficient": 0.697,
+    "identity": "étrangeté / détachement"
+  },
+  {
+    "name": "Dragon",
+    "R": 72,
+    "L": 84,
+    "P": 98,
+    "H": 60,
+    "I": 90,
+    "M": 68,
+    "correction_coefficient": 2.232,
+    "identity": "ambition / puissance"
+  },
+  {
+    "name": "Ténèbres",
+    "R": 78,
+    "L": 100,
+    "P": 72,
+    "H": 16,
+    "I": 70,
+    "M": 92,
+    "correction_coefficient": 0.5,
+    "identity": "indépendance / ruse"
+  },
+  {
+    "name": "Acier",
+    "R": 14,
+    "L": 18,
+    "P": 84,
+    "H": 34,
+    "I": 18,
+    "M": 42,
+    "correction_coefficient": 0.28,
+    "identity": "structure / discipline"
+  },
+  {
+    "name": "Fée",
+    "R": 56,
+    "L": 48,
+    "P": 28,
+    "H": 100,
+    "I": 60,
+    "M": 94,
+    "correction_coefficient": 1.38,
+    "identity": "harmonie / imagination"
+  }
+]

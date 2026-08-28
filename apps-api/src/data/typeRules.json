@@ -1,0 +1,16 @@
+{
+  "raw_top_n_guardrail": 5,
+  "max_raw_distance_ratio": 1.35,
+  "dual_type_corrected_gap_ratio": 0.1052,
+  "target_dual_type_rate_reference": 0.33,
+  "reference_sigma": {
+    "R": 18,
+    "L": 17,
+    "P": 20,
+    "H": 18,
+    "I": 18,
+    "M": 20
+  },
+  "distance_exponent": 1.5,
+  "notes": "Le seuil 10.52% est le seuil de référence issu de la simulation synthétique actuelle. Il doit être recalibré sur données réelles."
+}
