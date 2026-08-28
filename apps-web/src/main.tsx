@@ -8,9 +8,11 @@ import AccountScreen from './screens/AccountScreen'
 import CommunityScreen from './screens/CommunityScreen'
 import CommunityDetailScreen from './screens/CommunityDetailScreen'
 import LegalScreen from './screens/LegalScreen'
+import InstallScreen from './screens/InstallScreen'
 import LegalFooter from './components/LegalFooter'
 import AppShell from './components/AppShell'
 import { getPageSessionBackground } from './config/backgrounds'
+import { registerServiceWorker } from './pwa'
 
 function Root() {
   const { loading, user } = useAuth()
@@ -21,6 +23,7 @@ function Root() {
   else if (communityDetailMatch) content = <CommunityDetailScreen assessmentId={communityDetailMatch[1]} />
   else if (path === '/legal') content = <LegalScreen kind="legal" />
   else if (path === '/privacy') content = <LegalScreen kind="privacy" />
+  else if (path === '/install') content = <InstallScreen />
   else if (loading) content = <main className="auth-page"><section className="panel auth-card">Chargement…</section></main>
   else if (!user) content = <LoginScreen />
   else if (path === '/account') content = <AccountScreen />
@@ -28,6 +31,8 @@ function Root() {
   if (content.type === App) return <>{content}<LegalFooter /></>
   return <AppShell background={getPageSessionBackground()}>{content}<LegalFooter /></AppShell>
 }
+
+registerServiceWorker()
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode><AuthProvider><Root /></AuthProvider></StrictMode>,
