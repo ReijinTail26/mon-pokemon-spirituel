@@ -124,6 +124,73 @@ button {
   z-index: 3;
 }
 
+.interface-toolbar {
+  position: relative;
+  z-index: 5;
+  width: min(1180px, 100%);
+  margin: 0 auto 14px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.interface-toggle-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 14px;
+  border: 1px solid rgba(215, 226, 255, 0.42);
+  border-radius: 999px;
+  background: rgba(7, 17, 37, 0.82);
+  color: #f7f9ff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(12px);
+  font-size: 0.9rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.interface-toggle-button:hover {
+  background: rgba(42, 63, 112, 0.92);
+  border-color: rgba(225, 233, 255, 0.7);
+}
+
+.interface-toggle-button:focus-visible {
+  outline: 3px solid rgba(190, 210, 255, 0.65);
+  outline-offset: 3px;
+}
+
+.interface-hidden,
+.interface-hidden body {
+  overflow: hidden;
+}
+
+.interface-hidden-view {
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden;
+}
+
+.interface-hidden-view .app-content {
+  display: none;
+}
+
+.interface-hidden-view .background-overlay,
+.interface-hidden-view::after {
+  opacity: 0;
+}
+
+.interface-hidden-view .interface-toolbar {
+  position: fixed;
+  top: max(16px, env(safe-area-inset-top));
+  right: max(16px, env(safe-area-inset-right));
+  width: auto;
+  margin: 0;
+}
+
+.interface-hidden .legal-footer {
+  display: none;
+}
+
 /* =====================================================
    CLICK HALO
    ===================================================== */
@@ -1993,7 +2060,7 @@ button {
 .community-card-body strong { font-size: 18px; }
 .community-card-body p { margin: 8px 0; }
 .community-card-body span { color: rgba(255,255,255,.62); font-size: 13px; }
-.community-card-title,.community-card-footer{display:flex;align-items:center;justify-content:space-between;gap:12px}.community-card-footer a{color:#bed0ff;font-size:13px;font-weight:800}.community-like-count{display:inline-flex;align-items:center;gap:7px;color:#fff!important;font-weight:800}.pokeball-icon{position:relative;display:inline-block;width:44px;height:44px;flex:0 0 auto;border:3px solid #e8eefb;border-radius:50%;overflow:hidden;background:linear-gradient(#e8474f 0 45%,#17233a 45% 55%,#f5f7fb 55% 100%);box-shadow:0 5px 18px rgba(0,0,0,.3)}.pokeball-icon::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:12px;border:3px solid #17233a;border-radius:50%;background:#f5f7fb;transform:translate(-50%,-50%)}.pokeball-icon-small{width:25px;height:25px;border-width:2px;box-shadow:none}.pokeball-icon-small::after{width:7px;height:7px;border-width:2px}.community-detail-page{width:min(1080px,calc(100% - 32px));padding:28px 0 60px}.community-detail-navigation{display:flex;justify-content:space-between;gap:12px;margin-bottom:16px}.community-detail-card{display:grid;gap:26px}.community-detail-heading{display:grid;gap:20px}.community-detail-heading h1{margin:0;font-size:clamp(34px,6vw,58px)}.community-detail-meta{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.community-detail-meta span{display:grid;gap:4px;padding:13px 15px;border-radius:14px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12)}.community-detail-meta small{color:#aeb8cc}.community-detail-image{display:block;width:100%;max-height:78vh;object-fit:contain;border-radius:22px;background:rgba(0,0,0,.24)}.community-like-zone{display:grid;justify-items:center;gap:12px;text-align:center}.pokeball-like-button{display:flex;align-items:center;gap:13px;min-width:230px;padding:12px 18px;border:1px solid rgba(190,210,255,.32);border-radius:999px;background:#10213f;color:#fff;cursor:pointer}.pokeball-like-button>span:last-child{display:grid;text-align:left}.pokeball-like-button strong{font-size:22px}.pokeball-like-button small{color:#b9c5da}.pokeball-like-button.is-liked{background:#233e72;border-color:#9db7ff}.pokeball-like-button:disabled{opacity:.62;cursor:not-allowed}.community-no-interaction{margin:0;color:#aeb8cc;font-size:13px}.legal-footer{display:flex;justify-content:center;gap:22px;padding:20px 24px 28px;background:#050814;color:#cbd5e5}.legal-footer a{color:inherit}.legal-page{padding:34px 0 60px}.legal-card{display:grid;gap:12px}.legal-card h1{margin:0 0 12px;font-size:clamp(34px,6vw,54px)}.legal-card h2{margin:20px 0 0;font-size:20px}.legal-card p,.legal-card li{color:#c5cede;line-height:1.7}.legal-warning{padding:15px 17px;border:1px solid rgba(255,196,92,.38);border-radius:14px;background:rgba(128,82,0,.24)}.legal-warning p{margin:5px 0 0}.legal-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.community-card-title,.community-card-footer{display:flex;align-items:center;justify-content:space-between;gap:12px}.community-card-footer a{color:#bed0ff;font-size:13px;font-weight:800}.community-like-count{display:inline-flex;align-items:center;gap:7px;color:#fff!important;font-weight:800}.pokeball-icon{position:relative;display:inline-block;width:44px;height:44px;flex:0 0 auto;border:3px solid #e8eefb;border-radius:50%;overflow:hidden;background:linear-gradient(#e8474f 0 45%,#17233a 45% 55%,#f5f7fb 55% 100%);box-shadow:0 5px 18px rgba(0,0,0,.3)}.pokeball-icon::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:12px;border:3px solid #17233a;border-radius:50%;background:#f5f7fb;transform:translate(-50%,-50%)}.pokeball-icon-small{width:25px;height:25px;border-width:2px;box-shadow:none}.pokeball-icon-small::after{width:7px;height:7px;border-width:2px}.community-detail-page{width:min(1080px,calc(100% - 32px));padding:28px 0 60px}.community-detail-navigation{display:flex;justify-content:space-between;gap:12px;margin-bottom:16px}.community-detail-card{display:grid;gap:26px}.community-detail-heading{display:grid;gap:20px}.community-detail-heading h1{margin:0;font-size:clamp(34px,6vw,58px)}.community-detail-meta{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.community-detail-meta span{display:grid;gap:4px;padding:13px 15px;border-radius:14px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12)}.community-detail-meta small{color:#aeb8cc}.community-detail-image{display:block;width:100%;max-height:78vh;object-fit:contain;border-radius:22px;background:rgba(0,0,0,.24)}.community-like-zone{display:grid;justify-items:center;gap:12px;text-align:center}.pokeball-like-button{display:flex;align-items:center;gap:13px;min-width:230px;padding:12px 18px;border:1px solid rgba(190,210,255,.32);border-radius:999px;background:#10213f;color:#fff;cursor:pointer}.pokeball-like-button>span:last-child{display:grid;text-align:left}.pokeball-like-button strong{font-size:22px}.pokeball-like-button small{color:#b9c5da}.pokeball-like-button.is-liked{background:#233e72;border-color:#9db7ff}.pokeball-like-button:disabled{opacity:.62;cursor:not-allowed}.community-no-interaction{margin:0;color:#aeb8cc;font-size:13px}.legal-footer{display:grid;justify-items:center;gap:14px;padding:20px 24px 28px;background:#050814;color:#cbd5e5}.legal-footer-links{display:flex;justify-content:center;gap:22px;flex-wrap:wrap}.legal-footer a{color:inherit}.footer-logout-button{padding:9px 18px;border:1px solid rgba(255,255,255,.2);border-radius:999px;background:rgba(255,255,255,.07);color:#eef3ff;cursor:pointer;font-weight:750}.footer-logout-button:hover{background:rgba(255,255,255,.14)}.legal-page{padding:34px 0 60px}.legal-card{display:grid;gap:12px}.legal-card h1{margin:0 0 12px;font-size:clamp(34px,6vw,54px)}.legal-card h2{margin:20px 0 0;font-size:20px}.legal-card p,.legal-card li{color:#c5cede;line-height:1.7}.legal-warning{padding:15px 17px;border:1px solid rgba(255,196,92,.38);border-radius:14px;background:rgba(128,82,0,.24)}.legal-warning p{margin:5px 0 0}.legal-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
 
 @media (max-width: 760px) {
   .username-panel { grid-template-columns: 1fr; }

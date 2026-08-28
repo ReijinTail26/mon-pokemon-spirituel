@@ -16,7 +16,7 @@ type Item = {
 }
 
 export default function AccountScreen() {
-  const { user, refresh, logout } = useAuth()
+  const { user, refresh } = useAuth()
   const [items, setItems] = useState<Item[]>([])
   const [selectedItemId, setSelectedItemId] = useState('')
   const [loading, setLoading] = useState(true)
@@ -224,7 +224,7 @@ export default function AccountScreen() {
   return <main className="account-page page">
     <section className="panel account-hero">
       <div className="account-profile"><div className="account-avatar fallback">✦</div><div><p className="eyebrow">Mon espace</p><h1>{user?.username ? `@${user.username}` : 'Choisis ton pseudo'}</h1><p>Ton compte Google reste privé. Seul ton pseudo sera affiché publiquement.</p></div></div>
-      <div className="account-actions"><a className="button button-secondary" href="/">Accueil</a><a className="button button-secondary" href="/community">Communauté</a><button className="button button-secondary" onClick={logout}>Déconnexion</button></div>
+      <div className="account-actions"><a className="button button-secondary" href="/">Accueil</a><a className="button button-secondary" href="/community">Communauté</a></div>
     </section>
 
     <section className="panel username-panel">

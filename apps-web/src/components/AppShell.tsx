@@ -2,6 +2,10 @@ import type {
   CSSProperties,
   ReactNode,
 } from 'react'
+import {
+  useEffect,
+  useState,
+} from 'react'
 
 import type {
   BackgroundTheme,
@@ -21,6 +25,22 @@ function AppShell({
   background,
   children,
 }: AppShellProps) {
+  const [interfaceHidden, setInterfaceHidden] =
+    useState(false)
+
+  useEffect(() => {
+    document.documentElement.classList.toggle(
+      'interface-hidden',
+      interfaceHidden,
+    )
+
+    return () => {
+      document.documentElement.classList.remove(
+        'interface-hidden',
+      )
+    }
+  }, [interfaceHidden])
+
   const style =
     background
       ? ({
@@ -46,7 +66,7 @@ function AppShell({
 
   return (
     <div
-      className="app-shell"
+      className={`app-shell${interfaceHidden ? ' interface-hidden-view' : ''}`}
       style={style}
     >
       <div
@@ -56,6 +76,18 @@ function AppShell({
       <div
         className="background-overlay"
       />
+
+      <div className="interface-toolbar">
+        <button
+          className="interface-toggle-button"
+          type="button"
+          aria-pressed={interfaceHidden}
+          onClick={() => setInterfaceHidden(current => !current)}
+        >
+          <span aria-hidden="true">{interfaceHidden ? '✦' : '◉'}</span>
+          {interfaceHidden ? 'Afficher l’interface' : 'Masquer l’interface'}
+        </button>
+      </div>
 
       <div className="app-content">
         {children}
