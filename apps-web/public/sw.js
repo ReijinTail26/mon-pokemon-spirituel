@@ -1,5 +1,5 @@
-const CACHE_NAME = 'mon-pokemon-spirituel-v1'
-const APP_SHELL = ['/', '/index.html', '/manifest.webmanifest', '/offline.html', '/icons/icon-192.png']
+const CACHE_NAME = 'mon-pokemon-spirituel-v2'
+const APP_SHELL = ['/manifest.webmanifest', '/offline.html', '/icons/icon-192.png']
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL)))
@@ -23,13 +23,7 @@ self.addEventListener('fetch', (event) => {
 
   if (request.mode === 'navigate') {
     event.respondWith(
-      fetch(request)
-        .then((response) => {
-          const copy = response.clone()
-          caches.open(CACHE_NAME).then((cache) => cache.put('/index.html', copy))
-          return response
-        })
-        .catch(async () => (await caches.match('/index.html')) || caches.match('/offline.html'))
+      fetch(request).catch(() => caches.match('/offline.html'))
     )
     return
   }

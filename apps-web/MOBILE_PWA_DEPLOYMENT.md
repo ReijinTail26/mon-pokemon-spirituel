@@ -37,6 +37,8 @@ Netlify reconstruira automatiquement le frontend.
 5. Ouvrir l’application installée et tester la connexion Google.
 6. Vérifier le questionnaire, l’espace personnel et un téléchargement.
 
+Si Chrome affiche encore une ancienne version après une mise à jour, ouvrez les paramètres du site dans Chrome, supprimez les données enregistrées pour `mon-pokemon-spirituel.netlify.app`, puis rechargez la page. Le service worker version 2 ne conserve plus les pages de navigation dans le cache.
+
 ## Étape APK
 
 L’APK Android sera préparé après validation de la PWA déployée. Il devra utiliser une application Web de confiance afin de conserver la connexion Google dans le navigateur sécurisé. Un simple conteneur WebView n’est pas retenu, car Google peut y bloquer OAuth.

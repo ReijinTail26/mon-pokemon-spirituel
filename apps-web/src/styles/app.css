@@ -1604,7 +1604,7 @@ button {
 
 @media (max-width: 760px) {
   .app-header { align-items: flex-start; flex-wrap: wrap; }
-  .main-navigation { order: 3; width: 100%; }
+  .main-navigation { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); order: 3; width: 100%; }
   .main-navigation a { flex: 1; padding: 10px 8px; text-align: center; font-size: .88rem; }
 }
 
@@ -2015,4 +2015,10 @@ button {
   .legal-footer { flex-wrap: wrap; }
   .install-page { padding: 22px 0 44px; }
   .install-card { border-radius: 20px; }
+  .app-shell {
+    padding-top: max(18px, env(safe-area-inset-top));
+    padding-right: max(14px, env(safe-area-inset-right));
+    padding-bottom: max(120px, env(safe-area-inset-bottom));
+    padding-left: max(14px, env(safe-area-inset-left));
+  }
 }
