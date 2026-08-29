@@ -8,6 +8,7 @@ const {
   getGenerationJob,
   createOrGetGenerationJob,
   updateGenerationStatus,
+  restartGenerationJob,
 } = require(
   './generationJobs'
 )
@@ -27,6 +28,14 @@ async function startGeneration(
     GENERATION_STATUSES.READY
   ) {
     return job
+  }
+
+  if (job.status === GENERATION_STATUSES.FINALIZING) {
+    return job
+  }
+
+  if (job.status === GENERATION_STATUSES.FAILED) {
+    return restartGenerationJob(assessmentId)
   }
 
   job =

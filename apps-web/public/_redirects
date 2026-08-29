@@ -1,3 +1,4 @@
+/api/health                 https://mon-pokemon-spirituel.onrender.com/health                         200
 /api/*                    https://mon-pokemon-spirituel.onrender.com/api/:splat                    200
 /generated-dossiers/*     https://mon-pokemon-spirituel.onrender.com/generated-dossiers/:splat     200
 /*                        /index.html                                                               200

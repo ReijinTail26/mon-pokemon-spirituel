@@ -84,10 +84,23 @@ function resolveVisualSeedPath(creativePackage) {
   if (!model?.folder || !model?.file) throw new Error('EVOLUTION_SEED_IMAGE_NOT_SELECTED')
 
   const extension = path.extname(model.file).toLowerCase()
-  if (extension !== '.jpg' && extension !== '.jpeg') throw new Error('EVOLUTION_SEED_MUST_BE_JPEG')
-
   const relativeFolder = String(model.folder).replace(/^assets[\\/]/, '')
-  return path.join(__dirname, '../../assets', relativeFolder, path.basename(model.file))
+  if (extension === '.jpg' || extension === '.jpeg') {
+    return path.join(__dirname, '../../assets', relativeFolder, path.basename(model.file))
+  }
+
+  if (extension === '.png') {
+    const relativeSeedFolder = relativeFolder.replace(/^visual-seeds[\\/]?/, '')
+    const parsed = path.parse(model.file)
+    return path.join(
+      __dirname,
+      '../../assets/evolution-jpeg/visual-seeds',
+      relativeSeedFolder,
+      `${parsed.name}.jpg`
+    )
+  }
+
+  throw new Error('EVOLUTION_SEED_MUST_BE_JPEG_OR_PNG')
 }
 
 async function createEvolutionSeedPdf({ assessmentId, creativePackage }) {

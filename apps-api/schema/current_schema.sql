@@ -169,6 +169,11 @@ CREATE TABLE public.generation_jobs (
     updated_at timestamp with time zone DEFAULT now() NOT NULL,
     started_at timestamp with time zone,
     completed_at timestamp with time zone,
+    attempt_count integer DEFAULT 0 NOT NULL,
+    max_attempts integer DEFAULT 1 NOT NULL,
+    locked_at timestamp with time zone,
+    heartbeat_at timestamp with time zone,
+    CONSTRAINT generation_jobs_attempt_count_check CHECK (((attempt_count >= 0) AND (max_attempts >= 1) AND (attempt_count <= max_attempts))),
     CONSTRAINT generation_jobs_status_check CHECK ((status = ANY (ARRAY['FINALIZING'::text, 'READY'::text, 'FAILED'::text])))
 );
 
@@ -435,6 +440,8 @@ CREATE UNIQUE INDEX creature_specs_one_canonical_per_assessment ON public.creatu
 
 CREATE INDEX idx_generation_jobs_status ON public.generation_jobs USING btree (status);
 
+CREATE INDEX idx_generation_jobs_claim ON public.generation_jobs USING btree (status, created_at) WHERE (status = 'FINALIZING'::text);
+
 
 --
 -- Name: idx_generation_selection_history_assessment; Type: INDEX; Schema: public; Owner: -
@@ -529,4 +536,3 @@ ALTER TABLE ONLY public.community_likes
 --
 -- PostgreSQL database dump complete
 --
-

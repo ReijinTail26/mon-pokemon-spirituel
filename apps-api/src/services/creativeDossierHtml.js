@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('path')
+const { previewPathFor, imageMime } = require('./pdfAssetPreview')
 
 function escapeHtml(
   value
@@ -321,8 +322,9 @@ function backgroundDataUrl(background) {
   try {
     if (!background?.file) return null
     const filePath = path.join(__dirname, '../../assets/backgrounds', background.file)
-    const bytes = fs.readFileSync(filePath)
-    return `data:image/png;base64,${bytes.toString('base64')}`
+    const selectedPath = previewPathFor(filePath)
+    const bytes = fs.readFileSync(selectedPath)
+    return `data:${imageMime(selectedPath)};base64,${bytes.toString('base64')}`
   } catch {
     return null
   }
@@ -334,14 +336,9 @@ function visualSeedDataUrl(visualSeed) {
     if (!model?.file || !model?.folder) return null
     const relativeFolder = String(model.folder).replace(/^assets\//, '')
     const filePath = path.join(__dirname, '../../assets', relativeFolder, model.file)
-    const bytes = fs.readFileSync(filePath)
-    const extension = path.extname(model.file).toLowerCase()
-    const mime = extension === '.png'
-      ? 'image/png'
-      : extension === '.webp'
-        ? 'image/webp'
-        : 'image/jpeg'
-    return `data:${mime};base64,${bytes.toString('base64')}`
+    const selectedPath = previewPathFor(filePath)
+    const bytes = fs.readFileSync(selectedPath)
+    return `data:${imageMime(selectedPath)};base64,${bytes.toString('base64')}`
   } catch {
     return null
   }

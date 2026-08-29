@@ -16,6 +16,7 @@ const publicRouter = require('./routes/public')
 const deliverablesRouter = require('./routes/deliverables')
 const { passport, configurePassport } = require('./auth/passport')
 const { requireTrustedOrigin } = require('./middleware/requireTrustedOrigin')
+const { generationEnabled } = require('./config/generation')
 
 const app = express()
 
@@ -42,6 +43,7 @@ app.use('/api/v1', requireTrustedOrigin)
 app.get('/health', (req, res) => {
   res.json({
     status: 'ok',
+    generation_enabled: generationEnabled(),
   })
 })
 
@@ -76,8 +78,8 @@ app.use(session({
   saveUninitialized: false,
   cookie: {
     httpOnly: true,
-    // Via le proxy Netlify, ce cookie est first-party sur iOS même avec SameSite=None.
-    sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
+    // Le proxy Netlify rend le cookie first-party. Lax est plus robuste sur iOS.
+    sameSite: 'lax',
     secure: process.env.NODE_ENV === 'production',
     maxAge: 1000 * 60 * 60 * 24 * 30,
   },

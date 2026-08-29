@@ -407,6 +407,8 @@ function App() {
 
     const currentAssessmentId = preparedAssessmentId
     let cancelled = false
+    let timeoutId: number | null = null
+    let retryDelay = 5000
 
     async function refresh() {
       try {
@@ -426,26 +428,32 @@ function App() {
           state.status === 'READY'
         ) {
           setScreen('deliverables')
+          return
         }
+
+        if (state.status === 'FAILED') {
+          return
+        }
+
+        retryDelay = 5000
       } catch (err) {
         console.error(
           'Generation polling error:',
           err
         )
+        retryDelay = Math.min(retryDelay * 2, 30000)
+      }
+
+      if (!cancelled) {
+        timeoutId = window.setTimeout(refresh, retryDelay)
       }
     }
 
     refresh()
 
-    const interval =
-      window.setInterval(
-        refresh,
-        5000
-      )
-
     return () => {
       cancelled = true
-      window.clearInterval(interval)
+      if (timeoutId !== null) window.clearTimeout(timeoutId)
     }
   }, [
     screen,
@@ -819,7 +827,9 @@ function App() {
         )
 
       if (!response.ok) {
+        const failure = await response.json().catch(() => null)
         throw new Error(
+          failure?.error?.message ??
           'Impossible de démarrer la préparation du dossier.'
         )
       }

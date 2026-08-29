@@ -4,6 +4,12 @@ const {
   require(
     '../services/generationWorker'
   )
+const {
+  failStaleGenerationJobs,
+} = require('../services/generationJobs')
+const {
+  staleGenerationMinutes,
+} = require('../config/generation')
 
 const WORKER_INTERVAL_MS =
   15000
@@ -18,6 +24,17 @@ async function tick() {
   running = true
 
   try {
+    const staleJobs = await failStaleGenerationJobs(
+      staleGenerationMinutes()
+    )
+
+    if (staleJobs.length > 0) {
+      console.error('Stale generation jobs marked as failed.', {
+        count: staleJobs.length,
+        assessment_ids: staleJobs.map((job) => job.assessment_id),
+      })
+    }
+
     await runGenerationWorkerOnce()
   } catch (err) {
     console.error(

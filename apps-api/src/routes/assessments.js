@@ -19,6 +19,7 @@ const {
 
 const { requireAuth } = require('../middleware/requireAuth')
 const { claimEvolutionReveal, decideEvolutionReward } = require('../services/evolutionReward')
+const { generationEnabled } = require('../config/generation')
 
 const router = express.Router()
 router.use(requireAuth)
@@ -782,6 +783,15 @@ router.post(
     const {
       assessmentId,
     } = req.params
+
+    if (!generationEnabled()) {
+      return res.status(503).json({
+        error: {
+          code: 'GENERATION_TEMPORARILY_DISABLED',
+          message: 'La préparation des livrables est temporairement suspendue pour maintenance. Votre questionnaire reste sauvegardé.',
+        },
+      })
+    }
 
     try {
       const assessmentResult =

@@ -9,6 +9,8 @@ const {
 
 const {
   updateGenerationStatus,
+  claimNextGenerationJob,
+  touchGenerationHeartbeat,
 } = require(
   './generationJobs'
 )
@@ -25,32 +27,31 @@ const {
   './creativeDeliverables'
 )
 
-async function getNextJob() {
-  const result =
-    await db.query(
-      `
-      SELECT *
-      FROM generation_jobs
-
-      WHERE status = 'FINALIZING'
-
-      ORDER BY
-        created_at ASC
-
-      LIMIT 1
-      `
-    )
-
-  return (
-    result.rows[0] ??
-    null
-  )
+function memorySnapshot() {
+  const memory = process.memoryUsage()
+  const megabytes = (value) => Math.round(value / 1024 / 1024)
+  return {
+    rss_mb: megabytes(memory.rss),
+    heap_used_mb: megabytes(memory.heapUsed),
+    external_mb: megabytes(memory.external),
+  }
 }
 
 async function processFinalizing(
   job
 ) {
   try {
+    console.log('Generation job started.', {
+      assessment_id: job.assessment_id,
+      attempt_count: job.attempt_count,
+      memory: memorySnapshot(),
+    })
+
+    await touchGenerationHeartbeat(
+      job.assessment_id,
+      'loading_creative_package'
+    )
+
     const assessmentResult = await db.query(`
       SELECT evolution_slot_unlocked
       FROM assessments
@@ -87,6 +88,11 @@ async function processFinalizing(
       })
     }
 
+    await touchGenerationHeartbeat(
+      job.assessment_id,
+      'building_creative_deliverables'
+    )
+
     const deliverables = await createCreativeDeliverables({
       assessmentId:
         job.assessment_id,
@@ -98,12 +104,22 @@ async function processFinalizing(
     })
 
     if (deliverables.evolution_seed) {
+      await touchGenerationHeartbeat(
+        job.assessment_id,
+        'finalizing_evolution_seed'
+      )
+
       await db.query(`
         UPDATE assessments
         SET evolution_seed_pdf_created_at = NOW(), updated_at = NOW()
         WHERE id = $1
       `, [job.assessment_id])
     }
+
+    console.log('Generation job completed.', {
+      assessment_id: job.assessment_id,
+      memory: memorySnapshot(),
+    })
 
     return updateGenerationStatus({
       assessmentId:
@@ -146,7 +162,7 @@ async function processFinalizing(
 
 async function runGenerationWorkerOnce() {
   const job =
-    await getNextJob()
+    await claimNextGenerationJob()
 
   if (!job) {
     return {
