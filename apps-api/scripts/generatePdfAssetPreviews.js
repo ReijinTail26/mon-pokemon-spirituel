@@ -53,28 +53,35 @@ function main() {
   ]
   const files = sources.flatMap(walk)
   if (files.length === 0) {
-    console.log('Aucun asset lourd présent : génération des previews ignorée.')
+    console.log('Aucun asset lourd prÃ©sent : gÃ©nÃ©ration des previews ignorÃ©e.')
     return
   }
 
   const command = findImageMagick()
   let previewCount = 0
   let evolutionJpegCount = 0
+  const failures = []
 
   for (const sourcePath of files) {
     const previewPath = convertedPath(PREVIEW_ROOT, sourcePath, ASSETS_ROOT)
-    convert(command, sourcePath, previewPath, [
-      '-auto-orient',
-      '-thumbnail', '1600x1600>',
-      '-background', 'white',
-      '-alpha', 'remove',
-      '-alpha', 'off',
-      '-strip',
-      '-interlace', 'Plane',
-      '-sampling-factor', '4:2:0',
-      '-quality', '78',
-    ])
-    previewCount += 1
+    try {
+      convert(command, sourcePath, previewPath, [
+        '-auto-orient',
+        '-thumbnail', '1600x1600>',
+        '-background', 'white',
+        '-alpha', 'remove',
+        '-alpha', 'off',
+        '-strip',
+        '-interlace', 'Plane',
+        '-sampling-factor', '4:2:0',
+        '-quality', '78',
+      ])
+      previewCount += 1
+    } catch (error) {
+      failures.push({ sourcePath, operation: 'preview', error })
+      console.warn(`[asset-preview] Fichier ignorÃ© (${sourcePath}): ${error.message}`)
+      continue
+    }
 
     const isVisualSeed = sourcePath.startsWith(path.join(ASSETS_ROOT, 'visual-seeds') + path.sep)
     const isPng = path.extname(sourcePath).toLowerCase() === '.png'
@@ -84,19 +91,27 @@ function main() {
         sourcePath,
         path.join(ASSETS_ROOT, 'visual-seeds')
       )
-      convert(command, sourcePath, targetPath, [
-        '-auto-orient',
-        '-background', 'white',
-        '-alpha', 'remove',
-        '-alpha', 'off',
-        '-sampling-factor', '4:4:4',
-        '-quality', '95',
-      ])
-      evolutionJpegCount += 1
+      try {
+        convert(command, sourcePath, targetPath, [
+          '-auto-orient',
+          '-background', 'white',
+          '-alpha', 'remove',
+          '-alpha', 'off',
+          '-sampling-factor', '4:4:4',
+          '-quality', '95',
+        ])
+        evolutionJpegCount += 1
+      } catch (error) {
+        failures.push({ sourcePath, operation: 'evolution-jpeg', error })
+        console.warn(`[asset-preview] JPEG Ã©volutif ignorÃ© (${sourcePath}): ${error.message}`)
+      }
     }
   }
 
-  console.log(`${previewCount} preview(s) PDF générée(s), ${evolutionJpegCount} seed(s) PNG préparée(s) en JPEG pleine résolution.`)
+  console.log(`${previewCount} preview(s) PDF gÃ©nÃ©rÃ©e(s), ${evolutionJpegCount} seed(s) PNG prÃ©parÃ©e(s) en JPEG pleine rÃ©solution.`)
+  if (failures.length > 0) {
+    console.warn(`[asset-preview] ${failures.length} conversion(s) ignorÃ©e(s). Consultez les avertissements prÃ©cÃ©dents.`)
+  }
 }
 
 main()
