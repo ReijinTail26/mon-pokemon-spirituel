@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState, type ChangeEvent } from 'react'
 import { useAuth } from '../auth/AuthContext'
 import PokedexSheetSwitcher from '../components/PokedexSheetSwitcher'
+import PokemonAffinities, { type PokemonAffinity } from '../components/PokemonAffinities'
 
 const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:3001'
 type Visibility = 'PRIVATE' | 'UNLISTED' | 'PUBLIC'
@@ -12,6 +13,7 @@ type Item = {
   evolution_slot_unlocked: boolean; evolution_slot_unlocked_at: string | null;
   has_evolution_sheet: boolean; evolution_sheet_url: string | null; evolution_sheet_uploaded_at: string | null;
   community_published_at: string | null;
+  pokemon_affinities: PokemonAffinity[];
   deliverables: { dossier_pdf: string; prompt_txt: string; evolution_seed_pdf: string | null } | null;
 }
 
@@ -265,6 +267,8 @@ export default function AccountScreen() {
               <span><small>Date</small><strong>{formatCreationDate(selectedItem.created_at)}</strong></span>
             </div>
           </div>
+
+          <PokemonAffinities affinities={selectedItem.pokemon_affinities} compact />
 
         {selectedItem.status === 'COMPLETED' && selectedItem.generation_status !== 'READY' && (
           <div className="creation-continuation">

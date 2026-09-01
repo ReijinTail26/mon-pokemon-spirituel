@@ -1,12 +1,16 @@
+import PokemonAffinities, { type PokemonAffinity } from '../components/PokemonAffinities'
+
 type CompletedScreenProps = {
   animalName?: string | null
   types?: string[]
+  pokemonAffinities?: PokemonAffinity[]
   onGenerate: () => void
 }
 
 function CompletedScreen({
   animalName,
   types = [],
+  pokemonAffinities = [],
   onGenerate,
 }: CompletedScreenProps) {
   return (
@@ -46,6 +50,8 @@ function CompletedScreen({
             )}
           </div>
         )}
+
+        <PokemonAffinities affinities={pokemonAffinities} />
 
         <div
           className="center-actions"

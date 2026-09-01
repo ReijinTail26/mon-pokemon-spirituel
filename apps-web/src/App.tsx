@@ -12,6 +12,7 @@ import CompletedScreen from './screens/CompletedScreen'
 import PreparationScreen from './screens/PreparationScreen'
 import DeliverablesScreen from './screens/DeliverablesScreen'
 import EvolutionReveal from './components/EvolutionReveal'
+import type { PokemonAffinity } from './components/PokemonAffinities'
 
 import {
   getPageSessionBackground,
@@ -47,6 +48,7 @@ type AssessmentResult = {
     }
     types: string[]
   }
+  pokemon_affinities: PokemonAffinity[]
   created_at: string
 }
 
@@ -911,6 +913,7 @@ function App() {
         assessment_id: generatedAssessmentId,
         result_id: data.result_id,
         classification: data.classification,
+        pokemon_affinities: data.pokemon_affinities ?? [],
         created_at: new Date().toISOString(),
       })
 
@@ -1167,6 +1170,11 @@ function App() {
             assessmentResult
               ?.classification
               ?.types ??
+            []
+          }
+          pokemonAffinities={
+            assessmentResult
+              ?.pokemon_affinities ??
             []
           }
           onGenerate={

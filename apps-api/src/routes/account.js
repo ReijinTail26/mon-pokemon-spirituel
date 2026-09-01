@@ -11,6 +11,7 @@ const {
   sendObject,
   sheetObjectKey,
 } = require('../services/objectStorage')
+const { calculatePokemonAffinities } = require('../services/pokemonAffinity')
 
 const router = express.Router()
 const GENERATED_ROOT = path.join(__dirname, '../../generated-dossiers')
@@ -138,7 +139,9 @@ router.get('/assessments', async (req, res) => {
              a.evolution_seed_pdf_created_at,
              a.evolution_sheet_filename, a.evolution_sheet_mime_type, a.evolution_sheet_uploaded_at,
              a.community_published_at,
-             ac.animal_name, ac.type_1_name, ac.type_2_name,
+             ar.o, ar.c, ar.e, ar.a, ar.n,
+             ar.r, ar.l, ar.p, ar.h, ar.i, ar.m,
+             ac.animal_name, ac.animal_bucket, ac.type_1_name, ac.type_2_name,
              gj.status AS generation_status
       FROM assessments a
       LEFT JOIN assessment_results ar ON ar.assessment_id = a.id
@@ -149,27 +152,46 @@ router.get('/assessments', async (req, res) => {
       LIMIT 200
     `, [req.user.id])
 
-    res.json({ assessments: result.rows.map(row => ({
-      ...row,
-      has_final_sheet: Boolean(row.final_sheet_filename),
-      final_sheet_url: row.final_sheet_filename
-        ? `/api/v1/account/assessments/${row.id}/final-sheet`
-        : null,
-      has_evolution_sheet: Boolean(row.evolution_sheet_filename),
-      evolution_sheet_url: row.evolution_sheet_filename
-        ? `/api/v1/account/assessments/${row.id}/evolution-sheet`
-        : null,
-      share_url: row.visibility === 'UNLISTED' && row.public_share_token
-        ? `/share/${row.public_share_token}`
-        : null,
-      deliverables: row.generation_status === 'READY' ? {
-        dossier_pdf: `/generated-dossiers/${row.id}/dossier-creatif.pdf`,
-        prompt_txt: `/generated-dossiers/${row.id}/prompt-fiche-complete.txt`,
-        evolution_seed_pdf: row.evolution_slot_unlocked && row.evolution_seed_pdf_created_at
-          ? `/generated-dossiers/${row.id}/seed-evolutif.pdf`
+    res.json({ assessments: result.rows.map(row => {
+      const types = [row.type_1_name, row.type_2_name].filter(Boolean)
+      const pokemonAffinities = row.o == null ? [] : calculatePokemonAffinities({
+        scores: {
+          O: row.o, C: row.c, E: row.e, A: row.a, N: row.n,
+          R: row.r, L: row.l, P: row.p, H: row.h, I: row.i, M: row.m,
+        },
+        types,
+        animalBucket: row.animal_bucket,
+      })
+
+      const {
+        o, c, e, a, n, r, l, p, h, i, m,
+        animal_bucket: _animalBucket,
+        ...publicRow
+      } = row
+
+      return {
+        ...publicRow,
+        pokemon_affinities: pokemonAffinities,
+        has_final_sheet: Boolean(row.final_sheet_filename),
+        final_sheet_url: row.final_sheet_filename
+          ? `/api/v1/account/assessments/${row.id}/final-sheet`
           : null,
-      } : null,
-    })) })
+        has_evolution_sheet: Boolean(row.evolution_sheet_filename),
+        evolution_sheet_url: row.evolution_sheet_filename
+          ? `/api/v1/account/assessments/${row.id}/evolution-sheet`
+          : null,
+        share_url: row.visibility === 'UNLISTED' && row.public_share_token
+          ? `/share/${row.public_share_token}`
+          : null,
+        deliverables: row.generation_status === 'READY' ? {
+          dossier_pdf: `/generated-dossiers/${row.id}/dossier-creatif.pdf`,
+          prompt_txt: `/generated-dossiers/${row.id}/prompt-fiche-complete.txt`,
+          evolution_seed_pdf: row.evolution_slot_unlocked && row.evolution_seed_pdf_created_at
+            ? `/generated-dossiers/${row.id}/seed-evolutif.pdf`
+            : null,
+        } : null,
+      }
+    }) })
   } catch (error) {
     console.error(error)
     res.status(500).json({ error: { code: 'ACCOUNT_READ_FAILED', message: 'Impossible de charger vos créations.' } })

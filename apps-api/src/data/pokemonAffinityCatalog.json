@@ -1,0 +1,7365 @@
+{
+  "version": "pokemon-affinity-v1",
+  "count": 300,
+  "popularity_source": "https://thomasgamedocs.com/pokemon/",
+  "data_source": "https://pokeapi.co/",
+  "generated_at": "2026-08-31",
+  "pokemon": [
+    {
+      "rank": 1,
+      "dex_id": 197,
+      "name": "Noctali",
+      "canonical_name": "Umbreon",
+      "popularity_percentage": 79.5,
+      "types": [
+        "Ténèbres"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 55.1,
+        "C": 60,
+        "E": 41.04,
+        "A": 40.52,
+        "N": 45.31,
+        "R": 63.35,
+        "L": 78.75,
+        "P": 59.15,
+        "H": 31.83,
+        "I": 57.13,
+        "M": 82.4
+      }
+    },
+    {
+      "rank": 2,
+      "dex_id": 778,
+      "name": "Mimiqui",
+      "canonical_name": "Mimikyu",
+      "popularity_percentage": 79.2,
+      "types": [
+        "Spectre",
+        "Fée"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 72.7,
+        "C": 52.4,
+        "E": 50.75,
+        "A": 58.75,
+        "N": 57.45,
+        "R": 57.1,
+        "L": 63.03,
+        "P": 33.2,
+        "H": 55.2,
+        "I": 54.8,
+        "M": 80.34
+      }
+    },
+    {
+      "rank": 3,
+      "dex_id": 700,
+      "name": "Nymphali",
+      "canonical_name": "Sylveon",
+      "popularity_percentage": 78,
+      "types": [
+        "Fée"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 79.38,
+        "C": 59.06,
+        "E": 55.42,
+        "A": 81.77,
+        "N": 44.84,
+        "R": 46.7,
+        "L": 41.41,
+        "P": 39.6,
+        "H": 90.63,
+        "I": 56.38,
+        "M": 83.61
+      }
+    },
+    {
+      "rank": 4,
+      "dex_id": 133,
+      "name": "Évoli",
+      "canonical_name": "Eevee",
+      "popularity_percentage": 76.8,
+      "types": [
+        "Normal"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 42.08,
+        "C": 46.98,
+        "E": 46.46,
+        "A": 54.17,
+        "N": 49.43,
+        "R": 41.25,
+        "L": 41.25,
+        "P": 41.25,
+        "H": 46,
+        "I": 36.5,
+        "M": 37.44
+      }
+    },
+    {
+      "rank": 5,
+      "dex_id": 134,
+      "name": "Aquali",
+      "canonical_name": "Vaporeon",
+      "popularity_percentage": 76.8,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 62.76,
+        "C": 54.9,
+        "E": 44.79,
+        "A": 69.06,
+        "N": 45.57,
+        "R": 70.35,
+        "L": 52.15,
+        "P": 44.5,
+        "H": 76.63,
+        "I": 47.98,
+        "M": 66.11
+      }
+    },
+    {
+      "rank": 6,
+      "dex_id": 384,
+      "name": "Rayquaza",
+      "canonical_name": "Rayquaza",
+      "popularity_percentage": 76.4,
+      "types": [
+        "Dragon",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 75.83,
+        "C": 55.63,
+        "E": 70.63,
+        "A": 50.31,
+        "N": 39.69,
+        "R": 70.85,
+        "L": 84.09,
+        "P": 82.5,
+        "H": 58.18,
+        "I": 86.7,
+        "M": 63.6
+      }
+    },
+    {
+      "rank": 7,
+      "dex_id": 448,
+      "name": "Lucario",
+      "canonical_name": "Lucario",
+      "popularity_percentage": 76.3,
+      "types": [
+        "Combat",
+        "Acier"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 48.07,
+        "C": 72.08,
+        "E": 53.54,
+        "A": 43.96,
+        "N": 39.17,
+        "R": 47.9,
+        "L": 47.75,
+        "P": 85.65,
+        "H": 35.9,
+        "I": 58.43,
+        "M": 33.67
+      }
+    },
+    {
+      "rank": 8,
+      "dex_id": 609,
+      "name": "Lugulabre",
+      "canonical_name": "Chandelure",
+      "popularity_percentage": 76.3,
+      "types": [
+        "Spectre",
+        "Feu"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 74.64,
+        "C": 50,
+        "E": 51.46,
+        "A": 43.96,
+        "N": 61.25,
+        "R": 58.7,
+        "L": 61.34,
+        "P": 71.45,
+        "H": 26.65,
+        "I": 76.3,
+        "M": 63.92
+      }
+    },
+    {
+      "rank": 9,
+      "dex_id": 151,
+      "name": "Mew",
+      "canonical_name": "Mew",
+      "popularity_percentage": 76.1,
+      "types": [
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 82.08,
+        "C": 67.08,
+        "E": 40.83,
+        "A": 62.5,
+        "N": 47.92,
+        "R": 52.5,
+        "L": 65.1,
+        "P": 38.5,
+        "H": 62.3,
+        "I": 49.7,
+        "M": 87.5
+      }
+    },
+    {
+      "rank": 10,
+      "dex_id": 196,
+      "name": "Mentali",
+      "canonical_name": "Espeon",
+      "popularity_percentage": 75.3,
+      "types": [
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 85.68,
+        "C": 62.4,
+        "E": 39.17,
+        "A": 61.25,
+        "N": 53.38,
+        "R": 55,
+        "L": 64.79,
+        "P": 46,
+        "H": 57.3,
+        "I": 49.08,
+        "M": 85.81
+      }
+    },
+    {
+      "rank": 11,
+      "dex_id": 249,
+      "name": "Lugia",
+      "canonical_name": "Lugia",
+      "popularity_percentage": 75.2,
+      "types": [
+        "Psy",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 78.33,
+        "C": 66.04,
+        "E": 56.25,
+        "A": 66.62,
+        "N": 37.96,
+        "R": 66.9,
+        "L": 77.55,
+        "P": 43.7,
+        "H": 67.2,
+        "I": 56.3,
+        "M": 79.05
+      }
+    },
+    {
+      "rank": 12,
+      "dex_id": 470,
+      "name": "Phyllali",
+      "canonical_name": "Leafeon",
+      "popularity_percentage": 75.1,
+      "types": [
+        "Plante"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 52.97,
+        "C": 66.56,
+        "E": 44.79,
+        "A": 63.75,
+        "N": 39.22,
+        "R": 41.45,
+        "L": 50.79,
+        "P": 46.6,
+        "H": 73.15,
+        "I": 33.35,
+        "M": 50.46
+      }
+    },
+    {
+      "rank": 13,
+      "dex_id": 258,
+      "name": "Gobou",
+      "canonical_name": "Mudkip",
+      "popularity_percentage": 75.1,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 52.5,
+        "C": 49.17,
+        "E": 42.08,
+        "A": 59.17,
+        "N": 54.58,
+        "R": 64.1,
+        "L": 47.77,
+        "P": 34.5,
+        "H": 61,
+        "I": 41.1,
+        "M": 56.8
+      }
+    },
+    {
+      "rank": 14,
+      "dex_id": 382,
+      "name": "Kyogre",
+      "canonical_name": "Kyogre",
+      "popularity_percentage": 74.9,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 70.73,
+        "C": 62.71,
+        "E": 50.83,
+        "A": 70.42,
+        "N": 41.98,
+        "R": 76.6,
+        "L": 59.02,
+        "P": 54.5,
+        "H": 78.5,
+        "I": 57.35,
+        "M": 75.68
+      }
+    },
+    {
+      "rank": 15,
+      "dex_id": 131,
+      "name": "Lokhlass",
+      "canonical_name": "Lapras",
+      "popularity_percentage": 74.7,
+      "types": [
+        "Eau",
+        "Glace"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 57.81,
+        "C": 62.61,
+        "E": 40.21,
+        "A": 58.85,
+        "N": 38.49,
+        "R": 44.6,
+        "L": 52.46,
+        "P": 44.2,
+        "H": 69.63,
+        "I": 38.25,
+        "M": 70.89
+      }
+    },
+    {
+      "rank": 16,
+      "dex_id": 150,
+      "name": "Mewtwo",
+      "canonical_name": "Mewtwo",
+      "popularity_percentage": 74.7,
+      "types": [
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 88.54,
+        "C": 65,
+        "E": 45.42,
+        "A": 61.42,
+        "N": 49,
+        "R": 60,
+        "L": 71.35,
+        "P": 51,
+        "H": 61.8,
+        "I": 57.2,
+        "M": 89.5
+      }
+    },
+    {
+      "rank": 17,
+      "dex_id": 94,
+      "name": "Ectoplasma",
+      "canonical_name": "Gengar",
+      "popularity_percentage": 74.6,
+      "types": [
+        "Spectre",
+        "Poison"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 73.39,
+        "C": 45.31,
+        "E": 44.79,
+        "A": 38.23,
+        "N": 64.53,
+        "R": 71.1,
+        "L": 78.09,
+        "P": 53.7,
+        "H": 21.28,
+        "I": 70.07,
+        "M": 76.36
+      }
+    },
+    {
+      "rank": 18,
+      "dex_id": 405,
+      "name": "Luxray",
+      "canonical_name": "Luxray",
+      "popularity_percentage": 74.6,
+      "types": [
+        "Électrik"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 64.17,
+        "C": 47.71,
+        "E": 76.25,
+        "A": 50.73,
+        "N": 55.98,
+        "R": 79.3,
+        "L": 77.52,
+        "P": 65.9,
+        "H": 41.78,
+        "I": 87.98,
+        "M": 35.85
+      }
+    },
+    {
+      "rank": 19,
+      "dex_id": 722,
+      "name": "Brindibou",
+      "canonical_name": "Rowlet",
+      "popularity_percentage": 74.2,
+      "types": [
+        "Plante",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 54.46,
+        "C": 47.81,
+        "E": 46.71,
+        "A": 59.04,
+        "N": 47.47,
+        "R": 45,
+        "L": 55.61,
+        "P": 37.75,
+        "H": 59.75,
+        "I": 40.63,
+        "M": 43.94
+      }
+    },
+    {
+      "rank": 20,
+      "dex_id": 155,
+      "name": "Héricendre",
+      "canonical_name": "Cyndaquil",
+      "popularity_percentage": 74.1,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 54.69,
+        "C": 44.69,
+        "E": 66.21,
+        "A": 40.48,
+        "N": 63.28,
+        "R": 59.15,
+        "L": 48.54,
+        "P": 76.1,
+        "H": 19.03,
+        "I": 76.5,
+        "M": 24.74
+      }
+    },
+    {
+      "rank": 21,
+      "dex_id": 282,
+      "name": "Gardevoir",
+      "canonical_name": "Gardevoir",
+      "popularity_percentage": 73.9,
+      "types": [
+        "Psy",
+        "Fée"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 83.02,
+        "C": 61.25,
+        "E": 46.67,
+        "A": 71.02,
+        "N": 49.5,
+        "R": 49.6,
+        "L": 52.16,
+        "P": 44.05,
+        "H": 72.78,
+        "I": 53.35,
+        "M": 85.53
+      }
+    },
+    {
+      "rank": 22,
+      "dex_id": 487,
+      "name": "Giratina",
+      "canonical_name": "Giratina",
+      "popularity_percentage": 73.9,
+      "types": [
+        "Spectre",
+        "Dragon"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 75.21,
+        "C": 61.88,
+        "E": 50.83,
+        "A": 50.83,
+        "N": 43.75,
+        "R": 61.2,
+        "L": 75.12,
+        "P": 60.2,
+        "H": 54.95,
+        "I": 72.8,
+        "M": 79.8
+      }
+    },
+    {
+      "rank": 23,
+      "dex_id": 135,
+      "name": "Voltali",
+      "canonical_name": "Jolteon",
+      "popularity_percentage": 73.8,
+      "types": [
+        "Électrik"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 69.22,
+        "C": 47.4,
+        "E": 79.17,
+        "A": 53.75,
+        "N": 57.13,
+        "R": 94.3,
+        "L": 85.34,
+        "P": 63.4,
+        "H": 41.9,
+        "I": 82.98,
+        "M": 36.71
+      }
+    },
+    {
+      "rank": 24,
+      "dex_id": 724,
+      "name": "Archéduc",
+      "canonical_name": "Decidueye",
+      "popularity_percentage": 73.8,
+      "types": [
+        "Plante",
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 67.71,
+        "C": 55.1,
+        "E": 39.54,
+        "A": 55.21,
+        "N": 52.99,
+        "R": 43.6,
+        "L": 59.21,
+        "P": 40.95,
+        "H": 54.65,
+        "I": 51.97,
+        "M": 68.51
+      }
+    },
+    {
+      "rank": 25,
+      "dex_id": 149,
+      "name": "Dracolosse",
+      "canonical_name": "Dragonite",
+      "popularity_percentage": 73.3,
+      "types": [
+        "Dragon",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 70,
+        "C": 57.19,
+        "E": 67.42,
+        "A": 51.15,
+        "N": 39.47,
+        "R": 67.1,
+        "L": 80.28,
+        "P": 78.5,
+        "H": 57.67,
+        "I": 78.45,
+        "M": 61.16
+      }
+    },
+    {
+      "rank": 26,
+      "dex_id": 792,
+      "name": "Lunala",
+      "canonical_name": "Lunala",
+      "popularity_percentage": 73.2,
+      "types": [
+        "Psy",
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 84.69,
+        "C": 57.29,
+        "E": 41.54,
+        "A": 55.63,
+        "N": 53.4,
+        "R": 55.25,
+        "L": 71.65,
+        "P": 45.65,
+        "H": 53.1,
+        "I": 63.65,
+        "M": 89.93
+      }
+    },
+    {
+      "rank": 27,
+      "dex_id": 245,
+      "name": "Suicune",
+      "canonical_name": "Suicune",
+      "popularity_percentage": 72.9,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 62.34,
+        "C": 62.71,
+        "E": 48.12,
+        "A": 68.85,
+        "N": 41.98,
+        "R": 75.35,
+        "L": 56.52,
+        "P": 39.5,
+        "H": 75.37,
+        "I": 46.72,
+        "M": 71.17
+      }
+    },
+    {
+      "rank": 28,
+      "dex_id": 1,
+      "name": "Bulbizarre",
+      "canonical_name": "Bulbasaur",
+      "popularity_percentage": 72.8,
+      "types": [
+        "Plante",
+        "Poison"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 53.33,
+        "C": 52.5,
+        "E": 37.21,
+        "A": 50.04,
+        "N": 53.88,
+        "R": 46.45,
+        "L": 51.6,
+        "P": 42.35,
+        "H": 42.65,
+        "I": 45.95,
+        "M": 52.85
+      }
+    },
+    {
+      "rank": 29,
+      "dex_id": 393,
+      "name": "Tiplouf",
+      "canonical_name": "Piplup",
+      "popularity_percentage": 72.7,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 54.07,
+        "C": 50.11,
+        "E": 40.5,
+        "A": 60.77,
+        "N": 53.74,
+        "R": 64.1,
+        "L": 46.59,
+        "P": 32.25,
+        "H": 62.13,
+        "I": 40.1,
+        "M": 58.41
+      }
+    },
+    {
+      "rank": 30,
+      "dex_id": 330,
+      "name": "Libégon",
+      "canonical_name": "Flygon",
+      "popularity_percentage": 72.6,
+      "types": [
+        "Sol",
+        "Dragon"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 54.38,
+        "C": 64.79,
+        "E": 55.83,
+        "A": 47.92,
+        "N": 37.08,
+        "R": 54.6,
+        "L": 73.5,
+        "P": 75.6,
+        "H": 52.4,
+        "I": 63.3,
+        "M": 40.5
+      }
+    },
+    {
+      "rank": 31,
+      "dex_id": 38,
+      "name": "Feunard",
+      "canonical_name": "Ninetales",
+      "popularity_percentage": 72.6,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 61.16,
+        "C": 53.23,
+        "E": 72.58,
+        "A": 46.81,
+        "N": 55.18,
+        "R": 67.9,
+        "L": 56.6,
+        "P": 81.35,
+        "H": 29.52,
+        "I": 82.12,
+        "M": 33.49
+      }
+    },
+    {
+      "rank": 32,
+      "dex_id": 445,
+      "name": "Carchacrok",
+      "canonical_name": "Garchomp",
+      "popularity_percentage": 72.6,
+      "types": [
+        "Dragon",
+        "Sol"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 54.72,
+        "C": 66.88,
+        "E": 58.58,
+        "A": 48.94,
+        "N": 33.88,
+        "R": 55.1,
+        "L": 75.75,
+        "P": 83.1,
+        "H": 56.52,
+        "I": 67.05,
+        "M": 42.25
+      }
+    },
+    {
+      "rank": 33,
+      "dex_id": 491,
+      "name": "Darkrai",
+      "canonical_name": "Darkrai",
+      "popularity_percentage": 72.6,
+      "types": [
+        "Ténèbres"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 64.11,
+        "C": 53.75,
+        "E": 50.63,
+        "A": 33.75,
+        "N": 51.25,
+        "R": 78.35,
+        "L": 91.56,
+        "P": 76.65,
+        "H": 23.7,
+        "I": 69.63,
+        "M": 82.78
+      }
+    },
+    {
+      "rank": 34,
+      "dex_id": 571,
+      "name": "Zoroark",
+      "canonical_name": "Zoroark",
+      "popularity_percentage": 72.5,
+      "types": [
+        "Ténèbres"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 60,
+        "C": 47.5,
+        "E": 49.38,
+        "A": 29.38,
+        "N": 56.25,
+        "R": 73.35,
+        "L": 88.75,
+        "P": 72.9,
+        "H": 18.7,
+        "I": 69.63,
+        "M": 76.4
+      }
+    },
+    {
+      "rank": 35,
+      "dex_id": 148,
+      "name": "Draco",
+      "canonical_name": "Dragonair",
+      "popularity_percentage": 72.4,
+      "types": [
+        "Dragon"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 64.58,
+        "C": 60.31,
+        "E": 58.25,
+        "A": 42.6,
+        "N": 43.84,
+        "R": 60.4,
+        "L": 69.67,
+        "P": 82.1,
+        "H": 50.87,
+        "I": 74.75,
+        "M": 57.16
+      }
+    },
+    {
+      "rank": 36,
+      "dex_id": 395,
+      "name": "Pingoléon",
+      "canonical_name": "Empoleon",
+      "popularity_percentage": 72.3,
+      "types": [
+        "Eau",
+        "Acier"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 55.48,
+        "C": 69.69,
+        "E": 40.29,
+        "A": 56.56,
+        "N": 36.59,
+        "R": 43.2,
+        "L": 37.13,
+        "P": 61.9,
+        "H": 55.53,
+        "I": 40.23,
+        "M": 57.96
+      }
+    },
+    {
+      "rank": 37,
+      "dex_id": 471,
+      "name": "Givrali",
+      "canonical_name": "Glaceon",
+      "popularity_percentage": 72.1,
+      "types": [
+        "Glace"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 61.3,
+        "C": 71.36,
+        "E": 33.13,
+        "A": 46.46,
+        "N": 34.74,
+        "R": 21.35,
+        "L": 51.84,
+        "P": 61.4,
+        "H": 54.5,
+        "I": 31.65,
+        "M": 81.79
+      }
+    },
+    {
+      "rank": 38,
+      "dex_id": 9,
+      "name": "Tortank",
+      "canonical_name": "Blastoise",
+      "popularity_percentage": 72.1,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 60.96,
+        "C": 60.1,
+        "E": 47.92,
+        "A": 66.17,
+        "N": 45.12,
+        "R": 73.6,
+        "L": 55.71,
+        "P": 38.25,
+        "H": 71.5,
+        "I": 47.1,
+        "M": 68.61
+      }
+    },
+    {
+      "rank": 39,
+      "dex_id": 658,
+      "name": "Amphinobi",
+      "canonical_name": "Greninja",
+      "popularity_percentage": 72,
+      "types": [
+        "Eau",
+        "Ténèbres"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 61.21,
+        "C": 51.25,
+        "E": 52.54,
+        "A": 46.69,
+        "N": 52.31,
+        "R": 81.1,
+        "L": 78.01,
+        "P": 55.7,
+        "H": 43.98,
+        "I": 58.55,
+        "M": 70.4
+      }
+    },
+    {
+      "rank": 40,
+      "dex_id": 194,
+      "name": "Axoloto",
+      "canonical_name": "Wooper",
+      "popularity_percentage": 72,
+      "types": [
+        "Eau",
+        "Sol"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 39.38,
+        "C": 52.19,
+        "E": 36.88,
+        "A": 52.81,
+        "N": 48.59,
+        "R": 42.7,
+        "L": 49.24,
+        "P": 39.8,
+        "H": 50.02,
+        "I": 35.47,
+        "M": 31.41
+      }
+    },
+    {
+      "rank": 41,
+      "dex_id": 492,
+      "name": "Shaymin",
+      "canonical_name": "Shaymin",
+      "popularity_percentage": 71.8,
+      "types": [
+        "Plante"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 59.58,
+        "C": 67.08,
+        "E": 44.58,
+        "A": 70,
+        "N": 36.67,
+        "R": 42.7,
+        "L": 51.1,
+        "P": 44.1,
+        "H": 81.9,
+        "I": 37.1,
+        "M": 53.9
+      }
+    },
+    {
+      "rank": 42,
+      "dex_id": 570,
+      "name": "Zorua",
+      "canonical_name": "Zorua",
+      "popularity_percentage": 71.8,
+      "types": [
+        "Ténèbres"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 52.71,
+        "C": 43.33,
+        "E": 41.04,
+        "A": 27.71,
+        "N": 60.42,
+        "R": 63.35,
+        "L": 78.75,
+        "P": 62.9,
+        "H": 13.7,
+        "I": 59.63,
+        "M": 69.9
+      }
+    },
+    {
+      "rank": 43,
+      "dex_id": 212,
+      "name": "Cizayox",
+      "canonical_name": "Scizor",
+      "popularity_percentage": 71.7,
+      "types": [
+        "Insecte",
+        "Acier"
+      ],
+      "animal_bucket": "insect",
+      "profile": {
+        "O": 48.18,
+        "C": 72.5,
+        "E": 46.46,
+        "A": 49.79,
+        "N": 36.25,
+        "R": 47.25,
+        "L": 40.81,
+        "P": 70.5,
+        "H": 40.65,
+        "I": 52.02,
+        "M": 57.17
+      }
+    },
+    {
+      "rank": 44,
+      "dex_id": 157,
+      "name": "Typhlosion",
+      "canonical_name": "Typhlosion",
+      "popularity_percentage": 71.5,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 63.58,
+        "C": 51.98,
+        "E": 73.25,
+        "A": 45.23,
+        "N": 55.74,
+        "R": 67.9,
+        "L": 57.1,
+        "P": 88.35,
+        "H": 28.27,
+        "I": 86.62,
+        "M": 34.54
+      }
+    },
+    {
+      "rank": 45,
+      "dex_id": 483,
+      "name": "Dialga",
+      "canonical_name": "Dialga",
+      "popularity_percentage": 71.4,
+      "types": [
+        "Acier",
+        "Dragon"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 64.9,
+        "C": 76.67,
+        "E": 52.5,
+        "A": 46.67,
+        "N": 29.58,
+        "R": 45.1,
+        "L": 52.58,
+        "P": 93.7,
+        "H": 50.4,
+        "I": 64.05,
+        "M": 61.5
+      }
+    },
+    {
+      "rank": 46,
+      "dex_id": 250,
+      "name": "Ho-Oh",
+      "canonical_name": "Ho-Oh",
+      "popularity_percentage": 71.3,
+      "types": [
+        "Feu",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 70.42,
+        "C": 56.25,
+        "E": 73.96,
+        "A": 57.46,
+        "N": 42.75,
+        "R": 69.6,
+        "L": 72.8,
+        "P": 77.5,
+        "H": 52.5,
+        "I": 82.7,
+        "M": 51.85
+      }
+    },
+    {
+      "rank": 47,
+      "dex_id": 385,
+      "name": "Jirachi",
+      "canonical_name": "Jirachi",
+      "popularity_percentage": 71.1,
+      "types": [
+        "Acier",
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 65.21,
+        "C": 74.58,
+        "E": 40.83,
+        "A": 55,
+        "N": 36.67,
+        "R": 39.9,
+        "L": 47.6,
+        "P": 57.4,
+        "H": 51.8,
+        "I": 39.9,
+        "M": 67.2
+      }
+    },
+    {
+      "rank": 48,
+      "dex_id": 26,
+      "name": "Raichu",
+      "canonical_name": "Raichu",
+      "popularity_percentage": 71.1,
+      "types": [
+        "Électrik"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 65.31,
+        "C": 45.31,
+        "E": 78.75,
+        "A": 50.83,
+        "N": 58.91,
+        "R": 89.3,
+        "L": 83.15,
+        "P": 58.4,
+        "H": 39.4,
+        "I": 83.6,
+        "M": 33.46
+      }
+    },
+    {
+      "rank": 49,
+      "dex_id": 716,
+      "name": "Xerneas",
+      "canonical_name": "Xerneas",
+      "popularity_percentage": 71,
+      "types": [
+        "Fée"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 81.74,
+        "C": 58.86,
+        "E": 65.79,
+        "A": 77.63,
+        "N": 43.05,
+        "R": 56.45,
+        "L": 52.85,
+        "P": 44.85,
+        "H": 90.5,
+        "I": 67.25,
+        "M": 85.01
+      }
+    },
+    {
+      "rank": 50,
+      "dex_id": 181,
+      "name": "Pharamp",
+      "canonical_name": "Ampharos",
+      "popularity_percentage": 71,
+      "types": [
+        "Électrik"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 66.41,
+        "C": 49.48,
+        "E": 70.62,
+        "A": 54.38,
+        "N": 54.11,
+        "R": 75.55,
+        "L": 71.9,
+        "P": 64.65,
+        "H": 44.4,
+        "I": 84.85,
+        "M": 38.84
+      }
+    },
+    {
+      "rank": 51,
+      "dex_id": 643,
+      "name": "Reshiram",
+      "canonical_name": "Reshiram",
+      "popularity_percentage": 71,
+      "types": [
+        "Dragon",
+        "Feu"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 73.44,
+        "C": 63.54,
+        "E": 69.38,
+        "A": 48.75,
+        "N": 42.71,
+        "R": 65.4,
+        "L": 66.57,
+        "P": 98.6,
+        "H": 48.7,
+        "I": 92.75,
+        "M": 56.6
+      }
+    },
+    {
+      "rank": 52,
+      "dex_id": 493,
+      "name": "Arceus",
+      "canonical_name": "Arceus",
+      "popularity_percentage": 71,
+      "types": [
+        "Normal"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 56.25,
+        "C": 60,
+        "E": 60,
+        "A": 61.25,
+        "N": 36.25,
+        "R": 57.5,
+        "L": 57.5,
+        "P": 57.5,
+        "H": 61,
+        "I": 54,
+        "M": 54
+      }
+    },
+    {
+      "rank": 53,
+      "dex_id": 260,
+      "name": "Laggron",
+      "canonical_name": "Swampert",
+      "popularity_percentage": 70.9,
+      "types": [
+        "Eau",
+        "Sol"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 50.05,
+        "C": 63.13,
+        "E": 46.04,
+        "A": 59.17,
+        "N": 38.13,
+        "R": 50.2,
+        "L": 58.93,
+        "P": 56.05,
+        "H": 63.15,
+        "I": 50.47,
+        "M": 44.72
+      }
+    },
+    {
+      "rank": 54,
+      "dex_id": 389,
+      "name": "Torterra",
+      "canonical_name": "Torterra",
+      "popularity_percentage": 70.8,
+      "types": [
+        "Plante",
+        "Sol"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 46.6,
+        "C": 67.92,
+        "E": 41.71,
+        "A": 60.25,
+        "N": 33.96,
+        "R": 31,
+        "L": 53.21,
+        "P": 56.85,
+        "H": 66.1,
+        "I": 42.1,
+        "M": 37.15
+      }
+    },
+    {
+      "rank": 55,
+      "dex_id": 7,
+      "name": "Carapuce",
+      "canonical_name": "Squirtle",
+      "popularity_percentage": 70.7,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 53.35,
+        "C": 52.19,
+        "E": 40.62,
+        "A": 61.17,
+        "N": 52.84,
+        "R": 64.85,
+        "L": 46.96,
+        "P": 29.5,
+        "H": 62,
+        "I": 38.35,
+        "M": 59.34
+      }
+    },
+    {
+      "rank": 56,
+      "dex_id": 2,
+      "name": "Herbizarre",
+      "canonical_name": "Ivysaur",
+      "popularity_percentage": 70.7,
+      "types": [
+        "Plante",
+        "Poison"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 56.46,
+        "C": 55.52,
+        "E": 40.17,
+        "A": 52,
+        "N": 50.82,
+        "R": 50.2,
+        "L": 55.23,
+        "P": 46.1,
+        "H": 46.4,
+        "I": 49.45,
+        "M": 56.51
+      }
+    },
+    {
+      "rank": 57,
+      "dex_id": 359,
+      "name": "Absol",
+      "canonical_name": "Absol",
+      "popularity_percentage": 70.6,
+      "types": [
+        "Ténèbres"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 53.59,
+        "C": 47.5,
+        "E": 47.71,
+        "A": 28.65,
+        "N": 55.94,
+        "R": 65.85,
+        "L": 84.69,
+        "P": 75.4,
+        "H": 19.33,
+        "I": 67.12,
+        "M": 73.02
+      }
+    },
+    {
+      "rank": 58,
+      "dex_id": 906,
+      "name": "Poussacha",
+      "canonical_name": "Sprigatito",
+      "popularity_percentage": 70.6,
+      "types": [
+        "Plante"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 48.96,
+        "C": 56.56,
+        "E": 36.96,
+        "A": 62.15,
+        "N": 47.78,
+        "R": 33.95,
+        "L": 42.1,
+        "P": 34.35,
+        "H": 67.52,
+        "I": 25.35,
+        "M": 40.94
+      }
+    },
+    {
+      "rank": 59,
+      "dex_id": 494,
+      "name": "Victini",
+      "canonical_name": "Victini",
+      "popularity_percentage": 70.5,
+      "types": [
+        "Psy",
+        "Feu"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 72.71,
+        "C": 61.46,
+        "E": 57.71,
+        "A": 55,
+        "N": 49.79,
+        "R": 60.2,
+        "L": 61.6,
+        "P": 62.3,
+        "H": 47.6,
+        "I": 68.6,
+        "M": 62.3
+      }
+    },
+    {
+      "rank": 60,
+      "dex_id": 136,
+      "name": "Pyroli",
+      "canonical_name": "Flareon",
+      "popularity_percentage": 70.4,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 61.82,
+        "C": 52.71,
+        "E": 72.71,
+        "A": 45.11,
+        "N": 56.04,
+        "R": 59.15,
+        "L": 53.41,
+        "P": 93.6,
+        "H": 29.78,
+        "I": 90.63,
+        "M": 34.1
+      }
+    },
+    {
+      "rank": 61,
+      "dex_id": 59,
+      "name": "Arcanin",
+      "canonical_name": "Arcanine",
+      "popularity_percentage": 70.3,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 62.08,
+        "C": 51.67,
+        "E": 74.79,
+        "A": 44.38,
+        "N": 55.21,
+        "R": 66.65,
+        "L": 57.79,
+        "P": 88.6,
+        "H": 29.15,
+        "I": 88.75,
+        "M": 33.6
+      }
+    },
+    {
+      "rank": 62,
+      "dex_id": 937,
+      "name": "Malvalame",
+      "canonical_name": "Ceruledge",
+      "popularity_percentage": 70.2,
+      "types": [
+        "Feu",
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 65.62,
+        "C": 50,
+        "E": 57.92,
+        "A": 43.02,
+        "N": 60.31,
+        "R": 59.95,
+        "L": 66.65,
+        "P": 66.45,
+        "H": 29.77,
+        "I": 74.43,
+        "M": 57.55
+      }
+    },
+    {
+      "rank": 63,
+      "dex_id": 257,
+      "name": "Braségali",
+      "canonical_name": "Blaziken",
+      "popularity_percentage": 70.2,
+      "types": [
+        "Feu",
+        "Combat"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 54.58,
+        "C": 58.96,
+        "E": 70,
+        "A": 44.17,
+        "N": 51.67,
+        "R": 65.7,
+        "L": 60.5,
+        "P": 91.8,
+        "H": 32.95,
+        "I": 87.75,
+        "M": 28.4
+      }
+    },
+    {
+      "rank": 64,
+      "dex_id": 725,
+      "name": "Flamiaou",
+      "canonical_name": "Litten",
+      "popularity_percentage": 70.1,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 54.37,
+        "C": 43.33,
+        "E": 67.92,
+        "A": 39.27,
+        "N": 63.85,
+        "R": 60.4,
+        "L": 50.29,
+        "P": 77.35,
+        "H": 18.52,
+        "I": 78.13,
+        "M": 23.6
+      }
+    },
+    {
+      "rank": 65,
+      "dex_id": 25,
+      "name": "Pikachu",
+      "canonical_name": "Pikachu",
+      "popularity_percentage": 70.1,
+      "types": [
+        "Électrik"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 58.33,
+        "C": 40.63,
+        "E": 73.33,
+        "A": 47.61,
+        "N": 63.75,
+        "R": 84.3,
+        "L": 77.21,
+        "P": 49.65,
+        "H": 32.53,
+        "I": 74.22,
+        "M": 26.53
+      }
+    },
+    {
+      "rank": 66,
+      "dex_id": 143,
+      "name": "Ronflex",
+      "canonical_name": "Snorlax",
+      "popularity_percentage": 70.1,
+      "types": [
+        "Normal"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 45.68,
+        "C": 53.23,
+        "E": 47.92,
+        "A": 62.5,
+        "N": 39.11,
+        "R": 35,
+        "L": 40,
+        "P": 55,
+        "H": 63.5,
+        "I": 45.88,
+        "M": 44.19
+      }
+    },
+    {
+      "rank": 67,
+      "dex_id": 130,
+      "name": "Léviator",
+      "canonical_name": "Gyarados",
+      "popularity_percentage": 69.9,
+      "types": [
+        "Eau",
+        "Vol"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 61.71,
+        "C": 51.77,
+        "E": 61.17,
+        "A": 61.15,
+        "N": 44.14,
+        "R": 72.95,
+        "L": 72.2,
+        "P": 54.2,
+        "H": 65.18,
+        "I": 57.63,
+        "M": 58.86
+      }
+    },
+    {
+      "rank": 68,
+      "dex_id": 350,
+      "name": "Milobellus",
+      "canonical_name": "Milotic",
+      "popularity_percentage": 69.9,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 63.84,
+        "C": 60,
+        "E": 46.38,
+        "A": 70.21,
+        "N": 44.19,
+        "R": 74.35,
+        "L": 54.84,
+        "P": 42,
+        "H": 76,
+        "I": 46.1,
+        "M": 69.65
+      }
+    },
+    {
+      "rank": 69,
+      "dex_id": 376,
+      "name": "Métalosse",
+      "canonical_name": "Metagross",
+      "popularity_percentage": 69.6,
+      "types": [
+        "Acier",
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 62.86,
+        "C": 76.67,
+        "E": 40,
+        "A": 51.25,
+        "N": 36.46,
+        "R": 32.4,
+        "L": 44.16,
+        "P": 66.15,
+        "H": 48.05,
+        "I": 43.65,
+        "M": 68.57
+      }
+    },
+    {
+      "rank": 70,
+      "dex_id": 3,
+      "name": "Florizarre",
+      "canonical_name": "Venusaur",
+      "popularity_percentage": 69.5,
+      "types": [
+        "Plante",
+        "Poison"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 60.62,
+        "C": 59.69,
+        "E": 44.33,
+        "A": 54.5,
+        "N": 46.66,
+        "R": 55.2,
+        "L": 60.23,
+        "P": 51.1,
+        "H": 51.4,
+        "I": 54.45,
+        "M": 61.51
+      }
+    },
+    {
+      "rank": 71,
+      "dex_id": 144,
+      "name": "Artikodin",
+      "canonical_name": "Articuno",
+      "popularity_percentage": 69.5,
+      "types": [
+        "Glace",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 65.31,
+        "C": 62.19,
+        "E": 52.71,
+        "A": 55.73,
+        "N": 35.47,
+        "R": 49.45,
+        "L": 70.45,
+        "P": 52.65,
+        "H": 60.68,
+        "I": 47.9,
+        "M": 70.41
+      }
+    },
+    {
+      "rank": 72,
+      "dex_id": 380,
+      "name": "Latias",
+      "canonical_name": "Latias",
+      "popularity_percentage": 69.4,
+      "types": [
+        "Dragon",
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 79.58,
+        "C": 69.17,
+        "E": 51.67,
+        "A": 57.71,
+        "N": 42.08,
+        "R": 62.7,
+        "L": 71.33,
+        "P": 64.8,
+        "H": 62.15,
+        "I": 63.85,
+        "M": 78.8
+      }
+    },
+    {
+      "rank": 73,
+      "dex_id": 251,
+      "name": "Celebi",
+      "canonical_name": "Celebi",
+      "popularity_percentage": 69.3,
+      "types": [
+        "Psy",
+        "Plante"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 70.83,
+        "C": 67.08,
+        "E": 42.71,
+        "A": 66.25,
+        "N": 42.29,
+        "R": 47.6,
+        "L": 58.1,
+        "P": 41.3,
+        "H": 72.1,
+        "I": 43.4,
+        "M": 70.7
+      }
+    },
+    {
+      "rank": 74,
+      "dex_id": 334,
+      "name": "Altaria",
+      "canonical_name": "Altaria",
+      "popularity_percentage": 69.3,
+      "types": [
+        "Dragon",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 66.82,
+        "C": 57.19,
+        "E": 62.08,
+        "A": 53.33,
+        "N": 40.47,
+        "R": 67.1,
+        "L": 76.28,
+        "P": 62.5,
+        "H": 56.3,
+        "I": 66.7,
+        "M": 58.91
+      }
+    },
+    {
+      "rank": 75,
+      "dex_id": 501,
+      "name": "Moustillon",
+      "canonical_name": "Oshawott",
+      "popularity_percentage": 69.1,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 53.94,
+        "C": 48.13,
+        "E": 41.46,
+        "A": 59.58,
+        "N": 55,
+        "R": 65.35,
+        "L": 47.77,
+        "P": 32.75,
+        "H": 61,
+        "I": 40.85,
+        "M": 56.9
+      }
+    },
+    {
+      "rank": 76,
+      "dex_id": 479,
+      "name": "Motisma",
+      "canonical_name": "Rotom",
+      "popularity_percentage": 69.1,
+      "types": [
+        "Électrik",
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 70.56,
+        "C": 45.42,
+        "E": 54.29,
+        "A": 45.94,
+        "N": 63.77,
+        "R": 70.9,
+        "L": 74.99,
+        "P": 46.35,
+        "H": 30.78,
+        "I": 68.73,
+        "M": 59.3
+      }
+    },
+    {
+      "rank": 77,
+      "dex_id": 475,
+      "name": "Gallame",
+      "canonical_name": "Gallade",
+      "popularity_percentage": 69.1,
+      "types": [
+        "Psy",
+        "Combat"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 61.15,
+        "C": 68.75,
+        "E": 53.54,
+        "A": 55.4,
+        "N": 47.62,
+        "R": 58,
+        "L": 64.31,
+        "P": 69.25,
+        "H": 51.78,
+        "I": 63.85,
+        "M": 53.73
+      }
+    },
+    {
+      "rank": 78,
+      "dex_id": 644,
+      "name": "Zekrom",
+      "canonical_name": "Zekrom",
+      "popularity_percentage": 69,
+      "types": [
+        "Dragon",
+        "Électrik"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 70.83,
+        "C": 61.67,
+        "E": 73.75,
+        "A": 49.17,
+        "N": 42.71,
+        "R": 74.85,
+        "L": 80.35,
+        "P": 86,
+        "H": 53.2,
+        "I": 92.05,
+        "M": 55.75
+      }
+    },
+    {
+      "rank": 79,
+      "dex_id": 132,
+      "name": "Métamorph",
+      "canonical_name": "Ditto",
+      "popularity_percentage": 68.8,
+      "types": [
+        "Normal"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 41.25,
+        "C": 45,
+        "E": 45,
+        "A": 52.25,
+        "N": 51.25,
+        "R": 39.5,
+        "L": 39.5,
+        "P": 39.5,
+        "H": 43,
+        "I": 36,
+        "M": 36
+      }
+    },
+    {
+      "rank": 80,
+      "dex_id": 745,
+      "name": "Lougaroc",
+      "canonical_name": "Lycanroc",
+      "popularity_percentage": 68.8,
+      "types": [
+        "Roche"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 34.35,
+        "C": 71.04,
+        "E": 43.58,
+        "A": 41.67,
+        "N": 32.08,
+        "R": 33.1,
+        "L": 51.49,
+        "P": 84.25,
+        "H": 56.2,
+        "I": 26.35,
+        "M": 20.6
+      }
+    },
+    {
+      "rank": 81,
+      "dex_id": 147,
+      "name": "Minidraco",
+      "canonical_name": "Dratini",
+      "popularity_percentage": 68.6,
+      "types": [
+        "Dragon"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 60.42,
+        "C": 56.15,
+        "E": 54.08,
+        "A": 40.11,
+        "N": 48.01,
+        "R": 55.4,
+        "L": 64.68,
+        "P": 77.1,
+        "H": 45.88,
+        "I": 69.75,
+        "M": 52.16
+      }
+    },
+    {
+      "rank": 82,
+      "dex_id": 823,
+      "name": "Corvaillus",
+      "canonical_name": "Corviknight",
+      "popularity_percentage": 68.6,
+      "types": [
+        "Vol",
+        "Acier"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 52.04,
+        "C": 64.17,
+        "E": 50.62,
+        "A": 51.98,
+        "N": 33.77,
+        "R": 43.55,
+        "L": 51.8,
+        "P": 61.85,
+        "H": 47.58,
+        "I": 41.5,
+        "M": 48.1
+      }
+    },
+    {
+      "rank": 83,
+      "dex_id": 887,
+      "name": "Lanssorien",
+      "canonical_name": "Dragapult",
+      "popularity_percentage": 68.6,
+      "types": [
+        "Dragon",
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 75.03,
+        "C": 52.5,
+        "E": 59,
+        "A": 41.44,
+        "N": 54.19,
+        "R": 74.2,
+        "L": 86.12,
+        "P": 65.2,
+        "H": 41.57,
+        "I": 75.3,
+        "M": 71.92
+      }
+    },
+    {
+      "rank": 84,
+      "dex_id": 373,
+      "name": "Drattak",
+      "canonical_name": "Salamence",
+      "popularity_percentage": 68.5,
+      "types": [
+        "Dragon",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 70.94,
+        "C": 53.54,
+        "E": 70,
+        "A": 49.27,
+        "N": 41.77,
+        "R": 72.1,
+        "L": 84.09,
+        "P": 78.75,
+        "H": 55.68,
+        "I": 79.83,
+        "M": 58.85
+      }
+    },
+    {
+      "rank": 85,
+      "dex_id": 429,
+      "name": "Magirêve",
+      "canonical_name": "Mismagius",
+      "popularity_percentage": 68.5,
+      "types": [
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 79.38,
+        "C": 44.69,
+        "E": 38.13,
+        "A": 43.44,
+        "N": 67.97,
+        "R": 60.75,
+        "L": 76.14,
+        "P": 35.55,
+        "H": 28.53,
+        "I": 60.72,
+        "M": 84.81
+      }
+    },
+    {
+      "rank": 86,
+      "dex_id": 497,
+      "name": "Majaspic",
+      "canonical_name": "Serperior",
+      "popularity_percentage": 68.5,
+      "types": [
+        "Plante"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 57,
+        "C": 66.04,
+        "E": 44.13,
+        "A": 68.96,
+        "N": 38.96,
+        "R": 45.95,
+        "L": 51.98,
+        "P": 37.85,
+        "H": 78.15,
+        "I": 30.85,
+        "M": 51.15
+      }
+    },
+    {
+      "rank": 87,
+      "dex_id": 447,
+      "name": "Riolu",
+      "canonical_name": "Riolu",
+      "popularity_percentage": 68.2,
+      "types": [
+        "Combat"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 36.09,
+        "C": 62.08,
+        "E": 59.58,
+        "A": 42.5,
+        "N": 52.92,
+        "R": 63.5,
+        "L": 58.52,
+        "P": 80,
+        "H": 30.5,
+        "I": 68.63,
+        "M": 13.32
+      }
+    },
+    {
+      "rank": 88,
+      "dex_id": 37,
+      "name": "Goupix",
+      "canonical_name": "Vulpix",
+      "popularity_percentage": 68.2,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 54.32,
+        "C": 45.94,
+        "E": 65.29,
+        "A": 42.44,
+        "N": 62.47,
+        "R": 59.15,
+        "L": 47.85,
+        "P": 73.6,
+        "H": 20.78,
+        "I": 73.88,
+        "M": 25.04
+      }
+    },
+    {
+      "rank": 89,
+      "dex_id": 706,
+      "name": "Muplodocus",
+      "canonical_name": "Goodra",
+      "popularity_percentage": 68.2,
+      "types": [
+        "Dragon"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 73.75,
+        "C": 69.17,
+        "E": 60.83,
+        "A": 52.08,
+        "N": 35.83,
+        "R": 62.9,
+        "L": 72.55,
+        "P": 88.6,
+        "H": 64.5,
+        "I": 81.75,
+        "M": 67.6
+      }
+    },
+    {
+      "rank": 90,
+      "dex_id": 162,
+      "name": "Fouinar",
+      "canonical_name": "Furret",
+      "popularity_percentage": 68.1,
+      "types": [
+        "Normal"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 43.02,
+        "C": 47.4,
+        "E": 52.58,
+        "A": 54.12,
+        "N": 47.26,
+        "R": 50,
+        "L": 49.12,
+        "P": 46.5,
+        "H": 48.5,
+        "I": 39.12,
+        "M": 37.79
+      }
+    },
+    {
+      "rank": 91,
+      "dex_id": 195,
+      "name": "Maraiste",
+      "canonical_name": "Quagsire",
+      "popularity_percentage": 68.1,
+      "types": [
+        "Eau",
+        "Sol"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 45.42,
+        "C": 60,
+        "E": 40.83,
+        "A": 57.29,
+        "N": 40.62,
+        "R": 43.95,
+        "L": 52.68,
+        "P": 49.8,
+        "H": 59.4,
+        "I": 44.85,
+        "M": 40.6
+      }
+    },
+    {
+      "rank": 92,
+      "dex_id": 137,
+      "name": "Porygon",
+      "canonical_name": "Porygon",
+      "popularity_percentage": 68,
+      "types": [
+        "Normal"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 46.56,
+        "C": 50.1,
+        "E": 45,
+        "A": 55.63,
+        "N": 46.61,
+        "R": 37.5,
+        "L": 38.75,
+        "P": 48.75,
+        "H": 48.5,
+        "I": 42.12,
+        "M": 43.06
+      }
+    },
+    {
+      "rank": 93,
+      "dex_id": 791,
+      "name": "Solgaleo",
+      "canonical_name": "Solgaleo",
+      "popularity_percentage": 68,
+      "types": [
+        "Psy",
+        "Acier"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 66,
+        "C": 74.17,
+        "E": 43.54,
+        "A": 54.63,
+        "N": 34.65,
+        "R": 39.15,
+        "L": 49.35,
+        "P": 66.65,
+        "H": 55.05,
+        "I": 46.15,
+        "M": 67.83
+      }
+    },
+    {
+      "rank": 94,
+      "dex_id": 908,
+      "name": "Miascarade",
+      "canonical_name": "Meowscarada",
+      "popularity_percentage": 67.9,
+      "types": [
+        "Plante",
+        "Ténèbres"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 56.8,
+        "C": 55.21,
+        "E": 50.17,
+        "A": 48.08,
+        "N": 48.17,
+        "R": 63.15,
+        "L": 74.24,
+        "P": 58.5,
+        "H": 48.55,
+        "I": 50.68,
+        "M": 61.22
+      }
+    },
+    {
+      "rank": 95,
+      "dex_id": 730,
+      "name": "Oratoria",
+      "canonical_name": "Primarina",
+      "popularity_percentage": 67.8,
+      "types": [
+        "Eau",
+        "Fée"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 72.98,
+        "C": 58.54,
+        "E": 50.54,
+        "A": 73.38,
+        "N": 46.15,
+        "R": 57.9,
+        "L": 46.88,
+        "P": 46.05,
+        "H": 80,
+        "I": 55.3,
+        "M": 77.38
+      }
+    },
+    {
+      "rank": 96,
+      "dex_id": 363,
+      "name": "Obalie",
+      "canonical_name": "Spheal",
+      "popularity_percentage": 67.8,
+      "types": [
+        "Glace",
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 50.78,
+        "C": 54.79,
+        "E": 32.71,
+        "A": 52.29,
+        "N": 47.71,
+        "R": 37.1,
+        "L": 44.02,
+        "P": 36.7,
+        "H": 56.5,
+        "I": 28.87,
+        "M": 62.08
+      }
+    },
+    {
+      "rank": 97,
+      "dex_id": 254,
+      "name": "Jungko",
+      "canonical_name": "Sceptile",
+      "popularity_percentage": 67.7,
+      "types": [
+        "Plante"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 60.21,
+        "C": 61.88,
+        "E": 45.83,
+        "A": 67.19,
+        "N": 42.19,
+        "R": 47.7,
+        "L": 53.91,
+        "P": 45.35,
+        "H": 76.27,
+        "I": 35.85,
+        "M": 49.9
+      }
+    },
+    {
+      "rank": 98,
+      "dex_id": 980,
+      "name": "Terraiste",
+      "canonical_name": "Clodsire",
+      "popularity_percentage": 67.7,
+      "types": [
+        "Poison",
+        "Sol"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 44.74,
+        "C": 59.17,
+        "E": 39.38,
+        "A": 50.42,
+        "N": 41.46,
+        "R": 42,
+        "L": 60.21,
+        "P": 55.35,
+        "H": 44.35,
+        "I": 53.7,
+        "M": 41.37
+      }
+    },
+    {
+      "rank": 99,
+      "dex_id": 802,
+      "name": "Marshadow",
+      "canonical_name": "Marshadow",
+      "popularity_percentage": 67.6,
+      "types": [
+        "Combat",
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 62.71,
+        "C": 58.33,
+        "E": 59.17,
+        "A": 44.79,
+        "N": 54.48,
+        "R": 72.75,
+        "L": 79.05,
+        "P": 67.15,
+        "H": 36.7,
+        "I": 74.68,
+        "M": 54.73
+      }
+    },
+    {
+      "rank": 100,
+      "dex_id": 156,
+      "name": "Feurisson",
+      "canonical_name": "Quilava",
+      "popularity_percentage": 67.6,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 58.39,
+        "C": 47.81,
+        "E": 69.08,
+        "A": 42.73,
+        "N": 59.91,
+        "R": 62.9,
+        "L": 52.1,
+        "P": 81.1,
+        "H": 23.28,
+        "I": 80.5,
+        "M": 28.86
+      }
+    },
+    {
+      "rank": 101,
+      "dex_id": 248,
+      "name": "Tyranocif",
+      "canonical_name": "Tyranitar",
+      "popularity_percentage": 67.6,
+      "types": [
+        "Roche",
+        "Ténèbres"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 48.01,
+        "C": 68.13,
+        "E": 42.54,
+        "A": 40.46,
+        "N": 35.94,
+        "R": 41.35,
+        "L": 62.71,
+        "P": 82.7,
+        "H": 46.2,
+        "I": 51.93,
+        "M": 56.5
+      }
+    },
+    {
+      "rank": 102,
+      "dex_id": 6,
+      "name": "Dracaufeu",
+      "canonical_name": "Charizard",
+      "popularity_percentage": 67.5,
+      "types": [
+        "Feu",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 67.33,
+        "C": 48.23,
+        "E": 71.37,
+        "A": 50.85,
+        "N": 50.11,
+        "R": 72.1,
+        "L": 71.8,
+        "P": 72.25,
+        "H": 40.87,
+        "I": 76.82,
+        "M": 45.04
+      }
+    },
+    {
+      "rank": 103,
+      "dex_id": 789,
+      "name": "Cosmog",
+      "canonical_name": "Cosmog",
+      "popularity_percentage": 67.4,
+      "types": [
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 67.84,
+        "C": 52.71,
+        "E": 27.12,
+        "A": 54.67,
+        "N": 61.54,
+        "R": 36.75,
+        "L": 48.91,
+        "P": 21,
+        "H": 46.55,
+        "I": 32.2,
+        "M": 70.17
+      }
+    },
+    {
+      "rank": 104,
+      "dex_id": 158,
+      "name": "Kaiminus",
+      "canonical_name": "Totodile",
+      "popularity_percentage": 67.3,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 51.83,
+        "C": 50.42,
+        "E": 42.04,
+        "A": 59.17,
+        "N": 53.71,
+        "R": 64.85,
+        "L": 48.02,
+        "P": 33.25,
+        "H": 60.75,
+        "I": 39.73,
+        "M": 57.4
+      }
+    },
+    {
+      "rank": 105,
+      "dex_id": 383,
+      "name": "Groudon",
+      "canonical_name": "Groudon",
+      "popularity_percentage": 67.3,
+      "types": [
+        "Sol"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 43.65,
+        "C": 73.96,
+        "E": 51.25,
+        "A": 51.87,
+        "N": 26.98,
+        "R": 38.8,
+        "L": 71.95,
+        "P": 77.6,
+        "H": 54.05,
+        "I": 57.35,
+        "M": 28.53
+      }
+    },
+    {
+      "rank": 106,
+      "dex_id": 708,
+      "name": "Brocélôme",
+      "canonical_name": "Phantump",
+      "popularity_percentage": 67.2,
+      "types": [
+        "Spectre",
+        "Plante"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 58.56,
+        "C": 48.13,
+        "E": 32.46,
+        "A": 50.4,
+        "N": 60.06,
+        "R": 35.6,
+        "L": 50.9,
+        "P": 31.7,
+        "H": 45.27,
+        "I": 41.1,
+        "M": 58.9
+      }
+    },
+    {
+      "rank": 107,
+      "dex_id": 744,
+      "name": "Rocabot",
+      "canonical_name": "Rockruff",
+      "popularity_percentage": 67.1,
+      "types": [
+        "Roche"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 28.02,
+        "C": 65.83,
+        "E": 32.92,
+        "A": 39.27,
+        "N": 37.6,
+        "R": 20.1,
+        "L": 38.61,
+        "P": 71.75,
+        "H": 49.32,
+        "I": 16.98,
+        "M": 14.35
+      }
+    },
+    {
+      "rank": 108,
+      "dex_id": 93,
+      "name": "Spectrum",
+      "canonical_name": "Haunter",
+      "popularity_percentage": 66.8,
+      "types": [
+        "Spectre",
+        "Poison"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 70,
+        "C": 41.67,
+        "E": 41.67,
+        "A": 35.83,
+        "N": 68.02,
+        "R": 67.35,
+        "L": 74.34,
+        "P": 49.95,
+        "H": 16.9,
+        "I": 66.32,
+        "M": 72.17
+      }
+    },
+    {
+      "rank": 109,
+      "dex_id": 253,
+      "name": "Massko",
+      "canonical_name": "Grovyle",
+      "popularity_percentage": 66.7,
+      "types": [
+        "Plante"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 55.83,
+        "C": 57.71,
+        "E": 41.04,
+        "A": 64.69,
+        "N": 46.35,
+        "R": 41.45,
+        "L": 47.98,
+        "P": 40.35,
+        "H": 71.28,
+        "I": 30.85,
+        "M": 44.9
+      }
+    },
+    {
+      "rank": 110,
+      "dex_id": 653,
+      "name": "Feunnec",
+      "canonical_name": "Fennekin",
+      "popularity_percentage": 66.7,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 55.23,
+        "C": 45.42,
+        "E": 65,
+        "A": 41.87,
+        "N": 62.71,
+        "R": 57.9,
+        "L": 47.16,
+        "P": 76.6,
+        "H": 20.4,
+        "I": 75.88,
+        "M": 25.5
+      }
+    },
+    {
+      "rank": 111,
+      "dex_id": 179,
+      "name": "Wattouat",
+      "canonical_name": "Mareep",
+      "popularity_percentage": 66.6,
+      "types": [
+        "Électrik"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 57.5,
+        "C": 40.1,
+        "E": 65.21,
+        "A": 48.96,
+        "N": 62.87,
+        "R": 70.55,
+        "L": 65.96,
+        "P": 52.15,
+        "H": 34.4,
+        "I": 74.22,
+        "M": 27.21
+      }
+    },
+    {
+      "rank": 112,
+      "dex_id": 233,
+      "name": "Porygon2",
+      "canonical_name": "Porygon2",
+      "popularity_percentage": 66.6,
+      "types": [
+        "Normal"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 50.73,
+        "C": 54.27,
+        "E": 49.17,
+        "A": 58.13,
+        "N": 42.45,
+        "R": 42.5,
+        "L": 43.75,
+        "P": 53.75,
+        "H": 53.5,
+        "I": 47.13,
+        "M": 48.06
+      }
+    },
+    {
+      "rank": 113,
+      "dex_id": 172,
+      "name": "Pichu",
+      "canonical_name": "Pichu",
+      "popularity_percentage": 66.5,
+      "types": [
+        "Électrik"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 54.58,
+        "C": 38.02,
+        "E": 68.33,
+        "A": 46.35,
+        "N": 65.89,
+        "R": 76.8,
+        "L": 70.65,
+        "P": 45.9,
+        "H": 30.03,
+        "I": 70.47,
+        "M": 23.21
+      }
+    },
+    {
+      "rank": 114,
+      "dex_id": 8,
+      "name": "Carabaffe",
+      "canonical_name": "Wartortle",
+      "popularity_percentage": 66.4,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 56.53,
+        "C": 55.42,
+        "E": 43.75,
+        "A": 63.15,
+        "N": 49.65,
+        "R": 68.6,
+        "L": 50.71,
+        "P": 33.25,
+        "H": 65.88,
+        "I": 42.1,
+        "M": 63.18
+      }
+    },
+    {
+      "rank": 115,
+      "dex_id": 123,
+      "name": "Insécateur",
+      "canonical_name": "Scyther",
+      "popularity_percentage": 66.4,
+      "types": [
+        "Insecte",
+        "Vol"
+      ],
+      "animal_bucket": "insect",
+      "profile": {
+        "O": 61.09,
+        "C": 53.54,
+        "E": 64.79,
+        "A": 56.25,
+        "N": 45.21,
+        "R": 81.75,
+        "L": 75.76,
+        "P": 54.3,
+        "H": 49.05,
+        "I": 68.43,
+        "M": 61.03
+      }
+    },
+    {
+      "rank": 116,
+      "dex_id": 635,
+      "name": "Trioxhydre",
+      "canonical_name": "Hydreigon",
+      "popularity_percentage": 66.3,
+      "types": [
+        "Ténèbres",
+        "Dragon"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 67.47,
+        "C": 59.38,
+        "E": 56,
+        "A": 40.13,
+        "N": 44.25,
+        "R": 69.5,
+        "L": 81.84,
+        "P": 83.25,
+        "H": 41.85,
+        "I": 77.25,
+        "M": 73.63
+      }
+    },
+    {
+      "rank": 117,
+      "dex_id": 715,
+      "name": "Bruyverne",
+      "canonical_name": "Noivern",
+      "popularity_percentage": 66.2,
+      "types": [
+        "Vol",
+        "Dragon"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 70.41,
+        "C": 53.54,
+        "E": 67.46,
+        "A": 51.35,
+        "N": 42.4,
+        "R": 77.85,
+        "L": 84.34,
+        "P": 69.25,
+        "H": 54.43,
+        "I": 70.07,
+        "M": 57.88
+      }
+    },
+    {
+      "rank": 118,
+      "dex_id": 145,
+      "name": "Électhor",
+      "canonical_name": "Zapdos",
+      "popularity_percentage": 66.1,
+      "types": [
+        "Électrik",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 71.3,
+        "C": 47.6,
+        "E": 73.75,
+        "A": 55.63,
+        "N": 48.49,
+        "R": 81.55,
+        "L": 84.07,
+        "P": 63.65,
+        "H": 50,
+        "I": 78.88,
+        "M": 48.69
+      }
+    },
+    {
+      "rank": 119,
+      "dex_id": 495,
+      "name": "Vipélierre",
+      "canonical_name": "Snivy",
+      "popularity_percentage": 65.9,
+      "types": [
+        "Plante"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 49.4,
+        "C": 57.71,
+        "E": 35.38,
+        "A": 64.17,
+        "N": 46.67,
+        "R": 33.45,
+        "L": 40.72,
+        "P": 30.35,
+        "H": 69.4,
+        "I": 23.35,
+        "M": 41.9
+      }
+    },
+    {
+      "rank": 120,
+      "dex_id": 474,
+      "name": "Porygon-Z",
+      "canonical_name": "Porygon-Z",
+      "popularity_percentage": 65.8,
+      "types": [
+        "Normal"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 54.38,
+        "C": 50.1,
+        "E": 52.92,
+        "A": 56.04,
+        "N": 45.37,
+        "R": 50,
+        "L": 49.38,
+        "P": 61.25,
+        "H": 51,
+        "I": 50.88,
+        "M": 46.81
+      }
+    },
+    {
+      "rank": 121,
+      "dex_id": 387,
+      "name": "Tortipouss",
+      "canonical_name": "Turtwig",
+      "popularity_percentage": 65.7,
+      "types": [
+        "Plante"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 48.06,
+        "C": 58.65,
+        "E": 33.29,
+        "A": 63.83,
+        "N": 45.39,
+        "R": 25.45,
+        "L": 36.16,
+        "P": 36.1,
+        "H": 70.65,
+        "I": 26.23,
+        "M": 42.69
+      }
+    },
+    {
+      "rank": 122,
+      "dex_id": 607,
+      "name": "Funécire",
+      "canonical_name": "Litwick",
+      "popularity_percentage": 65.7,
+      "types": [
+        "Spectre",
+        "Feu"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 61.56,
+        "C": 42.71,
+        "E": 43.13,
+        "A": 40.73,
+        "N": 66.98,
+        "R": 46.2,
+        "L": 50.4,
+        "P": 51.45,
+        "H": 21.03,
+        "I": 63.18,
+        "M": 51.8
+      }
+    },
+    {
+      "rank": 123,
+      "dex_id": 255,
+      "name": "Poussifeu",
+      "canonical_name": "Torchic",
+      "popularity_percentage": 65.6,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 55,
+        "C": 44.38,
+        "E": 64.38,
+        "A": 40.52,
+        "N": 63.13,
+        "R": 54.15,
+        "L": 45.29,
+        "P": 78.6,
+        "H": 19.78,
+        "I": 78.75,
+        "M": 25.22
+      }
+    },
+    {
+      "rank": 124,
+      "dex_id": 503,
+      "name": "Clamiral",
+      "canonical_name": "Samurott",
+      "popularity_percentage": 65.5,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 61.44,
+        "C": 54.9,
+        "E": 48.33,
+        "A": 62.81,
+        "N": 47.76,
+        "R": 71.6,
+        "L": 55.27,
+        "P": 44,
+        "H": 69.13,
+        "I": 52.1,
+        "M": 65.96
+      }
+    },
+    {
+      "rank": 125,
+      "dex_id": 381,
+      "name": "Latios",
+      "canonical_name": "Latios",
+      "popularity_percentage": 65.5,
+      "types": [
+        "Dragon",
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 80.83,
+        "C": 66.04,
+        "E": 52.5,
+        "A": 55.21,
+        "N": 44.27,
+        "R": 62.7,
+        "L": 71.95,
+        "P": 69.8,
+        "H": 59.65,
+        "I": 67.6,
+        "M": 77.68
+      }
+    },
+    {
+      "rank": 126,
+      "dex_id": 386,
+      "name": "Deoxys",
+      "canonical_name": "Deoxys",
+      "popularity_percentage": 65.5,
+      "types": [
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 87.29,
+        "C": 56.67,
+        "E": 51.25,
+        "A": 52.08,
+        "N": 58.33,
+        "R": 65,
+        "L": 77.6,
+        "P": 51,
+        "H": 49.8,
+        "I": 62.2,
+        "M": 82.5
+      }
+    },
+    {
+      "rank": 127,
+      "dex_id": 478,
+      "name": "Momartik",
+      "canonical_name": "Froslass",
+      "popularity_percentage": 65.5,
+      "types": [
+        "Glace",
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 65.52,
+        "C": 53.33,
+        "E": 40.42,
+        "A": 41.46,
+        "N": 54.17,
+        "R": 47.3,
+        "L": 69.93,
+        "P": 39.1,
+        "H": 38.7,
+        "I": 44,
+        "M": 76.55
+      }
+    },
+    {
+      "rank": 128,
+      "dex_id": 654,
+      "name": "Roussil",
+      "canonical_name": "Braixen",
+      "popularity_percentage": 65.3,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 59.5,
+        "C": 48.33,
+        "E": 67.79,
+        "A": 43.52,
+        "N": 59.48,
+        "R": 61.15,
+        "L": 50.47,
+        "P": 83.6,
+        "H": 24.03,
+        "I": 81.13,
+        "M": 30.05
+      }
+    },
+    {
+      "rank": 129,
+      "dex_id": 403,
+      "name": "Lixy",
+      "canonical_name": "Shinx",
+      "popularity_percentage": 65.3,
+      "types": [
+        "Électrik"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 54.48,
+        "C": 38.33,
+        "E": 68.54,
+        "A": 46.15,
+        "N": 64.73,
+        "R": 73.05,
+        "L": 69.4,
+        "P": 52.15,
+        "H": 31.77,
+        "I": 74.22,
+        "M": 23.85
+      }
+    },
+    {
+      "rank": 130,
+      "dex_id": 244,
+      "name": "Entei",
+      "canonical_name": "Entei",
+      "popularity_percentage": 65.2,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 60.89,
+        "C": 51.67,
+        "E": 75.83,
+        "A": 45.21,
+        "N": 53.65,
+        "R": 67.9,
+        "L": 59.04,
+        "P": 89.85,
+        "H": 31.65,
+        "I": 88.12,
+        "M": 32.85
+      }
+    },
+    {
+      "rank": 131,
+      "dex_id": 175,
+      "name": "Togepi",
+      "canonical_name": "Togepi",
+      "popularity_percentage": 65.2,
+      "types": [
+        "Fée"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 66.72,
+        "C": 52.29,
+        "E": 48.75,
+        "A": 72.71,
+        "N": 53.33,
+        "R": 39.2,
+        "L": 33.6,
+        "P": 22.1,
+        "H": 75,
+        "I": 43.25,
+        "M": 72.68
+      }
+    },
+    {
+      "rank": 132,
+      "dex_id": 243,
+      "name": "Raikou",
+      "canonical_name": "Raikou",
+      "popularity_percentage": 65.2,
+      "types": [
+        "Électrik"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 69.43,
+        "C": 49.48,
+        "E": 78.96,
+        "A": 55,
+        "N": 54.11,
+        "R": 90.55,
+        "L": 83.77,
+        "P": 64.65,
+        "H": 45.65,
+        "I": 86.1,
+        "M": 38.84
+      }
+    },
+    {
+      "rank": 133,
+      "dex_id": 4,
+      "name": "Salamèche",
+      "canonical_name": "Charmander",
+      "popularity_percentage": 65,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 54.69,
+        "C": 44.69,
+        "E": 66.21,
+        "A": 40.48,
+        "N": 63.28,
+        "R": 59.15,
+        "L": 48.54,
+        "P": 76.1,
+        "H": 19.03,
+        "I": 76.5,
+        "M": 24.74
+      }
+    },
+    {
+      "rank": 134,
+      "dex_id": 461,
+      "name": "Dimoret",
+      "canonical_name": "Weavile",
+      "popularity_percentage": 65,
+      "types": [
+        "Ténèbres",
+        "Glace"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 53.54,
+        "C": 58.13,
+        "E": 49.38,
+        "A": 37.6,
+        "N": 45.94,
+        "R": 57.35,
+        "L": 80.14,
+        "P": 65.9,
+        "H": 38.47,
+        "I": 45.33,
+        "M": 72
+      }
+    },
+    {
+      "rank": 135,
+      "dex_id": 637,
+      "name": "Pyrax",
+      "canonical_name": "Volcarona",
+      "popularity_percentage": 64.9,
+      "types": [
+        "Insecte",
+        "Feu"
+      ],
+      "animal_bucket": "insect",
+      "profile": {
+        "O": 67.6,
+        "C": 58.33,
+        "E": 61.87,
+        "A": 56.25,
+        "N": 49.17,
+        "R": 76.3,
+        "L": 57,
+        "P": 76.65,
+        "H": 41.45,
+        "I": 81.98,
+        "M": 57.4
+      }
+    },
+    {
+      "rank": 136,
+      "dex_id": 681,
+      "name": "Exagide",
+      "canonical_name": "Aegislash",
+      "popularity_percentage": 64.9,
+      "types": [
+        "Acier",
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 58.02,
+        "C": 73.54,
+        "E": 31.67,
+        "A": 49.38,
+        "N": 40.83,
+        "R": 33.4,
+        "L": 43.28,
+        "P": 42.8,
+        "H": 37.1,
+        "I": 35.1,
+        "M": 70.45
+      }
+    },
+    {
+      "rank": 137,
+      "dex_id": 286,
+      "name": "Chapignon",
+      "canonical_name": "Breloom",
+      "popularity_percentage": 64.7,
+      "types": [
+        "Plante",
+        "Combat"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 46.04,
+        "C": 64.58,
+        "E": 54.58,
+        "A": 52.71,
+        "N": 45.42,
+        "R": 50.6,
+        "L": 55.75,
+        "P": 73.3,
+        "H": 53.7,
+        "I": 57.55,
+        "M": 33.05
+      }
+    },
+    {
+      "rank": 138,
+      "dex_id": 709,
+      "name": "Desséliande",
+      "canonical_name": "Trevenant",
+      "popularity_percentage": 64.5,
+      "types": [
+        "Spectre",
+        "Plante"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 62.18,
+        "C": 53.33,
+        "E": 38.04,
+        "A": 53.65,
+        "N": 53.79,
+        "R": 40.1,
+        "L": 56.78,
+        "P": 41.7,
+        "H": 53.27,
+        "I": 47.98,
+        "M": 64.4
+      }
+    },
+    {
+      "rank": 139,
+      "dex_id": 252,
+      "name": "Arcko",
+      "canonical_name": "Treecko",
+      "popularity_percentage": 64.5,
+      "types": [
+        "Plante"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 51.98,
+        "C": 55.63,
+        "E": 36.25,
+        "A": 63.85,
+        "N": 48.44,
+        "R": 35.2,
+        "L": 42.04,
+        "P": 35.35,
+        "H": 68.77,
+        "I": 25.85,
+        "M": 41.65
+      }
+    },
+    {
+      "rank": 140,
+      "dex_id": 909,
+      "name": "Chochodile",
+      "canonical_name": "Fuecoco",
+      "popularity_percentage": 64.5,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 53.3,
+        "C": 45.31,
+        "E": 62,
+        "A": 41.48,
+        "N": 61.09,
+        "R": 51.9,
+        "L": 42.66,
+        "P": 76.85,
+        "H": 21.27,
+        "I": 76,
+        "M": 25.49
+      }
+    },
+    {
+      "rank": 141,
+      "dex_id": 472,
+      "name": "Scorvol",
+      "canonical_name": "Gliscor",
+      "popularity_percentage": 64.4,
+      "types": [
+        "Sol",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 49.9,
+        "C": 59.58,
+        "E": 58.54,
+        "A": 52.92,
+        "N": 36.35,
+        "R": 57.55,
+        "L": 77.85,
+        "P": 58.25,
+        "H": 50.45,
+        "I": 52,
+        "M": 37.88
+      }
+    },
+    {
+      "rank": 142,
+      "dex_id": 911,
+      "name": "Flâmigator",
+      "canonical_name": "Skeledirge",
+      "popularity_percentage": 64.4,
+      "types": [
+        "Feu",
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 69.26,
+        "C": 49.48,
+        "E": 51.38,
+        "A": 44.31,
+        "N": 58.86,
+        "R": 55.2,
+        "L": 59.96,
+        "P": 62.7,
+        "H": 30.28,
+        "I": 74.43,
+        "M": 60.86
+      }
+    },
+    {
+      "rank": 143,
+      "dex_id": 959,
+      "name": "Forgelina",
+      "canonical_name": "Tinkaton",
+      "popularity_percentage": 64.4,
+      "types": [
+        "Fée",
+        "Acier"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 59.91,
+        "C": 68.96,
+        "E": 49.25,
+        "A": 63.12,
+        "N": 37.04,
+        "R": 40.5,
+        "L": 37.91,
+        "P": 50.45,
+        "H": 63.15,
+        "I": 37.92,
+        "M": 61.28
+      }
+    },
+    {
+      "rank": 144,
+      "dex_id": 553,
+      "name": "Crocorible",
+      "canonical_name": "Krookodile",
+      "popularity_percentage": 64.3,
+      "types": [
+        "Sol",
+        "Ténèbres"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 46.18,
+        "C": 58.13,
+        "E": 48.75,
+        "A": 41.48,
+        "N": 42.5,
+        "R": 54.7,
+        "L": 78.66,
+        "P": 70.75,
+        "H": 37.63,
+        "I": 56.55,
+        "M": 46.9
+      }
+    },
+    {
+      "rank": 145,
+      "dex_id": 648,
+      "name": "Meloetta",
+      "canonical_name": "Meloetta",
+      "popularity_percentage": 64.2,
+      "types": [
+        "Normal",
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 71.33,
+        "C": 61.98,
+        "E": 45.17,
+        "A": 64.5,
+        "N": 43.8,
+        "R": 50,
+        "L": 55.49,
+        "P": 52.5,
+        "H": 62.65,
+        "I": 49.98,
+        "M": 70.79
+      }
+    },
+    {
+      "rank": 146,
+      "dex_id": 728,
+      "name": "Otaquin",
+      "canonical_name": "Popplio",
+      "popularity_percentage": 64.1,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 54.65,
+        "C": 50.21,
+        "E": 40.75,
+        "A": 60.46,
+        "N": 53.85,
+        "R": 64.1,
+        "L": 46.77,
+        "P": 33.5,
+        "H": 61.75,
+        "I": 41.1,
+        "M": 58.88
+      }
+    },
+    {
+      "rank": 147,
+      "dex_id": 200,
+      "name": "Feuforêve",
+      "canonical_name": "Misdreavus",
+      "popularity_percentage": 64,
+      "types": [
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 75.21,
+        "C": 42.6,
+        "E": 35.62,
+        "A": 41.35,
+        "N": 69.43,
+        "R": 55.75,
+        "L": 72.39,
+        "P": 30.55,
+        "H": 26.02,
+        "I": 58.22,
+        "M": 81.56
+      }
+    },
+    {
+      "rank": 148,
+      "dex_id": 717,
+      "name": "Yveltal",
+      "canonical_name": "Yveltal",
+      "popularity_percentage": 64,
+      "types": [
+        "Ténèbres",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 68.62,
+        "C": 51.36,
+        "E": 62.04,
+        "A": 47.63,
+        "N": 43.05,
+        "R": 73.95,
+        "L": 89.25,
+        "P": 68.65,
+        "H": 46.4,
+        "I": 74.95,
+        "M": 71.71
+      }
+    },
+    {
+      "rank": 149,
+      "dex_id": 813,
+      "name": "Flambino",
+      "canonical_name": "Scorbunny",
+      "popularity_percentage": 63.8,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 52.04,
+        "C": 43.33,
+        "E": 68.29,
+        "A": 39.33,
+        "N": 63.54,
+        "R": 60.15,
+        "L": 50.48,
+        "P": 78.85,
+        "H": 19.15,
+        "I": 76.38,
+        "M": 22.1
+      }
+    },
+    {
+      "rank": 150,
+      "dex_id": 655,
+      "name": "Goupelin",
+      "canonical_name": "Delphox",
+      "popularity_percentage": 63.6,
+      "types": [
+        "Feu",
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 74.48,
+        "C": 58.54,
+        "E": 55.63,
+        "A": 54.73,
+        "N": 53.4,
+        "R": 61.2,
+        "L": 60.41,
+        "P": 65.8,
+        "H": 44.47,
+        "I": 66.47,
+        "M": 60.9
+      }
+    },
+    {
+      "rank": 151,
+      "dex_id": 214,
+      "name": "Scarhino",
+      "canonical_name": "Heracross",
+      "popularity_percentage": 63.5,
+      "types": [
+        "Insecte",
+        "Combat"
+      ],
+      "animal_bucket": "insect",
+      "profile": {
+        "O": 48.07,
+        "C": 67.71,
+        "E": 61.67,
+        "A": 54.06,
+        "N": 43.85,
+        "R": 75.35,
+        "L": 63.15,
+        "P": 74.85,
+        "H": 45.88,
+        "I": 74.72,
+        "M": 46.08
+      }
+    },
+    {
+      "rank": 152,
+      "dex_id": 58,
+      "name": "Caninos",
+      "canonical_name": "Growlithe",
+      "popularity_percentage": 63.5,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 55.62,
+        "C": 44.9,
+        "E": 67.08,
+        "A": 40.73,
+        "N": 62.14,
+        "R": 57.9,
+        "L": 48.72,
+        "P": 78.6,
+        "H": 21.03,
+        "I": 80,
+        "M": 25.66
+      }
+    },
+    {
+      "rank": 153,
+      "dex_id": 104,
+      "name": "Osselait",
+      "canonical_name": "Cubone",
+      "popularity_percentage": 63.5,
+      "types": [
+        "Sol"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 32.4,
+        "C": 65.11,
+        "E": 36.04,
+        "A": 48.75,
+        "N": 36.3,
+        "R": 25.05,
+        "L": 55.39,
+        "P": 52.6,
+        "H": 42.8,
+        "I": 37.35,
+        "M": 16.59
+      }
+    },
+    {
+      "rank": 154,
+      "dex_id": 468,
+      "name": "Togekiss",
+      "canonical_name": "Togekiss",
+      "popularity_percentage": 63.4,
+      "types": [
+        "Fée",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 76.82,
+        "C": 55,
+        "E": 60.42,
+        "A": 70.83,
+        "N": 42.5,
+        "R": 61.5,
+        "L": 62.43,
+        "P": 50.5,
+        "H": 72.8,
+        "I": 59.95,
+        "M": 73.07
+      }
+    },
+    {
+      "rank": 155,
+      "dex_id": 65,
+      "name": "Alakazam",
+      "canonical_name": "Alakazam",
+      "popularity_percentage": 63.4,
+      "types": [
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 86.67,
+        "C": 60.83,
+        "E": 39.17,
+        "A": 61.25,
+        "N": 55.1,
+        "R": 57.5,
+        "L": 65.73,
+        "P": 47.25,
+        "H": 56.05,
+        "I": 47.83,
+        "M": 84.88
+      }
+    },
+    {
+      "rank": 156,
+      "dex_id": 502,
+      "name": "Mateloutre",
+      "canonical_name": "Dewott",
+      "popularity_percentage": 63.4,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 57.64,
+        "C": 51.25,
+        "E": 45,
+        "A": 61.56,
+        "N": 51.56,
+        "R": 69.1,
+        "L": 51.84,
+        "P": 37.75,
+        "H": 65.38,
+        "I": 45.85,
+        "M": 61.03
+      }
+    },
+    {
+      "rank": 157,
+      "dex_id": 612,
+      "name": "Tranchodon",
+      "canonical_name": "Haxorus",
+      "popularity_percentage": 63.3,
+      "types": [
+        "Dragon"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 64.56,
+        "C": 62.92,
+        "E": 66.87,
+        "A": 40.92,
+        "N": 41.08,
+        "R": 67.15,
+        "L": 78.67,
+        "P": 97.85,
+        "H": 52.75,
+        "I": 81.38,
+        "M": 58.6
+      }
+    },
+    {
+      "rank": 158,
+      "dex_id": 656,
+      "name": "Grenousse",
+      "canonical_name": "Froakie",
+      "popularity_percentage": 63.2,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 54.86,
+        "C": 47.5,
+        "E": 44.79,
+        "A": 58.56,
+        "N": 56.31,
+        "R": 71.85,
+        "L": 52.71,
+        "P": 32.5,
+        "H": 59.13,
+        "I": 40.85,
+        "M": 56.3
+      }
+    },
+    {
+      "rank": 159,
+      "dex_id": 1008,
+      "name": "Miraidon",
+      "canonical_name": "Miraidon",
+      "popularity_percentage": 63,
+      "types": [
+        "Électrik",
+        "Dragon"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 75.21,
+        "C": 61.15,
+        "E": 73.96,
+        "A": 53.44,
+        "N": 43.07,
+        "R": 86.1,
+        "L": 84.72,
+        "P": 82.25,
+        "H": 55.07,
+        "I": 85.8,
+        "M": 56.44
+      }
+    },
+    {
+      "rank": 160,
+      "dex_id": 1006,
+      "name": "Garde-de-Fer",
+      "canonical_name": "Iron Valiant",
+      "popularity_percentage": 63,
+      "types": [
+        "Fée",
+        "Combat"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 64.21,
+        "C": 61.88,
+        "E": 69.71,
+        "A": 57.33,
+        "N": 47.56,
+        "R": 69.1,
+        "L": 64.38,
+        "P": 69.8,
+        "H": 58.25,
+        "I": 76.25,
+        "M": 53.13
+      }
+    },
+    {
+      "rank": 161,
+      "dex_id": 484,
+      "name": "Palkia",
+      "canonical_name": "Palkia",
+      "popularity_percentage": 63,
+      "types": [
+        "Eau",
+        "Dragon"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 73.85,
+        "C": 65.42,
+        "E": 59.37,
+        "A": 57.5,
+        "N": 39.58,
+        "R": 73.5,
+        "L": 69.85,
+        "P": 76.55,
+        "H": 67.75,
+        "I": 74.55,
+        "M": 72.7
+      }
+    },
+    {
+      "rank": 162,
+      "dex_id": 306,
+      "name": "Galeking",
+      "canonical_name": "Aggron",
+      "popularity_percentage": 63,
+      "types": [
+        "Acier",
+        "Roche"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 35.83,
+        "C": 81.25,
+        "E": 35.42,
+        "A": 41.04,
+        "N": 26.56,
+        "R": 16.2,
+        "L": 30.45,
+        "P": 80.9,
+        "H": 43.75,
+        "I": 26.35,
+        "M": 36.38
+      }
+    },
+    {
+      "rank": 163,
+      "dex_id": 169,
+      "name": "Nostenfer",
+      "canonical_name": "Crobat",
+      "popularity_percentage": 62.8,
+      "types": [
+        "Poison",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 63.85,
+        "C": 47.92,
+        "E": 64.37,
+        "A": 46.77,
+        "N": 49.9,
+        "R": 84.5,
+        "L": 88.3,
+        "P": 53.5,
+        "H": 37.63,
+        "I": 67.1,
+        "M": 59.35
+      }
+    },
+    {
+      "rank": 164,
+      "dex_id": 280,
+      "name": "Tarsal",
+      "canonical_name": "Ralts",
+      "popularity_percentage": 62.7,
+      "types": [
+        "Psy",
+        "Fée"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 68.02,
+        "C": 49.27,
+        "E": 38.75,
+        "A": 61.77,
+        "N": 60.26,
+        "R": 39.6,
+        "L": 42.47,
+        "P": 24.05,
+        "H": 58.03,
+        "I": 38.97,
+        "M": 69.46
+      }
+    },
+    {
+      "rank": 165,
+      "dex_id": 303,
+      "name": "Mysdibule",
+      "canonical_name": "Mawile",
+      "popularity_percentage": 62.4,
+      "types": [
+        "Acier",
+        "Fée"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 53.75,
+        "C": 64.58,
+        "E": 44.58,
+        "A": 55.31,
+        "N": 42.29,
+        "R": 29.5,
+        "L": 30.29,
+        "P": 52.95,
+        "H": 52.53,
+        "I": 37.3,
+        "M": 56.47
+      }
+    },
+    {
+      "rank": 166,
+      "dex_id": 718,
+      "name": "Zygarde",
+      "canonical_name": "Zygarde",
+      "popularity_percentage": 62.3,
+      "types": [
+        "Dragon",
+        "Sol"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 55.06,
+        "C": 70.63,
+        "E": 55.21,
+        "A": 51.23,
+        "N": 31.25,
+        "R": 53.35,
+        "L": 72.56,
+        "P": 75.6,
+        "H": 57.78,
+        "I": 63.42,
+        "M": 45.47
+      }
+    },
+    {
+      "rank": 167,
+      "dex_id": 907,
+      "name": "Matourgeon",
+      "canonical_name": "Floragato",
+      "popularity_percentage": 62.2,
+      "types": [
+        "Plante"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 52.36,
+        "C": 59.38,
+        "E": 40.79,
+        "A": 64.54,
+        "N": 44.5,
+        "R": 38.45,
+        "L": 46.66,
+        "P": 39.1,
+        "H": 72.4,
+        "I": 29.6,
+        "M": 44.43
+      }
+    },
+    {
+      "rank": 168,
+      "dex_id": 160,
+      "name": "Aligatueur",
+      "canonical_name": "Feraligatr",
+      "popularity_percentage": 62.2,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 59.12,
+        "C": 57.81,
+        "E": 49.75,
+        "A": 63.33,
+        "N": 46.34,
+        "R": 73.6,
+        "L": 57.09,
+        "P": 43.25,
+        "H": 69.5,
+        "I": 49.1,
+        "M": 66.24
+      }
+    },
+    {
+      "rank": 169,
+      "dex_id": 549,
+      "name": "Fragilady",
+      "canonical_name": "Lilligant",
+      "popularity_percentage": 62.1,
+      "types": [
+        "Plante"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 59.01,
+        "C": 61.88,
+        "E": 40,
+        "A": 67.19,
+        "N": 42.19,
+        "R": 40.2,
+        "L": 46.72,
+        "P": 46.6,
+        "H": 75.02,
+        "I": 33.35,
+        "M": 50.28
+      }
+    },
+    {
+      "rank": 170,
+      "dex_id": 865,
+      "name": "Palarticho",
+      "canonical_name": "Sirfetch'd",
+      "popularity_percentage": 62.1,
+      "types": [
+        "Combat"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 42.27,
+        "C": 72.19,
+        "E": 65.63,
+        "A": 45.54,
+        "N": 44.47,
+        "R": 64.75,
+        "L": 63.53,
+        "P": 96.25,
+        "H": 38.5,
+        "I": 80.88,
+        "M": 24.29
+      }
+    },
+    {
+      "rank": 171,
+      "dex_id": 699,
+      "name": "Dragmara",
+      "canonical_name": "Aurorus",
+      "popularity_percentage": 62,
+      "types": [
+        "Roche",
+        "Glace"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 47.93,
+        "C": 70.83,
+        "E": 33.67,
+        "A": 49.06,
+        "N": 30.35,
+        "R": 19.6,
+        "L": 45.29,
+        "P": 66.95,
+        "H": 63.48,
+        "I": 28.5,
+        "M": 51.38
+      }
+    },
+    {
+      "rank": 172,
+      "dex_id": 154,
+      "name": "Méganium",
+      "canonical_name": "Meganium",
+      "popularity_percentage": 62,
+      "types": [
+        "Plante"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 56.8,
+        "C": 67.08,
+        "E": 40.58,
+        "A": 69.5,
+        "N": 37.92,
+        "R": 37.7,
+        "L": 46.23,
+        "P": 39.85,
+        "H": 79.4,
+        "I": 32.72,
+        "M": 52.62
+      }
+    },
+    {
+      "rank": 173,
+      "dex_id": 319,
+      "name": "Sharpedo",
+      "canonical_name": "Sharpedo",
+      "popularity_percentage": 62,
+      "types": [
+        "Eau",
+        "Ténèbres"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 57.55,
+        "C": 45.21,
+        "E": 51.25,
+        "A": 42.29,
+        "N": 56.67,
+        "R": 74.35,
+        "L": 74.51,
+        "P": 59.95,
+        "H": 39.85,
+        "I": 60.68,
+        "M": 64.72
+      }
+    },
+    {
+      "rank": 174,
+      "dex_id": 292,
+      "name": "Munja",
+      "canonical_name": "Shedinja",
+      "popularity_percentage": 61.9,
+      "types": [
+        "Insecte",
+        "Spectre"
+      ],
+      "animal_bucket": "insect",
+      "profile": {
+        "O": 56.67,
+        "C": 44.69,
+        "E": 40,
+        "A": 41.88,
+        "N": 65.16,
+        "R": 57.1,
+        "L": 57.42,
+        "P": 39.5,
+        "H": 25.2,
+        "I": 61.4,
+        "M": 66.41
+      }
+    },
+    {
+      "rank": 175,
+      "dex_id": 80,
+      "name": "Flagadoss",
+      "canonical_name": "Slowbro",
+      "popularity_percentage": 61.8,
+      "types": [
+        "Eau",
+        "Psy"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 68.75,
+        "C": 62.29,
+        "E": 35.63,
+        "A": 63.02,
+        "N": 47.08,
+        "R": 48.3,
+        "L": 48.31,
+        "P": 40.25,
+        "H": 64.78,
+        "I": 47.27,
+        "M": 77.53
+      }
+    },
+    {
+      "rank": 176,
+      "dex_id": 704,
+      "name": "Mucuscule",
+      "canonical_name": "Goomy",
+      "popularity_percentage": 61.7,
+      "types": [
+        "Dragon"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 61.87,
+        "C": 57.71,
+        "E": 51.67,
+        "A": 43.54,
+        "N": 46.67,
+        "R": 52.9,
+        "L": 61.92,
+        "P": 74.85,
+        "H": 49.5,
+        "I": 68.63,
+        "M": 53.85
+      }
+    },
+    {
+      "rank": 177,
+      "dex_id": 727,
+      "name": "Félinferno",
+      "canonical_name": "Incineroar",
+      "popularity_percentage": 61.7,
+      "types": [
+        "Feu",
+        "Ténèbres"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 56.98,
+        "C": 53.75,
+        "E": 57.71,
+        "A": 39.9,
+        "N": 51.56,
+        "R": 60,
+        "L": 66.24,
+        "P": 80.75,
+        "H": 28.93,
+        "I": 76.38,
+        "M": 56.25
+      }
+    },
+    {
+      "rank": 178,
+      "dex_id": 623,
+      "name": "Golemastoc",
+      "canonical_name": "Golurk",
+      "popularity_percentage": 61.6,
+      "types": [
+        "Sol",
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 53.39,
+        "C": 55.42,
+        "E": 40.96,
+        "A": 45.61,
+        "N": 49.65,
+        "R": 39.15,
+        "L": 67.26,
+        "P": 55.7,
+        "H": 40.23,
+        "I": 55.47,
+        "M": 49.83
+      }
+    },
+    {
+      "rank": 179,
+      "dex_id": 183,
+      "name": "Marill",
+      "canonical_name": "Marill",
+      "popularity_percentage": 61.6,
+      "types": [
+        "Eau",
+        "Fée"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 57.71,
+        "C": 49.17,
+        "E": 44.37,
+        "A": 67.71,
+        "N": 53.33,
+        "R": 52.9,
+        "L": 40.37,
+        "P": 22.05,
+        "H": 70.5,
+        "I": 37.8,
+        "M": 62.3
+      }
+    },
+    {
+      "rank": 180,
+      "dex_id": 184,
+      "name": "Azumarill",
+      "canonical_name": "Azumarill",
+      "popularity_percentage": 61.6,
+      "types": [
+        "Eau",
+        "Fée"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 63.13,
+        "C": 55.42,
+        "E": 47.29,
+        "A": 71.88,
+        "N": 47.08,
+        "R": 55.4,
+        "L": 43.5,
+        "P": 29.55,
+        "H": 78,
+        "I": 44.05,
+        "M": 69.8
+      }
+    },
+    {
+      "rank": 181,
+      "dex_id": 443,
+      "name": "Griknot",
+      "canonical_name": "Gible",
+      "popularity_percentage": 61.4,
+      "types": [
+        "Dragon",
+        "Sol"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 45.55,
+        "C": 57.5,
+        "E": 46.08,
+        "A": 44.15,
+        "N": 43.56,
+        "R": 40.1,
+        "L": 60.75,
+        "P": 68.1,
+        "H": 45.27,
+        "I": 54.55,
+        "M": 31.37
+      }
+    },
+    {
+      "rank": 182,
+      "dex_id": 726,
+      "name": "Matoufeu",
+      "canonical_name": "Torracat",
+      "popularity_percentage": 61.4,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 58.02,
+        "C": 45.42,
+        "E": 72.08,
+        "A": 40.73,
+        "N": 61.15,
+        "R": 65.4,
+        "L": 55.29,
+        "P": 82.35,
+        "H": 22.28,
+        "I": 83.13,
+        "M": 26.85
+      }
+    },
+    {
+      "rank": 183,
+      "dex_id": 608,
+      "name": "Mélancolux",
+      "canonical_name": "Lampent",
+      "popularity_percentage": 61.3,
+      "types": [
+        "Spectre",
+        "Feu"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 66.3,
+        "C": 43.75,
+        "E": 47.08,
+        "A": 41.46,
+        "N": 65.63,
+        "R": 52.45,
+        "L": 55.71,
+        "P": 58.95,
+        "H": 22.9,
+        "I": 68.18,
+        "M": 54.93
+      }
+    },
+    {
+      "rank": 184,
+      "dex_id": 34,
+      "name": "Nidoking",
+      "canonical_name": "Nidoking",
+      "popularity_percentage": 61.3,
+      "types": [
+        "Poison",
+        "Sol"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 50.31,
+        "C": 58.33,
+        "E": 48.5,
+        "A": 43.63,
+        "N": 45.1,
+        "R": 55.75,
+        "L": 72.21,
+        "P": 62.1,
+        "H": 35.1,
+        "I": 62.07,
+        "M": 43.68
+      }
+    },
+    {
+      "rank": 185,
+      "dex_id": 815,
+      "name": "Pyrobut",
+      "canonical_name": "Cinderace",
+      "popularity_percentage": 61.3,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 58.81,
+        "C": 50.63,
+        "E": 78.29,
+        "A": 42.98,
+        "N": 56.56,
+        "R": 72.65,
+        "L": 62.66,
+        "P": 90.1,
+        "H": 27.28,
+        "I": 85.13,
+        "M": 30.1
+      }
+    },
+    {
+      "rank": 186,
+      "dex_id": 587,
+      "name": "Emolga",
+      "canonical_name": "Emolga",
+      "popularity_percentage": 61.3,
+      "types": [
+        "Électrik",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 64.14,
+        "C": 41.88,
+        "E": 72.87,
+        "A": 50.94,
+        "N": 54.69,
+        "R": 82.3,
+        "L": 83.7,
+        "P": 51.15,
+        "H": 41.87,
+        "I": 70.75,
+        "M": 40.13
+      }
+    },
+    {
+      "rank": 187,
+      "dex_id": 831,
+      "name": "Moumouton",
+      "canonical_name": "Wooloo",
+      "popularity_percentage": 61,
+      "types": [
+        "Normal"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 40.18,
+        "C": 45.42,
+        "E": 44.33,
+        "A": 51.9,
+        "N": 51.33,
+        "R": 39.5,
+        "L": 39,
+        "P": 37.5,
+        "H": 41.88,
+        "I": 34,
+        "M": 35.75
+      }
+    },
+    {
+      "rank": 188,
+      "dex_id": 547,
+      "name": "Farfaduvet",
+      "canonical_name": "Whimsicott",
+      "popularity_percentage": 61,
+      "types": [
+        "Plante",
+        "Fée"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 65.69,
+        "C": 59.17,
+        "E": 53.21,
+        "A": 70.02,
+        "N": 45.83,
+        "R": 53.7,
+        "L": 52.04,
+        "P": 34.85,
+        "H": 76.57,
+        "I": 41.3,
+        "M": 63.37
+      }
+    },
+    {
+      "rank": 189,
+      "dex_id": 872,
+      "name": "Frissonille",
+      "canonical_name": "Snom",
+      "popularity_percentage": 61,
+      "types": [
+        "Glace",
+        "Insecte"
+      ],
+      "animal_bucket": "insect",
+      "profile": {
+        "O": 48.59,
+        "C": 54.9,
+        "E": 33.75,
+        "A": 46.25,
+        "N": 50.89,
+        "R": 39.9,
+        "L": 43.4,
+        "P": 38.05,
+        "H": 38.5,
+        "I": 39.67,
+        "M": 62.46
+      }
+    },
+    {
+      "rank": 190,
+      "dex_id": 1007,
+      "name": "Koraidon",
+      "canonical_name": "Koraidon",
+      "popularity_percentage": 60.9,
+      "types": [
+        "Combat",
+        "Dragon"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 59.32,
+        "C": 72.4,
+        "E": 72.5,
+        "A": 47.92,
+        "N": 37.45,
+        "R": 79.45,
+        "L": 80.85,
+        "P": 95.55,
+        "H": 52.5,
+        "I": 83,
+        "M": 47.09
+      }
+    },
+    {
+      "rank": 191,
+      "dex_id": 595,
+      "name": "Statitik",
+      "canonical_name": "Joltik",
+      "popularity_percentage": 60.9,
+      "types": [
+        "Insecte",
+        "Électrik"
+      ],
+      "animal_bucket": "insect",
+      "profile": {
+        "O": 56.22,
+        "C": 49.17,
+        "E": 58.29,
+        "A": 52.63,
+        "N": 56.46,
+        "R": 77,
+        "L": 61.53,
+        "P": 44.55,
+        "H": 37.2,
+        "I": 69.9,
+        "M": 46.83
+      }
+    },
+    {
+      "rank": 192,
+      "dex_id": 28,
+      "name": "Sablaireau",
+      "canonical_name": "Sandslash",
+      "popularity_percentage": 60.9,
+      "types": [
+        "Sol"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 34.48,
+        "C": 67.19,
+        "E": 43.96,
+        "A": 48.75,
+        "N": 33.28,
+        "R": 32.55,
+        "L": 64.14,
+        "P": 65.1,
+        "H": 46.55,
+        "I": 44.22,
+        "M": 18.71
+      }
+    },
+    {
+      "rank": 193,
+      "dex_id": 442,
+      "name": "Spiritomb",
+      "canonical_name": "Spiritomb",
+      "popularity_percentage": 60.9,
+      "types": [
+        "Spectre",
+        "Ténèbres"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 65.75,
+        "C": 53.75,
+        "E": 35.79,
+        "A": 38.04,
+        "N": 57.37,
+        "R": 49.55,
+        "L": 69.91,
+        "P": 49.1,
+        "H": 25.55,
+        "I": 63.8,
+        "M": 85.5
+      }
+    },
+    {
+      "rank": 194,
+      "dex_id": 417,
+      "name": "Pachirisu",
+      "canonical_name": "Pachirisu",
+      "popularity_percentage": 60.8,
+      "types": [
+        "Électrik"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 60.05,
+        "C": 47.92,
+        "E": 73.13,
+        "A": 53.75,
+        "N": 57.08,
+        "R": 85.55,
+        "L": 77.53,
+        "P": 47.15,
+        "H": 40.65,
+        "I": 72.35,
+        "M": 32.27
+      }
+    },
+    {
+      "rank": 195,
+      "dex_id": 444,
+      "name": "Carmache",
+      "canonical_name": "Gabite",
+      "popularity_percentage": 60.7,
+      "types": [
+        "Dragon",
+        "Sol"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 48.89,
+        "C": 60.63,
+        "E": 52.75,
+        "A": 44.98,
+        "N": 40.75,
+        "R": 50.1,
+        "L": 69.5,
+        "P": 73.1,
+        "H": 47.78,
+        "I": 58.3,
+        "M": 34.75
+      }
+    },
+    {
+      "rank": 196,
+      "dex_id": 888,
+      "name": "Zacian",
+      "canonical_name": "Zacian",
+      "popularity_percentage": 60.6,
+      "types": [
+        "Fée"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 78.41,
+        "C": 62.71,
+        "E": 69.75,
+        "A": 77.73,
+        "N": 42.48,
+        "R": 66.2,
+        "L": 59.47,
+        "P": 42.1,
+        "H": 88.38,
+        "I": 59.5,
+        "M": 84.42
+      }
+    },
+    {
+      "rank": 197,
+      "dex_id": 398,
+      "name": "Étouraptor",
+      "canonical_name": "Staraptor",
+      "popularity_percentage": 60.6,
+      "types": [
+        "Normal",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 53.65,
+        "C": 44.79,
+        "E": 65,
+        "A": 52.81,
+        "N": 46.46,
+        "R": 64.4,
+        "L": 71.25,
+        "P": 58.2,
+        "H": 50.17,
+        "I": 54.7,
+        "M": 43.67
+      }
+    },
+    {
+      "rank": 198,
+      "dex_id": 52,
+      "name": "Miaouss",
+      "canonical_name": "Meowth",
+      "popularity_percentage": 60.5,
+      "types": [
+        "Normal"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 41.67,
+        "C": 42.81,
+        "E": 50,
+        "A": 51.04,
+        "N": 53.28,
+        "R": 50,
+        "L": 47.19,
+        "P": 38.75,
+        "H": 41,
+        "I": 34.62,
+        "M": 33.56
+      }
+    },
+    {
+      "rank": 199,
+      "dex_id": 215,
+      "name": "Farfuret",
+      "canonical_name": "Sneasel",
+      "popularity_percentage": 60.5,
+      "types": [
+        "Ténèbres",
+        "Glace"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 51.46,
+        "C": 56.04,
+        "E": 46.04,
+        "A": 36.67,
+        "N": 48.33,
+        "R": 54.85,
+        "L": 76.7,
+        "P": 59.65,
+        "H": 35.35,
+        "I": 40.95,
+        "M": 69.5
+      }
+    },
+    {
+      "rank": 200,
+      "dex_id": 573,
+      "name": "Pashmilla",
+      "canonical_name": "Cinccino",
+      "popularity_percentage": 60.4,
+      "types": [
+        "Normal"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 46.61,
+        "C": 47.5,
+        "E": 57.29,
+        "A": 53.23,
+        "N": 47.81,
+        "R": 56.25,
+        "L": 55,
+        "P": 51.25,
+        "H": 47.88,
+        "I": 44,
+        "M": 39.38
+      }
+    },
+    {
+      "rank": 201,
+      "dex_id": 229,
+      "name": "Démolosse",
+      "canonical_name": "Houndoom",
+      "popularity_percentage": 60.3,
+      "types": [
+        "Ténèbres",
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 61.36,
+        "C": 48.54,
+        "E": 60,
+        "A": 38.65,
+        "N": 56.46,
+        "R": 68.75,
+        "L": 71.24,
+        "P": 79.5,
+        "H": 25.18,
+        "I": 77,
+        "M": 54.13
+      }
+    },
+    {
+      "rank": 202,
+      "dex_id": 404,
+      "name": "Luxio",
+      "canonical_name": "Luxio",
+      "popularity_percentage": 60.2,
+      "types": [
+        "Électrik"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 58.18,
+        "C": 41.46,
+        "E": 72.08,
+        "A": 47.81,
+        "N": 61.6,
+        "R": 76.8,
+        "L": 73.46,
+        "P": 57.15,
+        "H": 35.52,
+        "I": 79.22,
+        "M": 27.97
+      }
+    },
+    {
+      "rank": 203,
+      "dex_id": 1009,
+      "name": "Serpente-Eau",
+      "canonical_name": "Walking Wake",
+      "popularity_percentage": 60.1,
+      "types": [
+        "Eau",
+        "Dragon"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 69.44,
+        "C": 60.63,
+        "E": 57.42,
+        "A": 55.75,
+        "N": 42.38,
+        "R": 75.75,
+        "L": 69.22,
+        "P": 70.3,
+        "H": 64.25,
+        "I": 66.8,
+        "M": 66.8
+      }
+    },
+    {
+      "rank": 204,
+      "dex_id": 153,
+      "name": "Macronium",
+      "canonical_name": "Bayleef",
+      "popularity_percentage": 60,
+      "types": [
+        "Plante"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 52.64,
+        "C": 62.92,
+        "E": 36.42,
+        "A": 67,
+        "N": 42.08,
+        "R": 32.7,
+        "L": 41.23,
+        "P": 34.85,
+        "H": 74.4,
+        "I": 27.73,
+        "M": 47.63
+      }
+    },
+    {
+      "rank": 205,
+      "dex_id": 92,
+      "name": "Fantominus",
+      "canonical_name": "Gastly",
+      "popularity_percentage": 59.9,
+      "types": [
+        "Spectre",
+        "Poison"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 66.61,
+        "C": 38.02,
+        "E": 38.54,
+        "A": 33.44,
+        "N": 71.51,
+        "R": 63.6,
+        "L": 70.59,
+        "P": 46.2,
+        "H": 12.53,
+        "I": 62.58,
+        "M": 67.99
+      }
+    },
+    {
+      "rank": 206,
+      "dex_id": 579,
+      "name": "Symbios",
+      "canonical_name": "Reuniclus",
+      "popularity_percentage": 59.9,
+      "types": [
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 81.25,
+        "C": 62.92,
+        "E": 29.17,
+        "A": 63.02,
+        "N": 50.21,
+        "R": 35,
+        "L": 49.79,
+        "P": 44.75,
+        "H": 61.68,
+        "I": 48.45,
+        "M": 85.87
+      }
+    },
+    {
+      "rank": 207,
+      "dex_id": 646,
+      "name": "Kyurem",
+      "canonical_name": "Kyurem",
+      "popularity_percentage": 59.9,
+      "types": [
+        "Dragon",
+        "Glace"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 67.92,
+        "C": 66.88,
+        "E": 53.96,
+        "A": 46.77,
+        "N": 34.69,
+        "R": 47.75,
+        "L": 69.54,
+        "P": 77.5,
+        "H": 61.38,
+        "I": 64.2,
+        "M": 72.6
+      }
+    },
+    {
+      "rank": 208,
+      "dex_id": 714,
+      "name": "Sonistrelle",
+      "canonical_name": "Noibat",
+      "popularity_percentage": 59.8,
+      "types": [
+        "Vol",
+        "Dragon"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 59.53,
+        "C": 44.69,
+        "E": 55.62,
+        "A": 46.04,
+        "N": 51.41,
+        "R": 60.85,
+        "L": 69.09,
+        "P": 56.25,
+        "H": 43.8,
+        "I": 58.58,
+        "M": 46.54
+      }
+    },
+    {
+      "rank": 209,
+      "dex_id": 105,
+      "name": "Ossatueur",
+      "canonical_name": "Marowak",
+      "popularity_percentage": 59.8,
+      "types": [
+        "Sol"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 35.52,
+        "C": 69.79,
+        "E": 39.79,
+        "A": 51.25,
+        "N": 32.4,
+        "R": 27.55,
+        "L": 59.14,
+        "P": 60.1,
+        "H": 47.8,
+        "I": 42.35,
+        "M": 21.28
+      }
+    },
+    {
+      "rank": 210,
+      "dex_id": 302,
+      "name": "Ténéfix",
+      "canonical_name": "Sableye",
+      "popularity_percentage": 59.8,
+      "types": [
+        "Ténèbres",
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 61.04,
+        "C": 45.83,
+        "E": 36.25,
+        "A": 34.27,
+        "N": 62.92,
+        "R": 53.3,
+        "L": 71.66,
+        "P": 44.85,
+        "H": 20.18,
+        "I": 58.3,
+        "M": 76.83
+      }
+    },
+    {
+      "rank": 211,
+      "dex_id": 710,
+      "name": "Pitrouille",
+      "canonical_name": "Pumpkaboo",
+      "popularity_percentage": 59.8,
+      "types": [
+        "Spectre",
+        "Plante"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 58.16,
+        "C": 49.9,
+        "E": 33.75,
+        "A": 50.42,
+        "N": 58.45,
+        "R": 38.85,
+        "L": 53.09,
+        "P": 30.7,
+        "H": 45.4,
+        "I": 39.85,
+        "M": 59.94
+      }
+    },
+    {
+      "rank": 212,
+      "dex_id": 530,
+      "name": "Minotaupe",
+      "canonical_name": "Excadrill",
+      "popularity_percentage": 59.7,
+      "types": [
+        "Sol",
+        "Acier"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 38.41,
+        "C": 68.65,
+        "E": 46,
+        "A": 46.77,
+        "N": 32.13,
+        "R": 31.3,
+        "L": 50.34,
+        "P": 79.45,
+        "H": 45.18,
+        "I": 38.73,
+        "M": 26.09
+      }
+    },
+    {
+      "rank": 213,
+      "dex_id": 15,
+      "name": "Dardargnan",
+      "canonical_name": "Beedrill",
+      "popularity_percentage": 59.5,
+      "types": [
+        "Insecte",
+        "Poison"
+      ],
+      "animal_bucket": "insect",
+      "profile": {
+        "O": 54.95,
+        "C": 53.13,
+        "E": 50,
+        "A": 47.4,
+        "N": 54.06,
+        "R": 74.95,
+        "L": 64.69,
+        "P": 51.4,
+        "H": 32.33,
+        "I": 68.88,
+        "M": 63.78
+      }
+    },
+    {
+      "rank": 214,
+      "dex_id": 610,
+      "name": "Coupenotte",
+      "canonical_name": "Axew",
+      "popularity_percentage": 59.4,
+      "types": [
+        "Dragon"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 57.9,
+        "C": 56.67,
+        "E": 56.88,
+        "A": 38.42,
+        "N": 47.33,
+        "R": 57.15,
+        "L": 67.43,
+        "P": 82.85,
+        "H": 45.25,
+        "I": 70.13,
+        "M": 51.1
+      }
+    },
+    {
+      "rank": 215,
+      "dex_id": 392,
+      "name": "Simiabraz",
+      "canonical_name": "Infernape",
+      "popularity_percentage": 59.4,
+      "types": [
+        "Feu",
+        "Combat"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 55.12,
+        "C": 59.17,
+        "E": 72.17,
+        "A": 44.69,
+        "N": 51.77,
+        "R": 72.7,
+        "L": 64.75,
+        "P": 87.8,
+        "H": 32.58,
+        "I": 85,
+        "M": 28.13
+      }
+    },
+    {
+      "rank": 216,
+      "dex_id": 27,
+      "name": "Sabelette",
+      "canonical_name": "Sandshrew",
+      "popularity_percentage": 59.2,
+      "types": [
+        "Sol"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 30.42,
+        "C": 61.98,
+        "E": 38.75,
+        "A": 45.63,
+        "N": 38.49,
+        "R": 26.3,
+        "L": 57.89,
+        "P": 58.85,
+        "H": 40.3,
+        "I": 39.22,
+        "M": 13.21
+      }
+    },
+    {
+      "rank": 217,
+      "dex_id": 488,
+      "name": "Cresselia",
+      "canonical_name": "Cresselia",
+      "popularity_percentage": 59.2,
+      "types": [
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 79.64,
+        "C": 70.21,
+        "E": 36.46,
+        "A": 67.08,
+        "N": 44.48,
+        "R": 48.75,
+        "L": 60.41,
+        "P": 32.25,
+        "H": 67.3,
+        "I": 42.82,
+        "M": 88.25
+      }
+    },
+    {
+      "rank": 218,
+      "dex_id": 701,
+      "name": "Brutalibré",
+      "canonical_name": "Hawlucha",
+      "popularity_percentage": 59.2,
+      "types": [
+        "Combat",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 55.43,
+        "C": 55,
+        "E": 70.54,
+        "A": 50.1,
+        "N": 46.31,
+        "R": 79.4,
+        "L": 80.57,
+        "P": 68.7,
+        "H": 44.43,
+        "I": 69.95,
+        "M": 36.03
+      }
+    },
+    {
+      "rank": 219,
+      "dex_id": 842,
+      "name": "Dratatin",
+      "canonical_name": "Appletun",
+      "popularity_percentage": 59.2,
+      "types": [
+        "Plante",
+        "Dragon"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 61.25,
+        "C": 62.92,
+        "E": 43.96,
+        "A": 57.92,
+        "N": 38.96,
+        "R": 37.8,
+        "L": 49.64,
+        "P": 65.1,
+        "H": 69.45,
+        "I": 56.92,
+        "M": 56
+      }
+    },
+    {
+      "rank": 220,
+      "dex_id": 807,
+      "name": "Zeraora",
+      "canonical_name": "Zeraora",
+      "popularity_percentage": 59.1,
+      "types": [
+        "Électrik"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 68.06,
+        "C": 47.4,
+        "E": 84.71,
+        "A": 51.67,
+        "N": 55.7,
+        "R": 97.55,
+        "L": 90.71,
+        "P": 63.9,
+        "H": 42.9,
+        "I": 87.85,
+        "M": 36.11
+      }
+    },
+    {
+      "rank": 221,
+      "dex_id": 321,
+      "name": "Wailord",
+      "canonical_name": "Wailord",
+      "popularity_percentage": 59.1,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 57.66,
+        "C": 48.13,
+        "E": 46.25,
+        "A": 64.06,
+        "N": 49.06,
+        "R": 69.1,
+        "L": 52.78,
+        "P": 39.5,
+        "H": 72.88,
+        "I": 48.6,
+        "M": 58.93
+      }
+    },
+    {
+      "rank": 222,
+      "dex_id": 754,
+      "name": "Floramantis",
+      "canonical_name": "Lurantis",
+      "popularity_percentage": 59.1,
+      "types": [
+        "Plante"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 54.48,
+        "C": 65,
+        "E": 38.13,
+        "A": 66.87,
+        "N": 40,
+        "R": 28.95,
+        "L": 41.1,
+        "P": 45.35,
+        "H": 76.9,
+        "I": 35.23,
+        "M": 50.65
+      }
+    },
+    {
+      "rank": 223,
+      "dex_id": 563,
+      "name": "Tutankafer",
+      "canonical_name": "Cofagrigus",
+      "popularity_percentage": 59,
+      "types": [
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 75.1,
+        "C": 53.54,
+        "E": 27.92,
+        "A": 43.73,
+        "N": 61.9,
+        "R": 42,
+        "L": 61.45,
+        "P": 33.05,
+        "H": 28.27,
+        "I": 58.23,
+        "M": 91.5
+      }
+    },
+    {
+      "rank": 224,
+      "dex_id": 1019,
+      "name": "Pomdorochi",
+      "canonical_name": "Hydrapple",
+      "popularity_percentage": 58.9,
+      "types": [
+        "Plante",
+        "Dragon"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 64.13,
+        "C": 66.04,
+        "E": 45.29,
+        "A": 57.88,
+        "N": 37.02,
+        "R": 41.3,
+        "L": 51.95,
+        "P": 70.1,
+        "H": 68.95,
+        "I": 58.8,
+        "M": 60.13
+      }
+    },
+    {
+      "rank": 225,
+      "dex_id": 987,
+      "name": "Flotte-Mèche",
+      "canonical_name": "Flutter Mane",
+      "popularity_percentage": 58.9,
+      "types": [
+        "Spectre",
+        "Fée"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 85.63,
+        "C": 52.92,
+        "E": 52.71,
+        "A": 63.33,
+        "N": 57.08,
+        "R": 66.85,
+        "L": 68.15,
+        "P": 44.45,
+        "H": 58.95,
+        "I": 61.05,
+        "M": 87.15
+      }
+    },
+    {
+      "rank": 226,
+      "dex_id": 486,
+      "name": "Regigigas",
+      "canonical_name": "Regigigas",
+      "popularity_percentage": 58.9,
+      "types": [
+        "Normal"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 50.31,
+        "C": 57.92,
+        "E": 60,
+        "A": 58.33,
+        "N": 38.33,
+        "R": 52.5,
+        "L": 55.62,
+        "P": 65,
+        "H": 58.5,
+        "I": 52.75,
+        "M": 49.25
+      }
+    },
+    {
+      "rank": 227,
+      "dex_id": 446,
+      "name": "Goinfrex",
+      "canonical_name": "Munchlax",
+      "popularity_percentage": 58.9,
+      "types": [
+        "Normal"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 41.51,
+        "C": 48.02,
+        "E": 45.83,
+        "A": 60,
+        "N": 43.7,
+        "R": 35,
+        "L": 38.44,
+        "P": 48.75,
+        "H": 58.5,
+        "I": 39.62,
+        "M": 37.94
+      }
+    },
+    {
+      "rank": 228,
+      "dex_id": 78,
+      "name": "Galopa",
+      "canonical_name": "Rapidash",
+      "popularity_percentage": 58.8,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 60.21,
+        "C": 50.63,
+        "E": 75.21,
+        "A": 43.23,
+        "N": 57.5,
+        "R": 69.15,
+        "L": 59.04,
+        "P": 86.1,
+        "H": 26.03,
+        "I": 85,
+        "M": 31.23
+      }
+    },
+    {
+      "rank": 229,
+      "dex_id": 259,
+      "name": "Flobio",
+      "canonical_name": "Marshtomp",
+      "popularity_percentage": 58.7,
+      "types": [
+        "Eau",
+        "Sol"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 45.73,
+        "C": 58.96,
+        "E": 42.71,
+        "A": 56.25,
+        "N": 42.92,
+        "R": 47.7,
+        "L": 55.49,
+        "P": 49.8,
+        "H": 56.9,
+        "I": 44.22,
+        "M": 39.35
+      }
+    },
+    {
+      "rank": 230,
+      "dex_id": 202,
+      "name": "Qulbutoké",
+      "canonical_name": "Wobbuffet",
+      "popularity_percentage": 58.7,
+      "types": [
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 69.43,
+        "C": 58.33,
+        "E": 26.88,
+        "A": 64.04,
+        "N": 50.92,
+        "R": 35.75,
+        "L": 48.35,
+        "P": 21.75,
+        "H": 63.3,
+        "I": 32.95,
+        "M": 75.12
+      }
+    },
+    {
+      "rank": 231,
+      "dex_id": 407,
+      "name": "Roserade",
+      "canonical_name": "Roserade",
+      "popularity_percentage": 58.7,
+      "types": [
+        "Plante",
+        "Poison"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 64.17,
+        "C": 58.33,
+        "E": 44.58,
+        "A": 54.27,
+        "N": 48.85,
+        "R": 57.7,
+        "L": 61.35,
+        "P": 57.35,
+        "H": 49.53,
+        "I": 56.08,
+        "M": 62.25
+      }
+    },
+    {
+      "rank": 232,
+      "dex_id": 477,
+      "name": "Noctunoir",
+      "canonical_name": "Dusknoir",
+      "popularity_percentage": 58.7,
+      "types": [
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 73.85,
+        "C": 55.63,
+        "E": 33.96,
+        "A": 43.96,
+        "N": 61.25,
+        "R": 45.75,
+        "L": 67.39,
+        "P": 34.3,
+        "H": 30.4,
+        "I": 60.72,
+        "M": 91
+      }
+    },
+    {
+      "rank": 233,
+      "dex_id": 152,
+      "name": "Germignon",
+      "canonical_name": "Chikorita",
+      "popularity_percentage": 58.7,
+      "types": [
+        "Plante"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 49.62,
+        "C": 59.79,
+        "E": 33.46,
+        "A": 65.04,
+        "N": 45.21,
+        "R": 28.95,
+        "L": 37.6,
+        "P": 31.35,
+        "H": 70.65,
+        "I": 24.35,
+        "M": 43.95
+      }
+    },
+    {
+      "rank": 234,
+      "dex_id": 719,
+      "name": "Diancie",
+      "canonical_name": "Diancie",
+      "popularity_percentage": 58.6,
+      "types": [
+        "Roche",
+        "Fée"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 60.1,
+        "C": 79.38,
+        "E": 45.83,
+        "A": 64.58,
+        "N": 30.62,
+        "R": 30.9,
+        "L": 40.33,
+        "P": 58.8,
+        "H": 75.6,
+        "I": 44.8,
+        "M": 65.45
+      }
+    },
+    {
+      "rank": 235,
+      "dex_id": 61,
+      "name": "Têtarte",
+      "canonical_name": "Poliwhirl",
+      "popularity_percentage": 58.6,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 54.58,
+        "C": 50.73,
+        "E": 47.92,
+        "A": 60.31,
+        "N": 52.55,
+        "R": 76.6,
+        "L": 56.84,
+        "P": 33.25,
+        "H": 62.88,
+        "I": 40.48,
+        "M": 58.11
+      }
+    },
+    {
+      "rank": 236,
+      "dex_id": 199,
+      "name": "Roigada",
+      "canonical_name": "Slowking",
+      "popularity_percentage": 58.6,
+      "types": [
+        "Eau",
+        "Psy"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 70.31,
+        "C": 62.29,
+        "E": 35.63,
+        "A": 66.15,
+        "N": 47.08,
+        "R": 48.3,
+        "L": 48.31,
+        "P": 40.25,
+        "H": 68.53,
+        "I": 47.27,
+        "M": 77.53
+      }
+    },
+    {
+      "rank": 237,
+      "dex_id": 625,
+      "name": "Scalproie",
+      "canonical_name": "Bisharp",
+      "popularity_percentage": 58.5,
+      "types": [
+        "Ténèbres",
+        "Acier"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 46.56,
+        "C": 65.83,
+        "E": 42.92,
+        "A": 35.52,
+        "N": 41.04,
+        "R": 42.2,
+        "L": 54.74,
+        "P": 78.35,
+        "H": 26.88,
+        "I": 46.43,
+        "M": 58.77
+      }
+    },
+    {
+      "rank": 238,
+      "dex_id": 849,
+      "name": "Salarsen",
+      "canonical_name": "Toxtricity",
+      "popularity_percentage": 58.5,
+      "types": [
+        "Électrik",
+        "Poison"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 64.21,
+        "C": 47.71,
+        "E": 61.92,
+        "A": 42.9,
+        "N": 57.6,
+        "R": 76,
+        "L": 75.69,
+        "P": 63,
+        "H": 29.52,
+        "I": 82.7,
+        "M": 51.8
+      }
+    },
+    {
+      "rank": 239,
+      "dex_id": 1002,
+      "name": "Baojian",
+      "canonical_name": "Chien-Pao",
+      "popularity_percentage": 58.5,
+      "types": [
+        "Ténèbres",
+        "Glace"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 58.07,
+        "C": 57.61,
+        "E": 50.63,
+        "A": 36.15,
+        "N": 45.68,
+        "R": 59.85,
+        "L": 82.01,
+        "P": 65.9,
+        "H": 37.23,
+        "I": 50.95,
+        "M": 74.94
+      }
+    },
+    {
+      "rank": 240,
+      "dex_id": 83,
+      "name": "Canarticho",
+      "canonical_name": "Farfetch'd",
+      "popularity_percentage": 58.4,
+      "types": [
+        "Normal",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 53,
+        "C": 43.44,
+        "E": 57.5,
+        "A": 52.21,
+        "N": 49.47,
+        "R": 54.4,
+        "L": 61.88,
+        "P": 50.7,
+        "H": 46.3,
+        "I": 51.95,
+        "M": 43.14
+      }
+    },
+    {
+      "rank": 241,
+      "dex_id": 357,
+      "name": "Tropius",
+      "canonical_name": "Tropius",
+      "popularity_percentage": 58.4,
+      "types": [
+        "Plante",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 59.28,
+        "C": 54.58,
+        "E": 48.92,
+        "A": 64.29,
+        "N": 40.79,
+        "R": 47.25,
+        "L": 58.11,
+        "P": 42,
+        "H": 68.25,
+        "I": 45,
+        "M": 51.28
+      }
+    },
+    {
+      "rank": 242,
+      "dex_id": 663,
+      "name": "Flambusard",
+      "canonical_name": "Talonflame",
+      "popularity_percentage": 58.3,
+      "types": [
+        "Feu",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 63.57,
+        "C": 45.83,
+        "E": 74.38,
+        "A": 49.31,
+        "N": 51.79,
+        "R": 78.6,
+        "L": 76.49,
+        "P": 65.25,
+        "H": 38.88,
+        "I": 72.08,
+        "M": 40.4
+      }
+    },
+    {
+      "rank": 243,
+      "dex_id": 39,
+      "name": "Rondoudou",
+      "canonical_name": "Jigglypuff",
+      "popularity_percentage": 58.2,
+      "types": [
+        "Normal",
+        "Fée"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 52.34,
+        "C": 43.13,
+        "E": 46.25,
+        "A": 64.06,
+        "N": 51.56,
+        "R": 37.1,
+        "L": 35.24,
+        "P": 31.05,
+        "H": 64.87,
+        "I": 40.5,
+        "M": 49.78
+      }
+    },
+    {
+      "rank": 244,
+      "dex_id": 428,
+      "name": "Lockpin",
+      "canonical_name": "Lopunny",
+      "popularity_percentage": 58.2,
+      "types": [
+        "Normal"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 46.81,
+        "C": 53.75,
+        "E": 54.46,
+        "A": 57.15,
+        "N": 44.06,
+        "R": 53.75,
+        "L": 51.94,
+        "P": 46.5,
+        "H": 51.13,
+        "I": 40.25,
+        "M": 43.8
+      }
+    },
+    {
+      "rank": 245,
+      "dex_id": 496,
+      "name": "Lianaja",
+      "canonical_name": "Servine",
+      "popularity_percentage": 58.2,
+      "types": [
+        "Plante"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 52.99,
+        "C": 61.88,
+        "E": 39.13,
+        "A": 66.56,
+        "N": 42.81,
+        "R": 38.45,
+        "L": 45.41,
+        "P": 34.1,
+        "H": 73.77,
+        "I": 27.1,
+        "M": 46.53
+      }
+    },
+    {
+      "rank": 246,
+      "dex_id": 355,
+      "name": "Skelénox",
+      "canonical_name": "Duskull",
+      "popularity_percentage": 58.1,
+      "types": [
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 66.88,
+        "C": 46.25,
+        "E": 27.08,
+        "A": 40.83,
+        "N": 68.75,
+        "R": 42,
+        "L": 60.82,
+        "P": 19.3,
+        "H": 22.9,
+        "I": 48.85,
+        "M": 80.5
+      }
+    },
+    {
+      "rank": 247,
+      "dex_id": 677,
+      "name": "Psystigri",
+      "canonical_name": "Espurr",
+      "popularity_percentage": 58.1,
+      "types": [
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 74.43,
+        "C": 58.13,
+        "E": 32.5,
+        "A": 58.13,
+        "N": 56.56,
+        "R": 44.5,
+        "L": 55.85,
+        "P": 29.25,
+        "H": 52.55,
+        "I": 38.57,
+        "M": 77.2
+      }
+    },
+    {
+      "rank": 248,
+      "dex_id": 498,
+      "name": "Gruikui",
+      "canonical_name": "Tepig",
+      "popularity_percentage": 58,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 51.88,
+        "C": 44.38,
+        "E": 64.63,
+        "A": 41.13,
+        "N": 61.87,
+        "R": 54.15,
+        "L": 45.47,
+        "P": 76.85,
+        "H": 21.65,
+        "I": 76,
+        "M": 23.35
+      }
+    },
+    {
+      "rank": 249,
+      "dex_id": 649,
+      "name": "Genesect",
+      "canonical_name": "Genesect",
+      "popularity_percentage": 57.9,
+      "types": [
+        "Insecte",
+        "Acier"
+      ],
+      "animal_bucket": "insect",
+      "profile": {
+        "O": 57.82,
+        "C": 73.54,
+        "E": 49.88,
+        "A": 51.83,
+        "N": 35.46,
+        "R": 55.75,
+        "L": 46.56,
+        "P": 68,
+        "H": 42.65,
+        "I": 58.9,
+        "M": 62.93
+      }
+    },
+    {
+      "rank": 250,
+      "dex_id": 54,
+      "name": "Psykokwak",
+      "canonical_name": "Psyduck",
+      "popularity_percentage": 57.8,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 54.84,
+        "C": 48.96,
+        "E": 42.46,
+        "A": 59.92,
+        "N": 54.73,
+        "R": 67.85,
+        "L": 49.46,
+        "P": 33.25,
+        "H": 61,
+        "I": 40.72,
+        "M": 57.75
+      }
+    },
+    {
+      "rank": 251,
+      "dex_id": 115,
+      "name": "Kangourex",
+      "canonical_name": "Kangaskhan",
+      "popularity_percentage": 57.8,
+      "types": [
+        "Normal"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 43.75,
+        "C": 51.67,
+        "E": 54.17,
+        "A": 57.19,
+        "N": 43.02,
+        "R": 50,
+        "L": 50.31,
+        "P": 51.25,
+        "H": 54.13,
+        "I": 40.88,
+        "M": 41
+      }
+    },
+    {
+      "rank": 252,
+      "dex_id": 121,
+      "name": "Staross",
+      "canonical_name": "Starmie",
+      "popularity_percentage": 57.8,
+      "types": [
+        "Eau",
+        "Psy"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 72.55,
+        "C": 60.21,
+        "E": 46.25,
+        "A": 61.35,
+        "N": 50.73,
+        "R": 69.55,
+        "L": 64.25,
+        "P": 40.25,
+        "H": 61.02,
+        "I": 47.27,
+        "M": 75.77
+      }
+    },
+    {
+      "rank": 253,
+      "dex_id": 63,
+      "name": "Abra",
+      "canonical_name": "Abra",
+      "popularity_percentage": 57.8,
+      "types": [
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 79.9,
+        "C": 55.1,
+        "E": 33.75,
+        "A": 56.35,
+        "N": 60.68,
+        "R": 50,
+        "L": 58.85,
+        "P": 39.75,
+        "H": 47.92,
+        "I": 41.58,
+        "M": 77.81
+      }
+    },
+    {
+      "rank": 254,
+      "dex_id": 378,
+      "name": "Regice",
+      "canonical_name": "Regice",
+      "popularity_percentage": 57.8,
+      "types": [
+        "Glace"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 60.1,
+        "C": 76.04,
+        "E": 30.42,
+        "A": 53.54,
+        "N": 30.52,
+        "R": 17.6,
+        "L": 48.4,
+        "P": 53.9,
+        "H": 63.25,
+        "I": 26.65,
+        "M": 83.47
+      }
+    },
+    {
+      "rank": 255,
+      "dex_id": 647,
+      "name": "Keldeo",
+      "canonical_name": "Keldeo",
+      "popularity_percentage": 57.8,
+      "types": [
+        "Eau",
+        "Combat"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 58.97,
+        "C": 65,
+        "E": 58.25,
+        "A": 58.31,
+        "N": 44.31,
+        "R": 78.3,
+        "L": 64.15,
+        "P": 72,
+        "H": 57.12,
+        "I": 65.93,
+        "M": 49.43
+      }
+    },
+    {
+      "rank": 256,
+      "dex_id": 800,
+      "name": "Necrozma",
+      "canonical_name": "Necrozma",
+      "popularity_percentage": 57.7,
+      "types": [
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 83.73,
+        "C": 66.04,
+        "E": 38.79,
+        "A": 60.88,
+        "N": 48.83,
+        "R": 47.25,
+        "L": 61.6,
+        "P": 45.25,
+        "H": 60.55,
+        "I": 53.95,
+        "M": 88.65
+      }
+    },
+    {
+      "rank": 257,
+      "dex_id": 213,
+      "name": "Caratroc",
+      "canonical_name": "Shuckle",
+      "popularity_percentage": 57.7,
+      "types": [
+        "Insecte",
+        "Roche"
+      ],
+      "animal_bucket": "insect",
+      "profile": {
+        "O": 43.75,
+        "C": 83.13,
+        "E": 33.75,
+        "A": 58.75,
+        "N": 30,
+        "R": 39.9,
+        "L": 37.1,
+        "P": 47.6,
+        "H": 55.6,
+        "I": 36.4,
+        "M": 57.4
+      }
+    },
+    {
+      "rank": 258,
+      "dex_id": 785,
+      "name": "Tokorico",
+      "canonical_name": "Tapu Koko",
+      "popularity_percentage": 57.7,
+      "types": [
+        "Électrik",
+        "Fée"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 72.08,
+        "C": 51.67,
+        "E": 75.83,
+        "A": 61.15,
+        "N": 52.71,
+        "R": 79.25,
+        "L": 73.06,
+        "P": 52.75,
+        "H": 60.32,
+        "I": 74.05,
+        "M": 57.72
+      }
+    },
+    {
+      "rank": 259,
+      "dex_id": 5,
+      "name": "Reptincel",
+      "canonical_name": "Charmeleon",
+      "popularity_percentage": 57.7,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 58.39,
+        "C": 47.81,
+        "E": 69.08,
+        "A": 42.73,
+        "N": 59.91,
+        "R": 62.9,
+        "L": 52.1,
+        "P": 81.1,
+        "H": 23.28,
+        "I": 80.5,
+        "M": 28.86
+      }
+    },
+    {
+      "rank": 260,
+      "dex_id": 678,
+      "name": "Mistigrix",
+      "canonical_name": "Meowstic",
+      "popularity_percentage": 57.7,
+      "types": [
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 79.31,
+        "C": 62.6,
+        "E": 37,
+        "A": 61.06,
+        "N": 52.68,
+        "R": 53.5,
+        "L": 62.6,
+        "P": 34.25,
+        "H": 56.68,
+        "I": 41.08,
+        "M": 82.46
+      }
+    },
+    {
+      "rank": 261,
+      "dex_id": 354,
+      "name": "Branette",
+      "canonical_name": "Banette",
+      "popularity_percentage": 57.6,
+      "types": [
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 73,
+        "C": 40.83,
+        "E": 37.71,
+        "A": 37.02,
+        "N": 70.42,
+        "R": 50.75,
+        "L": 72.08,
+        "P": 38.05,
+        "H": 23.77,
+        "I": 64.85,
+        "M": 79.93
+      }
+    },
+    {
+      "rank": 262,
+      "dex_id": 12,
+      "name": "Papilusion",
+      "canonical_name": "Butterfree",
+      "popularity_percentage": 57.6,
+      "types": [
+        "Insecte",
+        "Vol"
+      ],
+      "animal_bucket": "insect",
+      "profile": {
+        "O": 63.65,
+        "C": 50.42,
+        "E": 55,
+        "A": 58.33,
+        "N": 48.02,
+        "R": 73,
+        "L": 65.14,
+        "P": 49.3,
+        "H": 47.8,
+        "I": 64.68,
+        "M": 61.03
+      }
+    },
+    {
+      "rank": 263,
+      "dex_id": 281,
+      "name": "Kirlia",
+      "canonical_name": "Kirlia",
+      "popularity_percentage": 57.5,
+      "types": [
+        "Psy",
+        "Fée"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 71.77,
+        "C": 51.88,
+        "E": 40.42,
+        "A": 64.15,
+        "N": 57.94,
+        "R": 42.1,
+        "L": 44.66,
+        "P": 29.05,
+        "H": 61.53,
+        "I": 42.1,
+        "M": 73.15
+      }
+    },
+    {
+      "rank": 264,
+      "dex_id": 936,
+      "name": "Carmadura",
+      "canonical_name": "Armarouge",
+      "popularity_percentage": 57.5,
+      "types": [
+        "Feu",
+        "Psy"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 73.49,
+        "C": 59.38,
+        "E": 51.25,
+        "A": 53.65,
+        "N": 52.19,
+        "R": 53.95,
+        "L": 54.41,
+        "P": 68.55,
+        "H": 43.22,
+        "I": 66.73,
+        "M": 62.43
+      }
+    },
+    {
+      "rank": 265,
+      "dex_id": 77,
+      "name": "Ponyta",
+      "canonical_name": "Ponyta",
+      "popularity_percentage": 57.5,
+      "types": [
+        "Feu"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 57.08,
+        "C": 47.5,
+        "E": 72.08,
+        "A": 41.36,
+        "N": 60.62,
+        "R": 65.4,
+        "L": 55.29,
+        "P": 82.35,
+        "H": 22.28,
+        "I": 81.25,
+        "M": 27.48
+      }
+    },
+    {
+      "rank": 266,
+      "dex_id": 858,
+      "name": "Sorcilence",
+      "canonical_name": "Hatterene",
+      "popularity_percentage": 57.5,
+      "types": [
+        "Psy",
+        "Fée"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 81.57,
+        "C": 63.13,
+        "E": 42.5,
+        "A": 68.04,
+        "N": 48.88,
+        "R": 37.1,
+        "L": 44.35,
+        "P": 46.8,
+        "H": 69.9,
+        "I": 57.85,
+        "M": 87.92
+      }
+    },
+    {
+      "rank": 267,
+      "dex_id": 207,
+      "name": "Scorplane",
+      "canonical_name": "Gligar",
+      "popularity_percentage": 57.5,
+      "types": [
+        "Sol",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 47.81,
+        "C": 56.46,
+        "E": 55.62,
+        "A": 52.08,
+        "N": 39.17,
+        "R": 55.05,
+        "L": 74.72,
+        "P": 53.25,
+        "H": 47.95,
+        "I": 48.25,
+        "M": 34.5
+      }
+    },
+    {
+      "rank": 268,
+      "dex_id": 35,
+      "name": "Mélofée",
+      "canonical_name": "Clefairy",
+      "popularity_percentage": 57.3,
+      "types": [
+        "Fée"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 69.22,
+        "C": 50.52,
+        "E": 50.63,
+        "A": 74.27,
+        "N": 52.39,
+        "R": 40.45,
+        "L": 35.48,
+        "P": 27.1,
+        "H": 79.38,
+        "I": 47.63,
+        "M": 72.69
+      }
+    },
+    {
+      "rank": 269,
+      "dex_id": 333,
+      "name": "Tylton",
+      "canonical_name": "Swablu",
+      "popularity_percentage": 57.3,
+      "types": [
+        "Normal",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 51.2,
+        "C": 45.31,
+        "E": 52.08,
+        "A": 55.21,
+        "N": 48.59,
+        "R": 51.9,
+        "L": 56.88,
+        "P": 38.2,
+        "H": 47.05,
+        "I": 43.45,
+        "M": 43.36
+      }
+    },
+    {
+      "rank": 270,
+      "dex_id": 523,
+      "name": "Zéblitz",
+      "canonical_name": "Zebstrika",
+      "popularity_percentage": 57.3,
+      "types": [
+        "Électrik"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 63.53,
+        "C": 44.38,
+        "E": 80.33,
+        "A": 49.58,
+        "N": 58.63,
+        "R": 90.8,
+        "L": 84.9,
+        "P": 60.9,
+        "H": 39.15,
+        "I": 83.6,
+        "M": 31.93
+      }
+    },
+    {
+      "rank": 271,
+      "dex_id": 208,
+      "name": "Steelix",
+      "canonical_name": "Steelix",
+      "popularity_percentage": 57.3,
+      "types": [
+        "Acier",
+        "Sol"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 36.56,
+        "C": 78.02,
+        "E": 34.58,
+        "A": 46.67,
+        "N": 27.76,
+        "R": 16.8,
+        "L": 36.34,
+        "P": 66.95,
+        "H": 40.8,
+        "I": 33.1,
+        "M": 34.34
+      }
+    },
+    {
+      "rank": 272,
+      "dex_id": 430,
+      "name": "Corboss",
+      "canonical_name": "Honchkrow",
+      "popularity_percentage": 57.2,
+      "types": [
+        "Ténèbres",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 62.07,
+        "C": 42.08,
+        "E": 58.04,
+        "A": 41.46,
+        "N": 51.17,
+        "R": 66.95,
+        "L": 83.63,
+        "P": 67.15,
+        "H": 37.4,
+        "I": 70.95,
+        "M": 61.97
+      }
+    },
+    {
+      "rank": 273,
+      "dex_id": 979,
+      "name": "Courrousinge",
+      "canonical_name": "Annihilape",
+      "popularity_percentage": 57.2,
+      "types": [
+        "Combat",
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 56.67,
+        "C": 58.33,
+        "E": 53.96,
+        "A": 46.46,
+        "N": 53.23,
+        "R": 64,
+        "L": 71.86,
+        "P": 64.65,
+        "H": 39.2,
+        "I": 68.43,
+        "M": 51.73
+      }
+    },
+    {
+      "rank": 274,
+      "dex_id": 462,
+      "name": "Magnézone",
+      "canonical_name": "Magnezone",
+      "popularity_percentage": 57.2,
+      "types": [
+        "Électrik",
+        "Acier"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 58.96,
+        "C": 67.6,
+        "E": 52.08,
+        "A": 49.58,
+        "N": 40.05,
+        "R": 47.05,
+        "L": 46.62,
+        "P": 76.1,
+        "H": 39.1,
+        "I": 58.1,
+        "M": 46.09
+      }
+    },
+    {
+      "rank": 275,
+      "dex_id": 43,
+      "name": "Mystherbe",
+      "canonical_name": "Oddish",
+      "popularity_percentage": 57.1,
+      "types": [
+        "Plante",
+        "Poison"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 53.85,
+        "C": 53.13,
+        "E": 35.42,
+        "A": 50,
+        "N": 53.44,
+        "R": 42.7,
+        "L": 48.85,
+        "P": 44.85,
+        "H": 42.65,
+        "I": 47.33,
+        "M": 54.13
+      }
+    },
+    {
+      "rank": 276,
+      "dex_id": 545,
+      "name": "Brutapode",
+      "canonical_name": "Scolipede",
+      "popularity_percentage": 57.1,
+      "types": [
+        "Insecte",
+        "Poison"
+      ],
+      "animal_bucket": "insect",
+      "profile": {
+        "O": 57.06,
+        "C": 57.08,
+        "E": 55.46,
+        "A": 45.52,
+        "N": 51.6,
+        "R": 84.2,
+        "L": 72.25,
+        "P": 53.9,
+        "H": 30.33,
+        "I": 71.37,
+        "M": 67.85
+      }
+    },
+    {
+      "rank": 277,
+      "dex_id": 231,
+      "name": "Phanpy",
+      "canonical_name": "Phanpy",
+      "popularity_percentage": 57.1,
+      "types": [
+        "Sol"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 32.08,
+        "C": 60.42,
+        "E": 37.5,
+        "A": 49.79,
+        "N": 37.08,
+        "R": 26.3,
+        "L": 56.95,
+        "P": 55.1,
+        "H": 46.55,
+        "I": 38.6,
+        "M": 12.65
+      }
+    },
+    {
+      "rank": 278,
+      "dex_id": 399,
+      "name": "Keunotor",
+      "canonical_name": "Bidoof",
+      "popularity_percentage": 57.1,
+      "types": [
+        "Normal"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 38.64,
+        "C": 43.33,
+        "E": 42.62,
+        "A": 52.23,
+        "N": 51.73,
+        "R": 35.25,
+        "L": 36.12,
+        "P": 38.75,
+        "H": 43.38,
+        "I": 34,
+        "M": 33.62
+      }
+    },
+    {
+      "rank": 279,
+      "dex_id": 870,
+      "name": "Hexadron",
+      "canonical_name": "Falinks",
+      "popularity_percentage": 57,
+      "types": [
+        "Combat"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 41.77,
+        "C": 70.42,
+        "E": 63.96,
+        "A": 44.9,
+        "N": 45.52,
+        "R": 67.25,
+        "L": 63.21,
+        "P": 87.5,
+        "H": 36.13,
+        "I": 76.75,
+        "M": 22.95
+      }
+    },
+    {
+      "rank": 280,
+      "dex_id": 263,
+      "name": "Zigzaton",
+      "canonical_name": "Zigzagoon",
+      "popularity_percentage": 56.9,
+      "types": [
+        "Normal"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 39.32,
+        "C": 43.54,
+        "E": 45,
+        "A": 51.65,
+        "N": 52.9,
+        "R": 42.5,
+        "L": 40.63,
+        "P": 35,
+        "H": 40.88,
+        "I": 31.5,
+        "M": 33.43
+      }
+    },
+    {
+      "rank": 281,
+      "dex_id": 379,
+      "name": "Registeel",
+      "canonical_name": "Registeel",
+      "popularity_percentage": 56.8,
+      "types": [
+        "Acier"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 45.99,
+        "C": 92.5,
+        "E": 32.5,
+        "A": 52.5,
+        "N": 19.37,
+        "R": 14.8,
+        "L": 19.16,
+        "P": 70.05,
+        "H": 45.05,
+        "I": 23.85,
+        "M": 53.78
+      }
+    },
+    {
+      "rank": 282,
+      "dex_id": 328,
+      "name": "Kraknoix",
+      "canonical_name": "Trapinch",
+      "popularity_percentage": 56.8,
+      "types": [
+        "Sol"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 32.5,
+        "C": 59.38,
+        "E": 39.58,
+        "A": 45.83,
+        "N": 40.63,
+        "R": 23.8,
+        "L": 57.57,
+        "P": 65.1,
+        "H": 41.55,
+        "I": 44.22,
+        "M": 12.15
+      }
+    },
+    {
+      "rank": 283,
+      "dex_id": 304,
+      "name": "Galekid",
+      "canonical_name": "Aron",
+      "popularity_percentage": 56.8,
+      "types": [
+        "Acier",
+        "Roche"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 31.67,
+        "C": 73.96,
+        "E": 29.58,
+        "A": 39.38,
+        "N": 32.92,
+        "R": 11.2,
+        "L": 24.2,
+        "P": 70.9,
+        "H": 38.75,
+        "I": 18.85,
+        "M": 28.75
+      }
+    },
+    {
+      "rank": 284,
+      "dex_id": 146,
+      "name": "Sulfura",
+      "canonical_name": "Moltres",
+      "popularity_percentage": 56.7,
+      "types": [
+        "Feu",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 68.75,
+        "C": 49.48,
+        "E": 71.46,
+        "A": 50.94,
+        "N": 48.49,
+        "R": 69.6,
+        "L": 70.92,
+        "P": 76.25,
+        "H": 42.37,
+        "I": 80.82,
+        "M": 47.29
+      }
+    },
+    {
+      "rank": 285,
+      "dex_id": 869,
+      "name": "Charmilly",
+      "canonical_name": "Alcremie",
+      "popularity_percentage": 56.7,
+      "types": [
+        "Fée"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 79.07,
+        "C": 59.17,
+        "E": 55.5,
+        "A": 79.17,
+        "N": 46.65,
+        "R": 47.7,
+        "L": 41.85,
+        "P": 39.6,
+        "H": 85.75,
+        "I": 55.75,
+        "M": 83.7
+      }
+    },
+    {
+      "rank": 286,
+      "dex_id": 180,
+      "name": "Lainergie",
+      "canonical_name": "Flaaffy",
+      "popularity_percentage": 56.7,
+      "types": [
+        "Électrik"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 60.42,
+        "C": 43.23,
+        "E": 67.71,
+        "A": 50.83,
+        "N": 59.74,
+        "R": 73.05,
+        "L": 68.77,
+        "P": 55.9,
+        "H": 38.15,
+        "I": 77.97,
+        "M": 30.96
+      }
+    },
+    {
+      "rank": 287,
+      "dex_id": 68,
+      "name": "Mackogneur",
+      "canonical_name": "Machamp",
+      "popularity_percentage": 56.6,
+      "types": [
+        "Combat"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 41.67,
+        "C": 70.94,
+        "E": 63.96,
+        "A": 47.81,
+        "N": 43.59,
+        "R": 62.25,
+        "L": 61.34,
+        "P": 95,
+        "H": 42.37,
+        "I": 79.88,
+        "M": 23.01
+      }
+    },
+    {
+      "rank": 288,
+      "dex_id": 272,
+      "name": "Ludicolo",
+      "canonical_name": "Ludicolo",
+      "popularity_percentage": 56.6,
+      "types": [
+        "Eau",
+        "Plante"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 59.06,
+        "C": 60.21,
+        "E": 42.08,
+        "A": 68.13,
+        "N": 43.85,
+        "R": 53.4,
+        "L": 48.5,
+        "P": 40.55,
+        "H": 75.2,
+        "I": 39.1,
+        "M": 58.22
+      }
+    },
+    {
+      "rank": 289,
+      "dex_id": 810,
+      "name": "Ouistempo",
+      "canonical_name": "Grookey",
+      "popularity_percentage": 56.6,
+      "types": [
+        "Plante"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 48.12,
+        "C": 55.63,
+        "E": 37.29,
+        "A": 62.08,
+        "N": 47.81,
+        "R": 33.95,
+        "L": 42.35,
+        "P": 35.35,
+        "H": 68.15,
+        "I": 25.23,
+        "M": 39.77
+      }
+    },
+    {
+      "rank": 290,
+      "dex_id": 138,
+      "name": "Amonita",
+      "canonical_name": "Omanyte",
+      "popularity_percentage": 56.6,
+      "types": [
+        "Roche",
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 45.89,
+        "C": 64.27,
+        "E": 33.33,
+        "A": 50.63,
+        "N": 42.14,
+        "R": 38.35,
+        "L": 38.66,
+        "P": 58.75,
+        "H": 54.85,
+        "I": 31.85,
+        "M": 45.01
+      }
+    },
+    {
+      "rank": 291,
+      "dex_id": 186,
+      "name": "Tarpaud",
+      "canonical_name": "Politoed",
+      "popularity_percentage": 56.6,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 60.94,
+        "C": 56.98,
+        "E": 46.25,
+        "A": 66.67,
+        "N": 46.61,
+        "R": 71.6,
+        "L": 53.71,
+        "P": 39.5,
+        "H": 72.25,
+        "I": 46.72,
+        "M": 66.36
+      }
+    },
+    {
+      "rank": 292,
+      "dex_id": 640,
+      "name": "Viridium",
+      "canonical_name": "Virizion",
+      "popularity_percentage": 56.6,
+      "types": [
+        "Plante",
+        "Combat"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 54.66,
+        "C": 70.94,
+        "E": 56,
+        "A": 63.5,
+        "N": 39.03,
+        "R": 60.1,
+        "L": 60.38,
+        "P": 63.3,
+        "H": 66.2,
+        "I": 56.3,
+        "M": 40.64
+      }
+    },
+    {
+      "rank": 293,
+      "dex_id": 142,
+      "name": "Ptéra",
+      "canonical_name": "Aerodactyl",
+      "popularity_percentage": 56.5,
+      "types": [
+        "Roche",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 51.2,
+        "C": 57.08,
+        "E": 60,
+        "A": 49.06,
+        "N": 38.54,
+        "R": 60.7,
+        "L": 73.84,
+        "P": 68.45,
+        "H": 55.28,
+        "I": 44.63,
+        "M": 35.85
+      }
+    },
+    {
+      "rank": 294,
+      "dex_id": 418,
+      "name": "Mustébouée",
+      "canonical_name": "Buizel",
+      "popularity_percentage": 56.5,
+      "types": [
+        "Eau"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 54.48,
+        "C": 45.52,
+        "E": 47.29,
+        "A": 57.6,
+        "N": 56.82,
+        "R": 75.35,
+        "L": 55.9,
+        "P": 33.25,
+        "H": 59.12,
+        "I": 41.73,
+        "M": 54.49
+      }
+    },
+    {
+      "rank": 295,
+      "dex_id": 768,
+      "name": "Sarmuraï",
+      "canonical_name": "Golisopod",
+      "popularity_percentage": 56.5,
+      "types": [
+        "Insecte",
+        "Eau"
+      ],
+      "animal_bucket": "insect",
+      "profile": {
+        "O": 55.73,
+        "C": 66.46,
+        "E": 48.54,
+        "A": 60.73,
+        "N": 41.67,
+        "R": 66.9,
+        "L": 51.21,
+        "P": 52.1,
+        "H": 58.63,
+        "I": 62.53,
+        "M": 73.13
+      }
+    },
+    {
+      "rank": 296,
+      "dex_id": 79,
+      "name": "Ramoloss",
+      "canonical_name": "Slowpoke",
+      "popularity_percentage": 56.5,
+      "types": [
+        "Eau",
+        "Psy"
+      ],
+      "animal_bucket": "marine",
+      "profile": {
+        "O": 59.79,
+        "C": 53.44,
+        "E": 34.79,
+        "A": 58.96,
+        "N": 53.59,
+        "R": 48.3,
+        "L": 47.69,
+        "P": 31.5,
+        "H": 59.15,
+        "I": 38.53,
+        "M": 65.59
+      }
+    },
+    {
+      "rank": 297,
+      "dex_id": 227,
+      "name": "Airmure",
+      "canonical_name": "Skarmory",
+      "popularity_percentage": 56.4,
+      "types": [
+        "Acier",
+        "Vol"
+      ],
+      "animal_bucket": "aerial",
+      "profile": {
+        "O": 49.9,
+        "C": 66.25,
+        "E": 50.42,
+        "A": 48.65,
+        "N": 34.37,
+        "R": 44.3,
+        "L": 51.92,
+        "P": 60.1,
+        "H": 41.58,
+        "I": 39,
+        "M": 48.87
+      }
+    },
+    {
+      "rank": 298,
+      "dex_id": 886,
+      "name": "Dispareptil",
+      "canonical_name": "Drakloak",
+      "popularity_percentage": 56.4,
+      "types": [
+        "Dragon",
+        "Spectre"
+      ],
+      "animal_bucket": "mythical",
+      "profile": {
+        "O": 67.48,
+        "C": 47.29,
+        "E": 50.67,
+        "A": 39.25,
+        "N": 59.08,
+        "R": 64.2,
+        "L": 76.13,
+        "P": 55.2,
+        "H": 35.95,
+        "I": 65.3,
+        "M": 64.55
+      }
+    },
+    {
+      "rank": 299,
+      "dex_id": 596,
+      "name": "Mygavolt",
+      "canonical_name": "Galvantula",
+      "popularity_percentage": 56.4,
+      "types": [
+        "Insecte",
+        "Électrik"
+      ],
+      "animal_bucket": "insect",
+      "profile": {
+        "O": 63.11,
+        "C": 51.25,
+        "E": 66.17,
+        "A": 53.67,
+        "N": 53.75,
+        "R": 87.75,
+        "L": 71.46,
+        "P": 54.55,
+        "H": 40.95,
+        "I": 78.65,
+        "M": 51.57
+      }
+    },
+    {
+      "rank": 300,
+      "dex_id": 620,
+      "name": "Shaofouine",
+      "canonical_name": "Mienshao",
+      "popularity_percentage": 56.3,
+      "types": [
+        "Combat"
+      ],
+      "animal_bucket": "terrestrial",
+      "profile": {
+        "O": 45.89,
+        "C": 66.25,
+        "E": 69.79,
+        "A": 43.85,
+        "N": 48.44,
+        "R": 74.75,
+        "L": 70.4,
+        "P": 93.75,
+        "H": 36.13,
+        "I": 83,
+        "M": 21.33
+      }
+    }
+  ]
+}

@@ -5,6 +5,7 @@ const db = require('../../db')
 const animals = require('../data/animals.json')
 const types = require('../data/types.json')
 const { startGeneration } = require('../services/generationOrchestrator')
+const { calculatePokemonAffinities } = require('../services/pokemonAffinity')
 
 const router = express.Router()
 
@@ -153,6 +154,15 @@ router.post('/generate', async (req, res) => {
     await client.query('COMMIT')
 
     const generation = await startGeneration(assessmentId)
+    const pokemonAffinities = calculatePokemonAffinities({
+      scores: {
+        O: Number(big5.O ?? 50), C: Number(big5.C ?? 50), E: Number(big5.E ?? 50),
+        A: Number(big5.A ?? 50), N: Number(big5.N ?? 50),
+        R: 50, L: 50, P: 50, H: 50, I: 50, M: 50,
+      },
+      types: [primaryType, secondaryType].filter(Boolean),
+      animalBucket: animalProfile.bucket,
+    })
 
     return res.status(201).json({
       assessment_id: assessmentId,
@@ -161,6 +171,7 @@ router.post('/generate', async (req, res) => {
         animal: { name: animalProfile.name },
         types: [primaryType, secondaryType].filter(Boolean),
       },
+      pokemon_affinities: pokemonAffinities,
       generation,
       dev: true,
     })

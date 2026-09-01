@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node tests/questionnaire.test.js && node tests/scoring.test.js && node tests/animalClassifier.test.js && node tests/typeClassifier.test.js && node tests/typeVisualRules.test.js && node tests/combatDesign.test.js && node tests/backgroundSelection.test.js && node tests/visualSeedSelection.test.js && node tests/objectStorage.test.js && node tests/securityMiddleware.test.js && node tests/generationConfig.test.js",
+    "test": "node tests/questionnaire.test.js && node tests/scoring.test.js && node tests/animalClassifier.test.js && node tests/typeClassifier.test.js && node tests/typeVisualRules.test.js && node tests/combatDesign.test.js && node tests/backgroundSelection.test.js && node tests/visualSeedSelection.test.js && node tests/objectStorage.test.js && node tests/securityMiddleware.test.js && node tests/generationConfig.test.js && node tests/pokemonAffinity.test.js",
     "catalog:sync": "node scripts/syncOfficialCatalog.js",
     "cloud:check": "node scripts/checkCloudConnections.js",
     "storage:migrate": "node scripts/migrateLocalFilesToR2.js",

@@ -20,6 +20,7 @@ const {
 const { requireAuth } = require('../middleware/requireAuth')
 const { claimEvolutionReveal, decideEvolutionReward } = require('../services/evolutionReward')
 const { generationEnabled } = require('../config/generation')
+const { calculatePokemonAffinities } = require('../services/pokemonAffinity')
 
 const router = express.Router()
 router.use(requireAuth)
@@ -694,7 +695,10 @@ router.get(
           SELECT
             ar.id AS result_id,
             ar.assessment_id,
+            ar.o, ar.c, ar.e, ar.a, ar.n,
+            ar.r, ar.l, ar.p, ar.h, ar.i, ar.m,
             ac.animal_name,
+            ac.animal_bucket,
             ac.type_1_name,
             ac.type_2_name,
             ac.created_at
@@ -733,6 +737,20 @@ router.get(
       const row =
         result.rows[0]
 
+      const types = [
+        row.type_1_name,
+        row.type_2_name,
+      ].filter(Boolean)
+
+      const pokemonAffinities = calculatePokemonAffinities({
+        scores: {
+          O: row.o, C: row.c, E: row.e, A: row.a, N: row.n,
+          R: row.r, L: row.l, P: row.p, H: row.h, I: row.i, M: row.m,
+        },
+        types,
+        animalBucket: row.animal_bucket,
+      })
+
       return res.json({
         assessment_id:
           row.assessment_id,
@@ -746,11 +764,11 @@ router.get(
               row.animal_name,
           },
 
-          types: [
-            row.type_1_name,
-            row.type_2_name,
-          ].filter(Boolean),
+          types,
         },
+
+        pokemon_affinities:
+          pokemonAffinities,
 
         created_at:
           row.created_at,
